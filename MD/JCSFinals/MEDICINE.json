@@ -1187,7 +1187,24 @@
       "D. Glycogen storage disease",
       "E. Urea cycle defect"
     ],
-    "questions": [],
+    "questions": [
+      {
+        "scenario": "A newborn appears healthy at birth but develops developmental delay, seizures, and eczema during infancy. He has fair skin and hair compared with his parents. Newborn screening reveals markedly elevated phenylalanine levels. Without treatment, he is at risk of severe intellectual disability.",
+        "question": "Which inherited metabolic disorder is the most likely diagnosis?"
+      },
+      {
+        "scenario": "A 10-day-old infant develops poor feeding, vomiting, jaundice, and lethargy after breast milk or formula feeds are introduced. Examination reveals hepatomegaly and poor weight gain. Laboratory testing shows hypoglycemia and evidence of hepatic dysfunction. The infant's symptoms are associated with ingestion of lactose-containing feeds.",
+        "question": "Which inherited metabolic disorder is the most likely diagnosis?"
+      },
+      {
+        "scenario": "A 7-day-old infant develops poor feeding, vomiting, lethargy, and abnormal muscle tone. His parents notice that his urine has a distinctive sweet, maple-syrup-like odor. Laboratory testing reveals markedly elevated branched-chain amino acids and their corresponding ketoacids.",
+        "question": "Which inherited metabolic disorder is the most likely diagnosis?"
+      },
+      {
+        "scenario": "A 4-month-old infant develops recurrent episodes of fasting hypoglycemia, hepatomegaly, and poor growth. Laboratory testing during an episode shows severe hypoglycemia with elevated lactate and uric acid levels. The child improves after frequent carbohydrate-containing feeds.",
+        "question": "Which inherited metabolic disorder is the most likely diagnosis?"
+      }
+    ],
     "has_img": false,
     "img_src": "",
     "is_modified_q": true,
@@ -1214,7 +1231,24 @@
       "D. G6PD deficiency",
       "E. Biliary atresia"
     ],
-    "questions": [],
+    "questions": [
+      {
+        "scenario": "A healthy term newborn develops mild jaundice on the third day of life. The infant is feeding well and appears otherwise normal. Total bilirubin is elevated with a predominantly unconjugated fraction. The jaundice resolves spontaneously over the following week without treatment.",
+        "question": "Which is the most likely cause of this newborn's jaundice?"
+      },
+      {
+        "scenario": "A newborn develops jaundice within the first 24 hours of life. The mother has blood group O positive, while the infant has blood group A positive. Laboratory testing demonstrates unconjugated hyperbilirubinemia and a positive direct antiglobulin test. The infant has mild anemia but no hepatosplenomegaly.",
+        "question": "Which is the most likely cause of this newborn's jaundice?"
+      },
+      {
+        "scenario": "A newborn develops severe jaundice and anemia within the first day of life. The mother is Rh-negative and the infant is Rh-positive. The mother had a previous pregnancy complicated by an Rh-positive infant and did not receive appropriate anti-D prophylaxis. The infant has a strongly positive direct antiglobulin test.",
+        "question": "Which is the most likely cause of this newborn's jaundice?"
+      },
+      {
+        "scenario": "A 5-day-old male infant develops significant unconjugated jaundice after an otherwise uncomplicated birth. His mother reports that several male relatives have previously developed severe neonatal jaundice. Laboratory testing demonstrates hemolysis, and subsequent testing identifies reduced red-cell glucose-6-phosphate dehydrogenase activity.",
+        "question": "Which is the most likely cause of this newborn's jaundice?"
+      }
+    ],
     "has_img": false,
     "img_src": "",
     "is_modified_q": true,
@@ -1317,7 +1351,24 @@
       "D. Isolated hyperbilirubinemia",
       "E. Normal LFTs"
     ],
-    "questions": [],
+    "questions": [
+      {
+        "scenario": "A 46-year-old man presents with fatigue and right upper quadrant discomfort. He has obesity and type 2 diabetes. Liver function tests show ALT 320 U/L and AST 210 U/L, with only mild elevations of ALP and GGT. Bilirubin is normal. Viral hepatitis serology is negative, and ultrasound shows hepatic steatosis.",
+        "question": "Which liver function test pattern is most appropriate for this patient?"
+      },
+      {
+        "scenario": "A 62-year-old woman presents with progressive jaundice, generalized pruritus, dark urine, and pale stools. Laboratory tests show a markedly elevated ALP and GGT with only mild elevations of ALT and AST. Imaging demonstrates dilation of the common bile duct due to an obstructing gallstone.",
+        "question": "Which liver function test pattern is most appropriate for this patient?"
+      },
+      {
+        "scenario": "A 54-year-old man presents with fatigue and jaundice after starting a new medication. Laboratory testing shows ALT and AST approximately 5 times the upper limit of normal and ALP approximately 3 times the upper limit of normal. Bilirubin is also elevated. The pattern does not show a clear predominance of either aminotransferases or cholestatic enzymes.",
+        "question": "Which liver function test pattern is most appropriate for this patient?"
+      },
+      {
+        "scenario": "A 24-year-old man is found to have an elevated bilirubin level during a routine health examination. He is otherwise healthy, with normal ALT, AST, ALP, and GGT levels. The bilirubin is predominantly unconjugated, and he reports that similar episodes occur during periods of fasting or physical stress. He has no evidence of hemolysis or liver disease.",
+        "question": "Which liver function test pattern is most appropriate for this patient?"
+      }
+    ],
     "has_img": false,
     "img_src": "",
     "is_modified_q": true,
@@ -6749,7 +6800,24 @@
       "D. Pulmonary embolism",
       "E. Heart failure"
     ],
-    "questions": [],
+    "questions": [
+      {
+        "scenario": "A 68-year-old man with a 40-pack-year smoking history and known COPD presents with worsening breathlessness, increased cough, and increased production of purulent sputum over 3 days. He has diffuse expiratory wheezing and decreased air entry bilaterally. He has no focal chest findings or peripheral edema.",
+        "question": "Which is the most likely diagnosis?"
+      },
+      {
+        "scenario": "A 45-year-old woman presents with 4 days of fever, productive cough, pleuritic right-sided chest pain, and shortness of breath. Temperature is 39.1°C, and examination reveals bronchial breath sounds and inspiratory crackles over the right lower lung field. Chest radiography shows a focal right lower lobe consolidation.",
+        "question": "Which is the most likely diagnosis?"
+      },
+      {
+        "scenario": "A 22-year-old woman with a history of asthma develops acute shortness of breath, chest tightness, cough, and wheezing after exposure to a known allergen. She is using her reliever inhaler more frequently than usual. Examination reveals diffuse expiratory wheezing and prolonged expiration without fever or focal chest findings.",
+        "question": "Which is the most likely diagnosis?"
+      },
+      {
+        "scenario": "A 36-year-old woman develops sudden-onset shortness of breath and sharp pleuritic chest pain several days after a long-haul flight. She is tachycardic and mildly hypoxemic. Chest examination is largely normal, and she has no fever or productive cough. Her left calf is mildly swollen and tender compared with the right.",
+        "question": "Which is the most likely diagnosis?"
+      }
+    ],
     "has_img": false,
     "img_src": "",
     "is_modified_q": true,

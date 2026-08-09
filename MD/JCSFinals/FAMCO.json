@@ -1,5 +1,5 @@
 {
-  "block": "FAMCO",
+  "block": "Ambulatory",
   "cohorts": [
     2020,
     2019,
@@ -16,7 +16,7 @@
       },
       "by_topic": {
         "derma": 9,
-        "famco": 24,
+        "FAMCO": 24,
         "oral": 4,
         "psychiatry": 19
       },
@@ -34,7 +34,7 @@
       },
       "by_topic": {
         "derma": 16,
-        "famco": 44,
+        "FAMCO": 44,
         "oral": 9,
         "psychiatry": 57
       },
@@ -52,7 +52,7 @@
       },
       "by_topic": {
         "derma": 9,
-        "famco": 27,
+        "FAMCO": 27,
         "oral": 4,
         "psychiatry": 17
       },
@@ -70,7 +70,7 @@
       },
       "by_topic": {
         "derma": 4,
-        "famco": 25,
+        "FAMCO": 25,
         "oral": 3,
         "psychiatry": 31
       },
@@ -82,16 +82,16 @@
   },
   "questions": [
     {
-      "id": "2020-famco-MCQ-FAMCO-cc925ae6",
+      "id": "2020-FAMCO-MCQ-Ambulatory-cc925ae6",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "1",
@@ -110,16 +110,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-411f190e",
+      "id": "2020-FAMCO-MCQ-Ambulatory-411f190e",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "2a",
@@ -138,16 +138,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-2489e4b3",
+      "id": "2020-FAMCO-MCQ-Ambulatory-2489e4b3",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "2b",
@@ -166,20 +166,20 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-5bab1cc9",
+      "id": "2020-FAMCO-MCQ-Ambulatory-5bab1cc9",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "3",
-      "question": "Reconstructed from an incomplete 'diabetic work-up' fragment: which routine test assesses average glycemic control over the preceding two to three months?",
+      "question": "Which routine test assesses average glycemic control over the preceding two to three months?",
       "options": [
         "A. Hemoglobin A1c",
         "B. Fasting insulin",
@@ -194,16 +194,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-db4a6018",
+      "id": "2020-FAMCO-MCQ-Ambulatory-db4a6018",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "4",
@@ -222,16 +222,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-8da1c2a2",
+      "id": "2020-FAMCO-MCQ-Ambulatory-8da1c2a2",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "5",
@@ -250,16 +250,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-17904465",
+      "id": "2020-FAMCO-MCQ-Ambulatory-17904465",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "6",
@@ -278,16 +278,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-6fef6937",
+      "id": "2020-FAMCO-MCQ-Ambulatory-6fef6937",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "7",
@@ -306,16 +306,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-65439acc",
+      "id": "2020-FAMCO-MCQ-Ambulatory-65439acc",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "8",
@@ -334,16 +334,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-9d8efb05",
+      "id": "2020-FAMCO-MCQ-Ambulatory-9d8efb05",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "9",
@@ -362,16 +362,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-f9b41ca3",
+      "id": "2020-FAMCO-MCQ-Ambulatory-f9b41ca3",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 1,
       "source_number": "10",
@@ -390,16 +390,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-a4244cd9",
+      "id": "2020-FAMCO-MCQ-Ambulatory-a4244cd9",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "11",
@@ -418,16 +418,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-9003fd82",
+      "id": "2020-FAMCO-MCQ-Ambulatory-9003fd82",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "12",
@@ -446,20 +446,20 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-0032ca22",
+      "id": "2020-FAMCO-MCQ-Ambulatory-0032ca22",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "13",
-      "question": "Reconstructed from an incomplete spinal-stenosis fragment: which feature is most characteristic of lumbar spinal stenosis?",
+      "question": "Which feature is most characteristic of lumbar spinal stenosis?",
       "options": [
         "A. Neurogenic claudication relieved by lumbar flexion",
         "B. Pain relieved by walking uphill with the spine extended",
@@ -474,16 +474,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-811226bd",
+      "id": "2020-FAMCO-MCQ-Ambulatory-811226bd",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "14",
@@ -502,16 +502,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-e227b47d",
+      "id": "2020-FAMCO-MCQ-Ambulatory-e227b47d",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "15",
@@ -530,16 +530,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-e06248af",
+      "id": "2020-FAMCO-MCQ-Ambulatory-e06248af",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "16",
@@ -558,16 +558,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-6f6e39e2",
+      "id": "2020-FAMCO-MCQ-Ambulatory-6f6e39e2",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "17",
@@ -586,16 +586,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-e5bb2416",
+      "id": "2020-psychiatry-MCQ-Ambulatory-e5bb2416",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "18",
@@ -614,16 +614,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-99c516d4",
+      "id": "2020-psychiatry-MCQ-Ambulatory-99c516d4",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "19",
@@ -642,16 +642,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-2d574996",
+      "id": "2020-psychiatry-MCQ-Ambulatory-2d574996",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 2,
       "source_number": "20",
@@ -670,16 +670,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-cd7a1cb3",
+      "id": "2020-psychiatry-MCQ-Ambulatory-cd7a1cb3",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         2,
@@ -701,16 +701,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-a9837919",
+      "id": "2020-psychiatry-MCQ-Ambulatory-a9837919",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "22",
@@ -729,16 +729,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-752feefc",
+      "id": "2020-psychiatry-MCQ-Ambulatory-752feefc",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "23",
@@ -757,16 +757,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-f76be51b",
+      "id": "2020-psychiatry-MCQ-Ambulatory-f76be51b",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "24",
@@ -785,16 +785,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-2d855334",
+      "id": "2020-psychiatry-MCQ-Ambulatory-2d855334",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "25",
@@ -813,16 +813,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-0cf455c5",
+      "id": "2020-psychiatry-MCQ-Ambulatory-0cf455c5",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "26",
@@ -841,16 +841,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-ea3be044",
+      "id": "2020-psychiatry-MCQ-Ambulatory-ea3be044",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "27",
@@ -869,16 +869,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-a5d98bb6",
+      "id": "2020-psychiatry-MCQ-Ambulatory-a5d98bb6",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 3,
       "source_number": "28",
@@ -897,16 +897,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-99c428a8",
+      "id": "2020-psychiatry-MCQ-Ambulatory-99c428a8",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         3,
@@ -928,16 +928,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-b2e86235",
+      "id": "2020-psychiatry-MCQ-Ambulatory-b2e86235",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "30",
@@ -956,16 +956,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-25b081bf",
+      "id": "2020-psychiatry-MCQ-Ambulatory-25b081bf",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "31",
@@ -984,16 +984,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-FAMCO-eb8ad4a9",
+      "id": "2020-psychiatry-MCQ-Ambulatory-eb8ad4a9",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "32",
@@ -1012,16 +1012,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-FAMCO-56661434",
+      "id": "2020-oral-MCQ-Ambulatory-56661434",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "33",
@@ -1040,16 +1040,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-4bfef4f7",
+      "id": "2020-derma-MCQ-Ambulatory-4bfef4f7",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "34",
@@ -1068,16 +1068,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-FAMCO-cc977f3a",
+      "id": "2020-oral-MCQ-Ambulatory-cc977f3a",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "35",
@@ -1096,16 +1096,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-1c141eee",
+      "id": "2020-derma-MCQ-Ambulatory-1c141eee",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "36",
@@ -1124,16 +1124,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-FAMCO-72dc9e8c",
+      "id": "2020-oral-MCQ-Ambulatory-72dc9e8c",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "37",
@@ -1152,16 +1152,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-0d4be93a",
+      "id": "2020-derma-MCQ-Ambulatory-0d4be93a",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "38",
@@ -1180,16 +1180,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-MCQ-FAMCO-2aacfbee",
+      "id": "2020-FAMCO-MCQ-Ambulatory-2aacfbee",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 4,
       "source_number": "39",
@@ -1208,16 +1208,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-FAMCO-1d46049f",
+      "id": "2020-oral-MCQ-Ambulatory-1d46049f",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "source_number": "40",
@@ -1236,16 +1236,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-9a1c264f",
+      "id": "2020-derma-MCQ-Ambulatory-9a1c264f",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "source_number": "41",
@@ -1264,16 +1264,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-a8a9fadf",
+      "id": "2020-derma-MCQ-Ambulatory-a8a9fadf",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "source_number": "42",
@@ -1292,16 +1292,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-ac985f88",
+      "id": "2020-derma-MCQ-Ambulatory-ac985f88",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "source_number": "43",
@@ -1320,16 +1320,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-82ac4620",
+      "id": "2020-derma-MCQ-Ambulatory-82ac4620",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "source_number": "44",
@@ -1348,16 +1348,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-FAMCO-c9a5b9b3",
+      "id": "2020-derma-MCQ-Ambulatory-c9a5b9b3",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "source_number": "45",
@@ -1376,16 +1376,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-EMQ-FAMCO-c598c73d",
+      "id": "2020-FAMCO-EMQ-Ambulatory-c598c73d",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 5,
       "theme": "Diabetes",
@@ -1398,8 +1398,20 @@
       ],
       "questions": [
         {
-          "scenario": "The clinical scenario was not provided in the source document.",
-          "question": "Select the option that best matches the omitted clinical scenario."
+          "scenario": "A 14-year-old boy presents with a 3-week history of polyuria, polydipsia, weight loss, and fatigue. He has no significant past medical history. On examination, he is lean and mildly dehydrated. Laboratory investigations reveal a fasting plasma glucose of 17 mmol/L and HbA1c of 10.2%. Serum testing is positive for anti-GAD antibodies, and C-peptide is very low.",
+          "question": "Which is the most likely diagnosis?"
+        },
+        {
+          "scenario": "A 19-year-old woman is found to have persistent fasting hyperglycemia during a routine medical examination. Her BMI is 21 kg/m², and she has no symptoms of polyuria or polydipsia. Her father and several other relatives have had mild diabetes diagnosed at a young age. She has never required insulin, and testing shows preserved C-peptide levels with negative pancreatic autoantibodies. Genetic testing identifies a mutation affecting pancreatic β-cell glucose sensing."
+          "question": "Which is the most likely diagnosis?"
+        },
+        {
+          "scenario": "A 32-year-old woman develops diabetes at age 29. She has a BMI of 22 kg/m² and initially responds well to metformin. Over the next 2 years, her glycemic control deteriorates despite adherence to treatment, and she eventually requires insulin. Testing reveals positive anti-GAD antibodies and progressively declining C-peptide levels. She has no history of diabetic ketoacidosis."
+          "question": "Which is the most likely diagnosis?"
+        },
+        {
+          "scenario": "A 46-year-old man presents for a routine health examination. He has a BMI of 32 kg/m², hypertension, and dyslipidemia. He reports a sedentary lifestyle and a diet high in processed carbohydrates. His fasting plasma glucose is 9.8 mmol/L and HbA1c is 8.1%. Anti-GAD antibodies are negative, and C-peptide is elevated. His mother and older brother both have diabetes diagnosed in adulthood."
+          "question": "Which is the most likely diagnosis?"
         }
       ],
       "has_img": false,
@@ -1409,16 +1421,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-EMQ-FAMCO-63bb8e82",
+      "id": "2020-FAMCO-EMQ-Ambulatory-63bb8e82",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 5,
       "theme": "Thyroid disorders",
@@ -1431,8 +1443,20 @@
       ],
       "questions": [
         {
-          "scenario": "The clinical scenario was not provided in the source document.",
-          "question": "Select the option that best matches the omitted clinical scenario."
+          "scenario": "A 28-year-old woman presents with a 3-month history of weight loss despite increased appetite, heat intolerance, palpitations, and tremor. She has a diffuse, non-tender goiter and bilateral lid retraction. Laboratory tests show a suppressed TSH and markedly elevated free T4 and T3. TSH-receptor antibodies are positive, and a radioactive iodine uptake scan shows diffusely increased uptake.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 30-year-old woman presents 4 months after giving birth with anxiety, palpitations, heat intolerance, and unintentional weight loss. She has a small, painless thyroid gland without ophthalmopathy. Laboratory tests show suppressed TSH and elevated free T4. Thyroid function had been normal during pregnancy. Several months later, she develops fatigue, cold intolerance, and elevated TSH with low free T4.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 42-year-old woman develops anterior neck pain and tenderness following an upper respiratory tract infection. The pain radiates toward her jaw and is associated with fever, fatigue, and palpitations. Laboratory tests show suppressed TSH and elevated free T4, with markedly elevated ESR. A radioactive iodine uptake scan demonstrates very low thyroid uptake.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 35-year-old woman presents with several months of fatigue, weight gain, and cold intolerance. She has a firm, painless, diffusely enlarged thyroid gland. Laboratory tests show elevated TSH and low free T4. Anti-thyroid peroxidase antibodies are strongly positive. There is no history of recent pregnancy, neck pain, or use of thyroid hormone medication.",
+          "question": "Select the option that best matches the clinical scenario."
         }
       ],
       "has_img": false,
@@ -1442,16 +1466,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-EMQ-FAMCO-bac26c27",
+      "id": "2020-psychiatry-EMQ-Ambulatory-bac26c27",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 5,
       "theme": "Mood disorders",
@@ -1464,8 +1488,20 @@
       ],
       "questions": [
         {
-          "scenario": "The clinical scenario was not provided in the source document.",
-          "question": "Select the option that best matches the omitted clinical scenario."
+          "scenario": "A 29-year-old woman presents with 2 months of depressed mood, loss of interest in previously enjoyable activities, fatigue, poor concentration, insomnia, feelings of worthlessness, and recurrent thoughts of death. Her symptoms have significantly impaired her ability to work and socialize. She has no history of manic or hypomanic episodes, and the symptoms are not attributable to substance use or a medical condition.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 24-year-old man develops depressed mood, anxiety, difficulty concentrating, and insomnia 2 months after losing his job. He continues to feel distressed about the situation but remains able to attend social activities and care for himself. His symptoms began after the identifiable stressor and do not meet the full diagnostic criteria for a major depressive episode.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 32-year-old man is brought to the emergency department after 8 days of markedly elevated and irritable mood. He has slept only 2 hours per night without feeling tired, speaks rapidly, has grandiose plans to start several businesses, spends large amounts of money impulsively, and becomes increasingly agitated. His behavior has caused severe occupational and social impairment and requires psychiatric hospitalization. He has no history of a depressive episode.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 40-year-old woman reports feeling depressed and having low energy, poor self-esteem, and hopelessness for the past 4 years. She has rarely experienced a period longer than 2 months without these symptoms. She continues to work and maintain relationships but describes herself as having felt 'down most of the time' for years. She has never experienced mania or hypomania.",
+          "question": "Select the option that best matches the clinical scenario."
         }
       ],
       "has_img": false,
@@ -1475,16 +1511,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-EMQ-FAMCO-bebde13a",
+      "id": "2020-psychiatry-EMQ-Ambulatory-bebde13a",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 6,
       "theme": "Child psychiatry",
@@ -1497,8 +1533,20 @@
       ],
       "questions": [
         {
-          "scenario": "The clinical scenario was not provided in the source document.",
-          "question": "Select the option that best matches the omitted clinical scenario."
+          "scenario": "A 9-year-old boy has persistent difficulty sustaining attention in class, frequently loses school materials, makes careless mistakes, and is easily distracted by external stimuli. He often leaves his seat, fidgets excessively, talks excessively, and interrupts others. These behaviors have been present for more than 6 months, occur both at school and at home, and significantly impair his academic and social functioning.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 5-year-old boy has difficulty making eye contact and rarely engages in reciprocal conversation. He prefers to play alone, becomes extremely distressed when his daily routine changes, and repeatedly flaps his hands when excited. His parents report delayed development of social communication and highly restricted interests since early childhood.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 10-year-old boy has experienced repeated, sudden, brief movements of his face and shoulders along with frequent throat-clearing sounds. He reports that he can temporarily suppress the movements but experiences an increasing urge to perform them. The symptoms fluctuate in severity and are not associated with loss of consciousness or impaired awareness.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 12-year-old boy frequently argues with his parents and teachers, deliberately refuses to follow reasonable rules, becomes easily annoyed, and often loses his temper. He frequently blames others for his mistakes and deliberately provokes people. These behaviors have persisted for more than 6 months, but he has not engaged in physical aggression, theft, destruction of property, or other serious violations of others' rights.",
+          "question": "Select the option that best matches the clinical scenario."
         }
       ],
       "has_img": false,
@@ -1508,16 +1556,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-EMQ-FAMCO-866dbd1a",
+      "id": "2020-FAMCO-EMQ-Ambulatory-866dbd1a",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 6,
       "theme": "Liver function tests",
@@ -1530,8 +1578,20 @@
       ],
       "questions": [
         {
-          "scenario": "The clinical scenario was not provided in the source document.",
-          "question": "Select the option that best matches the omitted clinical scenario."
+          "scenario": "A 45-year-old man with obesity and type 2 diabetes is found to have elevated liver enzymes during a routine examination. He has no history of significant alcohol use or hepatotoxic medication exposure. Laboratory testing shows a marked elevation of one enzyme compared with the other aminotransferase, while alkaline phosphatase and bilirubin are normal. Which laboratory marker is most specific for hepatocellular injury?",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 52-year-old man with a long history of heavy alcohol consumption presents with jaundice and right upper quadrant discomfort. Laboratory testing reveals an AST level of 240 U/L and an ALT level of 90 U/L. The AST elevation is disproportionately greater than the ALT elevation, with an AST-to-ALT ratio greater than 2.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 63-year-old woman presents with progressive jaundice, pale stools, dark urine, and generalized pruritus. Laboratory investigations show a markedly elevated cholestatic enzyme, while aminotransferases are only mildly increased. Ultrasound demonstrates dilation of the extrahepatic biliary tree due to a common bile duct obstruction.",
+          "question": "Select the option that best matches the clinical scenario."
+        },
+        {
+          "scenario": "A 38-year-old man is found to have an isolated elevation of a liver-associated enzyme on routine blood testing. He has no symptoms and normal bilirubin and aminotransferase levels. Further testing shows that the enzyme is also elevated in the setting of chronic alcohol consumption and use of an enzyme-inducing medication, helping confirm a hepatobiliary rather than bone source.",
+          "question": "Select the option that best matches the clinical scenario."
         }
       ],
       "has_img": false,
@@ -1541,16 +1601,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-famco-SAQ-FAMCO-5c2273eb",
+      "id": "2020-FAMCO-SAQ-Ambulatory-5c2273eb",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 6,
       "case": "A pregnant patient has abnormal glucose-screening results; the original values were not recorded.",
@@ -1574,16 +1634,16 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-derma-SAQ-FAMCO-16e31b8c",
+      "id": "2020-derma-SAQ-Ambulatory-16e31b8c",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 6,
       "case": "A patient presents with a skin lesion; the original description and image were not provided.",
@@ -1607,16 +1667,16 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-psychiatry-SAQ-FAMCO-4bce673f",
+      "id": "2020-psychiatry-SAQ-Ambulatory-4bce673f",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 6,
       "case": "A patient presents with a psychiatric syndrome; the original clinical scenario was not provided.",
@@ -1640,16 +1700,16 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-famco-SAQ-FAMCO-caacb8fb",
+      "id": "2020-FAMCO-SAQ-Ambulatory-caacb8fb",
       "cohort": 2020,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 6,
       "case": "A patient with migraine has tried several analgesics and propranolol prophylaxis without improvement.",
@@ -1673,16 +1733,16 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-psychiatry-SAQ-FAMCO-1a8568ac",
+      "id": "2020-psychiatry-SAQ-Ambulatory-1a8568ac",
       "cohort": 2020,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 6,
       "case": "A woman has unstable relationships, marked mood swings, and several episodes of self-harm.",
@@ -1706,16 +1766,16 @@
       "is_modified_q": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-6800925e",
+      "id": "2019-FAMCO-MCQ-Ambulatory-6800925e",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 7,
       "has_img": false,
@@ -1733,16 +1793,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-76fcc3d9",
+      "id": "2019-FAMCO-MCQ-Ambulatory-76fcc3d9",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 7,
       "has_img": false,
@@ -1760,16 +1820,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-0bda2937",
+      "id": "2019-FAMCO-MCQ-Ambulatory-0bda2937",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 7,
       "has_img": false,
@@ -1787,16 +1847,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-68aed362",
+      "id": "2019-FAMCO-MCQ-Ambulatory-68aed362",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 8,
       "has_img": false,
@@ -1814,16 +1874,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-7e6a5d99",
+      "id": "2019-FAMCO-MCQ-Ambulatory-7e6a5d99",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 8,
       "has_img": false,
@@ -1841,16 +1901,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-764a10ef",
+      "id": "2019-FAMCO-MCQ-Ambulatory-764a10ef",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 8,
       "has_img": false,
@@ -1868,16 +1928,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-345052fb",
+      "id": "2019-FAMCO-MCQ-Ambulatory-345052fb",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 8,
       "has_img": false,
@@ -1895,16 +1955,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-4f2b3111",
+      "id": "2019-FAMCO-MCQ-Ambulatory-4f2b3111",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 8,
       "has_img": false,
@@ -1922,16 +1982,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-84f3362c",
+      "id": "2019-FAMCO-MCQ-Ambulatory-84f3362c",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 9,
       "has_img": true,
@@ -1949,16 +2009,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-e7902905",
+      "id": "2019-FAMCO-MCQ-Ambulatory-e7902905",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 9,
       "has_img": false,
@@ -1976,16 +2036,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-a78beabb",
+      "id": "2019-FAMCO-MCQ-Ambulatory-a78beabb",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 9,
       "has_img": false,
@@ -2003,16 +2063,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-00800165",
+      "id": "2019-FAMCO-MCQ-Ambulatory-00800165",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 9,
       "has_img": false,
@@ -2030,16 +2090,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-bec96beb",
+      "id": "2019-FAMCO-MCQ-Ambulatory-bec96beb",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 10,
       "has_img": false,
@@ -2057,16 +2117,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-a7763c54",
+      "id": "2019-FAMCO-MCQ-Ambulatory-a7763c54",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 10,
       "has_img": false,
@@ -2084,16 +2144,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-4ea4b98e",
+      "id": "2019-FAMCO-MCQ-Ambulatory-4ea4b98e",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 10,
       "has_img": false,
@@ -2111,16 +2171,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-825dcd1b",
+      "id": "2019-FAMCO-MCQ-Ambulatory-825dcd1b",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 10,
       "has_img": false,
@@ -2138,16 +2198,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-6ab94315",
+      "id": "2019-FAMCO-MCQ-Ambulatory-6ab94315",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 10,
       "has_img": false,
@@ -2165,16 +2225,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-354eaed6",
+      "id": "2019-FAMCO-MCQ-Ambulatory-354eaed6",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 11,
       "has_img": false,
@@ -2192,16 +2252,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-511334ac",
+      "id": "2019-FAMCO-MCQ-Ambulatory-511334ac",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 11,
       "has_img": false,
@@ -2219,16 +2279,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-887ff7ba",
+      "id": "2019-psychiatry-MCQ-Ambulatory-887ff7ba",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 11,
       "has_img": false,
@@ -2246,16 +2306,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-71462045",
+      "id": "2019-psychiatry-MCQ-Ambulatory-71462045",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 11,
       "has_img": false,
@@ -2273,16 +2333,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-3d4d5991",
+      "id": "2019-psychiatry-MCQ-Ambulatory-3d4d5991",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         11,
@@ -2303,16 +2363,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-5fad7965",
+      "id": "2019-psychiatry-MCQ-Ambulatory-5fad7965",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 12,
       "has_img": false,
@@ -2330,16 +2390,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-0f535a99",
+      "id": "2019-psychiatry-MCQ-Ambulatory-0f535a99",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 12,
       "has_img": false,
@@ -2357,16 +2417,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-2bb71b87",
+      "id": "2019-psychiatry-MCQ-Ambulatory-2bb71b87",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 12,
       "has_img": false,
@@ -2384,16 +2444,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-4909799c",
+      "id": "2019-psychiatry-MCQ-Ambulatory-4909799c",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         12,
@@ -2414,16 +2474,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-84745518",
+      "id": "2019-psychiatry-MCQ-Ambulatory-84745518",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 13,
       "has_img": false,
@@ -2441,16 +2501,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-eca30c25",
+      "id": "2019-psychiatry-MCQ-Ambulatory-eca30c25",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 13,
       "has_img": false,
@@ -2468,16 +2528,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-fd5f3c5b",
+      "id": "2019-psychiatry-MCQ-Ambulatory-fd5f3c5b",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 13,
       "has_img": false,
@@ -2495,16 +2555,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-ea8481b9",
+      "id": "2019-psychiatry-MCQ-Ambulatory-ea8481b9",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 13,
       "has_img": false,
@@ -2522,16 +2582,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-28a45a57",
+      "id": "2019-psychiatry-MCQ-Ambulatory-28a45a57",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         13,
@@ -2552,16 +2612,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-e6b600e9",
+      "id": "2019-psychiatry-MCQ-Ambulatory-e6b600e9",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 14,
       "has_img": false,
@@ -2579,16 +2639,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-9c184659",
+      "id": "2019-psychiatry-MCQ-Ambulatory-9c184659",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 14,
       "has_img": false,
@@ -2606,16 +2666,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-70c38f31",
+      "id": "2019-psychiatry-MCQ-Ambulatory-70c38f31",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 14,
       "has_img": false,
@@ -2633,16 +2693,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-c8da3933",
+      "id": "2019-psychiatry-MCQ-Ambulatory-c8da3933",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         14,
@@ -2663,16 +2723,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-5cf276bc",
+      "id": "2019-psychiatry-MCQ-Ambulatory-5cf276bc",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 15,
       "has_img": false,
@@ -2690,16 +2750,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-98a713c2",
+      "id": "2019-psychiatry-MCQ-Ambulatory-98a713c2",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 15,
       "has_img": false,
@@ -2717,16 +2777,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-11097315",
+      "id": "2019-psychiatry-MCQ-Ambulatory-11097315",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 15,
       "has_img": false,
@@ -2744,16 +2804,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-b2106a48",
+      "id": "2019-psychiatry-MCQ-Ambulatory-b2106a48",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 15,
       "has_img": false,
@@ -2771,16 +2831,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-e7b3206a",
+      "id": "2019-psychiatry-MCQ-Ambulatory-e7b3206a",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 16,
       "has_img": false,
@@ -2798,16 +2858,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-2ca0388a",
+      "id": "2019-derma-MCQ-Ambulatory-2ca0388a",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 16,
       "has_img": true,
@@ -2825,16 +2885,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-f512b0df",
+      "id": "2019-psychiatry-MCQ-Ambulatory-f512b0df",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 16,
       "has_img": false,
@@ -2852,16 +2912,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-db1746a0",
+      "id": "2019-psychiatry-MCQ-Ambulatory-db1746a0",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 16,
       "has_img": false,
@@ -2879,16 +2939,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-feae883b",
+      "id": "2019-derma-MCQ-Ambulatory-feae883b",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 17,
       "has_img": false,
@@ -2906,16 +2966,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-70af47de",
+      "id": "2019-derma-MCQ-Ambulatory-70af47de",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 17,
       "has_img": true,
@@ -2933,16 +2993,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-f5b51a36",
+      "id": "2019-oral-MCQ-Ambulatory-f5b51a36",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 17,
       "has_img": false,
@@ -2960,16 +3020,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-4973382d",
+      "id": "2019-derma-MCQ-Ambulatory-4973382d",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 17,
       "has_img": true,
@@ -2987,16 +3047,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-5e6627d8",
+      "id": "2019-derma-MCQ-Ambulatory-5e6627d8",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 17,
       "has_img": true,
@@ -3014,16 +3074,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-38624ce1",
+      "id": "2019-derma-MCQ-Ambulatory-38624ce1",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 18,
       "has_img": true,
@@ -3041,16 +3101,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-ca92d88c",
+      "id": "2019-oral-MCQ-Ambulatory-ca92d88c",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 18,
       "has_img": false,
@@ -3068,16 +3128,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-d76fb0f6",
+      "id": "2019-oral-MCQ-Ambulatory-d76fb0f6",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 18,
       "has_img": true,
@@ -3095,16 +3155,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-aa02c482",
+      "id": "2019-oral-MCQ-Ambulatory-aa02c482",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 18,
       "has_img": false,
@@ -3122,16 +3182,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-7c99c19a",
+      "id": "2019-derma-MCQ-Ambulatory-7c99c19a",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 18,
       "has_img": true,
@@ -3149,16 +3209,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-597c6023",
+      "id": "2019-oral-MCQ-Ambulatory-597c6023",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         18,
@@ -3179,16 +3239,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-783352ab",
+      "id": "2019-derma-MCQ-Ambulatory-783352ab",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 19,
       "has_img": true,
@@ -3206,16 +3266,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-0ea5e843",
+      "id": "2019-derma-MCQ-Ambulatory-0ea5e843",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 19,
       "has_img": true,
@@ -3233,16 +3293,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-615cca0f",
+      "id": "2019-derma-MCQ-Ambulatory-615cca0f",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 19,
       "has_img": true,
@@ -3260,16 +3320,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-2456161f",
+      "id": "2019-derma-MCQ-Ambulatory-2456161f",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 19,
       "has_img": false,
@@ -3287,16 +3347,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-732c113d",
+      "id": "2019-derma-MCQ-Ambulatory-732c113d",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 19,
       "has_img": true,
@@ -3314,16 +3374,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-FAMCO-b028e785",
+      "id": "2019-psychiatry-EMQ-Ambulatory-b028e785",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 20,
       "has_img": false,
@@ -3353,16 +3413,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-EMQ-FAMCO-66697677",
+      "id": "2019-FAMCO-EMQ-Ambulatory-66697677",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 20,
       "has_img": false,
@@ -3394,16 +3454,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-EMQ-FAMCO-dbd1354d",
+      "id": "2019-FAMCO-EMQ-Ambulatory-dbd1354d",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": [
         20,
@@ -3438,16 +3498,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-SAQ-FAMCO-df818126",
+      "id": "2019-derma-SAQ-Ambulatory-df818126",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 21,
       "has_img": false,
@@ -3472,16 +3532,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-FAMCO-6c397fbc",
+      "id": "2019-psychiatry-SAQ-Ambulatory-6c397fbc",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 21,
       "has_img": false,
@@ -3506,16 +3566,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-famco-SAQ-FAMCO-0e2f552c",
+      "id": "2019-FAMCO-SAQ-Ambulatory-0e2f552c",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": [
         21,
@@ -3543,16 +3603,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-FAMCO-bea6e301",
+      "id": "2019-psychiatry-SAQ-Ambulatory-bea6e301",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 22,
       "has_img": false,
@@ -3577,16 +3637,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-famco-SAQ-FAMCO-d0154be1",
+      "id": "2019-FAMCO-SAQ-Ambulatory-d0154be1",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 22,
       "has_img": false,
@@ -3611,16 +3671,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-adc9979e",
+      "id": "2019-psychiatry-MCQ-Ambulatory-adc9979e",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 51,
       "has_img": true,
@@ -3638,16 +3698,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-caaf42be",
+      "id": "2019-psychiatry-MCQ-Ambulatory-caaf42be",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 52,
       "has_img": false,
@@ -3665,16 +3725,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-7a57004a",
+      "id": "2019-psychiatry-MCQ-Ambulatory-7a57004a",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 53,
       "has_img": false,
@@ -3692,16 +3752,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-273e0e71",
+      "id": "2019-psychiatry-MCQ-Ambulatory-273e0e71",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 54,
       "has_img": false,
@@ -3719,16 +3779,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-d2356a8b",
+      "id": "2019-psychiatry-MCQ-Ambulatory-d2356a8b",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 55,
       "has_img": false,
@@ -3746,16 +3806,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-b2d56039",
+      "id": "2019-psychiatry-MCQ-Ambulatory-b2d56039",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 56,
       "has_img": false,
@@ -3773,16 +3833,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-1ae1c6bb",
+      "id": "2019-psychiatry-MCQ-Ambulatory-1ae1c6bb",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 57,
       "has_img": false,
@@ -3800,16 +3860,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-b62900d2",
+      "id": "2019-FAMCO-MCQ-Ambulatory-b62900d2",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 58,
       "has_img": true,
@@ -3827,16 +3887,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-8f2ade48",
+      "id": "2019-psychiatry-MCQ-Ambulatory-8f2ade48",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 59,
       "has_img": false,
@@ -3854,16 +3914,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-ff7b13d2",
+      "id": "2019-psychiatry-MCQ-Ambulatory-ff7b13d2",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 60,
       "has_img": false,
@@ -3881,16 +3941,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-6fc5f0bb",
+      "id": "2019-FAMCO-MCQ-Ambulatory-6fc5f0bb",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 61,
       "has_img": false,
@@ -3908,16 +3968,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-791630c3",
+      "id": "2019-psychiatry-MCQ-Ambulatory-791630c3",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 62,
       "has_img": false,
@@ -3935,16 +3995,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-bbae36ec",
+      "id": "2019-psychiatry-MCQ-Ambulatory-bbae36ec",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 63,
       "has_img": false,
@@ -3962,16 +4022,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-a9ec586b",
+      "id": "2019-psychiatry-MCQ-Ambulatory-a9ec586b",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 64,
       "has_img": true,
@@ -3989,16 +4049,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-6139a6de",
+      "id": "2019-psychiatry-MCQ-Ambulatory-6139a6de",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 65,
       "has_img": false,
@@ -4016,16 +4076,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-cc012b13",
+      "id": "2019-psychiatry-MCQ-Ambulatory-cc012b13",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 66,
       "has_img": false,
@@ -4043,16 +4103,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-e78cd765",
+      "id": "2019-oral-MCQ-Ambulatory-e78cd765",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 67,
       "has_img": true,
@@ -4070,16 +4130,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-4483af57",
+      "id": "2019-derma-MCQ-Ambulatory-4483af57",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 68,
       "has_img": true,
@@ -4097,16 +4157,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-FAMCO-c8b53507",
+      "id": "2019-derma-MCQ-Ambulatory-c8b53507",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 70,
       "has_img": true,
@@ -4124,16 +4184,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-77dc9873",
+      "id": "2019-FAMCO-MCQ-Ambulatory-77dc9873",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": [
         72,
@@ -4154,16 +4214,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-0491efcf",
+      "id": "2019-FAMCO-MCQ-Ambulatory-0491efcf",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 75,
       "has_img": false,
@@ -4181,16 +4241,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-be899059",
+      "id": "2019-FAMCO-MCQ-Ambulatory-be899059",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 76,
       "has_img": false,
@@ -4208,16 +4268,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-FAMCO-c1896774",
+      "id": "2019-oral-MCQ-Ambulatory-c1896774",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 78,
       "has_img": false,
@@ -4235,16 +4295,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-e7b630c7",
+      "id": "2019-FAMCO-MCQ-Ambulatory-e7b630c7",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 79,
       "has_img": false,
@@ -4262,16 +4322,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-5c8f0312",
+      "id": "2019-FAMCO-MCQ-Ambulatory-5c8f0312",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 80,
       "has_img": false,
@@ -4289,16 +4349,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-7cc19324",
+      "id": "2019-FAMCO-MCQ-Ambulatory-7cc19324",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 81,
       "has_img": false,
@@ -4316,16 +4376,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-bc2afb33",
+      "id": "2019-FAMCO-MCQ-Ambulatory-bc2afb33",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 82,
       "has_img": false,
@@ -4343,16 +4403,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-eab022d9",
+      "id": "2019-FAMCO-MCQ-Ambulatory-eab022d9",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 83,
       "has_img": false,
@@ -4370,16 +4430,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-6709d47e",
+      "id": "2019-psychiatry-MCQ-Ambulatory-6709d47e",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 84,
       "has_img": false,
@@ -4397,16 +4457,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-d23acc22",
+      "id": "2019-FAMCO-MCQ-Ambulatory-d23acc22",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 85,
       "has_img": false,
@@ -4424,16 +4484,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-63b068fd",
+      "id": "2019-psychiatry-MCQ-Ambulatory-63b068fd",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 86,
       "has_img": false,
@@ -4451,16 +4511,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-67d12363",
+      "id": "2019-psychiatry-MCQ-Ambulatory-67d12363",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 87,
       "has_img": false,
@@ -4478,16 +4538,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-da9bbe3e",
+      "id": "2019-FAMCO-MCQ-Ambulatory-da9bbe3e",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 88,
       "has_img": false,
@@ -4505,16 +4565,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-c635b18b",
+      "id": "2019-psychiatry-MCQ-Ambulatory-c635b18b",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 89,
       "has_img": false,
@@ -4532,16 +4592,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-350718ac",
+      "id": "2019-psychiatry-MCQ-Ambulatory-350718ac",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 90,
       "has_img": false,
@@ -4559,16 +4619,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-36e5c125",
+      "id": "2019-FAMCO-MCQ-Ambulatory-36e5c125",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 91,
       "has_img": false,
@@ -4586,16 +4646,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-684b9279",
+      "id": "2019-FAMCO-MCQ-Ambulatory-684b9279",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 92,
       "has_img": false,
@@ -4613,16 +4673,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-844c9133",
+      "id": "2019-psychiatry-MCQ-Ambulatory-844c9133",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 93,
       "has_img": false,
@@ -4640,16 +4700,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-f00499c7",
+      "id": "2019-psychiatry-MCQ-Ambulatory-f00499c7",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 94,
       "has_img": false,
@@ -4667,16 +4727,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-cb29a58b",
+      "id": "2019-FAMCO-MCQ-Ambulatory-cb29a58b",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 95,
       "has_img": false,
@@ -4694,16 +4754,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-e367d05c",
+      "id": "2019-psychiatry-MCQ-Ambulatory-e367d05c",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 96,
       "has_img": false,
@@ -4721,16 +4781,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-d3422d34",
+      "id": "2019-psychiatry-MCQ-Ambulatory-d3422d34",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 97,
       "has_img": false,
@@ -4748,16 +4808,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-fa69babe",
+      "id": "2019-psychiatry-MCQ-Ambulatory-fa69babe",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 98,
       "has_img": false,
@@ -4775,16 +4835,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-cbf3b2d5",
+      "id": "2019-psychiatry-MCQ-Ambulatory-cbf3b2d5",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 99,
       "has_img": false,
@@ -4802,16 +4862,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-084c781a",
+      "id": "2019-FAMCO-MCQ-Ambulatory-084c781a",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 100,
       "has_img": false,
@@ -4829,16 +4889,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-431970ca",
+      "id": "2019-FAMCO-MCQ-Ambulatory-431970ca",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 101,
       "has_img": false,
@@ -4856,16 +4916,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-MCQ-FAMCO-0f58b842",
+      "id": "2019-FAMCO-MCQ-Ambulatory-0f58b842",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 102,
       "has_img": false,
@@ -4883,16 +4943,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-FAMCO-98f26b19",
+      "id": "2019-psychiatry-MCQ-Ambulatory-98f26b19",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 103,
       "has_img": false,
@@ -4910,16 +4970,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-EMQ-FAMCO-492784fc",
+      "id": "2019-oral-EMQ-Ambulatory-492784fc",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         105,
@@ -4955,16 +5015,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-EMQ-FAMCO-26ea6bb6",
+      "id": "2019-FAMCO-EMQ-Ambulatory-26ea6bb6",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 108,
       "has_img": false,
@@ -4996,16 +5056,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-FAMCO-b25be032",
+      "id": "2019-psychiatry-EMQ-Ambulatory-b25be032",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 109,
       "has_img": false,
@@ -5037,16 +5097,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-FAMCO-94c4eacd",
+      "id": "2019-psychiatry-EMQ-Ambulatory-94c4eacd",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 110,
       "has_img": false,
@@ -5074,16 +5134,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-famco-EMQ-FAMCO-305572c2",
+      "id": "2019-FAMCO-EMQ-Ambulatory-305572c2",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 111,
       "has_img": false,
@@ -5107,16 +5167,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-FAMCO-01055ac8",
+      "id": "2019-psychiatry-EMQ-Ambulatory-01055ac8",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 112,
       "has_img": false,
@@ -5140,16 +5200,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-SAQ-FAMCO-dc7d799f",
+      "id": "2019-derma-SAQ-Ambulatory-dc7d799f",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 114,
       "has_img": false,
@@ -5174,16 +5234,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-oral-SAQ-FAMCO-c15ebd95",
+      "id": "2019-oral-SAQ-Ambulatory-c15ebd95",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": [
         115,
@@ -5211,16 +5271,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-famco-SAQ-FAMCO-dde76d5b",
+      "id": "2019-FAMCO-SAQ-Ambulatory-dde76d5b",
       "cohort": 2019,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 117,
       "has_img": false,
@@ -5241,16 +5301,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-FAMCO-6dcef7c2",
+      "id": "2019-psychiatry-SAQ-Ambulatory-6dcef7c2",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 118,
       "has_img": false,
@@ -5279,16 +5339,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-FAMCO-bf1fa716",
+      "id": "2019-psychiatry-SAQ-Ambulatory-bf1fa716",
       "cohort": 2019,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 119,
       "has_img": false,
@@ -5309,16 +5369,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-3ba2affb",
+      "id": "2018-FAMCO-MCQ-Ambulatory-3ba2affb",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5336,16 +5396,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-28025401",
+      "id": "2018-FAMCO-MCQ-Ambulatory-28025401",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5363,16 +5423,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-85979799",
+      "id": "2018-psychiatry-MCQ-Ambulatory-85979799",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5390,16 +5450,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-cfdfbcd9",
+      "id": "2018-psychiatry-MCQ-Ambulatory-cfdfbcd9",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5417,16 +5477,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-e0d234c8",
+      "id": "2018-psychiatry-MCQ-Ambulatory-e0d234c8",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5444,16 +5504,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-e4e9fac2",
+      "id": "2018-psychiatry-MCQ-Ambulatory-e4e9fac2",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5471,16 +5531,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-FAMCO-70601957",
+      "id": "2018-oral-MCQ-Ambulatory-70601957",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 23,
       "has_img": false,
@@ -5498,16 +5558,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-6b32c0ac",
+      "id": "2018-FAMCO-MCQ-Ambulatory-6b32c0ac",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5525,16 +5585,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-a0ea7c7f",
+      "id": "2018-FAMCO-MCQ-Ambulatory-a0ea7c7f",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5552,16 +5612,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-48cb2340",
+      "id": "2018-psychiatry-MCQ-Ambulatory-48cb2340",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5579,16 +5639,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-4124b041",
+      "id": "2018-psychiatry-MCQ-Ambulatory-4124b041",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5606,16 +5666,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-FAMCO-70c202a8",
+      "id": "2018-oral-MCQ-Ambulatory-70c202a8",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5633,16 +5693,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-185b3a11",
+      "id": "2018-psychiatry-MCQ-Ambulatory-185b3a11",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5660,16 +5720,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-135f574c",
+      "id": "2018-FAMCO-MCQ-Ambulatory-135f574c",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 24,
       "has_img": false,
@@ -5687,16 +5747,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-f0b6aea3",
+      "id": "2018-FAMCO-MCQ-Ambulatory-f0b6aea3",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 25,
       "has_img": false,
@@ -5714,16 +5774,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-9c9f7320",
+      "id": "2018-FAMCO-MCQ-Ambulatory-9c9f7320",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 25,
       "has_img": false,
@@ -5741,16 +5801,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-b397c1ad",
+      "id": "2018-FAMCO-MCQ-Ambulatory-b397c1ad",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 25,
       "has_img": false,
@@ -5768,16 +5828,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-dac899f9",
+      "id": "2018-psychiatry-MCQ-Ambulatory-dac899f9",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 25,
       "has_img": false,
@@ -5795,16 +5855,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-2b4ad95a",
+      "id": "2018-psychiatry-MCQ-Ambulatory-2b4ad95a",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 25,
       "has_img": false,
@@ -5822,16 +5882,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-d0a67b02",
+      "id": "2018-FAMCO-MCQ-Ambulatory-d0a67b02",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 25,
       "has_img": false,
@@ -5849,16 +5909,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-cda70c68",
+      "id": "2018-FAMCO-MCQ-Ambulatory-cda70c68",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -5876,16 +5936,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-b2a6c318",
+      "id": "2018-psychiatry-MCQ-Ambulatory-b2a6c318",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -5903,16 +5963,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-1f4db5ab",
+      "id": "2018-FAMCO-MCQ-Ambulatory-1f4db5ab",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -5930,16 +5990,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-9829dd5b",
+      "id": "2018-FAMCO-MCQ-Ambulatory-9829dd5b",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -5957,16 +6017,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-b179356b",
+      "id": "2018-FAMCO-MCQ-Ambulatory-b179356b",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -5984,16 +6044,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-f65c7239",
+      "id": "2018-FAMCO-MCQ-Ambulatory-f65c7239",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -6011,16 +6071,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-4bdc2302",
+      "id": "2018-FAMCO-MCQ-Ambulatory-4bdc2302",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 26,
       "has_img": false,
@@ -6038,16 +6098,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-09a4c8e8",
+      "id": "2018-FAMCO-MCQ-Ambulatory-09a4c8e8",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 27,
       "has_img": false,
@@ -6065,16 +6125,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-a2c0a2fc",
+      "id": "2018-FAMCO-MCQ-Ambulatory-a2c0a2fc",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 27,
       "has_img": false,
@@ -6092,16 +6152,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-526dbaa9",
+      "id": "2018-psychiatry-MCQ-Ambulatory-526dbaa9",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 27,
       "has_img": false,
@@ -6119,16 +6179,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-5cee03a8",
+      "id": "2018-FAMCO-MCQ-Ambulatory-5cee03a8",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 27,
       "has_img": false,
@@ -6146,16 +6206,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-d025b5d6",
+      "id": "2018-FAMCO-MCQ-Ambulatory-d025b5d6",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 27,
       "has_img": false,
@@ -6173,16 +6233,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-1bf6b48b",
+      "id": "2018-FAMCO-MCQ-Ambulatory-1bf6b48b",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 27,
       "has_img": false,
@@ -6200,16 +6260,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-77e3a6ab",
+      "id": "2018-psychiatry-MCQ-Ambulatory-77e3a6ab",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 28,
       "has_img": false,
@@ -6227,16 +6287,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-FAMCO-9ef54a76",
+      "id": "2018-psychiatry-MCQ-Ambulatory-9ef54a76",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 28,
       "has_img": false,
@@ -6254,16 +6314,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-09d8cdef",
+      "id": "2018-FAMCO-MCQ-Ambulatory-09d8cdef",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 28,
       "has_img": false,
@@ -6281,16 +6341,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-4a163790",
+      "id": "2018-FAMCO-MCQ-Ambulatory-4a163790",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 28,
       "has_img": false,
@@ -6308,16 +6368,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-MCQ-FAMCO-a4090d43",
+      "id": "2018-FAMCO-MCQ-Ambulatory-a4090d43",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 28,
       "has_img": false,
@@ -6335,16 +6395,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-c9d035a9",
+      "id": "2018-derma-MCQ-Ambulatory-c9d035a9",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 29,
       "has_img": true,
@@ -6362,16 +6422,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-8dd888f3",
+      "id": "2018-derma-MCQ-Ambulatory-8dd888f3",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 29,
       "has_img": true,
@@ -6389,16 +6449,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-ad5e14f0",
+      "id": "2018-derma-MCQ-Ambulatory-ad5e14f0",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 30,
       "has_img": true,
@@ -6416,16 +6476,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-98ca3abd",
+      "id": "2018-derma-MCQ-Ambulatory-98ca3abd",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 30,
       "has_img": true,
@@ -6443,16 +6503,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-ae2572ef",
+      "id": "2018-derma-MCQ-Ambulatory-ae2572ef",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 31,
       "has_img": true,
@@ -6470,16 +6530,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-3cb608fd",
+      "id": "2018-derma-MCQ-Ambulatory-3cb608fd",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 31,
       "has_img": true,
@@ -6497,16 +6557,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-FAMCO-061ec58a",
+      "id": "2018-derma-MCQ-Ambulatory-061ec58a",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 31,
       "has_img": true,
@@ -6524,16 +6584,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-FAMCO-1e31ccb5",
+      "id": "2018-oral-MCQ-Ambulatory-1e31ccb5",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 32,
       "has_img": false,
@@ -6551,16 +6611,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-FAMCO-a2438c0f",
+      "id": "2018-oral-MCQ-Ambulatory-a2438c0f",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 32,
       "has_img": false,
@@ -6578,16 +6638,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-EMQ-FAMCO-9250d9ec",
+      "id": "2018-psychiatry-EMQ-Ambulatory-9250d9ec",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2018",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 33,
       "has_img": false,
@@ -6602,7 +6662,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 25-year-old woman has a long-standing pattern of unstable relationships, intense fear of abandonment, rapidly shifting emotions, and an unstable sense of identity. She frequently alternates between idealizing and devaluing people close to her and has recurrent episodes of impulsive self-harm during periods of emotional distress.",
+          "question": "Select the most appropriate personality disorder."
+        },
+        {
+          "scenario": "A 34-year-old man has a history of repeatedly violating the rights of others. Since adolescence, he has frequently lied, stolen, and engaged in physical fights. As an adult, he repeatedly disregards laws, acts impulsively, and shows little remorse after harming or exploiting others. He has no significant anxiety about the consequences of his behavior.",
+          "question": "Select the most appropriate personality disorder."
+        },
+        {
+          "scenario": "A 29-year-old woman avoids most social and occupational activities because she is extremely sensitive to criticism and rejection. She wants close relationships but avoids initiating them because she fears being embarrassed or judged negatively. She considers herself socially inadequate and is reluctant to take interpersonal risks.",
+          "question": "Select the most appropriate personality disorder."
+        },
+        {
+          "scenario": "A 41-year-old man is excessively preoccupied with order, rules, schedules, and details. He spends so much time perfecting tasks that he often fails to complete them efficiently. He has difficulty delegating work because he believes others will not perform it correctly and is highly inflexible about his standards and routines.",
           "question": "Select the most appropriate personality disorder."
         }
       ],
@@ -6611,16 +6683,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-EMQ-FAMCO-387c45ec",
+      "id": "2018-psychiatry-EMQ-Ambulatory-387c45ec",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2018",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 33,
       "has_img": false,
@@ -6660,16 +6732,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-EMQ-FAMCO-26d27f03",
+      "id": "2018-FAMCO-EMQ-Ambulatory-26d27f03",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2018",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 33,
       "has_img": false,
@@ -6684,7 +6756,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 35-year-old man develops acute low back pain after lifting a heavy box. The pain is localized to the lower back and is worse with movement. He has no leg weakness, sensory loss, bowel or bladder dysfunction, fever, or history of trauma. Neurologic examination is normal, and the pain improves with rest and conservative treatment.",
+          "question": "Select the most appropriate diagnosis or management for back pain."
+        },
+        {
+          "scenario": "A 42-year-old man develops severe low back pain radiating down the posterior aspect of his right leg after lifting a heavy object. The pain extends below the knee and is worsened by coughing and sneezing. Examination reveals decreased sensation in the lateral foot and weakness of plantar flexion. Straight-leg raise testing is positive on the affected side.",
+          "question": "Select the most appropriate diagnosis or management for back pain."
+        },
+        {
+          "scenario": "A 68-year-old woman reports several years of progressively worsening low back and bilateral leg pain when standing or walking. She can walk farther when leaning forward over a shopping cart and obtains relief when sitting. Neurologic examination may show decreased lower-extremity reflexes, and symptoms are typically absent when she is seated or flexed forward.",
+          "question": "Select the most appropriate diagnosis or management for back pain."
+        },
+        {
+          "scenario": "A 72-year-old woman with osteoporosis develops sudden severe midline lower back pain while bending forward to pick up a light object. She has no neurologic deficits or radicular symptoms. Examination reveals focal vertebral tenderness, and imaging demonstrates a loss of vertebral body height consistent with an acute compression injury.",
           "question": "Select the most appropriate diagnosis or management for back pain."
         }
       ],
@@ -6693,16 +6777,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-famco-EMQ-FAMCO-c96d0dea",
+      "id": "2018-FAMCO-EMQ-Ambulatory-c96d0dea",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2018",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 33,
       "has_img": false,
@@ -6717,7 +6801,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 68-year-old woman has gradually progressive bilateral knee pain that is worse after prolonged walking and improves with rest. She reports brief morning stiffness lasting less than 30 minutes. Examination reveals bony enlargement and crepitus of both knees without significant warmth or erythema. Radiographs show joint-space narrowing, osteophyte formation, and subchondral sclerosis.",
+          "question": "Select the most appropriate diagnosis or management for joint pain."
+        },
+        {
+          "scenario": "A 42-year-old woman presents with 6 months of symmetric pain and swelling involving the metacarpophalangeal and proximal interphalangeal joints of both hands. She has morning stiffness lasting more than 1 hour and difficulty making a fist after waking. Examination reveals warm, tender joints without prominent bony enlargement. Laboratory testing shows elevated inflammatory markers and positive anti-cyclic citrullinated peptide antibodies.",
+          "question": "Select the most appropriate diagnosis or management for joint pain."
+        },
+        {
+          "scenario": "A 55-year-old man develops sudden, severe pain, swelling, redness, and warmth of the first metatarsophalangeal joint overnight. He is unable to tolerate even light pressure on the affected toe. Joint aspiration demonstrates needle-shaped, negatively birefringent monosodium urate crystals.",
+          "question": "Select the most appropriate diagnosis or management for joint pain."
+        },
+        {
+          "scenario": "A 70-year-old man presents with acute severe pain and swelling of his right knee accompanied by fever and chills. The joint is hot, erythematous, and extremely painful with passive movement. Laboratory tests show leukocytosis and elevated inflammatory markers. Arthrocentesis reveals purulent fluid with a very high synovial white blood cell count.",
           "question": "Select the most appropriate diagnosis or management for joint pain."
         }
       ],
@@ -6726,16 +6822,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-SAQ-FAMCO-7e229d26",
+      "id": "2018-psychiatry-SAQ-Ambulatory-7e229d26",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 34,
       "has_img": false,
@@ -6760,16 +6856,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-psychiatry-SAQ-FAMCO-20659b94",
+      "id": "2018-psychiatry-SAQ-Ambulatory-20659b94",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 34,
       "has_img": false,
@@ -6794,16 +6890,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-derma-SAQ-FAMCO-51ef13aa",
+      "id": "2018-derma-SAQ-Ambulatory-51ef13aa",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 34,
       "has_img": true,
@@ -6828,16 +6924,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-derma-SAQ-FAMCO-48dd363d",
+      "id": "2018-derma-SAQ-Ambulatory-48dd363d",
       "cohort": 2018,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 34,
       "has_img": true,
@@ -6862,16 +6958,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-famco-SAQ-FAMCO-0725b6ce",
+      "id": "2018-FAMCO-SAQ-Ambulatory-0725b6ce",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 35,
       "has_img": false,
@@ -6892,16 +6988,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-famco-SAQ-FAMCO-f4fc0bda",
+      "id": "2018-FAMCO-SAQ-Ambulatory-f4fc0bda",
       "cohort": 2018,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 35,
       "has_img": false,
@@ -6922,16 +7018,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-e55c1b64",
+      "id": "2017-FAMCO-MCQ-Ambulatory-e55c1b64",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 36,
       "source_number": "Family medicine 1",
@@ -6957,16 +7053,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-d8e705ae",
+      "id": "2017-FAMCO-MCQ-Ambulatory-d8e705ae",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 36,
       "source_number": "Family medicine 2",
@@ -6990,16 +7086,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-7b0718f2",
+      "id": "2017-FAMCO-MCQ-Ambulatory-7b0718f2",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 36,
       "source_number": "Family medicine 3",
@@ -7024,16 +7120,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-69652912",
+      "id": "2017-FAMCO-MCQ-Ambulatory-69652912",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 36,
       "source_number": "Family medicine 4",
@@ -7059,16 +7155,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-f8a1d151",
+      "id": "2017-FAMCO-MCQ-Ambulatory-f8a1d151",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 37,
       "source_number": "Family medicine 5",
@@ -7093,16 +7189,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-d83ecf08",
+      "id": "2017-FAMCO-MCQ-Ambulatory-d83ecf08",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 37,
       "source_number": "Family medicine 6",
@@ -7127,16 +7223,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-bfa9bfbc",
+      "id": "2017-FAMCO-MCQ-Ambulatory-bfa9bfbc",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 37,
       "source_number": "Family medicine 7",
@@ -7161,16 +7257,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-450a66b3",
+      "id": "2017-FAMCO-MCQ-Ambulatory-450a66b3",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 37,
       "source_number": "Family medicine 8",
@@ -7195,16 +7291,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-2299734b",
+      "id": "2017-FAMCO-MCQ-Ambulatory-2299734b",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 37,
       "source_number": "Family medicine 9",
@@ -7229,16 +7325,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-74a2409f",
+      "id": "2017-FAMCO-MCQ-Ambulatory-74a2409f",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 38,
       "source_number": "Family medicine 10",
@@ -7263,16 +7359,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-bd4bf87b",
+      "id": "2017-FAMCO-MCQ-Ambulatory-bd4bf87b",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 38,
       "source_number": "Family medicine 11",
@@ -7296,16 +7392,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-68efbb07",
+      "id": "2017-FAMCO-MCQ-Ambulatory-68efbb07",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 38,
       "source_number": "Family medicine 12",
@@ -7330,20 +7426,20 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-efd820bc",
+      "id": "2017-FAMCO-MCQ-Ambulatory-efd820bc",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 38,
       "source_number": "Family medicine 13",
-      "question": "Reconstructed from an incomplete communication-model fragment: which option is a recognized model for structuring a clinical consultation?",
+      "question": "which option is a recognized model for structuring a clinical consultation?",
       "options": [
         "A. Calgary-Cambridge model",
         "B. Kübler-Ross stages of grief",
@@ -7359,16 +7455,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-76c6b40f",
+      "id": "2017-FAMCO-MCQ-Ambulatory-76c6b40f",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 38,
       "source_number": "Family medicine 14",
@@ -7393,16 +7489,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-df4cee7b",
+      "id": "2017-FAMCO-MCQ-Ambulatory-df4cee7b",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 38,
       "source_number": "Family medicine 15",
@@ -7427,16 +7523,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-51780abb",
+      "id": "2017-FAMCO-MCQ-Ambulatory-51780abb",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 39,
       "source_number": "Family medicine 16",
@@ -7461,16 +7557,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-06c3d8aa",
+      "id": "2017-FAMCO-MCQ-Ambulatory-06c3d8aa",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 39,
       "source_number": "Family medicine 17",
@@ -7490,16 +7586,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-2d3883bc",
+      "id": "2017-FAMCO-MCQ-Ambulatory-2d3883bc",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 39,
       "source_number": "Family medicine 18",
@@ -7524,16 +7620,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-cfda7043",
+      "id": "2017-FAMCO-MCQ-Ambulatory-cfda7043",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 39,
       "source_number": "Family medicine 19",
@@ -7557,16 +7653,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-00b4d0f3",
+      "id": "2017-FAMCO-MCQ-Ambulatory-00b4d0f3",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 39,
       "source_number": "Family medicine 20",
@@ -7591,16 +7687,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-MCQ-FAMCO-2d646660",
+      "id": "2017-FAMCO-MCQ-Ambulatory-2d646660",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 39,
       "source_number": "Family medicine 21",
@@ -7624,16 +7720,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-MCQ-FAMCO-de9ded57",
+      "id": "2017-derma-MCQ-Ambulatory-de9ded57",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 40,
       "source_number": "Dermatology 1",
@@ -7658,16 +7754,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-MCQ-FAMCO-313fd6f5",
+      "id": "2017-derma-MCQ-Ambulatory-313fd6f5",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 40,
       "source_number": "Dermatology 2",
@@ -7689,16 +7785,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-MCQ-FAMCO-86c51570",
+      "id": "2017-derma-MCQ-Ambulatory-86c51570",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 40,
       "source_number": "Dermatology 3",
@@ -7718,16 +7814,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-03515ff9",
+      "id": "2017-psychiatry-MCQ-Ambulatory-03515ff9",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 40,
       "source_number": "Psychiatry 1",
@@ -7747,16 +7843,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-aef9e0d3",
+      "id": "2017-psychiatry-MCQ-Ambulatory-aef9e0d3",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 40,
       "source_number": "Psychiatry 2",
@@ -7780,16 +7876,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-5af7002d",
+      "id": "2017-psychiatry-MCQ-Ambulatory-5af7002d",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 40,
       "source_number": "Psychiatry 3",
@@ -7813,16 +7909,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-04b5ec2d",
+      "id": "2017-psychiatry-MCQ-Ambulatory-04b5ec2d",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 41,
       "source_number": "Psychiatry 4",
@@ -7846,16 +7942,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-fbd67be9",
+      "id": "2017-psychiatry-MCQ-Ambulatory-fbd67be9",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 41,
       "source_number": "Psychiatry 5",
@@ -7875,16 +7971,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-6809f7cf",
+      "id": "2017-psychiatry-MCQ-Ambulatory-6809f7cf",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 41,
       "source_number": "Psychiatry 6",
@@ -7909,16 +8005,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-342ea25c",
+      "id": "2017-psychiatry-MCQ-Ambulatory-342ea25c",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 41,
       "source_number": "Psychiatry 7",
@@ -7941,16 +8037,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-0a8bb6de",
+      "id": "2017-psychiatry-MCQ-Ambulatory-0a8bb6de",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 41,
       "source_number": "Psychiatry 8",
@@ -7974,16 +8070,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-99e911d2",
+      "id": "2017-psychiatry-MCQ-Ambulatory-99e911d2",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 42,
       "source_number": "Psychiatry 9",
@@ -8007,16 +8103,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-e585f5bd",
+      "id": "2017-psychiatry-MCQ-Ambulatory-e585f5bd",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 42,
       "source_number": "Psychiatry 10",
@@ -8040,16 +8136,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-6e8fce5c",
+      "id": "2017-psychiatry-MCQ-Ambulatory-6e8fce5c",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 42,
       "source_number": "Psychiatry 11",
@@ -8074,16 +8170,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-b7c45f6f",
+      "id": "2017-psychiatry-MCQ-Ambulatory-b7c45f6f",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 42,
       "source_number": "Psychiatry 12",
@@ -8109,16 +8205,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-13cc07cb",
+      "id": "2017-psychiatry-MCQ-Ambulatory-13cc07cb",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 43,
       "source_number": "Psychiatry 13",
@@ -8142,16 +8238,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-b6c88dab",
+      "id": "2017-psychiatry-MCQ-Ambulatory-b6c88dab",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 43,
       "source_number": "Psychiatry 14",
@@ -8176,16 +8272,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-e1b584a6",
+      "id": "2017-psychiatry-MCQ-Ambulatory-e1b584a6",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 43,
       "source_number": "Psychiatry 15",
@@ -8209,16 +8305,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-fe8288cd",
+      "id": "2017-psychiatry-MCQ-Ambulatory-fe8288cd",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 43,
       "source_number": "Psychiatry 16",
@@ -8241,16 +8337,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-c0fe2f99",
+      "id": "2017-psychiatry-MCQ-Ambulatory-c0fe2f99",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 44,
       "source_number": "Psychiatry 17",
@@ -8273,16 +8369,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-baf84187",
+      "id": "2017-psychiatry-MCQ-Ambulatory-baf84187",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 44,
       "source_number": "Psychiatry 18",
@@ -8306,16 +8402,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-d5e60f32",
+      "id": "2017-psychiatry-MCQ-Ambulatory-d5e60f32",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 44,
       "source_number": "Psychiatry 19",
@@ -8337,16 +8433,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-519f60bb",
+      "id": "2017-psychiatry-MCQ-Ambulatory-519f60bb",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 44,
       "source_number": "Psychiatry 20",
@@ -8371,16 +8467,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-4bbc885f",
+      "id": "2017-psychiatry-MCQ-Ambulatory-4bbc885f",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 44,
       "source_number": "Psychiatry 21",
@@ -8404,16 +8500,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-734be3b4",
+      "id": "2017-psychiatry-MCQ-Ambulatory-734be3b4",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Psychiatry 22",
@@ -8437,16 +8533,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-a73926ef",
+      "id": "2017-psychiatry-MCQ-Ambulatory-a73926ef",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Psychiatry 23",
@@ -8469,16 +8565,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-0f13bbd7",
+      "id": "2017-psychiatry-MCQ-Ambulatory-0f13bbd7",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Psychiatry 24",
@@ -8498,16 +8594,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-348b38a0",
+      "id": "2017-psychiatry-MCQ-Ambulatory-348b38a0",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Psychiatry 25",
@@ -8532,16 +8628,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-2aec0ab7",
+      "id": "2017-psychiatry-MCQ-Ambulatory-2aec0ab7",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Psychiatry 26",
@@ -8561,16 +8657,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-FAMCO-f3534a5c",
+      "id": "2017-psychiatry-MCQ-Ambulatory-f3534a5c",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Psychiatry 27",
@@ -8590,16 +8686,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-oral-MCQ-FAMCO-f919e2bd",
+      "id": "2017-oral-MCQ-Ambulatory-f919e2bd",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 45,
       "source_number": "Oral 1",
@@ -8623,16 +8719,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-oral-MCQ-FAMCO-158add36",
+      "id": "2017-oral-MCQ-Ambulatory-158add36",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 46,
       "source_number": "Oral 2",
@@ -8652,16 +8748,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-EMQ-FAMCO-a829faff",
+      "id": "2017-psychiatry-EMQ-Ambulatory-a829faff",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 46,
       "source_number": "Extended matching 1",
@@ -8675,7 +8771,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 27-year-old man with schizophrenia reports hearing a clear male voice speaking to him when no one is present. He experiences the voice as coming from outside his head, and he is convinced that the voice is a real external sound. There is no corresponding auditory stimulus in the environment.",
+          "question": "Select the most appropriate psychotic phenomenon from the reconstructed option set."
+        },
+        {
+          "scenario": "A 31-year-old woman with severe anxiety reports occasionally hearing a voice that she recognizes as being generated within her own mind. She describes the experience as vivid and perceptual but retains insight that the voice is not actually coming from the external environment and knows that it is an unusual internal experience.",
+          "question": "Select the most appropriate psychotic phenomenon from the reconstructed option set."
+        },
+        {
+          "scenario": "A 45-year-old man with a high fever becomes acutely confused and reports seeing a person standing in the corner of his hospital room. When the curtain moves and he realizes it was actually a coat hanging on a chair, the visual experience disappears. He had mistaken a real external object for a person.",
+          "question": "Select the most appropriate psychotic phenomenon from the reconstructed option set."
+        },
+        {
+          "scenario": "A 29-year-old man with schizophrenia becomes convinced that television presenters are deliberately making comments specifically about him. He believes that ordinary news reports contain hidden personal messages intended for him, despite there being no evidence that the broadcasts are actually directed at him.",
           "question": "Select the most appropriate psychotic phenomenon from the reconstructed option set."
         }
       ],
@@ -8686,16 +8794,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-EMQ-FAMCO-77ce978a",
+      "id": "2017-psychiatry-EMQ-Ambulatory-77ce978a",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 46,
       "source_number": "Extended matching 2",
@@ -8709,7 +8817,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 24-year-old man has experienced auditory hallucinations, including voices commenting on his actions, for 8 months. He has developed marked social withdrawal, reduced emotional expression, poor motivation, and declining academic performance. His symptoms occur in the absence of prominent mood episodes and have caused significant functional impairment.",
+          "question": "Match the missing scenario to the most appropriate diagnosis in this reconstructed general-psychiatry option set."
+        },
+        {
+          "scenario": "A 28-year-old woman has recurrent episodes lasting several days in which she has markedly elevated mood, decreased need for sleep, pressured speech, increased goal-directed activity, and impulsive spending. During these episodes, her behavior causes significant social and occupational impairment. She also has periods of major depression between episodes.",
+          "question": "Match the missing scenario to the most appropriate diagnosis in this reconstructed general-psychiatry option set."
+        },
+        {
+          "scenario": "A 32-year-old man has recurrent intrusive thoughts about contaminating himself with germs. He recognizes that these thoughts are excessive but finds them extremely distressing. To reduce his anxiety, he repeatedly washes his hands for prolonged periods and follows elaborate cleaning rituals, despite knowing that these behaviors are excessive.",
+          "question": "Match the missing scenario to the most appropriate diagnosis in this reconstructed general-psychiatry option set."
+        },
+        {
+          "scenario": "A 35-year-old woman has experienced excessive and difficult-to-control worry about several areas of her life for more than 6 months. She worries about finances, work, family, and health even when there is no specific reason for concern. She has persistent muscle tension, restlessness, fatigue, irritability, and difficulty sleeping.",
           "question": "Match the missing scenario to the most appropriate diagnosis in this reconstructed general-psychiatry option set."
         }
       ],
@@ -8720,16 +8840,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-oral-EMQ-FAMCO-8f2f8fa3",
+      "id": "2017-oral-EMQ-Ambulatory-8f2f8fa3",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "oral",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
         "oral",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 46,
       "source_number": "Extended matching 3",
@@ -8743,7 +8863,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 35-year-old man presents with severe, throbbing pain involving the upper left first molar. The tooth is extremely sensitive to percussion, and the surrounding gingiva is swollen and tender. He recently developed a deep dental caries in the affected tooth. Examination reveals localized facial swelling, and the tooth is non-vital on pulp testing.",
+          "question": "Match the missing scenario to the most appropriate oral or maxillofacial condition in the reconstructed option set."
+        },
+        {
+          "scenario": "A 42-year-old woman presents with several days of facial pressure and pain over the cheeks, associated with nasal congestion and purulent nasal discharge. She reports that her upper teeth ache, particularly when bending forward. Examination shows tenderness over the maxillary sinus, while the teeth are otherwise healthy and respond normally to pulp vitality testing.",
+          "question": "Match the missing scenario to the most appropriate oral or maxillofacial condition in the reconstructed option set."
+        },
+        {
+          "scenario": "A 29-year-old man develops severe headache, fever, and rapidly progressive swelling around both eyes several days after an untreated facial infection. Examination reveals bilateral periorbital edema, ophthalmoplegia, and impaired sensation in the distribution of the ophthalmic division of the trigeminal nerve. He is acutely ill and requires urgent hospital management.",
+          "question": "Match the missing scenario to the most appropriate oral or maxillofacial condition in the reconstructed option set."
+        },
+        {
+          "scenario": "A 58-year-old man presents with painful white plaques on his tongue and inner cheeks that can be partially wiped away, leaving an erythematous surface underneath. He recently completed a prolonged course of broad-spectrum antibiotics and uses an inhaled corticosteroid. He has no facial swelling or dental pain.",
           "question": "Match the missing scenario to the most appropriate oral or maxillofacial condition in the reconstructed option set."
         }
       ],
@@ -8754,16 +8886,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-EMQ-FAMCO-acd6304f",
+      "id": "2017-FAMCO-EMQ-Ambulatory-acd6304f",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 46,
       "source_number": "Extended matching 4",
@@ -8777,7 +8909,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 52-year-old man with obesity presents for a routine check-up. He has increased thirst and frequent urination but no acute illness. His fasting plasma glucose is 8.9 mmol/L on two separate occasions, and his HbA1c is 7.4%. He has no evidence of ketoacidosis or another secondary cause of hyperglycemia.",
+          "question": "Match the missing scenario to the most appropriate common family-medicine diagnosis in the reconstructed option set."
+        },
+        {
+          "scenario": "A 48-year-old woman is found to have elevated blood pressure during several separate clinic visits. Her readings consistently range around 155/95 mmHg. She has no symptoms, and physical examination and routine laboratory investigations do not suggest a secondary cause. She is not taking medications known to raise blood pressure.",
+          "question": "Match the missing scenario to the most appropriate common family-medicine diagnosis in the reconstructed option set."
+        },
+        {
+          "scenario": "A 27-year-old woman has recurrent episodes of severe, throbbing unilateral headache lasting 6 to 24 hours. The headaches are associated with nausea, vomiting, and sensitivity to light and sound. She sometimes notices flashing lights and zigzag lines shortly before the headache begins. Neurologic examination between attacks is normal.",
+          "question": "Match the missing scenario to the most appropriate common family-medicine diagnosis in the reconstructed option set."
+        },
+        {
+          "scenario": "A 25-year-old woman presents with 2 days of burning pain during urination, urinary frequency, and urgency. She has mild suprapubic discomfort but no vaginal discharge, flank pain, fever, nausea, or vomiting. She is otherwise healthy and not pregnant. Urinalysis is consistent with a lower urinary tract infection.",
           "question": "Match the missing scenario to the most appropriate common family-medicine diagnosis in the reconstructed option set."
         }
       ],
@@ -8788,16 +8932,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-famco-EMQ-FAMCO-2ad3493a",
+      "id": "2017-FAMCO-EMQ-Ambulatory-2ad3493a",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 46,
       "source_number": "Extended matching 5",
@@ -8811,7 +8955,19 @@
       ],
       "questions": [
         {
-          "scenario": "[scenario not provided]",
+          "scenario": "A 68-year-old woman presents for a routine health assessment. She has been postmenopausal for many years and has a low body weight. She sustained a wrist fracture after a minor fall last year. She has no history of prolonged glucocorticoid use. A dual-energy X-ray absorptiometry scan demonstrates a bone mineral density T-score of −2.7 at the femoral neck.",
+          "question": "Match the missing scenario to the most appropriate family-medicine condition in the reconstructed option set."
+        },
+        {
+          "scenario": "A 29-year-old woman at 26 weeks of pregnancy undergoes routine screening for diabetes. She has no previous history of diabetes and feels well. Her 75-g oral glucose tolerance test shows a fasting plasma glucose of 5.4 mmol/L, a 1-hour value of 10.5 mmol/L, and a 2-hour value of 9.2 mmol/L.",
+          "question": "Match the missing scenario to the most appropriate family-medicine condition in the reconstructed option set."
+        },
+        {
+          "scenario": "A 19-year-old woman with known type 1 diabetes presents with vomiting, abdominal pain, excessive thirst, and frequent urination. She has missed several doses of insulin because of an intercurrent illness. She is tachycardic and dehydrated, with deep, rapid breathing. Laboratory tests show markedly elevated blood glucose, metabolic acidosis, and positive serum ketones.",
+          "question": "Match the missing scenario to the most appropriate family-medicine condition in the reconstructed option set."
+        },
+        {
+          "scenario": "A 3-year-old boy presents with 2 days of fever, irritability, and ear pain following an upper respiratory tract infection. His parents report that he has been waking frequently at night and pulling at his right ear. Otoscopic examination shows a bulging, erythematous tympanic membrane with reduced mobility and a middle-ear effusion.",
           "question": "Match the missing scenario to the most appropriate family-medicine condition in the reconstructed option set."
         }
       ],
@@ -8822,16 +8978,16 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-SAQ-FAMCO-310b1dc0",
+      "id": "2017-derma-SAQ-Ambulatory-310b1dc0",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "derma",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
         "derma",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 47,
       "source_number": "Dermatology short answer 1",
@@ -8858,16 +9014,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-famco-SAQ-FAMCO-8e770860",
+      "id": "2017-FAMCO-SAQ-Ambulatory-8e770860",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 47,
       "source_number": "FAMCO short answer 1",
@@ -8893,16 +9049,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-famco-SAQ-FAMCO-6cd0397b",
+      "id": "2017-FAMCO-SAQ-Ambulatory-6cd0397b",
       "cohort": 2017,
-      "block": "FAMCO",
-      "topic": "famco",
+      "block": "Ambulatory",
+      "topic": "FAMCO",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
-        "famco",
-        "FAMCO"
+        "FAMCO",
+        "Ambulatory"
       ],
       "source_page": 48,
       "source_number": "FAMCO short answer 2",
@@ -8928,16 +9084,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-psychiatry-SAQ-FAMCO-ac96d0fe",
+      "id": "2017-psychiatry-SAQ-Ambulatory-ac96d0fe",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 48,
       "source_number": "Psychiatry short answer 1",
@@ -8963,16 +9119,16 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-psychiatry-SAQ-FAMCO-3049c047",
+      "id": "2017-psychiatry-SAQ-Ambulatory-3049c047",
       "cohort": 2017,
-      "block": "FAMCO",
+      "block": "Ambulatory",
       "topic": "psychiatry",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
         "psychiatry",
-        "FAMCO"
+        "Ambulatory"
       ],
       "source_page": 48,
       "source_number": "Psychiatry short answer 2",
