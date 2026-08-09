@@ -11,49 +11,111 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
 
   <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              50: '#f0f9ff', 100: '#e0f2fe', 500: '#0284c7',
-              600: '#0284c7', 700: '#0369a1', 800: '#075985', 900: '#0c4a6e',
-            }
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          brand: {
+            50: '#f0f9ff',  100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc',
+            400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1',
+            800: '#075985', 900: '#0c4a6e', 950: '#082f49',
+          },
+          darkbg: {
+            base: '#0B0F17',     /* Deep contrast page background */
+            card: '#131A26',     /* Crisp elevated card surface */
+            hover: '#1E293B',    /* Interactive state background */
+            border: '#28354A',   /* High-visibility container border */
+            input: '#0F1623'     /* Inset input/code field background */
           }
         }
       }
     }
-  </script>
+  }
+</script>
   <style>
-    [v-cloak] { display: none !important; }
-    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 3px; }
-    .studied-fade { opacity: 0.5; }
+  [v-cloak] { display: none !important; }
 
-    /* Prevent mobile pull-to-refresh from being triggered accidentally */
-    html, body {
-      overscroll-behavior-y: contain;
-      overscroll-behavior-x: none;
-      touch-action: pan-x pan-y;
-    }
+  .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 3px; }
+  .dark .custom-scrollbar::-webkit-scrollbar-track { background: rgba(255,255,255,0.04); }
+  .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
 
-    /* Fallback styling for the rendered markdown export preview,
-       in case the Tailwind Typography (prose) plugin fails to load. */
-    #exportPreviewContent h1 { font-size: 1.5rem; font-weight: 800; margin: 1rem 0 0.5rem; }
-    #exportPreviewContent h2 { font-size: 1.25rem; font-weight: 700; margin: 1.5rem 0 0.5rem; border-bottom: 1px solid rgba(148,163,184,0.3); padding-bottom: 0.25rem; }
-    #exportPreviewContent h3 { font-size: 1.05rem; font-weight: 700; margin: 1rem 0 0.5rem; }
-    #exportPreviewContent p { margin: 0.5rem 0; line-height: 1.6; }
-    #exportPreviewContent ul, #exportPreviewContent ol { margin: 0.5rem 0 0.5rem 1.25rem; }
-    #exportPreviewContent ul { list-style: disc; }
-    #exportPreviewContent ol { list-style: decimal; }
-    #exportPreviewContent li { margin: 0.15rem 0; }
-    #exportPreviewContent hr { border: none; border-top: 1px solid rgba(148,163,184,0.3); margin: 1.25rem 0; }
-    #exportPreviewContent img { max-width: 100%; border-radius: 0.5rem; margin: 0.5rem 0; }
-    #exportPreviewContent strong { font-weight: 700; }
-    #exportPreviewContent code { background: rgba(148,163,184,0.15); padding: 0.1rem 0.35rem; border-radius: 0.25rem; font-size: 0.85em; }
-  </style>
+  .studied-fade { opacity: 0.45; }
+
+  /* Prevent mobile pull-to-refresh */
+  html, body {
+    overscroll-behavior-y: contain;
+    overscroll-behavior-x: none;
+    touch-action: pan-x pan-y;
+  }
+
+  /* --- GROUND-UP DARK MODE ENHANCEMENTS --- */
+  .dark body {
+    background-color: #0B0F17 !important;
+    color: #F1F5F9 !important;
+  }
+
+  /* High-contrast dark cards & borders */
+  .dark .bg-white {
+    background-color: #131A26 !important;
+  }
+  .dark .border-slate-200, 
+  .dark .border-slate-700, 
+  .dark .border-slate-700\/60, 
+  .dark .border-slate-700\/80,
+  .dark .border-slate-700\/50 {
+    border-color: #28354A !important;
+  }
+
+  /* Lift secondary and muted text readability in dark mode */
+  .dark .text-slate-400 { color: #A0AEC0 !important; }
+  .dark .text-slate-500 { color: #CBD5E1 !important; }
+  .dark .text-slate-600 { color: #E2E8F0 !important; }
+  .dark .text-slate-700 { color: #F1F5F9 !important; }
+
+  /* Nested panels, input boxes, dropdowns in dark mode */
+  .dark .bg-slate-50,
+  .dark .bg-slate-900\/50,
+  .dark .bg-slate-900\/40,
+  .dark .bg-slate-900 {
+    background-color: #0F1623 !important;
+  }
+
+  /* MCQ / Option selection cards in dark mode */
+  .dark .border-slate-200\/80 {
+    border-color: #28354A !important;
+  }
+
+  /* Type Badges - Vivid Dark Mode Contrast */
+  .dark .bg-sky-900\/60 { background-color: rgba(14, 165, 233, 0.25) !important; color: #7DD3FC !important; border: 1px solid rgba(125, 211, 252, 0.3); }
+  .dark .bg-indigo-900\/60 { background-color: rgba(99, 102, 241, 0.25) !important; color: #A5B4FC !important; border: 1px solid rgba(165, 180, 252, 0.3); }
+  .dark .bg-purple-900\/60 { background-color: rgba(168, 85, 247, 0.25) !important; color: #E9D5FF !important; border: 1px solid rgba(233, 213, 255, 0.3); }
+  .dark .bg-brand-900\/40, .dark .bg-brand-900\/60 { background-color: rgba(2, 132, 199, 0.25) !important; color: #7DD3FC !important; }
+
+  /* Native inputs & select legibility */
+  .dark select, .dark option, .dark input, .dark textarea {
+    color-scheme: dark;
+    background-color: #0F1623 !important;
+    color: #F8FAFC !important;
+  }
+
+  /* Export Preview Markdown Styles */
+  #exportPreviewContent h1 { font-size: 1.5rem; font-weight: 800; margin: 1rem 0 0.5rem; }
+  #exportPreviewContent h2 { font-size: 1.25rem; font-weight: 700; margin: 1.5rem 0 0.5rem; border-bottom: 1px solid #28354A; padding-bottom: 0.25rem; }
+  #exportPreviewContent h3 { font-size: 1.05rem; font-weight: 700; margin: 1rem 0 0.5rem; }
+  #exportPreviewContent p { margin: 0.5rem 0; line-height: 1.6; }
+  #exportPreviewContent ul, #exportPreviewContent ol { margin: 0.5rem 0 0.5rem 1.25rem; }
+  #exportPreviewContent ul { list-style: disc; }
+  #exportPreviewContent ol { list-style: decimal; }
+  #exportPreviewContent li { margin: 0.15rem 0; }
+  #exportPreviewContent hr { border: none; border-top: 1px solid #28354A; margin: 1.25rem 0; }
+  #exportPreviewContent img { max-width: 100%; border-radius: 0.5rem; margin: 0.5rem 0; }
+  #exportPreviewContent strong { font-weight: 700; }
+  #exportPreviewContent code { background: rgba(148,163,184,0.15); padding: 0.1rem 0.35rem; border-radius: 0.25rem; font-size: 0.85em; }
+  .dark #exportPreviewContent code { background: #1E293B; color: #38BDF8; }
+</style>
 </head>
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 min-h-screen font-sans flex flex-col antialiased overscroll-y-contain">
 
@@ -95,7 +157,7 @@
       <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-xl space-y-4 max-h-[85vh] overflow-y-auto custom-scrollbar">
         <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-700 pb-3">
           <h3 class="font-bold text-base text-slate-900 dark:text-white">Original Source Question</h3>
-          <button @click="sourceModal.show = false" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark"></i></button>
+          <button @click="sourceModal.show = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"><i class="fa-solid fa-xmark"></i></button>
         </div>
         <div class="text-xs bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-200 rounded-lg p-3">
           <i class="fa-solid fa-triangle-exclamation mr-1.5"></i>
@@ -132,12 +194,12 @@
               class="flex-1 sm:flex-none px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center justify-center space-x-1.5">
               <i class="fa-solid fa-download"></i><span>Download</span>
             </button>
-            <button @click="exportModal.show = false" class="text-slate-400 hover:text-slate-600 shrink-0">
+            <button @click="exportModal.show = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 shrink-0">
               <i class="fa-solid fa-xmark"></i>
             </button>
           </div>
         </div>
-        <div id="exportPreviewContent" class="p-4 sm:p-6 overflow-y-auto custom-scrollbar prose prose-sm dark:prose-invert max-w-none break-words" v-html="exportModal.renderedHtml"></div>
+        <div id="exportPreviewContent" class="p-4 sm:p-6 overflow-y-auto custom-scrollbar prose prose-sm dark:prose-invert max-w-none break-words text-slate-800 dark:text-slate-200" v-html="exportModal.renderedHtml"></div>
       </div>
     </div>
 
@@ -182,7 +244,7 @@
             @click="activeTab = 'practice'"
             :disabled="!questions.length"
             :class="[
-              activeTab === 'practice' || activeTab === 'exam' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white',
+              activeTab === 'practice' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white',
               !questions.length ? 'opacity-50 cursor-not-allowed' : ''
             ]"
             class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
@@ -229,7 +291,7 @@
       <button 
         @click="activeTab = 'practice'" 
         :disabled="!questions.length" 
-        :class="(activeTab==='practice' || activeTab==='exam') ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
+        :class="activeTab==='practice' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
         class="flex flex-col items-center text-xs transition-colors disabled:opacity-40">
         <i class="fa-solid fa-graduation-cap text-base mb-0.5"></i> Exam
       </button>
@@ -272,16 +334,16 @@
           <!-- Stats: Total on top, Topics + Cohorts below (content centered) -->
           <div class="space-y-4">
             <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Total Questions</span>
+              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total Questions</span>
               <p class="text-3xl font-extrabold text-slate-900 dark:text-white mt-2">{{ questions.length }}</p>
             </div>
             <div class="grid grid-cols-2 gap-4">
               <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Topics</span>
+                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Topics</span>
                 <p class="text-3xl font-extrabold text-brand-600 dark:text-brand-400 mt-2">{{ uniqueTopics.length }}</p>
               </div>
               <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Cohorts</span>
+                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Cohorts</span>
                 <p class="text-3xl font-extrabold text-emerald-600 dark:text-emerald-400 mt-2">{{ uniqueCohorts.length }}</p>
               </div>
             </div>
@@ -295,10 +357,10 @@
                 v-for="topic in topicBreakdown" 
                 :key="topic.name" 
                 @click="goToTopicFilter(topic.name)"
-                class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-800 flex justify-between items-center text-left hover:border-brand-400 hover:shadow-sm transition">
+                class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700 flex justify-between items-center text-left hover:border-brand-400 dark:hover:border-brand-500 hover:shadow-sm transition">
                 <div>
                   <span class="font-bold text-sm text-slate-800 dark:text-slate-200">{{ topic.name }}</span>
-                  <div class="flex items-center space-x-2 text-xs text-slate-500 mt-0.5">
+                  <div class="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400 mt-0.5">
                     <span v-for="(count, type) in topic.types" :key="type" class="uppercase">{{ type }}: {{ count }}</span>
                   </div>
                 </div>
@@ -312,7 +374,7 @@
 
         <div v-else-if="!loadingDatasets" class="text-center py-8 text-slate-500 dark:text-slate-400 max-w-lg mx-auto">
           <i class="fa-solid fa-circle-exclamation text-4xl mb-3 text-slate-300 dark:text-slate-600"></i>
-          <p class="text-sm">No questions could be loaded. <button @click="loadAllDatasets" class="text-brand-600 underline">Try again</button></p>
+          <p class="text-sm">No questions could be loaded. <button @click="loadAllDatasets" class="text-brand-600 dark:text-brand-400 underline">Try again</button></p>
         </div>
 
       </div>
@@ -324,14 +386,14 @@
         <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
           <div class="flex flex-col lg:flex-row gap-3">
             <div class="flex-1 relative">
-              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400"></i>
+              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 dark:text-slate-500"></i>
               <input 
                 v-model="filters.search" 
                 type="text" 
                 placeholder="Search questions, options, scenarios, IDs, or topics..." 
-                class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
+                class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
               />
-              <button v-if="filters.search" @click="filters.search=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600">
+              <button v-if="filters.search" @click="filters.search=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
                 <i class="fa-solid fa-xmark"></i>
               </button>
             </div>
@@ -343,16 +405,16 @@
                 <button 
                   type="button"
                   @click="toggleFilterDropdown('topic')"
-                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
+                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
                   <span class="truncate">{{ filters.topics.length ? filters.topics.length + ' Topic' + (filters.topics.length > 1 ? 's' : '') : 'All Topics (' + uniqueTopics.length + ')' }}</span>
                   <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
                 </button>
                 <div v-if="openFilterDropdown === 'topic'" class="absolute z-30 mt-1 w-56 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="t in uniqueTopics" :key="t" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
+                  <label v-for="t in uniqueTopics" :key="t" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
                     <input type="checkbox" :value="t" v-model="filters.topics" class="rounded text-brand-600 focus:ring-brand-500">
                     <span class="truncate">{{ t }}</span>
                   </label>
-                  <button v-if="filters.topics.length" @click="filters.topics = []" class="w-full text-center text-[11px] text-rose-600 hover:underline pt-1">Clear selection</button>
+                  <button v-if="filters.topics.length" @click="filters.topics = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1">Clear selection</button>
                 </div>
               </div>
 
@@ -361,16 +423,16 @@
                 <button 
                   type="button"
                   @click="toggleFilterDropdown('type')"
-                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs font-medium text-left flex items-center justify-between uppercase focus:outline-none focus:ring-2 focus:ring-brand-500">
+                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between uppercase focus:outline-none focus:ring-2 focus:ring-brand-500">
                   <span class="truncate normal-case">{{ filters.types.length ? filters.types.length + ' Type' + (filters.types.length > 1 ? 's' : '') : 'All Types (' + uniqueTypes.length + ')' }}</span>
                   <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
                 </button>
                 <div v-if="openFilterDropdown === 'type'" class="absolute z-30 mt-1 w-48 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="t in uniqueTypes" :key="t" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer uppercase">
+                  <label v-for="t in uniqueTypes" :key="t" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer uppercase">
                     <input type="checkbox" :value="t" v-model="filters.types" class="rounded text-brand-600 focus:ring-brand-500">
                     <span>{{ t }}</span>
                   </label>
-                  <button v-if="filters.types.length" @click="filters.types = []" class="w-full text-center text-[11px] text-rose-600 hover:underline pt-1 normal-case">Clear selection</button>
+                  <button v-if="filters.types.length" @click="filters.types = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1 normal-case">Clear selection</button>
                 </div>
               </div>
 
@@ -379,20 +441,20 @@
                 <button 
                   type="button"
                   @click="toggleFilterDropdown('cohort')"
-                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
+                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
                   <span class="truncate">{{ filters.cohorts.length ? filters.cohorts.length + ' Cohort' + (filters.cohorts.length > 1 ? 's' : '') : 'All Cohorts (' + uniqueCohorts.length + ')' }}</span>
                   <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
                 </button>
                 <div v-if="openFilterDropdown === 'cohort'" class="absolute z-30 mt-1 w-48 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="c in uniqueCohorts" :key="c" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
+                  <label v-for="c in uniqueCohorts" :key="c" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
                     <input type="checkbox" :value="c" v-model="filters.cohorts" class="rounded text-brand-600 focus:ring-brand-500">
                     <span>{{ c }}</span>
                   </label>
-                  <button v-if="filters.cohorts.length" @click="filters.cohorts = []" class="w-full text-center text-[11px] text-rose-600 hover:underline pt-1">Clear selection</button>
+                  <button v-if="filters.cohorts.length" @click="filters.cohorts = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1">Clear selection</button>
                 </div>
               </div>
 
-              <select v-model.number="pageSize" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-brand-500">
+              <select v-model.number="pageSize" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-brand-500">
                 <option :value="10">10 / page</option>
                 <option :value="25">25 / page</option>
                 <option :value="50">50 / page</option>
@@ -417,7 +479,7 @@
             </span>
           </div>
 
-          <div class="flex flex-wrap items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-700/60 text-xs text-slate-500 gap-3">
+          <div class="flex flex-wrap items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-700/60 text-xs text-slate-500 dark:text-slate-400 gap-3">
             <div class="flex items-center space-x-4 flex-wrap gap-y-1">
               <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
                 <input type="checkbox" v-model="filters.bookmarkedOnly" class="rounded text-brand-600 focus:ring-brand-500">
@@ -429,10 +491,10 @@
               </label>
             </div>
             <div class="flex items-center space-x-3">
-              <button @click="openExportPreview" :disabled="!filteredQuestions.length" class="text-brand-600 hover:underline font-bold disabled:opacity-40 disabled:cursor-not-allowed">
+              <button @click="openExportPreview" :disabled="!filteredQuestions.length" class="text-brand-600 dark:text-brand-400 hover:underline font-bold disabled:opacity-40 disabled:cursor-not-allowed">
                 <i class="fa-solid fa-file-export mr-1"></i> Export
               </button>
-              <button v-if="hasActiveFilters" @click="resetFilters" class="text-rose-600 hover:underline font-medium">
+              <button v-if="hasActiveFilters" @click="resetFilters" class="text-rose-600 dark:text-rose-400 hover:underline font-medium">
                 Reset Filters
               </button>
             </div>
@@ -449,14 +511,14 @@
           <button 
             @click="currentPage = Math.max(1, currentPage - 1)" 
             :disabled="currentPage === 1"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold disabled:opacity-40">
+            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
             &larr; Prev
           </button>
-          <span class="text-xs font-medium text-slate-500">Page {{ currentPage }} of {{ totalPages }}</span>
+          <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ currentPage }} of {{ totalPages }}</span>
           <button 
             @click="currentPage = Math.min(totalPages, currentPage + 1)" 
             :disabled="currentPage === totalPages"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold disabled:opacity-40">
+            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
             Next &rarr;
           </button>
         </div>
@@ -485,7 +547,7 @@
                 <span v-if="q.topic" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">
                   {{ q.topic }}
                 </span>
-                <span v-if="q.cohort" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 text-xs">
+                <span v-if="q.cohort" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs">
                   {{ q.cohort }}
                 </span>
               </div>
@@ -494,19 +556,19 @@
                 <button 
                   @click="toggleBookmark(q.id)" 
                   :title="isBookmarked(q.id) ? 'Remove Bookmark' : 'Bookmark Question'"
-                  class="p-1.5 rounded-lg text-slate-400 hover:text-amber-500 transition">
+                  class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-amber-500 transition">
                   <i :class="isBookmarked(q.id) ? 'fa-solid text-amber-500' : 'fa-regular'" class="fa-bookmark text-base"></i>
                 </button>
                 <button 
                   @click="copyQuestion(q)" 
                   title="Copy question text"
-                  class="p-1.5 rounded-lg text-slate-400 hover:text-brand-600 transition">
+                  class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
                   <i class="fa-regular fa-copy text-base"></i>
                 </button>
                 <button 
                   @click="googleSearchQuestion(q)" 
                   title="Search this question on Google"
-                  class="p-1.5 rounded-lg text-slate-400 hover:text-brand-600 transition">
+                  class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
                   <i class="fa-solid fa-magnifying-glass text-base"></i>
                 </button>
               </div>
@@ -515,7 +577,7 @@
             <!-- MCQ Type -->
             <div v-if="q.type === 'MCQ'" class="space-y-3">
               <h3 class="text-base font-semibold text-slate-900 dark:text-white leading-relaxed">
-                <span class="text-slate-400 mr-1.5">#{{ q.number || idx + 1 }}.</span>
+                <span class="text-slate-400 dark:text-slate-500 mr-1.5">#{{ q.number || idx + 1 }}.</span>
                 {{ q.question }}
               </h3>
 
@@ -552,7 +614,7 @@
 
               <div class="space-y-3">
                 <div v-for="(subQ, subIdx) in q.questions" :key="subIdx" class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 space-y-1">
-                  <div class="text-xs text-slate-400 font-medium">Item {{ subIdx + 1 }}</div>
+                  <div class="text-xs text-slate-400 dark:text-slate-500 font-medium">Item {{ subIdx + 1 }}</div>
                   <div class="text-sm font-medium text-slate-800 dark:text-slate-200">{{ subQ.scenario || subQ.question }}</div>
                 </div>
               </div>
@@ -561,7 +623,7 @@
             <!-- SAQ Type -->
             <div v-else-if="q.type === 'SAQ'" class="space-y-4">
               <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 font-medium text-slate-900 dark:text-white text-sm">
-                <i class="fa-solid fa-file-lines text-brand-600 mr-2"></i>
+                <i class="fa-solid fa-file-lines text-brand-600 dark:text-brand-400 mr-2"></i>
                 {{ q.case }}
               </div>
 
@@ -572,9 +634,9 @@
               <div class="space-y-2.5 pl-2">
                 <div v-for="(sub, subIdx) in q.subquestions" :key="subIdx" class="flex items-start justify-between text-sm p-2.5 rounded-lg border border-slate-100 dark:border-slate-700/50">
                   <span class="text-slate-800 dark:text-slate-200">
-                    <strong class="text-slate-400 mr-1.5">{{ subIdx + 1 }}.</strong> {{ sub.q }}
+                    <strong class="text-slate-400 dark:text-slate-500 mr-1.5">{{ subIdx + 1 }}.</strong> {{ sub.q }}
                   </span>
-                  <span v-if="sub.points" class="ml-2 px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 text-xs whitespace-nowrap">
+                  <span v-if="sub.points" class="ml-2 px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs whitespace-nowrap">
                     {{ sub.points }} pts
                   </span>
                 </div>
@@ -582,7 +644,7 @@
             </div>
 
             <!-- Fallback Generic rendering -->
-            <div v-else class="text-sm">
+            <div v-else class="text-sm text-slate-800 dark:text-slate-200">
               <p class="font-medium">{{ q.question || q.case || 'Question details' }}</p>
               <div v-if="q.has_img && q.img_src" class="pt-2 space-y-2">
                 <img v-for="(src, imgIdx) in getImgSources(q.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-64 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
@@ -602,8 +664,8 @@
 
           <div v-if="!paginatedQuestions.length" class="text-center py-12 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
             <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
-            <p class="text-slate-500 font-medium text-sm">No questions match your current filter selection.</p>
-            <button @click="resetFilters" class="mt-3 text-xs text-brand-600 hover:underline font-bold">Clear filters</button>
+            <p class="text-slate-500 dark:text-slate-400 font-medium text-sm">No questions match your current filter selection.</p>
+            <button @click="resetFilters" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">Clear filters</button>
           </div>
         </div>
 
@@ -612,22 +674,22 @@
           <button 
             @click="currentPage = Math.max(1, currentPage - 1)" 
             :disabled="currentPage === 1"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold disabled:opacity-40">
+            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
             &larr; Prev
           </button>
-          <span class="text-xs font-medium text-slate-500">Page {{ currentPage }} of {{ totalPages }}</span>
+          <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ currentPage }} of {{ totalPages }}</span>
           <button 
             @click="currentPage = Math.min(totalPages, currentPage + 1)" 
             :disabled="currentPage === totalPages"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-sm font-semibold disabled:opacity-40">
+            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
             Next &rarr;
           </button>
         </div>
 
       </div>
 
-      <!-- TAB 3: PRACTICE & EXAM ENGINE SETUP & TAKING -->
-      <div v-if="activeTab === 'practice' || activeTab === 'exam'" class="space-y-6">
+      <!-- TAB 3: PRACTICE / EXAM ENGINE SETUP & TAKING -->
+      <div v-if="activeTab === 'practice'" class="space-y-6">
         
         <div v-if="!examState.active" class="max-w-2xl mx-auto bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-6">
           <div class="text-center space-y-2">
@@ -635,7 +697,7 @@
               <i class="fa-solid fa-sliders"></i>
             </div>
             <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Exam Setup</h2>
-            <p class="text-sm text-slate-500">Configure your custom practice test session</p>
+            <p class="text-sm text-slate-500 dark:text-slate-400">Configure your custom practice test session</p>
           </div>
 
           <div class="space-y-4 pt-2">
@@ -643,7 +705,7 @@
               <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">
                 Question Count
               </label>
-              <select v-model="examConfig.numQuestions" class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-sm">
+              <select v-model="examConfig.numQuestions" class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 text-sm">
                 <option value="5">5</option>
                 <option value="10">10</option>
                 <option value="25">25</option>
@@ -658,7 +720,7 @@
                 Select Topics (leave empty for all)
               </label>
               <div class="flex flex-wrap gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 max-h-32 overflow-y-auto custom-scrollbar">
-                <label v-for="t in uniqueTopics" :key="t" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 cursor-pointer">
+                <label v-for="t in uniqueTopics" :key="t" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer">
                   <input type="checkbox" :value="t" v-model="examConfig.selectedTopics" class="rounded text-brand-600 focus:ring-brand-500">
                   <span>{{ t }}</span>
                 </label>
@@ -670,32 +732,10 @@
                 Select Question Formats (leave empty for all)
               </label>
               <div class="flex flex-wrap gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900">
-                <label v-for="t in uniqueTypes" :key="t" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 cursor-pointer uppercase">
+                <label v-for="t in uniqueTypes" :key="t" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer uppercase">
                   <input type="checkbox" :value="t" v-model="examConfig.selectedTypes" class="rounded text-brand-600 focus:ring-brand-500">
                   <span>{{ t }}</span>
                 </label>
-              </div>
-            </div>
-
-            <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">
-                Mode Type
-              </label>
-              <div class="grid grid-cols-2 gap-3">
-                <button 
-                  @click="examConfig.mode = 'practice'" 
-                  :class="examConfig.mode === 'practice' ? 'border-brand-600 bg-brand-50/50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-300' : 'border-slate-200 dark:border-slate-700 text-slate-600'" 
-                  class="p-3 rounded-xl border-2 text-xs font-bold flex items-center justify-center space-x-2 transition">
-                  <i class="fa-solid fa-lightbulb"></i>
-                  <span>Practice Mode (Instant Feedback)</span>
-                </button>
-                <button 
-                  @click="examConfig.mode = 'exam'" 
-                  :class="examConfig.mode === 'exam' ? 'border-brand-600 bg-brand-50/50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-300' : 'border-slate-200 dark:border-slate-700 text-slate-600'" 
-                  class="p-3 rounded-xl border-2 text-xs font-bold flex items-center justify-center space-x-2 transition">
-                  <i class="fa-solid fa-stopwatch"></i>
-                  <span>Simulated Timed Test</span>
-                </button>
               </div>
             </div>
 
@@ -713,10 +753,10 @@
           
           <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
             <div class="flex items-center space-x-3">
-              <button @click="endExam" class="text-xs text-rose-600 hover:underline font-bold">
+              <button @click="endExam" class="text-xs text-rose-600 dark:text-rose-400 hover:underline font-bold">
                 <i class="fa-solid fa-arrow-left mr-1"></i> Exit Session
               </button>
-              <span class="text-slate-300">|</span>
+              <span class="text-slate-300 dark:text-slate-600">|</span>
               <span class="text-sm font-bold text-slate-800 dark:text-slate-200">
                 Question {{ examState.currentIndex + 1 }} of {{ examState.questions.length }}
               </span>
@@ -746,7 +786,7 @@
                 <span :class="getTypeBadgeClass(currentExamQuestion.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase">
                   {{ currentExamQuestion.type }}
                 </span>
-                <span class="text-xs text-slate-500 font-medium">{{ currentExamQuestion.topic }}</span>
+                <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">{{ currentExamQuestion.topic }}</span>
               </div>
             </div>
 
@@ -765,7 +805,7 @@
                   :key="oIdx"
                   @click="selectMcqOption(oIdx)"
                   :class="[
-                    examState.userAnswers[currentExamQuestion.id] === oIdx ? 'border-brand-600 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium' : 'border-slate-200 dark:border-slate-700 hover:border-brand-300 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200',
+                    examState.userAnswers[currentExamQuestion.id] === oIdx ? 'border-brand-600 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium' : 'border-slate-200 dark:border-slate-700 hover:border-brand-300 dark:hover:border-brand-500 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200',
                   ]"
                   class="p-4 rounded-xl border-2 cursor-pointer transition flex items-center justify-between text-sm">
                   <span>{{ opt }}</span>
@@ -803,7 +843,7 @@
                   <select 
                     :value="getEmqAnswer(currentExamQuestion.id, subIdx)"
                     @change="setEmqAnswer(currentExamQuestion.id, subIdx, $event.target.value)"
-                    class="w-full p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs font-medium">
+                    class="w-full p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 text-xs font-medium">
                     <option value="">Select Option Match...</option>
                     <option v-for="opt in currentExamQuestion.options" :key="opt" :value="opt">{{ opt }}</option>
                   </select>
@@ -823,14 +863,14 @@
               <div class="space-y-5">
                 <div v-for="(sub, subIdx) in currentExamQuestion.subquestions" :key="subIdx" class="space-y-2">
                   <label class="block text-sm font-semibold text-slate-800 dark:text-slate-200">
-                    {{ subIdx + 1 }}. {{ sub.q }} <span v-if="sub.points" class="text-slate-400 font-normal">({{ sub.points }} pts)</span>
+                    {{ subIdx + 1 }}. {{ sub.q }} <span v-if="sub.points" class="text-slate-400 dark:text-slate-500 font-normal">({{ sub.points }} pts)</span>
                   </label>
                   <textarea 
                     :value="getSaqAnswer(currentExamQuestion.id, subIdx)"
                     @input="setSaqAnswer(currentExamQuestion.id, subIdx, $event.target.value)"
                     rows="2" 
                     placeholder="Type your notes/answer here..." 
-                    class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+                    class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
                 </div>
               </div>
             </div>
@@ -865,7 +905,7 @@
           <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-6 shadow-xl space-y-4">
             <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-700 pb-3">
               <h3 class="font-bold text-base text-slate-900 dark:text-white">Question Grid Nav</h3>
-              <button @click="showPaletteModal = false" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark"></i></button>
+              <button @click="showPaletteModal = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"><i class="fa-solid fa-xmark"></i></button>
             </div>
 
             <div class="grid grid-cols-5 gap-2 max-h-64 overflow-y-auto custom-scrollbar p-1">
@@ -883,10 +923,10 @@
               </button>
             </div>
             
-            <div class="text-xs text-slate-400 flex items-center justify-around pt-2">
-              <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-emerald-200 mr-1"></span> Answered</span>
+            <div class="text-xs text-slate-400 dark:text-slate-500 flex items-center justify-around pt-2">
+              <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-emerald-200 dark:bg-emerald-800 mr-1"></span> Answered</span>
               <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-amber-500 mr-1"></span> Flagged</span>
-              <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-slate-200 mr-1"></span> Unanswered</span>
+              <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-slate-200 dark:bg-slate-700 mr-1"></span> Unanswered</span>
             </div>
           </div>
         </div>
@@ -896,7 +936,7 @@
     </main>
 
     <footer class="bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 py-6 mt-auto">
-      <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-400">
+      <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-400 dark:text-slate-500">
         <p>SQU JCS Finals &bull; Junior Clerkship Written Exam Question Showcase</p>
       </div>
     </footer>
@@ -951,7 +991,7 @@
           setTimeout(() => { toast.value.show = false; }, 4000);
         };
 
-        // Filters: topics/types/cohorts are now arrays to support multi-select
+        // Filters: topics/types/cohorts are arrays to support multi-select
         const filters = ref({
           search: '',
           topics: [],
@@ -961,11 +1001,12 @@
           hideStudied: false
         });
 
+        // Single unified test mode (the old "practice" vs "exam" mode toggle
+        // behaved identically, so it was removed to simplify the setup screen).
         const examConfig = ref({
           numQuestions: '10',
           selectedTopics: [],
-          selectedTypes: [],
-          mode: 'practice'
+          selectedTypes: []
         });
 
         const examState = ref({
@@ -1249,13 +1290,11 @@
           const selected = shuffled.slice(0, Math.min(limit, pool.length));
 
           examState.value = { active: true, questions: selected, currentIndex: 0, userAnswers: {}, flagged: [] };
-          activeTab.value = 'exam';
         };
 
         const endExam = () => {
           if (confirm("Exit test session? Your current test progress will be reset.")) {
             examState.value.active = false;
-            activeTab.value = 'practice';
           }
         };
 
@@ -1298,7 +1337,6 @@
           if (window.confetti) confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
           showToast("Exam session completed!");
           examState.value.active = false;
-          activeTab.value = 'practice';
         };
 
         const getTypeBadgeClass = (type) => {
@@ -1306,7 +1344,7 @@
             case 'MCQ': return 'bg-sky-100 text-sky-800 dark:bg-sky-900/60 dark:text-sky-200';
             case 'EMQ': return 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/60 dark:text-indigo-200';
             case 'SAQ': return 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-200';
-            default: return 'bg-slate-100 text-slate-800';
+            default: return 'bg-slate-100 text-slate-800 dark:bg-slate-700 dark:text-slate-200';
           }
         };
 
