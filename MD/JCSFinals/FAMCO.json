@@ -15,10 +15,10 @@
         "SAQ": 5
       },
       "by_topic": {
-        "derma": 9,
+        "Dermatology": 9,
         "FAMCO": 24,
-        "oral": 4,
-        "psychiatry": 19
+        "Oral Health": 4,
+        "Psychiatry": 19
       },
       "with_images": 5,
       "with_embedded_images": 0,
@@ -33,10 +33,10 @@
         "SAQ": 10
       },
       "by_topic": {
-        "derma": 16,
+        "Dermatology": 16,
         "FAMCO": 44,
-        "oral": 9,
-        "psychiatry": 57
+        "Oral Health": 9,
+        "Psychiatry": 57
       },
       "with_images": 20,
       "with_embedded_images": 20,
@@ -51,10 +51,10 @@
         "SAQ": 6
       },
       "by_topic": {
-        "derma": 9,
+        "Dermatology": 9,
         "FAMCO": 27,
-        "oral": 4,
-        "psychiatry": 17
+        "Oral Health": 4,
+        "Psychiatry": 17
       },
       "with_images": 9,
       "with_embedded_images": 9,
@@ -69,10 +69,10 @@
         "SAQ": 5
       },
       "by_topic": {
-        "derma": 4,
+        "Dermatology": 4,
         "FAMCO": 25,
-        "oral": 3,
-        "psychiatry": 31
+        "Oral Health": 3,
+        "Psychiatry": 31
       },
       "with_images": 2,
       "with_embedded_images": 1,
@@ -586,15 +586,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-e5bb2416",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-e5bb2416",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 2,
@@ -614,15 +614,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-99c516d4",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-99c516d4",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 2,
@@ -642,15 +642,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-2d574996",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-2d574996",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 2,
@@ -670,15 +670,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-cd7a1cb3",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-cd7a1cb3",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": [
@@ -701,15 +701,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-a9837919",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-a9837919",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -729,15 +729,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-752feefc",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-752feefc",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -757,15 +757,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-f76be51b",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-f76be51b",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -785,15 +785,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-2d855334",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-2d855334",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -813,15 +813,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-0cf455c5",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-0cf455c5",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -841,15 +841,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-ea3be044",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-ea3be044",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -869,15 +869,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-a5d98bb6",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-a5d98bb6",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 3,
@@ -897,15 +897,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-99c428a8",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-99c428a8",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": [
@@ -928,15 +928,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-b2e86235",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-b2e86235",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -956,15 +956,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-25b081bf",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-25b081bf",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -984,15 +984,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-MCQ-Ambulatory-eb8ad4a9",
+      "id": "2020-Psychiatry-MCQ-Ambulatory-eb8ad4a9",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1012,15 +1012,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-Ambulatory-56661434",
+      "id": "2020-OralHealth-MCQ-Ambulatory-56661434",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1040,15 +1040,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-4bfef4f7",
+      "id": "2020-Derma-MCQ-Ambulatory-4bfef4f7",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1068,15 +1068,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-Ambulatory-cc977f3a",
+      "id": "2020-OralHealth-MCQ-Ambulatory-cc977f3a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1096,15 +1096,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-1c141eee",
+      "id": "2020-Derma-MCQ-Ambulatory-1c141eee",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1124,15 +1124,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-Ambulatory-72dc9e8c",
+      "id": "2020-OralHealth-MCQ-Ambulatory-72dc9e8c",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1152,15 +1152,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-0d4be93a",
+      "id": "2020-Derma-MCQ-Ambulatory-0d4be93a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 4,
@@ -1208,15 +1208,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-oral-MCQ-Ambulatory-1d46049f",
+      "id": "2020-OralHealth-MCQ-Ambulatory-1d46049f",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1236,15 +1236,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-9a1c264f",
+      "id": "2020-Derma-MCQ-Ambulatory-9a1c264f",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1264,15 +1264,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-a8a9fadf",
+      "id": "2020-Derma-MCQ-Ambulatory-a8a9fadf",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1292,15 +1292,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-ac985f88",
+      "id": "2020-Derma-MCQ-Ambulatory-ac985f88",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1320,15 +1320,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-82ac4620",
+      "id": "2020-Derma-MCQ-Ambulatory-82ac4620",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1348,15 +1348,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-derma-MCQ-Ambulatory-c9a5b9b3",
+      "id": "2020-Derma-MCQ-Ambulatory-c9a5b9b3",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2020",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1466,15 +1466,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-EMQ-Ambulatory-bac26c27",
+      "id": "2020-Psychiatry-EMQ-Ambulatory-bac26c27",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 5,
@@ -1511,15 +1511,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-psychiatry-EMQ-Ambulatory-bebde13a",
+      "id": "2020-Psychiatry-EMQ-Ambulatory-bebde13a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2020",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 6,
@@ -1634,15 +1634,15 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-derma-SAQ-Ambulatory-16e31b8c",
+      "id": "2020-Derma-SAQ-Ambulatory-16e31b8c",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 6,
@@ -1667,15 +1667,15 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-psychiatry-SAQ-Ambulatory-4bce673f",
+      "id": "2020-Psychiatry-SAQ-Ambulatory-4bce673f",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 6,
@@ -1733,15 +1733,15 @@
       "is_modified_q": true
     },
     {
-      "id": "2020-psychiatry-SAQ-Ambulatory-1a8568ac",
+      "id": "2020-Psychiatry-SAQ-Ambulatory-1a8568ac",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2020",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 6,
@@ -2279,15 +2279,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-887ff7ba",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-887ff7ba",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 11,
@@ -2306,15 +2306,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-71462045",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-71462045",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 11,
@@ -2333,15 +2333,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-3d4d5991",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-3d4d5991",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": [
@@ -2363,15 +2363,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-5fad7965",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-5fad7965",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 12,
@@ -2390,15 +2390,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-0f535a99",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-0f535a99",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 12,
@@ -2417,15 +2417,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-2bb71b87",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-2bb71b87",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 12,
@@ -2444,15 +2444,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-4909799c",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-4909799c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": [
@@ -2474,15 +2474,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-84745518",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-84745518",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 13,
@@ -2501,15 +2501,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-eca30c25",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-eca30c25",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 13,
@@ -2528,15 +2528,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-fd5f3c5b",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-fd5f3c5b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 13,
@@ -2555,15 +2555,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-ea8481b9",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-ea8481b9",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 13,
@@ -2582,15 +2582,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-28a45a57",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-28a45a57",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": [
@@ -2612,15 +2612,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-e6b600e9",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-e6b600e9",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 14,
@@ -2639,15 +2639,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-9c184659",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-9c184659",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 14,
@@ -2666,15 +2666,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-70c38f31",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-70c38f31",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 14,
@@ -2693,15 +2693,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-c8da3933",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-c8da3933",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": [
@@ -2723,15 +2723,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-5cf276bc",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-5cf276bc",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 15,
@@ -2750,15 +2750,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-98a713c2",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-98a713c2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 15,
@@ -2777,15 +2777,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-11097315",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-11097315",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 15,
@@ -2804,15 +2804,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-b2106a48",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-b2106a48",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 15,
@@ -2831,15 +2831,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-e7b3206a",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-e7b3206a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 16,
@@ -2858,15 +2858,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-2ca0388a",
+      "id": "2019-Derma-MCQ-Ambulatory-2ca0388a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 16,
@@ -2885,15 +2885,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-f512b0df",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-f512b0df",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 16,
@@ -2912,15 +2912,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-db1746a0",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-db1746a0",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 16,
@@ -2939,15 +2939,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-feae883b",
+      "id": "2019-Derma-MCQ-Ambulatory-feae883b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 17,
@@ -2966,15 +2966,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-70af47de",
+      "id": "2019-Derma-MCQ-Ambulatory-70af47de",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 17,
@@ -2993,15 +2993,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-f5b51a36",
+      "id": "2019-OralHealth-MCQ-Ambulatory-f5b51a36",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 17,
@@ -3020,15 +3020,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-4973382d",
+      "id": "2019-Derma-MCQ-Ambulatory-4973382d",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 17,
@@ -3047,15 +3047,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-5e6627d8",
+      "id": "2019-Derma-MCQ-Ambulatory-5e6627d8",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 17,
@@ -3074,15 +3074,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-38624ce1",
+      "id": "2019-Derma-MCQ-Ambulatory-38624ce1",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 18,
@@ -3101,15 +3101,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-ca92d88c",
+      "id": "2019-OralHealth-MCQ-Ambulatory-ca92d88c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 18,
@@ -3128,15 +3128,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-d76fb0f6",
+      "id": "2019-OralHealth-MCQ-Ambulatory-d76fb0f6",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 18,
@@ -3155,15 +3155,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-aa02c482",
+      "id": "2019-OralHealth-MCQ-Ambulatory-aa02c482",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 18,
@@ -3182,15 +3182,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-7c99c19a",
+      "id": "2019-Derma-MCQ-Ambulatory-7c99c19a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 18,
@@ -3209,15 +3209,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-597c6023",
+      "id": "2019-OralHealth-MCQ-Ambulatory-597c6023",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": [
@@ -3239,15 +3239,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-783352ab",
+      "id": "2019-Derma-MCQ-Ambulatory-783352ab",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 19,
@@ -3266,15 +3266,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-0ea5e843",
+      "id": "2019-Derma-MCQ-Ambulatory-0ea5e843",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 19,
@@ -3293,15 +3293,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-615cca0f",
+      "id": "2019-Derma-MCQ-Ambulatory-615cca0f",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 19,
@@ -3320,15 +3320,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-2456161f",
+      "id": "2019-Derma-MCQ-Ambulatory-2456161f",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 19,
@@ -3347,15 +3347,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-732c113d",
+      "id": "2019-Derma-MCQ-Ambulatory-732c113d",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 19,
@@ -3374,15 +3374,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-Ambulatory-b028e785",
+      "id": "2019-Psychiatry-EMQ-Ambulatory-b028e785",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 20,
@@ -3498,15 +3498,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-SAQ-Ambulatory-df818126",
+      "id": "2019-Derma-SAQ-Ambulatory-df818126",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 21,
@@ -3532,15 +3532,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-Ambulatory-6c397fbc",
+      "id": "2019-Psychiatry-SAQ-Ambulatory-6c397fbc",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 21,
@@ -3603,15 +3603,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-Ambulatory-bea6e301",
+      "id": "2019-Psychiatry-SAQ-Ambulatory-bea6e301",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 22,
@@ -3671,15 +3671,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-adc9979e",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-adc9979e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 51,
@@ -3698,15 +3698,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-caaf42be",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-caaf42be",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 52,
@@ -3725,15 +3725,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-7a57004a",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-7a57004a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 53,
@@ -3752,15 +3752,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-273e0e71",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-273e0e71",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 54,
@@ -3779,15 +3779,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-d2356a8b",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-d2356a8b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 55,
@@ -3806,15 +3806,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-b2d56039",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-b2d56039",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 56,
@@ -3833,15 +3833,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-1ae1c6bb",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-1ae1c6bb",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 57,
@@ -3887,15 +3887,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-8f2ade48",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-8f2ade48",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 59,
@@ -3914,15 +3914,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-ff7b13d2",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-ff7b13d2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 60,
@@ -3968,15 +3968,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-791630c3",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-791630c3",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 62,
@@ -3995,15 +3995,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-bbae36ec",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-bbae36ec",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 63,
@@ -4022,15 +4022,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-a9ec586b",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-a9ec586b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 64,
@@ -4049,15 +4049,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-6139a6de",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-6139a6de",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 65,
@@ -4076,15 +4076,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-cc012b13",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-cc012b13",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 66,
@@ -4103,15 +4103,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-e78cd765",
+      "id": "2019-OralHealth-MCQ-Ambulatory-e78cd765",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 67,
@@ -4130,15 +4130,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-4483af57",
+      "id": "2019-Derma-MCQ-Ambulatory-4483af57",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 68,
@@ -4157,15 +4157,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-MCQ-Ambulatory-c8b53507",
+      "id": "2019-Derma-MCQ-Ambulatory-c8b53507",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 70,
@@ -4268,15 +4268,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-MCQ-Ambulatory-c1896774",
+      "id": "2019-OralHealth-MCQ-Ambulatory-c1896774",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 78,
@@ -4430,15 +4430,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-6709d47e",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-6709d47e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 84,
@@ -4484,15 +4484,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-63b068fd",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-63b068fd",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 86,
@@ -4511,15 +4511,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-67d12363",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-67d12363",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 87,
@@ -4565,15 +4565,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-c635b18b",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-c635b18b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 89,
@@ -4592,15 +4592,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-350718ac",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-350718ac",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 90,
@@ -4673,15 +4673,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-844c9133",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-844c9133",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 93,
@@ -4700,15 +4700,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-f00499c7",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-f00499c7",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 94,
@@ -4754,15 +4754,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-e367d05c",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-e367d05c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 96,
@@ -4781,15 +4781,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-d3422d34",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-d3422d34",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 97,
@@ -4808,15 +4808,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-fa69babe",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-fa69babe",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 98,
@@ -4835,15 +4835,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-cbf3b2d5",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-cbf3b2d5",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 99,
@@ -4943,15 +4943,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-MCQ-Ambulatory-98f26b19",
+      "id": "2019-Psychiatry-MCQ-Ambulatory-98f26b19",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2019",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 103,
@@ -4970,15 +4970,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-oral-EMQ-Ambulatory-492784fc",
+      "id": "2019-OralHealth-EMQ-Ambulatory-492784fc",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": [
@@ -5056,15 +5056,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-Ambulatory-b25be032",
+      "id": "2019-Psychiatry-EMQ-Ambulatory-b25be032",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 109,
@@ -5097,15 +5097,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-Ambulatory-94c4eacd",
+      "id": "2019-Psychiatry-EMQ-Ambulatory-94c4eacd",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 110,
@@ -5167,15 +5167,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-psychiatry-EMQ-Ambulatory-01055ac8",
+      "id": "2019-Psychiatry-EMQ-Ambulatory-01055ac8",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2019",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 112,
@@ -5200,15 +5200,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2019-derma-SAQ-Ambulatory-dc7d799f",
+      "id": "2019-Derma-SAQ-Ambulatory-dc7d799f",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 114,
@@ -5234,15 +5234,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-oral-SAQ-Ambulatory-c15ebd95",
+      "id": "2019-OralHealth-SAQ-Ambulatory-c15ebd95",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": [
@@ -5301,15 +5301,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-Ambulatory-6dcef7c2",
+      "id": "2019-Psychiatry-SAQ-Ambulatory-6dcef7c2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 118,
@@ -5339,15 +5339,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2019-psychiatry-SAQ-Ambulatory-bf1fa716",
+      "id": "2019-Psychiatry-SAQ-Ambulatory-bf1fa716",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2019",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 119,
@@ -5423,15 +5423,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-85979799",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-85979799",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 23,
@@ -5450,15 +5450,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-cfdfbcd9",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-cfdfbcd9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 23,
@@ -5477,15 +5477,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-e0d234c8",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-e0d234c8",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 23,
@@ -5504,15 +5504,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-e4e9fac2",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-e4e9fac2",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 23,
@@ -5531,15 +5531,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-Ambulatory-70601957",
+      "id": "2018-OralHealth-MCQ-Ambulatory-70601957",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 23,
@@ -5612,15 +5612,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-48cb2340",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-48cb2340",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 24,
@@ -5639,15 +5639,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-4124b041",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-4124b041",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 24,
@@ -5666,15 +5666,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-Ambulatory-70c202a8",
+      "id": "2018-OralHealth-MCQ-Ambulatory-70c202a8",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 24,
@@ -5693,15 +5693,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-185b3a11",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-185b3a11",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 24,
@@ -5828,15 +5828,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-dac899f9",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-dac899f9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 25,
@@ -5855,15 +5855,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-2b4ad95a",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-2b4ad95a",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 25,
@@ -5936,15 +5936,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-b2a6c318",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-b2a6c318",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 26,
@@ -6152,15 +6152,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-526dbaa9",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-526dbaa9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 27,
@@ -6260,15 +6260,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-77e3a6ab",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-77e3a6ab",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 28,
@@ -6287,15 +6287,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-MCQ-Ambulatory-9ef54a76",
+      "id": "2018-Psychiatry-MCQ-Ambulatory-9ef54a76",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 28,
@@ -6395,15 +6395,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-c9d035a9",
+      "id": "2018-Derma-MCQ-Ambulatory-c9d035a9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 29,
@@ -6422,15 +6422,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-8dd888f3",
+      "id": "2018-Derma-MCQ-Ambulatory-8dd888f3",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 29,
@@ -6449,15 +6449,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-ad5e14f0",
+      "id": "2018-Derma-MCQ-Ambulatory-ad5e14f0",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 30,
@@ -6476,15 +6476,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-98ca3abd",
+      "id": "2018-Derma-MCQ-Ambulatory-98ca3abd",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 30,
@@ -6503,15 +6503,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-ae2572ef",
+      "id": "2018-Derma-MCQ-Ambulatory-ae2572ef",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 31,
@@ -6530,15 +6530,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-3cb608fd",
+      "id": "2018-Derma-MCQ-Ambulatory-3cb608fd",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 31,
@@ -6557,15 +6557,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-derma-MCQ-Ambulatory-061ec58a",
+      "id": "2018-Derma-MCQ-Ambulatory-061ec58a",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 31,
@@ -6584,15 +6584,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-Ambulatory-1e31ccb5",
+      "id": "2018-OralHealth-MCQ-Ambulatory-1e31ccb5",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 32,
@@ -6611,15 +6611,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-oral-MCQ-Ambulatory-a2438c0f",
+      "id": "2018-OralHealth-MCQ-Ambulatory-a2438c0f",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2018",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 32,
@@ -6638,15 +6638,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-EMQ-Ambulatory-9250d9ec",
+      "id": "2018-Psychiatry-EMQ-Ambulatory-9250d9ec",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2018",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 33,
@@ -6683,15 +6683,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-EMQ-Ambulatory-387c45ec",
+      "id": "2018-Psychiatry-EMQ-Ambulatory-387c45ec",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2018",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 33,
@@ -6822,15 +6822,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2018-psychiatry-SAQ-Ambulatory-7e229d26",
+      "id": "2018-Psychiatry-SAQ-Ambulatory-7e229d26",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 34,
@@ -6856,15 +6856,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-psychiatry-SAQ-Ambulatory-20659b94",
+      "id": "2018-Psychiatry-SAQ-Ambulatory-20659b94",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 34,
@@ -6890,15 +6890,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-derma-SAQ-Ambulatory-51ef13aa",
+      "id": "2018-Derma-SAQ-Ambulatory-51ef13aa",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 34,
@@ -6924,15 +6924,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2018-derma-SAQ-Ambulatory-48dd363d",
+      "id": "2018-Derma-SAQ-Ambulatory-48dd363d",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "SAQ",
       "tags": [
         "2018",
         "SAQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 34,
@@ -7720,15 +7720,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-MCQ-Ambulatory-de9ded57",
+      "id": "2017-Derma-MCQ-Ambulatory-de9ded57",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 40,
@@ -7754,15 +7754,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-MCQ-Ambulatory-313fd6f5",
+      "id": "2017-Derma-MCQ-Ambulatory-313fd6f5",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 40,
@@ -7785,15 +7785,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-MCQ-Ambulatory-86c51570",
+      "id": "2017-Derma-MCQ-Ambulatory-86c51570",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 40,
@@ -7814,15 +7814,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-03515ff9",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-03515ff9",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 40,
@@ -7843,15 +7843,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-aef9e0d3",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-aef9e0d3",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 40,
@@ -7876,15 +7876,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-5af7002d",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-5af7002d",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 40,
@@ -7909,15 +7909,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-04b5ec2d",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-04b5ec2d",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 41,
@@ -7942,15 +7942,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-fbd67be9",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-fbd67be9",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 41,
@@ -7971,15 +7971,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-6809f7cf",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-6809f7cf",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 41,
@@ -8005,15 +8005,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-342ea25c",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-342ea25c",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 41,
@@ -8037,15 +8037,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-0a8bb6de",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-0a8bb6de",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 41,
@@ -8070,15 +8070,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-99e911d2",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-99e911d2",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 42,
@@ -8103,15 +8103,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-e585f5bd",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-e585f5bd",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 42,
@@ -8136,15 +8136,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-6e8fce5c",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-6e8fce5c",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 42,
@@ -8170,15 +8170,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-b7c45f6f",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-b7c45f6f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 42,
@@ -8205,15 +8205,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-13cc07cb",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-13cc07cb",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 43,
@@ -8238,15 +8238,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-b6c88dab",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-b6c88dab",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 43,
@@ -8272,15 +8272,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-e1b584a6",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-e1b584a6",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 43,
@@ -8305,15 +8305,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-fe8288cd",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-fe8288cd",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 43,
@@ -8337,15 +8337,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-c0fe2f99",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-c0fe2f99",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 44,
@@ -8369,15 +8369,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-baf84187",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-baf84187",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 44,
@@ -8402,15 +8402,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-d5e60f32",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-d5e60f32",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 44,
@@ -8433,15 +8433,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-519f60bb",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-519f60bb",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 44,
@@ -8467,15 +8467,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-4bbc885f",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-4bbc885f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 44,
@@ -8500,15 +8500,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-734be3b4",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-734be3b4",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8533,15 +8533,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-a73926ef",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-a73926ef",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8565,15 +8565,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-0f13bbd7",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-0f13bbd7",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8594,15 +8594,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-348b38a0",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-348b38a0",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8628,15 +8628,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-2aec0ab7",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-2aec0ab7",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8657,15 +8657,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-MCQ-Ambulatory-f3534a5c",
+      "id": "2017-Psychiatry-MCQ-Ambulatory-f3534a5c",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8686,15 +8686,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-oral-MCQ-Ambulatory-f919e2bd",
+      "id": "2017-OralHealth-MCQ-Ambulatory-f919e2bd",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 45,
@@ -8719,15 +8719,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-oral-MCQ-Ambulatory-158add36",
+      "id": "2017-OralHealth-MCQ-Ambulatory-158add36",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "MCQ",
       "tags": [
         "2017",
         "MCQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 46,
@@ -8748,15 +8748,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-EMQ-Ambulatory-a829faff",
+      "id": "2017-Psychiatry-EMQ-Ambulatory-a829faff",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 46,
@@ -8794,15 +8794,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-psychiatry-EMQ-Ambulatory-77ce978a",
+      "id": "2017-Psychiatry-EMQ-Ambulatory-77ce978a",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 46,
@@ -8840,15 +8840,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-oral-EMQ-Ambulatory-8f2f8fa3",
+      "id": "2017-OralHealth-EMQ-Ambulatory-8f2f8fa3",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "oral",
+      "topic": "Oral Health",
       "type": "EMQ",
       "tags": [
         "2017",
         "EMQ",
-        "oral",
+        "Oral Health",
         "Ambulatory"
       ],
       "source_page": 46,
@@ -8978,15 +8978,15 @@
       "is_modified_a": true
     },
     {
-      "id": "2017-derma-SAQ-Ambulatory-310b1dc0",
+      "id": "2017-Derma-SAQ-Ambulatory-310b1dc0",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "derma",
+      "topic": "Dermatology",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
-        "derma",
+        "Dermatology",
         "Ambulatory"
       ],
       "source_page": 47,
@@ -9084,15 +9084,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-psychiatry-SAQ-Ambulatory-ac96d0fe",
+      "id": "2017-Psychiatry-SAQ-Ambulatory-ac96d0fe",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 48,
@@ -9119,15 +9119,15 @@
       "is_modified_a": false
     },
     {
-      "id": "2017-psychiatry-SAQ-Ambulatory-3049c047",
+      "id": "2017-Psychiatry-SAQ-Ambulatory-3049c047",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "psychiatry",
+      "topic": "Psychiatry",
       "type": "SAQ",
       "tags": [
         "2017",
         "SAQ",
-        "psychiatry",
+        "Psychiatry",
         "Ambulatory"
       ],
       "source_page": 48,
