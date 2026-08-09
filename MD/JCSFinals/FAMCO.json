@@ -1402,15 +1402,15 @@
           "question": "Which is the most likely diagnosis?"
         },
         {
-          "scenario": "A 19-year-old woman is found to have persistent fasting hyperglycemia during a routine medical examination. Her BMI is 21 kg/m², and she has no symptoms of polyuria or polydipsia. Her father and several other relatives have had mild diabetes diagnosed at a young age. She has never required insulin, and testing shows preserved C-peptide levels with negative pancreatic autoantibodies. Genetic testing identifies a mutation affecting pancreatic β-cell glucose sensing."
+          "scenario": "A 19-year-old woman is found to have persistent fasting hyperglycemia during a routine medical examination. Her BMI is 21 kg/m², and she has no symptoms of polyuria or polydipsia. Her father and several other relatives have had mild diabetes diagnosed at a young age. She has never required insulin, and testing shows preserved C-peptide levels with negative pancreatic autoantibodies. Genetic testing identifies a mutation affecting pancreatic β-cell glucose sensing.",
           "question": "Which is the most likely diagnosis?"
         },
         {
-          "scenario": "A 32-year-old woman develops diabetes at age 29. She has a BMI of 22 kg/m² and initially responds well to metformin. Over the next 2 years, her glycemic control deteriorates despite adherence to treatment, and she eventually requires insulin. Testing reveals positive anti-GAD antibodies and progressively declining C-peptide levels. She has no history of diabetic ketoacidosis."
+          "scenario": "A 32-year-old woman develops diabetes at age 29. She has a BMI of 22 kg/m² and initially responds well to metformin. Over the next 2 years, her glycemic control deteriorates despite adherence to treatment, and she eventually requires insulin. Testing reveals positive anti-GAD antibodies and progressively declining C-peptide levels. She has no history of diabetic ketoacidosis.",
           "question": "Which is the most likely diagnosis?"
         },
         {
-          "scenario": "A 46-year-old man presents for a routine health examination. He has a BMI of 32 kg/m², hypertension, and dyslipidemia. He reports a sedentary lifestyle and a diet high in processed carbohydrates. His fasting plasma glucose is 9.8 mmol/L and HbA1c is 8.1%. Anti-GAD antibodies are negative, and C-peptide is elevated. His mother and older brother both have diabetes diagnosed in adulthood."
+          "scenario": "A 46-year-old man presents for a routine health examination. He has a BMI of 32 kg/m², hypertension, and dyslipidemia. He reports a sedentary lifestyle and a diet high in processed carbohydrates. His fasting plasma glucose is 9.8 mmol/L and HbA1c is 8.1%. Anti-GAD antibodies are negative, and C-peptide is elevated. His mother and older brother both have diabetes diagnosed in adulthood.",
           "question": "Which is the most likely diagnosis?"
         }
       ],
