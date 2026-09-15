@@ -136,7 +136,8 @@
             <a href="https://drive.google.com/drive/u/0/mobile/folders/1PjcYEVFbObsF7TZY9oOowpWxzkfJmAmj/140DFwbmHyD1uN1WMy2zI9ZNcnSkM5g36/1eOjO-6S_HCwuDuVCbUzRO04h8l5XeHgO?sort=13&direction=a" target="_blank" class="text-brand-600 dark:text-brand-400 underline font-medium">Google Drive folder</a>,
             if you'd like to cross-check anything against the source.
           </p>
-          <p>A number of questions were incomplete, poorly formatted, or missing options in the originals. These were reconstructed to read as complete questions while keeping the original intent, any question that was touched up this way has a <strong>"Show Source"</strong> button so you can compare it with the raw extracted text.</p>
+          <p>A number of questions were incomplete, poorly formatted, or missing options in the originals. These were reconstructed to read as complete questions while keeping the original intent, use <strong>"Show Source"</strong> to compare questions with the original extracted text where available.</p>
+          <p> In MCQs with incomplete choices, new options may have been added to complete a full set of 5 options. You can see the original options by showing the source.</p>
           <p>Answers and notes from the original sources were intentionally left out.</p>
           <p>An AI assistant helped extract, clean up, and organize this data. It was instructed to preserve the original content as faithfully as possible, but mistakes can slip through, especially in questions with images, so keep that in mind :)</p>
         </div>
@@ -146,7 +147,7 @@
             <span>Don't show this again</span>
           </label>
           <button @click="closeIntroModal" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md transition">
-            Got it, let's go
+            Got it
           </button>
         </div>
       </div>
@@ -161,10 +162,11 @@
         </div>
         <div class="text-xs bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-200 rounded-lg p-3">
           <i class="fa-solid fa-triangle-exclamation mr-1.5"></i>
-          This question was modified/reconstructed because the original was incomplete, missing options, or unclear. The version below is the original extracted text, preserved as-is for reference.
+          <span v-if="sourceModal.content">This question was modified/reconstructed because the original was incomplete, missing options, or unclear. The version below is the original extracted text, preserved as-is for reference.</span>
+          <span v-else>The question wording has not been modified and is written as-is from the source. However, new choices may have been added to complete a full set of 5 options. No separate source text is stored for this question; check the original exam files linked in the introduction to verify the original options.</span>
         </div>
-        <div class="text-sm text-slate-700 dark:text-slate-300 whitespace-pre-wrap font-mono bg-slate-50 dark:bg-slate-900/50 rounded-xl p-4 border border-slate-200 dark:border-slate-700">
-          {{ sourceModal.content || 'No original source text available for this question.' }}
+        <div v-if="sourceModal.content" class="text-sm text-slate-700 dark:text-slate-300 whitespace-pre-wrap font-mono bg-slate-50 dark:bg-slate-900/50 rounded-xl p-4 border border-slate-200 dark:border-slate-700">
+          {{ sourceModal.content }}
         </div>
       </div>
     </div>
@@ -208,9 +210,6 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         
         <div class="flex items-center space-x-3 cursor-pointer" @click="activeTab = 'library'">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center text-white shadow-md">
-            <i class="fa-solid fa-notes-medical text-xl"></i>
-          </div>
           <div>
             <h1 class="font-bold text-lg leading-tight tracking-tight text-slate-900 dark:text-white">JCS Finals Collection</h1>
           </div>
@@ -249,7 +248,7 @@
             ]"
             class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
             <i class="fa-solid fa-graduation-cap"></i>
-            <span>Exam Mode</span>
+            <span>Practice</span>
           </button>
         </nav>
 
@@ -293,7 +292,7 @@
         :disabled="!questions.length" 
         :class="activeTab==='practice' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
         class="flex flex-col items-center text-xs transition-colors disabled:opacity-40">
-        <i class="fa-solid fa-graduation-cap text-base mb-0.5"></i> Exam
+        <i class="fa-solid fa-graduation-cap text-base mb-0.5"></i> Practice
       </button>
     </div>
 
@@ -693,11 +692,9 @@
         
         <div v-if="!examState.active" class="max-w-2xl mx-auto bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-6">
           <div class="text-center space-y-2">
-            <div class="w-12 h-12 rounded-2xl bg-brand-100 dark:bg-brand-900/50 text-brand-600 dark:text-brand-300 mx-auto flex items-center justify-center text-xl">
-              <i class="fa-solid fa-sliders"></i>
-            </div>
-            <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Exam Setup</h2>
-            <p class="text-sm text-slate-500 dark:text-slate-400">Configure your custom practice test session</p>
+            <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Practice Setup</h2>
+            <p class="text-sm text-slate-500 dark:text-slate-400">Configure your custom practice session</p>
+            <p class="text-sm text-slate-600 dark:text-slate-300">This mode is meant for reviewing questions. No correct answers or answer key are provided, and your responses are not graded.</p>
           </div>
 
           <div class="space-y-4 pt-2">
@@ -743,7 +740,7 @@
               <button 
                 @click="startExam" 
                 class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-base shadow-lg shadow-brand-500/25 transition">
-                Start Test Session &rarr;
+                Start Practice Session &rarr;
               </button>
             </div>
           </div>
@@ -875,6 +872,12 @@
               </div>
             </div>
 
+            <div class="pt-2">
+              <button @click="openSourceModal(currentExamQuestion)" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition">
+                <i class="fa-solid fa-clock-rotate-left mr-1"></i> Show Source
+              </button>
+            </div>
+
             <div class="flex items-center justify-between pt-6 border-t border-slate-100 dark:border-slate-700/60">
               <button 
                 @click="examState.currentIndex--" 
@@ -894,7 +897,7 @@
                 v-else
                 @click="finishExam" 
                 class="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-lg shadow-emerald-600/20 transition">
-                Complete Test
+                Complete Practice
               </button>
             </div>
 
@@ -944,7 +947,7 @@
   </div>
 
   <script>
-    const { createApp, ref, computed, onMounted, watch } = Vue;
+    const { createApp, ref, computed, onMounted, onUnmounted, nextTick, watch } = Vue;
 
     const DATASETS = [
       { name: 'FAMCO', url: 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/FAMCO.json' },
@@ -1017,6 +1020,81 @@
           flagged: []
         });
 
+        // One reusable Back guard, with no history of visited tabs or questions.
+        // Back dismisses overlays, exits a session, clears Browse filters, then
+        // returns home. At home the guard is removed so native Back can leave.
+        const navigationScope = `${Date.now()}-${Math.random()}`;
+        let navigationReady = false;
+        let removingBackGuard = false;
+        let handlingBack = false;
+        const hasOpenOverlay = () => showIntroModal.value || sourceModal.value.show
+          || exportModal.value.show || showPaletteModal.value || !!openFilterDropdown.value;
+        const needsBackGuard = () => hasOpenOverlay() || activeTab.value !== 'library';
+        const syncBackGuard = () => {
+          if (!navigationReady || removingBackGuard || handlingBack) return;
+          const state = history.state;
+          if (state?.jcsNavigation !== navigationScope) return;
+          if (needsBackGuard() && state.jcsLayer === 'base') {
+            history.pushState({ ...state, jcsLayer: 'guard' }, '');
+          } else if (!needsBackGuard() && state.jcsLayer === 'guard') {
+            removingBackGuard = true;
+            history.back();
+          }
+        };
+        const handleAppBack = () => {
+          if (sourceModal.value.show) sourceModal.value.show = false;
+          else if (exportModal.value.show) exportModal.value.show = false;
+          else if (showIntroModal.value) closeIntroModal();
+          else if (showPaletteModal.value) showPaletteModal.value = false;
+          else if (openFilterDropdown.value) openFilterDropdown.value = null;
+          else if (activeTab.value === 'practice' && examState.value.active) {
+            examState.value = { active: false, questions: [], currentIndex: 0, userAnswers: {}, flagged: [] };
+          } else if (activeTab.value === 'browse' && hasActiveFilters.value) {
+            resetFilters();
+            currentPage.value = 1;
+          } else if (activeTab.value !== 'library') {
+            activeTab.value = 'library';
+            window.scrollTo({ top: 0, behavior: 'instant' });
+          }
+        };
+        const handlePopState = async (event) => {
+          if (event.state?.jcsNavigation !== navigationScope) return;
+          if (removingBackGuard) {
+            removingBackGuard = false;
+            syncBackGuard();
+            return;
+          }
+          if (event.state.jcsLayer === 'guard') {
+            // Forward never restores an old screen or practice session.
+            syncBackGuard();
+            return;
+          }
+          handlingBack = true;
+          handleAppBack();
+          await nextTick();
+          handlingBack = false;
+          syncBackGuard();
+        };
+        const handleNavigationKey = (event) => {
+          if (event.key === 'Escape' && hasOpenOverlay() && !removingBackGuard && !handlingBack) {
+            event.preventDefault();
+            history.back();
+          }
+        };
+        const initializeNavigation = () => {
+          history.replaceState({ ...history.state, jcsNavigation: navigationScope, jcsLayer: 'base' }, '');
+          navigationReady = true;
+          window.addEventListener('popstate', handlePopState);
+          document.addEventListener('keydown', handleNavigationKey);
+          syncBackGuard();
+        };
+        watch(needsBackGuard, syncBackGuard, { flush: 'post' });
+        onUnmounted(() => {
+          window.removeEventListener('popstate', handlePopState);
+          document.removeEventListener('keydown', handleNavigationKey);
+          document.removeEventListener('click', handleGlobalClick);
+        });
+
         // Splits a possibly pipe-delimited img_src string ("data:...|data:...")
         // into a clean array of individual image source strings, trimmed of
         // any stray whitespace/newlines that may surround the "|" separator.
@@ -1029,6 +1107,7 @@
         };
 
         onMounted(() => {
+          initializeNavigation();
           const savedBookmarks = localStorage.getItem('jcs_bookmarks');
           if (savedBookmarks) { try { bookmarks.value = JSON.parse(savedBookmarks); } catch(e){} }
 
@@ -1236,7 +1315,7 @@
         const markStudied = (id) => { if (!studied.value.includes(id)) studied.value.push(id); };
 
         const openSourceModal = (q) => {
-          sourceModal.value = { show: true, content: q.source };
+          sourceModal.value = { show: true, content: typeof q.source === 'string' ? q.source.trim() : '' };
         };
 
         // Build plain text representation of a question (used for copy & google search)
@@ -1281,7 +1360,7 @@
           if (examConfig.value.selectedTypes.length) pool = pool.filter(q => examConfig.value.selectedTypes.includes(q.type));
 
           if (!pool.length) {
-            showToast("No questions match your criteria for exam.", true);
+            showToast("No questions match your criteria for practice.", true);
             return;
           }
 
@@ -1293,7 +1372,7 @@
         };
 
         const endExam = () => {
-          if (confirm("Exit test session? Your current test progress will be reset.")) {
+          if (confirm("Exit practice session? Your current practice progress will be reset.")) {
             examState.value.active = false;
           }
         };
@@ -1335,7 +1414,7 @@
 
         const finishExam = () => {
           if (window.confetti) confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
-          showToast("Exam session completed!");
+          showToast("Practice session completed!");
           examState.value.active = false;
         };
 
