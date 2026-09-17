@@ -1019,25 +1019,39 @@
           flagged: []
         });
 
-        // One reusable Back guard, with no history of visited tabs or questions.
-        // Back dismisses overlays, exits a session or clears Browse filters, then
-        // returns to Library. Only Back from Library can leave.
+        // Build the Back steps during app interaction, before Back is pressed.
+        // Never pushState from popstate: browsers may skip those new entries.
         const navigationScope = `${Date.now()}-${Math.random()}`;
         let navigationReady = false;
-        let removingBackGuard = false;
+        let movingHistory = false;
         let handlingBack = false;
+        let historyDepth = 0;
+        let highestHistoryDepth = 0;
+        let stopNavigationWatch;
         const hasOpenOverlay = () => showIntroModal.value || sourceModal.value.show
           || exportModal.value.show || showPaletteModal.value || !!openFilterDropdown.value;
-        const needsBackGuard = () => hasOpenOverlay() || activeTab.value !== 'library';
-        const syncBackGuard = () => {
-          if (!navigationReady || removingBackGuard || handlingBack) return;
-          const state = history.state;
-          if (state?.jcsNavigation !== navigationScope) return;
-          if (needsBackGuard() && state.jcsLayer === 'base') {
-            history.pushState({ ...state, jcsLayer: 'guard' }, '');
-          } else if (!needsBackGuard() && state.jcsLayer === 'guard') {
-            removingBackGuard = true;
-            history.back();
+        const getNavigationDepth = () => {
+          const tabDepth = activeTab.value === 'library' ? 0 : 1;
+          const detailDepth = (activeTab.value === 'browse' && !!hasActiveFilters.value)
+            || (activeTab.value === 'practice' && examState.value.active) ? 1 : 0;
+          const overlayDepth = [sourceModal.value.show, exportModal.value.show,
+            showIntroModal.value, showPaletteModal.value, !!openFilterDropdown.value]
+            .filter(Boolean).length;
+          return tabDepth + detailDepth + overlayDepth;
+        };
+        const syncNavigation = () => {
+          if (!navigationReady || movingHistory || handlingBack) return;
+          const depth = getNavigationDepth();
+          if (depth < historyDepth) {
+            movingHistory = true;
+            history.go(depth - historyDepth);
+          } else {
+            while (historyDepth < depth) {
+              historyDepth += 1;
+              history.pushState({ ...history.state, jcsNavigation: navigationScope,
+                jcsDepth: historyDepth }, '');
+              highestHistoryDepth = historyDepth;
+            }
           }
         };
         const handleAppBack = () => {
@@ -1058,36 +1072,47 @@
         };
         const handlePopState = (event) => {
           if (event.state?.jcsNavigation !== navigationScope) return;
-          if (removingBackGuard) {
-            removingBackGuard = false;
-            syncBackGuard();
-            return;
-          }
-          if (event.state.jcsLayer === 'guard') {
-            // Forward never restores an old screen or practice session.
-            syncBackGuard();
+          historyDepth = event.state.jcsDepth;
+          if (movingHistory) {
+            // A tab button or close/reset control already changed the screen.
+            // If another control was used while traversal was pending, move
+            // through the existing entries; do not create entries here.
+            const target = Math.min(getNavigationDepth(), highestHistoryDepth);
+            if (target !== historyDepth) {
+              history.go(target - historyDepth);
+              return;
+            }
+            movingHistory = false;
             return;
           }
           handlingBack = true;
-          handleAppBack();
-          handlingBack = false;
-          syncBackGuard();
+          try {
+            // Consume only the steps represented by this traversal. A normal
+            // Back clears filters/exits practice, then the next reaches Library.
+            while (getNavigationDepth() > historyDepth) handleAppBack();
+          } finally {
+            handlingBack = false;
+          }
+          // Forward does not resurrect dismissed overlays, filters or sessions.
+          // The next user interaction synchronizes any remaining stale entries.
         };
         const handleNavigationKey = (event) => {
-          if (event.key === 'Escape' && hasOpenOverlay() && !removingBackGuard && !handlingBack) {
+          if (event.key === 'Escape' && hasOpenOverlay() && !movingHistory && !handlingBack) {
             event.preventDefault();
             history.back();
           }
         };
         const initializeNavigation = () => {
-          history.replaceState({ ...history.state, jcsNavigation: navigationScope, jcsLayer: 'base' }, '');
+          history.replaceState({ ...history.state, jcsNavigation: navigationScope, jcsDepth: 0 }, '');
           navigationReady = true;
           window.addEventListener('popstate', handlePopState);
           document.addEventListener('keydown', handleNavigationKey);
-          syncBackGuard();
+          // Initialize after setup, when hasActiveFilters and resetFilters exist.
+          stopNavigationWatch = watch(getNavigationDepth, syncNavigation, { flush: 'sync' });
+          syncNavigation();
         };
-        watch(needsBackGuard, syncBackGuard, { flush: 'sync' });
         onUnmounted(() => {
+          if (stopNavigationWatch) stopNavigationWatch();
           window.removeEventListener('popstate', handlePopState);
           document.removeEventListener('keydown', handleNavigationKey);
           document.removeEventListener('click', handleGlobalClick);
