@@ -136,10 +136,9 @@
             <a href="https://drive.google.com/drive/u/0/mobile/folders/1PjcYEVFbObsF7TZY9oOowpWxzkfJmAmj/140DFwbmHyD1uN1WMy2zI9ZNcnSkM5g36/1eOjO-6S_HCwuDuVCbUzRO04h8l5XeHgO?sort=13&direction=a" target="_blank" class="text-brand-600 dark:text-brand-400 underline font-medium">Google Drive folder</a>,
             if you'd like to cross-check anything against the source.
           </p>
-          <p>A number of questions were incomplete, poorly formatted, or missing options in the originals. These were reconstructed to read as complete questions while keeping the original intent, use <strong>"Show Source"</strong> to compare questions with the original extracted text where available.</p>
+          <p>A number of questions were incomplete, poorly formatted, or missing options in the original documents. These were reconstructed to read as complete questions while keeping the original intent, use <strong>"Show Source"</strong> to compare questions with the original extracted text where available.</p>
           <p> In MCQs with incomplete choices, new options may have been added to complete a full set of 5 options. You can see the original options by showing the source.</p>
           <p>Answers and notes from the original sources were intentionally left out.</p>
-          <p>An AI assistant helped extract, clean up, and organize this data. It was instructed to preserve the original content as faithfully as possible, but mistakes can slip through, especially in questions with images, so keep that in mind :)</p>
         </div>
         <div class="pt-2 flex items-center justify-between">
           <label class="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400 cursor-pointer">
@@ -162,8 +161,8 @@
         </div>
         <div class="text-xs bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-amber-800 dark:text-amber-200 rounded-lg p-3">
           <i class="fa-solid fa-triangle-exclamation mr-1.5"></i>
-          <span v-if="sourceModal.content">This question was modified/reconstructed because the original was incomplete, missing options, or unclear. The version below is the original extracted text, preserved as-is for reference.</span>
-          <span v-else>The question wording has not been modified and is written as-is from the source. However, new choices may have been added to complete a full set of 5 options. No separate source text is stored for this question; check the original exam files linked in the introduction to verify the original options.</span>
+          <span v-if="sourceModal.content">The version below is the original extracted text, preserved as-is for reference.</span>
+          <span v-else>The wording of this question has not been modified and is written as-is from the source. However, new choices may have been added to complete a full set of 5 options.</span>
         </div>
         <div v-if="sourceModal.content" class="text-sm text-slate-700 dark:text-slate-300 whitespace-pre-wrap font-mono bg-slate-50 dark:bg-slate-900/50 rounded-xl p-4 border border-slate-200 dark:border-slate-700">
           {{ sourceModal.content }}
