@@ -1020,8 +1020,8 @@
         });
 
         // One reusable Back guard, with no history of visited tabs or questions.
-        // Back dismisses overlays, exits a session, clears Browse filters, then
-        // returns home. At home the guard is removed so native Back can leave.
+        // Back dismisses overlays, then returns to Library without changing
+        // filters or practice progress. Only Back from Library can leave.
         const navigationScope = `${Date.now()}-${Math.random()}`;
         let navigationReady = false;
         let removingBackGuard = false;
@@ -1046,17 +1046,12 @@
           else if (showIntroModal.value) closeIntroModal();
           else if (showPaletteModal.value) showPaletteModal.value = false;
           else if (openFilterDropdown.value) openFilterDropdown.value = null;
-          else if (activeTab.value === 'practice' && examState.value.active) {
-            examState.value = { active: false, questions: [], currentIndex: 0, userAnswers: {}, flagged: [] };
-          } else if (activeTab.value === 'browse' && hasActiveFilters.value) {
-            resetFilters();
-            currentPage.value = 1;
-          } else if (activeTab.value !== 'library') {
+          else if (activeTab.value !== 'library') {
             activeTab.value = 'library';
             window.scrollTo({ top: 0, behavior: 'instant' });
           }
         };
-        const handlePopState = async (event) => {
+        const handlePopState = (event) => {
           if (event.state?.jcsNavigation !== navigationScope) return;
           if (removingBackGuard) {
             removingBackGuard = false;
@@ -1070,7 +1065,6 @@
           }
           handlingBack = true;
           handleAppBack();
-          await nextTick();
           handlingBack = false;
           syncBackGuard();
         };
@@ -1087,7 +1081,7 @@
           document.addEventListener('keydown', handleNavigationKey);
           syncBackGuard();
         };
-        watch(needsBackGuard, syncBackGuard, { flush: 'post' });
+        watch(needsBackGuard, syncBackGuard, { flush: 'sync' });
         onUnmounted(() => {
           window.removeEventListener('popstate', handlePopState);
           document.removeEventListener('keydown', handleNavigationKey);
