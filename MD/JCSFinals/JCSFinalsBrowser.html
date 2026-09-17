@@ -1020,8 +1020,8 @@
         });
 
         // One reusable Back guard, with no history of visited tabs or questions.
-        // Back dismisses overlays, then returns to Library without changing
-        // filters or practice progress. Only Back from Library can leave.
+        // Back dismisses overlays, exits a session or clears Browse filters, then
+        // returns to Library. Only Back from Library can leave.
         const navigationScope = `${Date.now()}-${Math.random()}`;
         let navigationReady = false;
         let removingBackGuard = false;
@@ -1046,7 +1046,12 @@
           else if (showIntroModal.value) closeIntroModal();
           else if (showPaletteModal.value) showPaletteModal.value = false;
           else if (openFilterDropdown.value) openFilterDropdown.value = null;
-          else if (activeTab.value !== 'library') {
+          else if (activeTab.value === 'practice' && examState.value.active) {
+            examState.value = { active: false, questions: [], currentIndex: 0, userAnswers: {}, flagged: [] };
+          } else if (activeTab.value === 'browse' && hasActiveFilters.value) {
+            resetFilters();
+            currentPage.value = 1;
+          } else if (activeTab.value !== 'library') {
             activeTab.value = 'library';
             window.scrollTo({ top: 0, behavior: 'instant' });
           }
