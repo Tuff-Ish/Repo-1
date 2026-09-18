@@ -267,6 +267,21 @@
             <i class="fa-solid fa-graduation-cap"></i>
             <span>Practice</span>
           </button>
+
+          <!-- SEPARATE MED TAB BUTTON -->
+          <button 
+            @click="activeTab = 'med'"
+            :class="activeTab === 'med' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'"
+            class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
+            <i class="fa-solid fa-notes-medical"></i>
+            <span>MED</span>
+            <span v-if="loadingMed" class="ml-1.5 text-xs text-amber-500">
+              <i class="fa-solid fa-spinner fa-spin"></i>
+            </span>
+            <span v-else-if="medQuestions.length" class="ml-1.5 px-2 py-0.5 text-xs rounded-full bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 font-semibold">
+              {{ medQuestions.length }}
+            </span>
+          </button>
         </nav>
 
         <div class="flex items-center space-x-2">
@@ -311,6 +326,18 @@
         class="flex flex-col items-center text-xs transition-colors disabled:opacity-40">
         <i class="fa-solid fa-graduation-cap text-base mb-0.5"></i> Practice
       </button>
+      <button 
+        @click="activeTab = 'med'" 
+        :class="activeTab==='med' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
+        class="flex flex-col items-center text-xs transition-colors">
+        <span class="relative mb-0.5">
+          <i class="fa-solid fa-notes-medical text-base"></i>
+          <span v-if="loadingMed" class="absolute -top-1 -right-2 text-[10px] text-amber-500">
+            <i class="fa-solid fa-spinner fa-spin"></i>
+          </span>
+        </span>
+        MED
+      </button>
     </div>
 
     <!-- MAIN CONTAINER -->
@@ -333,7 +360,7 @@
 
         <div v-if="loadingDatasets" class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-10 text-center shadow-sm">
           <i class="fa-solid fa-spinner fa-spin text-3xl text-brand-600 mb-3"></i>
-          <p class="text-sm text-slate-500 dark:text-slate-400">Loading question databases (FAMCO, Medicine, Surgery)...</p>
+          <p class="text-sm text-slate-500 dark:text-slate-400">Loading main question databases (FAMCO, Medicine, Surgery)...</p>
         </div>
 
         <div v-if="questions.length" class="space-y-6">
@@ -347,10 +374,10 @@
             </button>
           </div>
 
-          <!-- Stats: Total on top, Topics + Cohorts below (content centered) -->
+          <!-- Stats: Total on top, Topics + Cohorts below -->
           <div class="space-y-4">
             <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total Questions</span>
+              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total JCS Questions</span>
               <p class="text-3xl font-extrabold text-slate-900 dark:text-white mt-2">{{ questions.length }}</p>
             </div>
             <div class="grid grid-cols-2 gap-4">
@@ -362,6 +389,26 @@
                 <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Cohorts</span>
                 <p class="text-3xl font-extrabold text-emerald-600 dark:text-emerald-400 mt-2">{{ uniqueCohorts.length }}</p>
               </div>
+            </div>
+
+            <!-- MED Quick Banner (Handles Unloaded, Loading, and Loaded states) -->
+            <div class="p-5 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-brand-500/10 to-indigo-500/10 border border-emerald-500/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="flex items-center space-x-3 text-center sm:text-left">
+                <div>
+                  <h4 class="font-bold text-sm text-slate-900 dark:text-white">New MED Question Bank</h4>
+                  <p class="text-xs text-slate-500 dark:text-slate-400">
+                    <span v-if="loadingMed">Loading large MED dataset in background...</span>
+                    <span v-else-if="medQuestions.length">{{ medQuestions.length }} questions loaded with interactive options & answers.</span>
+                    <span v-else>Large MCQ database with answers</span>
+                  </p>
+                </div>
+              </div>
+              <button 
+                @click="activeTab = 'med'" 
+                class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm whitespace-nowrap flex items-center space-x-1.5">
+                <i v-if="loadingMed" class="fa-solid fa-spinner fa-spin"></i>
+                <span>{{ loadingMed ? 'Loading...' : (medQuestions.length ? 'Open MED Tab &rarr;' : 'Load & Browse MED &rarr;') }}</span>
+              </button>
             </div>
           </div>
 
@@ -547,11 +594,11 @@
             :class="isStudied(q.id) ? 'studied-fade' : ''"
             class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm transition hover:shadow-md space-y-3">
             
-            <!-- Card Header Badges (tick button inline, no extra top space) -->
+            <!-- Card Header Badges -->
             <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-700/60 pb-3">
               <div class="flex items-center space-x-2 flex-wrap gap-y-1">
                 <button 
-                  @click="toggleStudied(q.id)"
+                  @click="toggleStudied(q.id)" 
                   :title="isStudied(q.id) ? 'Mark as not studied' : 'Mark as studied'"
                   :class="isStudied(q.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
                   class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
@@ -953,6 +1000,237 @@
 
       </div>
 
+      <!-- TAB 4: MED DATASET TAB (Separate Asynchronous / On-Demand Loading) -->
+      <div v-if="activeTab === 'med'" class="space-y-4">
+        
+        <!-- MED DATASET LOADING INDICATOR -->
+        <div v-if="loadingMed" class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-12 text-center shadow-sm space-y-4">
+          <i class="fa-solid fa-spinner fa-spin text-4xl text-emerald-600 mb-2"></i>
+          <h3 class="text-base font-bold text-slate-800 dark:text-white">Loading MED Question Bank...</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto leading-relaxed">
+            This database is large and takes a bit longer to download and parse. Thank you for your patience!
+          </p>
+        </div>
+
+        <!-- MED DATASET ERROR STATE -->
+        <div v-else-if="medError" class="bg-white dark:bg-slate-800 rounded-2xl border border-rose-200 dark:border-rose-900/50 p-8 text-center shadow-sm space-y-3">
+          <i class="fa-solid fa-triangle-exclamation text-3xl text-rose-500 mb-1"></i>
+          <h3 class="text-base font-bold text-rose-800 dark:text-rose-300">Failed to Load MED Database</h3>
+          <p class="text-xs text-slate-500 dark:text-slate-400">{{ medError }}</p>
+          <button @click="loadMedDataset" class="mt-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition">
+            <i class="fa-solid fa-arrow-rotate-right mr-1.5"></i> Retry Loading
+          </button>
+        </div>
+
+        <!-- MED LOADED CONTENT -->
+        <div v-else class="space-y-4">
+          <!-- Controls Toolbar -->
+          <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-3 border-b border-slate-100 dark:border-slate-700/60 pb-3">
+              <div>
+                <h2 class="text-lg font-bold text-slate-900 dark:text-white flex items-center">
+                  <i class="fa-solid fa-notes-medical text-emerald-600 mr-2"></i>
+                  MED Question Bank
+                </h2>
+                <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Comprehensive foundational question bank, combining MedGard and Gameboy collections.</p>
+              </div>
+
+              <!-- Mode Badges / Shuffler Action Buttons -->
+              <div class="flex items-center gap-2 flex-wrap">
+                <button 
+                  @click="shuffleMedQuestions"
+                  :class="medIsShuffled ? 'bg-amber-600 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'"
+                  class="px-3 py-2 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition">
+                  <i class="fa-solid fa-shuffle"></i>
+                  <span>{{ medIsShuffled ? 'Re-shuffle' : 'Shuffle Order' }}</span>
+                </button>
+
+                <button 
+                  v-if="medIsShuffled"
+                  @click="resetMedOrder"
+                  class="px-3 py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center space-x-1.5 transition">
+                  <i class="fa-solid fa-arrow-rotate-left"></i>
+                  <span>Original Order</span>
+                </button>
+
+                <button 
+                  @click="medShowAllAnswers = !medShowAllAnswers"
+                  :class="medShowAllAnswers ? 'bg-brand-600 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'"
+                  class="px-3 py-2 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition">
+                  <i :class="medShowAllAnswers ? 'fa-solid fa-eye-slash' : 'fa-solid fa-eye'"></i>
+                  <span>{{ medShowAllAnswers ? 'Hide Answers' : 'Reveal All Answers' }}</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Search & Page Size Bar -->
+            <div class="flex flex-col sm:flex-row gap-3">
+              <div class="flex-1 relative">
+                <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 dark:text-slate-500"></i>
+                <input 
+                  v-model="medSearch" 
+                  type="text" 
+                  placeholder="Search MED questions, options, or answers..." 
+                  class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
+                />
+                <button v-if="medSearch" @click="medSearch=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+              </div>
+
+              <div class="flex items-center space-x-2">
+                <select v-model.number="medPageSize" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-brand-500">
+                  <option :value="10">10 / page</option>
+                  <option :value="25">25 / page</option>
+                  <option :value="50">50 / page</option>
+                  <option :value="100">100 / page</option>
+                </select>
+
+                <button 
+                  v-if="Object.keys(medUserAnswers).length"
+                  @click="medUserAnswers = {}; showToast('Answer selections cleared')"
+                  class="px-3 py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:text-rose-600 text-slate-500 dark:text-slate-400 text-xs font-medium transition"
+                  title="Clear selected choices">
+                  Clear Answers
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Showing info -->
+          <div class="text-xs text-slate-500 dark:text-slate-400 px-1 flex items-center justify-between">
+            <div>
+              Showing <strong>{{ paginatedMedQuestions.length }}</strong> of {{ filteredMedQuestions.length }} questions
+              <span v-if="medIsShuffled" class="ml-1 text-amber-600 dark:text-amber-400 font-semibold">(Shuffled)</span>
+            </div>
+            <div v-if="Object.keys(medUserAnswers).length" class="text-emerald-600 dark:text-emerald-400 font-medium">
+              {{ Object.keys(medUserAnswers).length }} answered
+            </div>
+          </div>
+
+          <!-- Top Pagination -->
+          <div v-if="filteredMedQuestions.length" class="flex items-center justify-between bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
+            <button 
+              @click="medCurrentPage = Math.max(1, medCurrentPage - 1)" 
+              :disabled="medCurrentPage === 1"
+              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
+              &larr; Prev
+            </button>
+            <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ medCurrentPage }} of {{ totalMedPages }}</span>
+            <button 
+              @click="medCurrentPage = Math.min(totalMedPages, medCurrentPage + 1)" 
+              :disabled="medCurrentPage === totalMedPages"
+              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
+              Next &rarr;
+            </button>
+          </div>
+
+          <!-- MED Question Cards -->
+          <div class="space-y-4">
+            <div 
+              v-for="(q, idx) in paginatedMedQuestions" 
+              :key="q.id || idx"
+              class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm space-y-4">
+              
+              <!-- Question Header -->
+              <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-700/60 pb-3">
+                <div class="flex items-center space-x-2">
+                  <span class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
+                    MED MCQ
+                  </span>
+                  <span class="text-xs font-bold text-slate-400 dark:text-slate-500">
+                    #{{ q.originalIndex + 1 }}
+                  </span>
+                </div>
+
+                <div class="flex items-center space-x-1">
+                  <button 
+                    @click="copyMedQuestion(q)" 
+                    title="Copy question text"
+                    class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
+                    <i class="fa-regular fa-copy text-base"></i>
+                  </button>
+                  <button 
+                    @click="googleSearchMedQuestion(q)" 
+                    title="Search this question on Google"
+                    class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
+                    <i class="fa-solid fa-magnifying-glass text-base"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Stem -->
+              <h3 class="text-base font-semibold text-slate-900 dark:text-white leading-relaxed">
+                {{ q.question }}
+              </h3>
+
+              <!-- Choices Grid -->
+              <div class="grid grid-cols-1 gap-2.5 pt-1">
+                <div 
+                  v-for="(choice, cIdx) in (q.choices || [])" 
+                  :key="cIdx"
+                  @click="selectMedChoice(q.id, cIdx)"
+                  :class="getMedChoiceClasses(q, cIdx, choice)"
+                  class="p-3.5 rounded-xl border transition cursor-pointer flex items-center justify-between text-sm">
+                  
+                  <div class="flex items-start space-x-3">
+                    <span class="w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800">
+                      {{ String.fromCharCode(65 + cIdx) }}
+                    </span>
+                    <span class="leading-snug">{{ choice }}</span>
+                  </div>
+
+                  <!-- Status Icon -->
+                  <div v-if="isMedChoiceAnsweredOrRevealed(q.id)">
+                    <i v-if="isCorrectChoice(choice, q.answer, cIdx)" class="fa-solid fa-check text-emerald-600 dark:text-emerald-400 text-base"></i>
+                    <i v-else-if="medUserAnswers[q.id] === cIdx" class="fa-solid fa-xmark text-rose-500 text-base"></i>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Answer Box / Toggle Reveal -->
+              <div class="pt-2 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between flex-wrap gap-2 text-xs">
+                <button 
+                  @click="toggleMedReveal(q.id)" 
+                  class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition flex items-center space-x-1.5">
+                  <i :class="isMedRevealed(q.id) ? 'fa-solid fa-eye-slash' : 'fa-solid fa-eye'"></i>
+                  <span>{{ isMedRevealed(q.id) ? 'Hide Answer' : 'Show Answer' }}</span>
+                </button>
+
+                <div v-if="isMedRevealed(q.id)" class="text-emerald-700 dark:text-emerald-300 font-bold bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 px-3 py-1 rounded-lg">
+                  Answer: {{ q.answer }}
+                </div>
+              </div>
+
+            </div>
+
+            <div v-if="!paginatedMedQuestions.length" class="text-center py-12 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
+              <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
+              <p class="text-slate-500 dark:text-slate-400 font-medium text-sm">No MED questions match your search.</p>
+              <button @click="medSearch = ''" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">Clear search</button>
+            </div>
+          </div>
+
+          <!-- Bottom Pagination -->
+          <div v-if="filteredMedQuestions.length" class="flex items-center justify-between bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
+            <button 
+              @click="medCurrentPage = Math.max(1, medCurrentPage - 1)" 
+              :disabled="medCurrentPage === 1"
+              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
+              &larr; Prev
+            </button>
+            <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ medCurrentPage }} of {{ totalMedPages }}</span>
+            <button 
+              @click="medCurrentPage = Math.min(totalMedPages, medCurrentPage + 1)" 
+              :disabled="medCurrentPage === totalMedPages"
+              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
+              Next &rarr;
+            </button>
+          </div>
+        </div>
+
+      </div>
+
     </main>
 
     <footer class="bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 py-6 mt-auto">
@@ -971,6 +1249,8 @@
       { name: 'MEDICINE', url: 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/MEDICINE.json' },
       { name: 'SURGERY', url: 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/SURGERY.json' }
     ];
+
+    const MED_DATASET_URL = 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/gameboy_medgard.json';
 
     createApp({
       setup() {
@@ -992,12 +1272,27 @@
         const currentPage = ref(1);
         const pageSize = ref(10);
 
+        // ==========================================
+        // MED DATASET REFS & LOGIC (SEPARATE STATE)
+        // ==========================================
+        const medQuestions = ref([]);
+        const medDisplayOrder = ref([]);
+        const medIsShuffled = ref(false);
+        const medSearch = ref('');
+        const medCurrentPage = ref(1);
+        const medPageSize = ref(10);
+        const medUserAnswers = ref({});
+        const medRevealed = ref({});
+        const medShowAllAnswers = ref(false);
+        const loadingMed = ref(false);
+        const medLoaded = ref(false);
+        const medError = ref(null);
+
         // Which multi-select filter dropdown is currently open ('topic' | 'type' | 'cohort' | null)
         const openFilterDropdown = ref(null);
         const toggleFilterDropdown = (name) => {
           openFilterDropdown.value = openFilterDropdown.value === name ? null : name;
         };
-        // Close any open filter dropdown when clicking outside of it
         const handleGlobalClick = (e) => {
           if (openFilterDropdown.value && !e.target.closest('.relative')) {
             openFilterDropdown.value = null;
@@ -1021,8 +1316,7 @@
           hideStudied: false
         });
 
-        // Single unified test mode (the old "practice" vs "exam" mode toggle
-        // behaved identically, so it was removed to simplify the setup screen).
+        // Practice test mode
         const examConfig = ref({
           numQuestions: '10',
           selectedTopics: [],
@@ -1037,8 +1331,7 @@
           flagged: []
         });
 
-        // Build the Back steps during app interaction, before Back is pressed.
-        // Never pushState from popstate: browsers may skip those new entries.
+        // Navigation history management
         const navigationScope = `${Date.now()}-${Math.random()}`;
         let navigationReady = false;
         let movingHistory = false;
@@ -1092,9 +1385,6 @@
           if (event.state?.jcsNavigation !== navigationScope) return;
           historyDepth = event.state.jcsDepth;
           if (movingHistory) {
-            // A tab button or close/reset control already changed the screen.
-            // If another control was used while traversal was pending, move
-            // through the existing entries; do not create entries here.
             const target = Math.min(getNavigationDepth(), highestHistoryDepth);
             if (target !== historyDepth) {
               history.go(target - historyDepth);
@@ -1105,14 +1395,10 @@
           }
           handlingBack = true;
           try {
-            // Consume only the steps represented by this traversal. A normal
-            // Back clears filters/exits practice, then the next reaches Library.
             while (getNavigationDepth() > historyDepth) handleAppBack();
           } finally {
             handlingBack = false;
           }
-          // Forward does not resurrect dismissed overlays, filters or sessions.
-          // The next user interaction synchronizes any remaining stale entries.
         };
         const handleNavigationKey = (event) => {
           if (event.key === 'Escape' && hasOpenOverlay() && !movingHistory && !handlingBack) {
@@ -1125,7 +1411,6 @@
           navigationReady = true;
           window.addEventListener('popstate', handlePopState);
           document.addEventListener('keydown', handleNavigationKey);
-          // Initialize after setup, when hasActiveFilters and resetFilters exist.
           stopNavigationWatch = watch(getNavigationDepth, syncNavigation, { flush: 'sync' });
           syncNavigation();
         };
@@ -1136,9 +1421,6 @@
           document.removeEventListener('click', handleGlobalClick);
         });
 
-        // Splits a possibly pipe-delimited img_src string ("data:...|data:...")
-        // into a clean array of individual image source strings, trimmed of
-        // any stray whitespace/newlines that may surround the "|" separator.
         const getImgSources = (imgSrc) => {
           if (!imgSrc) return [];
           return imgSrc
@@ -1164,6 +1446,7 @@
 
           document.addEventListener('click', handleGlobalClick);
 
+          // Fast load: Loads only FAMCO, MEDICINE, SURGERY on initial boot
           loadAllDatasets();
         });
 
@@ -1177,6 +1460,15 @@
 
         watch(filters, () => { currentPage.value = 1; }, { deep: true });
         watch(pageSize, () => { currentPage.value = 1; });
+        watch(medSearch, () => { medCurrentPage.value = 1; });
+        watch(medPageSize, () => { medCurrentPage.value = 1; });
+
+        // Trigger on-demand loading of MED dataset when user selects MED tab
+        watch(activeTab, (newTab) => {
+          if (newTab === 'med' && !medLoaded.value && !loadingMed.value) {
+            loadMedDataset();
+          }
+        });
 
         const applyDarkMode = () => {
           if (darkMode.value) document.documentElement.classList.add('dark');
@@ -1194,32 +1486,24 @@
           if (dontShowIntroAgain.value) localStorage.setItem('jcs_intro_dismissed', 'true');
         };
 
-        // Builds a single lowercase, precomputed "search blob" for a question containing
-        // everything a user might want to search: the question/case text, MCQ options,
-        // EMQ theme/options/sub-scenarios, SAQ subquestions, topic/cohort/id.
-        // Doing this once at load time (rather than on every keystroke) keeps search fast/non-laggy.
         const buildSearchText = (q) => {
           const parts = [q.question, q.case, q.theme, q.topic, q.cohort, q.id];
-
           if (Array.isArray(q.options)) parts.push(...q.options);
-
           if (Array.isArray(q.questions)) {
             q.questions.forEach(sq => {
               parts.push(sq && sq.scenario);
               parts.push(sq && sq.question);
             });
           }
-
           if (Array.isArray(q.subquestions)) {
             q.subquestions.forEach(sq => {
               parts.push(sq && sq.q);
             });
           }
-
           return parts.filter(Boolean).join(' \n ').toLowerCase();
         };
 
-        // DATASET LOADING (topic preserved exactly as written in DB)
+        // DATASET LOADING (JCS Datasets: FAMCO, MEDICINE, SURGERY)
         const processDataset = (jsonContent, sourceName) => {
           try {
             let data = JSON.parse(jsonContent);
@@ -1281,9 +1565,171 @@
             }
           }
           loadingDatasets.value = false;
-          if (total > 0) showToast(`Loaded ${total} questions from ${DATASETS.length} databases.`);
+          if (total > 0) showToast(`Loaded ${total} questions across FAMCO, Medicine, and Surgery.`);
         };
 
+        // ==========================================
+        // DEDICATED SEPARATE MED DATASET LOADER
+        // ==========================================
+        const processMedDataset = (jsonContent) => {
+          try {
+            let data = JSON.parse(jsonContent);
+            if (!Array.isArray(data)) {
+              if (data.questions && Array.isArray(data.questions)) data = data.questions;
+              else throw new Error("Expected array of questions");
+            }
+
+            const cleaned = data.map((item, idx) => {
+              const choices = Array.isArray(item.choices) ? item.choices : [];
+              const rawSearch = `${item.question || ''} ${choices.join(' ')} ${item.answer || ''}`.toLowerCase();
+              return {
+                id: `med-${idx}`,
+                originalIndex: idx,
+                question: item.question || '',
+                choices: choices,
+                answer: item.answer !== undefined ? item.answer : '',
+                _searchText: rawSearch
+              };
+            });
+
+            medQuestions.value = cleaned;
+            medDisplayOrder.value = [...cleaned];
+            return cleaned.length;
+          } catch (err) {
+            medError.value = err.message;
+            showToast(`Error parsing MED database: ${err.message}`, true);
+            return 0;
+          }
+        };
+
+        const loadMedDataset = async () => {
+          if (loadingMed.value || medLoaded.value) return;
+          loadingMed.value = true;
+          medError.value = null;
+
+          try {
+            const medRes = await fetch(MED_DATASET_URL);
+            if (!medRes.ok) throw new Error(`HTTP ${medRes.status} ${medRes.statusText}`);
+            const medText = await medRes.text();
+            const count = processMedDataset(medText);
+            if (count > 0) {
+              medLoaded.value = true;
+              showToast(`Loaded ${count} MED questions.`);
+            } else if (!medError.value) {
+              throw new Error("No questions found in MED file.");
+            }
+          } catch (err) {
+            medError.value = err.message;
+            showToast(`Failed to load MED database: ${err.message}`, true);
+          } finally {
+            loadingMed.value = false;
+          }
+        };
+
+        const shuffleMedQuestions = () => {
+          const arr = [...medDisplayOrder.value];
+          for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+          }
+          medDisplayOrder.value = arr;
+          medIsShuffled.value = true;
+          medCurrentPage.value = 1;
+          showToast('Shuffled MED questions randomly');
+        };
+
+        const resetMedOrder = () => {
+          medDisplayOrder.value = [...medQuestions.value];
+          medIsShuffled.value = false;
+          medCurrentPage.value = 1;
+          showToast('Restored sequential order');
+        };
+
+        const filteredMedQuestions = computed(() => {
+          const query = medSearch.value.trim().toLowerCase();
+          if (!query) return medDisplayOrder.value;
+          return medDisplayOrder.value.filter(q => (q._searchText || '').includes(query));
+        });
+
+        const totalMedPages = computed(() => Math.max(1, Math.ceil(filteredMedQuestions.value.length / medPageSize.value)));
+
+        const paginatedMedQuestions = computed(() => {
+          const start = (medCurrentPage.value - 1) * medPageSize.value;
+          return filteredMedQuestions.value.slice(start, start + medPageSize.value);
+        });
+
+        const isCorrectChoice = (choice, answer, index) => {
+          if (answer === undefined || answer === null || answer === '') return false;
+          const cleanChoice = String(choice).trim().toLowerCase();
+          const cleanAns = String(answer).trim().toLowerCase();
+          if (cleanChoice === cleanAns) return true;
+          
+          const letter = String.fromCharCode(65 + index).toLowerCase();
+          if (cleanAns === letter || cleanAns === `${letter}.` || cleanAns === `${letter})`) return true;
+          if (cleanAns === String(index) || cleanAns === String(index + 1)) return true;
+
+          return false;
+        };
+
+        const selectMedChoice = (qId, cIdx) => {
+          medUserAnswers.value[qId] = cIdx;
+        };
+
+        const isMedChoiceAnsweredOrRevealed = (qId) => {
+          return medUserAnswers.value[qId] !== undefined || medRevealed.value[qId] || medShowAllAnswers.value;
+        };
+
+        const isMedRevealed = (qId) => {
+          return Boolean(medRevealed.value[qId] || medShowAllAnswers.value);
+        };
+
+        const toggleMedReveal = (qId) => {
+          medRevealed.value[qId] = !medRevealed.value[qId];
+        };
+
+        const getMedChoiceClasses = (q, cIdx, choice) => {
+          const isSelected = medUserAnswers.value[q.id] === cIdx;
+          const revealed = isMedChoiceAnsweredOrRevealed(q.id);
+          const isCorrect = isCorrectChoice(choice, q.answer, cIdx);
+
+          if (revealed) {
+            if (isCorrect) {
+              return 'border-emerald-500 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 font-semibold';
+            }
+            if (isSelected && !isCorrect) {
+              return 'border-rose-500 bg-rose-50/80 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-semibold';
+            }
+          }
+
+          if (isSelected) {
+            return 'border-brand-500 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium';
+          }
+
+          return 'border-slate-200 dark:border-slate-700 hover:border-brand-300 dark:hover:border-brand-500 bg-slate-50/50 dark:bg-slate-900/40 text-slate-800 dark:text-slate-200';
+        };
+
+        const copyMedQuestion = async (q) => {
+          let text = `${q.question}\n`;
+          (q.choices || []).forEach((c, i) => {
+            text += `${String.fromCharCode(65 + i)}. ${c}\n`;
+          });
+          if (q.answer) text += `Answer: ${q.answer}`;
+          try {
+            await navigator.clipboard.writeText(text);
+            showToast('Question copied to clipboard.');
+          } catch(e) {
+            showToast('Could not copy to clipboard.', true);
+          }
+        };
+
+        const googleSearchMedQuestion = (q) => {
+          const url = `https://www.google.com/search?q=${encodeURIComponent(q.question)}`;
+          window.open(url, '_blank');
+        };
+
+        // ==========================================
+        // MAIN JCS BANK COMPUTEDS & METHODS
+        // ==========================================
         const uniqueTopics = computed(() => [...new Set(questions.value.map(q => q.topic))].filter(Boolean).sort());
         const uniqueTypes = computed(() => [...new Set(questions.value.map(q => q.type))].filter(Boolean).sort());
         const uniqueCohorts = computed(() => [...new Set(questions.value.map(q => q.cohort))].filter(Boolean).sort());
@@ -1359,7 +1805,6 @@
           sourceModal.value = { show: true, content: typeof q.source === 'string' ? q.source.trim() : '' };
         };
 
-        // Build plain text representation of a question (used for copy & google search)
         const questionToText = (q) => {
           let lines = [];
           if (q.type === 'MCQ') {
@@ -1468,7 +1913,7 @@
           }
         };
 
-        // ===== EXPORT (Markdown-first, preview + print, plus json/csv/txt) =====
+        // EXPORT LOGIC
         const buildMarkdown = (list) => {
           let md = `# JCS Finals - Question Export\n\n_Exported ${list.length} question(s)_\n\n`;
           list.forEach((q, i) => {
@@ -1579,20 +2024,23 @@
           currentPage, pageSize, totalPages, paginatedQuestions,
           openFilterDropdown, toggleFilterDropdown,
 
+          // MED Dataset refs & methods
+          medQuestions, medDisplayOrder, medIsShuffled, medSearch, medCurrentPage, medPageSize,
+          medUserAnswers, medRevealed, medShowAllAnswers, loadingMed, medLoaded, medError,
+          filteredMedQuestions, totalMedPages, paginatedMedQuestions,
+          loadMedDataset, shuffleMedQuestions, resetMedOrder, selectMedChoice,
+          isCorrectChoice, isMedChoiceAnsweredOrRevealed, isMedRevealed, toggleMedReveal,
+          getMedChoiceClasses, copyMedQuestion, googleSearchMedQuestion,
+
           loadAllDatasets, toggleDarkMode, closeIntroModal, openSourceModal,
-
           uniqueTopics, uniqueTypes, uniqueCohorts, topicBreakdown, goToTopicFilter,
-
           filteredQuestions, hasActiveFilters, resetFilters,
-
           toggleBookmark, isBookmarked, toggleStudied, isStudied,
           copyQuestion, googleSearchQuestion,
-
           startExam, endExam, currentExamQuestion, selectMcqOption,
           getEmqAnswer, setEmqAnswer, getSaqAnswer, setSaqAnswer,
           toggleFlagCurrent, isCurrentFlagged, isFlagged, isAnswered, finishExam,
           getTypeBadgeClass, getImgSources,
-
           openExportPreview, printPreview, downloadFile
         };
       }
