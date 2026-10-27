@@ -550,7 +550,7 @@
               </label>
               <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
                 <input type="checkbox" v-model="filters.hideStudied" class="rounded text-brand-600 focus:ring-brand-500">
-                <span>Hide studied</span>
+                <span>Hide checked</span>
               </label>
             </div>
             <div class="flex items-center space-x-3">
@@ -599,7 +599,7 @@
               <div class="flex items-center space-x-2 flex-wrap gap-y-1">
                 <button 
                   @click="toggleStudied(q.id)" 
-                  :title="isStudied(q.id) ? 'Mark as not studied' : 'Mark as studied'"
+                  :title="isStudied(q.id) ? 'Mark as not checked' : 'Mark as checked'"
                   :class="isStudied(q.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
                   class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
                   <i class="fa-solid fa-check text-[10px]"></i>
@@ -800,6 +800,13 @@
               </div>
             </div>
 
+            <div>
+              <label class="flex items-center space-x-2 text-sm text-slate-700 dark:text-slate-200 font-medium cursor-pointer">
+                <input type="checkbox" v-model="examConfig.excludeChecked" class="rounded text-brand-600 focus:ring-brand-500">
+                <span>Exclude checked questions ({{ studied.length }} checked)</span>
+              </label>
+            </div>
+
             <div class="pt-4">
               <button 
                 @click="startExam" 
@@ -844,6 +851,13 @@
             
             <div class="flex items-center justify-between">
               <div class="flex items-center space-x-2">
+                <button 
+                  @click="toggleStudied(currentExamQuestion.id)" 
+                  :title="isStudied(currentExamQuestion.id) ? 'Mark as not checked' : 'Mark as checked'"
+                  :class="isStudied(currentExamQuestion.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
+                  class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
+                  <i class="fa-solid fa-check text-[10px]"></i>
+                </button>
                 <span :class="getTypeBadgeClass(currentExamQuestion.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase">
                   {{ currentExamQuestion.type }}
                 </span>
@@ -1095,6 +1109,15 @@
                 </button>
               </div>
             </div>
+
+            <!-- Hide checked -->
+            <div class="flex items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-700/60 text-xs text-slate-500 dark:text-slate-400">
+              <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
+                <input type="checkbox" v-model="medHideStudied" class="rounded text-brand-600 focus:ring-brand-500">
+                <span>Hide checked</span>
+              </label>
+              <span>{{ medStudied.length }} checked</span>
+            </div>
           </div>
 
           <!-- Showing info -->
@@ -1130,11 +1153,19 @@
             <div 
               v-for="(q, idx) in paginatedMedQuestions" 
               :key="q.id || idx"
+              :class="isMedStudied(q.id) ? 'studied-fade' : ''"
               class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm space-y-4">
               
               <!-- Question Header -->
               <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-700/60 pb-3">
                 <div class="flex items-center space-x-2">
+                  <button 
+                    @click="toggleMedStudied(q.id)" 
+                    :title="isMedStudied(q.id) ? 'Mark as not checked' : 'Mark as checked'"
+                    :class="isMedStudied(q.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
+                    class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
+                    <i class="fa-solid fa-check text-[10px]"></i>
+                  </button>
                   <span class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
                     MED MCQ
                   </span>
@@ -1207,7 +1238,7 @@
             <div v-if="!paginatedMedQuestions.length" class="text-center py-12 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
               <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
               <p class="text-slate-500 dark:text-slate-400 font-medium text-sm">No MED questions match your search.</p>
-              <button @click="medSearch = ''" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">Clear search</button>
+              <button @click="medSearch = ''; medHideStudied = false" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">Clear search</button>
             </div>
           </div>
 
@@ -1252,6 +1283,8 @@
 
     const MED_DATASET_URL = 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/gameboy_medgard.json';
 
+    const STATE_KEY = 'jcs_app_state';
+
     createApp({
       setup() {
         const activeTab = ref('library');
@@ -1287,6 +1320,8 @@
         const loadingMed = ref(false);
         const medLoaded = ref(false);
         const medError = ref(null);
+        const medStudied = ref([]);
+        const medHideStudied = ref(false);
 
         // Which multi-select filter dropdown is currently open ('topic' | 'type' | 'cohort' | null)
         const openFilterDropdown = ref(null);
@@ -1320,7 +1355,8 @@
         const examConfig = ref({
           numQuestions: '10',
           selectedTopics: [],
-          selectedTypes: []
+          selectedTypes: [],
+          excludeChecked: false
         });
 
         const examState = ref({
@@ -1330,6 +1366,119 @@
           userAnswers: {},
           flagged: []
         });
+
+        // ==========================================
+        // PERSISTED APP STATE (survives page reloads)
+        // ==========================================
+        let stateReady = false;     // don't save until initial restore finished
+        let pendingExam = null;     // saved exam awaiting dataset load
+        let pendingMedOrder = null; // saved MED shuffle order awaiting MED load
+
+        const getMedOrderForSave = () => {
+          if (medLoaded.value) {
+            return medIsShuffled.value ? medDisplayOrder.value.map(q => q.originalIndex) : null;
+          }
+          return pendingMedOrder;
+        };
+
+        const buildStateSnapshot = () => ({
+          activeTab: activeTab.value,
+          filters: filters.value,
+          pageSize: pageSize.value,
+          currentPage: currentPage.value,
+          examConfig: examConfig.value,
+          exam: examState.value.active ? {
+            ids: examState.value.questions.map(q => q.id),
+            currentIndex: examState.value.currentIndex,
+            userAnswers: examState.value.userAnswers,
+            flagged: examState.value.flagged
+          } : null,
+          exportFormat: exportFormat.value,
+          medSearch: medSearch.value,
+          medPageSize: medPageSize.value,
+          medCurrentPage: medCurrentPage.value,
+          medIsShuffled: medIsShuffled.value,
+          medOrder: getMedOrderForSave(),
+          medUserAnswers: medUserAnswers.value,
+          medRevealed: medRevealed.value,
+          medShowAllAnswers: medShowAllAnswers.value,
+          medHideStudied: medHideStudied.value
+        });
+
+        // Restores everything except page numbers (returned so they can be applied after watchers run)
+        const restoreState = () => {
+          let s = null;
+          try { s = JSON.parse(localStorage.getItem(STATE_KEY) || 'null'); } catch (e) {}
+          if (!s || typeof s !== 'object') return null;
+
+          if (['library', 'browse', 'practice', 'med'].includes(s.activeTab)) activeTab.value = s.activeTab;
+          if (s.filters && typeof s.filters === 'object') {
+            filters.value = {
+              search: s.filters.search || '',
+              topics: Array.isArray(s.filters.topics) ? s.filters.topics : [],
+              types: Array.isArray(s.filters.types) ? s.filters.types : [],
+              cohorts: Array.isArray(s.filters.cohorts) ? s.filters.cohorts : [],
+              bookmarkedOnly: !!s.filters.bookmarkedOnly,
+              hideStudied: !!s.filters.hideStudied
+            };
+          }
+          if ([10, 25, 50, 100].includes(s.pageSize)) pageSize.value = s.pageSize;
+          if (s.examConfig && typeof s.examConfig === 'object') {
+            examConfig.value = {
+              numQuestions: String(s.examConfig.numQuestions || '10'),
+              selectedTopics: Array.isArray(s.examConfig.selectedTopics) ? s.examConfig.selectedTopics : [],
+              selectedTypes: Array.isArray(s.examConfig.selectedTypes) ? s.examConfig.selectedTypes : [],
+              excludeChecked: !!s.examConfig.excludeChecked
+            };
+          }
+          if (['md', 'txt', 'json', 'csv'].includes(s.exportFormat)) exportFormat.value = s.exportFormat;
+          if (s.exam && Array.isArray(s.exam.ids)) pendingExam = s.exam;
+
+          medSearch.value = s.medSearch || '';
+          if ([10, 25, 50, 100].includes(s.medPageSize)) medPageSize.value = s.medPageSize;
+          medIsShuffled.value = !!s.medIsShuffled;
+          if (Array.isArray(s.medOrder)) pendingMedOrder = s.medOrder;
+          if (s.medUserAnswers && typeof s.medUserAnswers === 'object') medUserAnswers.value = s.medUserAnswers;
+          if (s.medRevealed && typeof s.medRevealed === 'object') medRevealed.value = s.medRevealed;
+          medShowAllAnswers.value = !!s.medShowAllAnswers;
+          medHideStudied.value = !!s.medHideStudied;
+
+          return {
+            currentPage: Math.max(1, parseInt(s.currentPage, 10) || 1),
+            medCurrentPage: Math.max(1, parseInt(s.medCurrentPage, 10) || 1)
+          };
+        };
+
+        const rehydrateExam = () => {
+          if (!pendingExam) return;
+          const map = new Map(questions.value.map(q => [q.id, q]));
+          const qs = pendingExam.ids.map(id => map.get(id)).filter(Boolean);
+          if (qs.length) {
+            examState.value = {
+              active: true,
+              questions: qs,
+              currentIndex: Math.min(Math.max(0, pendingExam.currentIndex || 0), qs.length - 1),
+              userAnswers: pendingExam.userAnswers || {},
+              flagged: Array.isArray(pendingExam.flagged) ? pendingExam.flagged : []
+            };
+          }
+          pendingExam = null;
+        };
+
+        const applyPendingMedOrder = () => {
+          if (!pendingMedOrder) return;
+          if (pendingMedOrder.length === medQuestions.value.length) {
+            const byIndex = new Map(medQuestions.value.map(q => [q.originalIndex, q]));
+            const ordered = pendingMedOrder.map(i => byIndex.get(i)).filter(Boolean);
+            if (ordered.length === medQuestions.value.length) {
+              medDisplayOrder.value = ordered;
+              medIsShuffled.value = true;
+            }
+          } else {
+            medIsShuffled.value = false;
+          }
+          pendingMedOrder = null;
+        };
 
         // Navigation history management
         const navigationScope = `${Date.now()}-${Math.random()}`;
@@ -1429,13 +1578,15 @@
             .filter(Boolean);
         };
 
-        onMounted(() => {
-          initializeNavigation();
+        onMounted(async () => {
           const savedBookmarks = localStorage.getItem('jcs_bookmarks');
           if (savedBookmarks) { try { bookmarks.value = JSON.parse(savedBookmarks); } catch(e){} }
 
           const savedStudied = localStorage.getItem('jcs_studied');
           if (savedStudied) { try { studied.value = JSON.parse(savedStudied); } catch(e){} }
+
+          const savedMedStudied = localStorage.getItem('jcs_med_studied');
+          if (savedMedStudied) { try { medStudied.value = JSON.parse(savedMedStudied); } catch(e){} }
 
           const savedDark = localStorage.getItem('jcs_dark_mode');
           darkMode.value = savedDark === 'true';
@@ -1446,8 +1597,28 @@
 
           document.addEventListener('click', handleGlobalClick);
 
+          // Restore last session state (tab, filters, quiz, MED, etc.)
+          const savedPages = restoreState();
+
+          initializeNavigation();
+
+          // Page-reset watchers run on the next flush; apply saved pages afterwards
+          await nextTick();
+          if (savedPages) {
+            currentPage.value = savedPages.currentPage;
+            medCurrentPage.value = savedPages.medCurrentPage;
+          }
+
           // Fast load: Loads only FAMCO, MEDICINE, SURGERY on initial boot
-          loadAllDatasets();
+          await loadAllDatasets();
+          rehydrateExam();
+          stateReady = true;
+        });
+
+        // Auto-save app state on any change
+        watch(() => JSON.stringify(buildStateSnapshot()), (str) => {
+          if (!stateReady) return;
+          try { localStorage.setItem(STATE_KEY, str); } catch (e) {}
         });
 
         watch(bookmarks, (newVal) => {
@@ -1458,10 +1629,15 @@
           localStorage.setItem('jcs_studied', JSON.stringify(newVal));
         }, { deep: true });
 
+        watch(medStudied, (newVal) => {
+          localStorage.setItem('jcs_med_studied', JSON.stringify(newVal));
+        }, { deep: true });
+
         watch(filters, () => { currentPage.value = 1; }, { deep: true });
         watch(pageSize, () => { currentPage.value = 1; });
         watch(medSearch, () => { medCurrentPage.value = 1; });
         watch(medPageSize, () => { medCurrentPage.value = 1; });
+        watch(medHideStudied, () => { medCurrentPage.value = 1; });
 
         // Trigger on-demand loading of MED dataset when user selects MED tab
         watch(activeTab, (newTab) => {
@@ -1614,6 +1790,7 @@
             const count = processMedDataset(medText);
             if (count > 0) {
               medLoaded.value = true;
+              applyPendingMedOrder();
               showToast(`Loaded ${count} MED questions.`);
             } else if (!medError.value) {
               throw new Error("No questions found in MED file.");
@@ -1645,10 +1822,22 @@
           showToast('Restored sequential order');
         };
 
+        const toggleMedStudied = (id) => {
+          const idx = medStudied.value.indexOf(id);
+          if (idx > -1) medStudied.value.splice(idx, 1);
+          else medStudied.value.push(id);
+        };
+        const isMedStudied = (id) => medStudied.value.includes(id);
+
         const filteredMedQuestions = computed(() => {
           const query = medSearch.value.trim().toLowerCase();
-          if (!query) return medDisplayOrder.value;
-          return medDisplayOrder.value.filter(q => (q._searchText || '').includes(query));
+          const hide = medHideStudied.value;
+          if (!query && !hide) return medDisplayOrder.value;
+          return medDisplayOrder.value.filter(q => {
+            if (hide && medStudied.value.includes(q.id)) return false;
+            if (query && !(q._searchText || '').includes(query)) return false;
+            return true;
+          });
         });
 
         const totalMedPages = computed(() => Math.max(1, Math.ceil(filteredMedQuestions.value.length / medPageSize.value)));
@@ -1799,8 +1988,7 @@
           else studied.value.push(id);
         };
         const isStudied = (id) => studied.value.includes(id);
-        const markStudied = (id) => { if (!studied.value.includes(id)) studied.value.push(id); };
-
+        
         const openSourceModal = (q) => {
           sourceModal.value = { show: true, content: typeof q.source === 'string' ? q.source.trim() : '' };
         };
@@ -1844,6 +2032,7 @@
           let pool = questions.value;
           if (examConfig.value.selectedTopics.length) pool = pool.filter(q => examConfig.value.selectedTopics.includes(q.topic));
           if (examConfig.value.selectedTypes.length) pool = pool.filter(q => examConfig.value.selectedTypes.includes(q.type));
+          if (examConfig.value.excludeChecked) pool = pool.filter(q => !studied.value.includes(q.id));
 
           if (!pool.length) {
             showToast("No questions match your criteria for practice.", true);
@@ -1867,19 +2056,16 @@
 
         const selectMcqOption = (optIdx) => {
           examState.value.userAnswers[currentExamQuestion.value.id] = optIdx;
-          markStudied(currentExamQuestion.value.id);
         };
 
         const getEmqAnswer = (qId, subIdx) => examState.value.userAnswers[`${qId}_${subIdx}`] || '';
         const setEmqAnswer = (qId, subIdx, val) => {
           examState.value.userAnswers[`${qId}_${subIdx}`] = val;
-          if (val) markStudied(qId);
         };
 
         const getSaqAnswer = (qId, subIdx) => examState.value.userAnswers[`${qId}_saq_${subIdx}`] || '';
         const setSaqAnswer = (qId, subIdx, val) => {
           examState.value.userAnswers[`${qId}_saq_${subIdx}`] = val;
-          if (val) markStudied(qId);
         };
 
         const toggleFlagCurrent = () => {
@@ -2027,12 +2213,13 @@
           // MED Dataset refs & methods
           medQuestions, medDisplayOrder, medIsShuffled, medSearch, medCurrentPage, medPageSize,
           medUserAnswers, medRevealed, medShowAllAnswers, loadingMed, medLoaded, medError,
+          medStudied, medHideStudied, toggleMedStudied, isMedStudied,
           filteredMedQuestions, totalMedPages, paginatedMedQuestions,
           loadMedDataset, shuffleMedQuestions, resetMedOrder, selectMedChoice,
           isCorrectChoice, isMedChoiceAnsweredOrRevealed, isMedRevealed, toggleMedReveal,
           getMedChoiceClasses, copyMedQuestion, googleSearchMedQuestion,
 
-          loadAllDatasets, toggleDarkMode, closeIntroModal, openSourceModal,
+          loadAllDatasets, toggleDarkMode, closeIntroModal, openSourceModal, showToast,
           uniqueTopics, uniqueTypes, uniqueCohorts, topicBreakdown, goToTopicFilter,
           filteredQuestions, hasActiveFilters, resetFilters,
           toggleBookmark, isBookmarked, toggleStudied, isStudied,
