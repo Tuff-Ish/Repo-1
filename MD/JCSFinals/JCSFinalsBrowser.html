@@ -652,7 +652,7 @@
                 <div 
                   v-for="(opt, optIdx) in q.options" 
                   :key="optIdx" 
-                  :class="isOptionAdded(opt) ? 'opacity-60' : ''"
+                  :class="isOptionAdded(opt) ? 'opacity-75' : ''"
                   class="p-3 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-slate-50/50 dark:bg-slate-900/40 text-sm text-slate-700 dark:text-slate-300">
                   {{ formatOption(opt) }}
                 </div>
@@ -668,7 +668,7 @@
               <div v-if="q.options && q.options.length" class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 text-xs space-y-1">
                 <span class="font-bold text-slate-700 dark:text-slate-300 block mb-1">Matching Options:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1.5">
-                  <span v-for="opt in q.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''" class="text-slate-600 dark:text-slate-400">{{ formatOption(opt) }}</span>
+                  <span v-for="opt in q.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-75' : ''" class="text-slate-600 dark:text-slate-400">{{ formatOption(opt) }}</span>
                 </div>
               </div>
 
