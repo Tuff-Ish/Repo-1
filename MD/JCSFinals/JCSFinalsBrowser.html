@@ -652,8 +652,9 @@
                 <div 
                   v-for="(opt, optIdx) in q.options" 
                   :key="optIdx" 
+                  :class="isOptionAdded(opt) ? 'opacity-60' : ''"
                   class="p-3 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-slate-50/50 dark:bg-slate-900/40 text-sm text-slate-700 dark:text-slate-300">
-                  {{ opt }}
+                  {{ formatOption(opt) }}
                 </div>
               </div>
             </div>
@@ -667,7 +668,7 @@
               <div v-if="q.options && q.options.length" class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 text-xs space-y-1">
                 <span class="font-bold text-slate-700 dark:text-slate-300 block mb-1">Matching Options:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1.5">
-                  <span v-for="opt in q.options" :key="opt" class="text-slate-600 dark:text-slate-400">{{ opt }}</span>
+                  <span v-for="opt in q.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''" class="text-slate-600 dark:text-slate-400">{{ formatOption(opt) }}</span>
                 </div>
               </div>
 
@@ -881,9 +882,10 @@
                   @click="selectMcqOption(oIdx)"
                   :class="[
                     examState.userAnswers[currentExamQuestion.id] === oIdx ? 'border-brand-600 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium' : 'border-slate-200 dark:border-slate-700 hover:border-brand-300 dark:hover:border-brand-500 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200',
+                    isOptionAdded(opt) ? 'opacity-60' : ''
                   ]"
                   class="p-4 rounded-xl border-2 cursor-pointer transition flex items-center justify-between text-sm">
-                  <span>{{ opt }}</span>
+                  <span>{{ formatOption(opt) }}</span>
                   <div 
                     :class="examState.userAnswers[currentExamQuestion.id] === oIdx ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-600'" 
                     class="w-5 h-5 rounded-full border-2 flex items-center justify-center text-xs">
@@ -901,8 +903,8 @@
               <div class="p-4 bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 text-xs space-y-2">
                 <span class="font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">Available Options:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  <div v-for="opt in currentExamQuestion.options" :key="opt" class="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
-                    {{ opt }}
+                  <div v-for="opt in currentExamQuestion.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''" class="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
+                    {{ formatOption(opt) }}
                   </div>
                 </div>
               </div>
@@ -920,7 +922,7 @@
                     @change="setEmqAnswer(currentExamQuestion.id, subIdx, $event.target.value)"
                     class="w-full p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 text-xs font-medium">
                     <option value="">Select Option Match...</option>
-                    <option v-for="opt in currentExamQuestion.options" :key="opt" :value="opt">{{ opt }}</option>
+                    <option v-for="opt in currentExamQuestion.options" :key="opt" :value="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''">{{ formatOption(opt) }}</option>
                   </select>
                 </div>
               </div>
@@ -1201,14 +1203,14 @@
                   v-for="(choice, cIdx) in (q.choices || [])" 
                   :key="cIdx"
                   @click="selectMedChoice(q.id, cIdx)"
-                  :class="getMedChoiceClasses(q, cIdx, choice)"
+                  :class="[getMedChoiceClasses(q, cIdx, choice), isOptionAdded(choice) ? 'opacity-60' : '']"
                   class="p-3.5 rounded-xl border transition cursor-pointer flex items-center justify-between text-sm">
                   
                   <div class="flex items-start space-x-3">
                     <span class="w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800">
                       {{ String.fromCharCode(65 + cIdx) }}
                     </span>
-                    <span class="leading-snug">{{ choice }}</span>
+                    <span class="leading-snug">{{ formatOption(choice) }}</span>
                   </div>
 
                   <!-- Status Icon -->
@@ -1339,6 +1341,13 @@
         const showToast = (message, isError = false) => {
           toast.value = { show: true, message, isError };
           setTimeout(() => { toast.value.show = false; }, 4000);
+        };
+
+        // Helper for options starting with '*'
+        const isOptionAdded = (opt) => typeof opt === 'string' && opt.trim().startsWith('*');
+        const formatOption = (opt) => {
+          if (typeof opt !== 'string') return opt;
+          return opt.replace(/^\s*\*\s*/, '');
         };
 
         // Filters: topics/types/cohorts are arrays to support multi-select
@@ -1900,7 +1909,7 @@
         const copyMedQuestion = async (q) => {
           let text = `${q.question}\n`;
           (q.choices || []).forEach((c, i) => {
-            text += `${String.fromCharCode(65 + i)}. ${c}\n`;
+            text += `${String.fromCharCode(65 + i)}. ${formatOption(c)}\n`;
           });
           if (q.answer) text += `Answer: ${q.answer}`;
           try {
@@ -1997,10 +2006,10 @@
           let lines = [];
           if (q.type === 'MCQ') {
             lines.push(q.question || '');
-            (q.options || []).forEach((o, i) => lines.push(`${String.fromCharCode(65+i)}. ${o}`));
+            (q.options || []).forEach((o, i) => lines.push(`${String.fromCharCode(65+i)}. ${formatOption(o)}`));
           } else if (q.type === 'EMQ') {
             if (q.theme) lines.push(`Theme: ${q.theme}`);
-            if (q.options && q.options.length) lines.push(`Options: ${q.options.join(', ')}`);
+            if (q.options && q.options.length) lines.push(`Options: ${q.options.map(formatOption).join(', ')}`);
             (q.questions || []).forEach((sq, i) => lines.push(`${i+1}. ${sq.scenario || sq.question}`));
           } else if (q.type === 'SAQ') {
             lines.push(q.case || '');
@@ -2110,11 +2119,11 @@
               if (q.has_img && q.img_src) {
                 getImgSources(q.img_src).forEach(src => { md += `![diagram](${src})\n\n`; });
               }
-              (q.options || []).forEach(o => md += `- ${o}\n`);
+              (q.options || []).forEach(o => md += `- ${formatOption(o)}\n`);
               md += `\n`;
             } else if (q.type === 'EMQ') {
               if (q.theme) md += `**Theme:** ${q.theme}\n\n`;
-              if (q.options && q.options.length) md += `**Matching Options:** ${q.options.join(', ')}\n\n`;
+              if (q.options && q.options.length) md += `**Matching Options:** ${q.options.map(formatOption).join(', ')}\n\n`;
               if (q.has_img && q.img_src) {
                 getImgSources(q.img_src).forEach(src => { md += `![diagram](${src})\n\n`; });
               }
@@ -2178,7 +2187,7 @@
           const rows = list.map(q => {
             const main = q.type === 'SAQ' ? q.case : q.question;
             let extra = '';
-            if (q.type === 'MCQ') extra = (q.options || []).join(' | ');
+            if (q.type === 'MCQ') extra = (q.options || []).map(formatOption).join(' | ');
             else if (q.type === 'EMQ') extra = (q.questions || []).map(sq => sq.scenario || sq.question).join(' | ');
             else if (q.type === 'SAQ') extra = (q.subquestions || []).map(sq => sq.q).join(' | ');
             const esc = (s) => `"${(s || '').toString().replace(/"/g, '""')}"`;
@@ -2209,6 +2218,9 @@
           showIntroModal, dontShowIntroAgain, sourceModal, exportModal, exportFormat,
           currentPage, pageSize, totalPages, paginatedQuestions,
           openFilterDropdown, toggleFilterDropdown,
+
+          // Helper methods for options with '*'
+          isOptionAdded, formatOption,
 
           // MED Dataset refs & methods
           medQuestions, medDisplayOrder, medIsShuffled, medSearch, medCurrentPage, medPageSize,
