@@ -601,31 +601,6 @@
       "is_modified_a": true
     },
     {
-      "id": "2020-GeneralSurgery-SAQ-Surgery-64f99e",
-      "cohort": 2020,
-      "block": "Surgery",
-      "topic": "General Surgery",
-      "type": "SAQ",
-      "tags": [
-        "2020",
-        "SAQ",
-        "General Surgery",
-        "Surgery"
-      ],
-      "case": "Short answer question (SA) on urology. The specific content was not recorded in the source document; only 'SA' appears where the question should be.",
-      "subquestions": [
-        {
-          "q": "Short answer question content not available in the source document.",
-          "points": 1
-        }
-      ],
-      "has_img": false,
-      "img_src": "",
-      "source": "24. SA",
-      "is_modified_q": true,
-      "is_modified_a": false
-    },
-    {
       "id": "2020-GeneralSurgery-MCQ-Surgery-ae8adf",
       "cohort": 2020,
       "block": "Surgery",
