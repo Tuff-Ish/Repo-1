@@ -14,7 +14,7 @@
         "MCQ": 46,
         "SAQ": 5
       },
-      "by_topic": {
+      "by_rotation": {
         "Dermatology": 9,
         "FAMCO": 24,
         "Oral Health": 4,
@@ -32,7 +32,7 @@
         "MCQ": 107,
         "SAQ": 10
       },
-      "by_topic": {
+      "by_rotation": {
         "Dermatology": 16,
         "FAMCO": 44,
         "Oral Health": 9,
@@ -50,7 +50,7 @@
         "MCQ": 47,
         "SAQ": 6
       },
-      "by_topic": {
+      "by_rotation": {
         "Dermatology": 9,
         "FAMCO": 27,
         "Oral Health": 4,
@@ -68,7 +68,7 @@
         "MCQ": 53,
         "SAQ": 5
       },
-      "by_topic": {
+      "by_rotation": {
         "Dermatology": 4,
         "FAMCO": 25,
         "Oral Health": 3,
@@ -85,7 +85,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-cc925ae6",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Secondary hypertension: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -113,7 +114,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-411f190e",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polycystic ovary syndrome: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -141,7 +143,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-2489e4b3",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polycystic ovary syndrome: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -169,7 +172,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-5bab1cc9",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetes mellitus: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -197,7 +201,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-db4a6018",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polycystic ovary syndrome: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -225,7 +230,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-8da1c2a2",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Adrenal disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -253,7 +259,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-17904465",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Secondary hypertension: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -281,7 +288,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-6fef6937",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Vaginal discharge and vaginitis: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -309,7 +317,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-65439acc",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gout and crystal arthropathy: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -337,7 +346,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-9d8efb05",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Wrist and hand disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -365,7 +375,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-f9b41ca3",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Hypertension: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -393,7 +404,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-a4244cd9",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Abnormal uterine bleeding: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -421,7 +433,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-9003fd82",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Low back pain and radiculopathy: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -449,7 +462,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-0032ca22",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Low back pain and radiculopathy: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -477,7 +491,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-811226bd",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Turner syndrome: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -505,7 +520,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-e227b47d",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gallstone disease: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -533,7 +549,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-e06248af",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Asthma: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -561,7 +578,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-6f6e39e2",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Irritable bowel syndrome: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -589,7 +607,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-e5bb2416",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Obsessive-compulsive and related disorders: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -617,7 +636,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-99c516d4",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -645,7 +665,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-2d574996",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -673,7 +694,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-cd7a1cb3",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -704,7 +726,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-a9837919",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Catatonia: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -732,7 +755,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-752feefc",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Suicide and self-harm: assessment",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -760,7 +784,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-f76be51b",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Suicide and self-harm: risk factors",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -788,7 +813,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-2d855334",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -816,7 +842,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-0cf455c5",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Paraphilic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -844,7 +871,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-ea3be044",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Somatic symptom and related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -872,7 +900,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-a5d98bb6",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Bipolar disorder: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -900,7 +929,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-99c428a8",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Child maltreatment: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -931,7 +961,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-b2e86235",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Risk of harm to others: assessment",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -959,7 +990,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-25b081bf",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Dementia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -987,7 +1019,8 @@
       "id": "2020-Psychiatry-MCQ-Ambulatory-eb8ad4a9",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Obsessive-compulsive and related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1015,7 +1048,8 @@
       "id": "2020-OralHealth-MCQ-Ambulatory-56661434",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Oral ulcers and mucosal lesions: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1043,7 +1077,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-4bfef4f7",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Viral skin infections: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1071,7 +1106,8 @@
       "id": "2020-OralHealth-MCQ-Ambulatory-cc977f3a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Gingival disease: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1099,7 +1135,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-1c141eee",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Urticaria and angioedema: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1127,7 +1164,8 @@
       "id": "2020-OralHealth-MCQ-Ambulatory-72dc9e8c",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Dental care in medically compromised patients: complications",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1155,7 +1193,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-0d4be93a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Cutaneous lupus erythematosus: diagnosis; Alopecia: differential diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1183,7 +1222,8 @@
       "id": "2020-FAMCO-MCQ-Ambulatory-2aacfbee",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Hepatocellular carcinoma: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1211,7 +1251,8 @@
       "id": "2020-OralHealth-MCQ-Ambulatory-1d46049f",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Dental caries: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1239,7 +1280,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-9a1c264f",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Scabies: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1267,7 +1309,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-a8a9fadf",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Urticaria and angioedema: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1295,7 +1338,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-ac985f88",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Skin and soft tissue infections: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1323,7 +1367,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-82ac4620",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Acne vulgaris: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1351,7 +1396,8 @@
       "id": "2020-Derma-MCQ-Ambulatory-c9a5b9b3",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Superficial fungal infections: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1379,7 +1425,8 @@
       "id": "2020-FAMCO-EMQ-Ambulatory-c598c73d",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetes mellitus: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1424,7 +1471,8 @@
       "id": "2020-FAMCO-EMQ-Ambulatory-63bb8e82",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Thyroid disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1469,7 +1517,8 @@
       "id": "2020-Psychiatry-EMQ-Ambulatory-bac26c27",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: diagnosis; Bipolar disorder: diagnosis; Trauma and stressor-related disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1514,7 +1563,8 @@
       "id": "2020-Psychiatry-EMQ-Ambulatory-bebde13a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis; Disruptive behavior disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1559,7 +1609,8 @@
       "id": "2020-FAMCO-EMQ-Ambulatory-866dbd1a",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Liver function tests: interpretation",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1604,7 +1655,8 @@
       "id": "2020-FAMCO-SAQ-Ambulatory-5c2273eb",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gestational diabetes: diagnosis, management, complications",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1637,7 +1689,8 @@
       "id": "2020-Derma-SAQ-Ambulatory-16e31b8c",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Unspecified skin lesion: clinical features, diagnosis",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1670,7 +1723,8 @@
       "id": "2020-Psychiatry-SAQ-Ambulatory-4bce673f",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Unspecified psychiatric disorder: diagnosis, management, risk factors",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1703,7 +1757,8 @@
       "id": "2020-FAMCO-SAQ-Ambulatory-caacb8fb",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: management, clinical features",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1736,7 +1791,8 @@
       "id": "2020-Psychiatry-SAQ-Ambulatory-1a8568ac",
       "cohort": 2020,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: diagnosis, clinical features, management",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1769,7 +1825,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-6800925e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Bone and joint infections: etiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1796,7 +1853,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-76fcc3d9",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Child maltreatment: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1823,7 +1881,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-0bda2937",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Low back pain and radiculopathy: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1850,7 +1909,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-68aed362",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Substance use disorders: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1877,7 +1937,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-7e6a5d99",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1904,7 +1965,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-764a10ef",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gout and crystal arthropathy: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1931,7 +1993,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-345052fb",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Eating disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1958,7 +2021,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-4f2b3111",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Drug-induced movement disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1985,7 +2049,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-84f3362c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Arrhythmias: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2012,7 +2077,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-e7902905",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Asthma: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2039,7 +2105,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-a78beabb",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Urinary tract infection: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2066,7 +2133,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-00800165",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Fluid therapy: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2093,7 +2161,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-bec96beb",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Developmental delay and learning disability: assessment",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2120,7 +2189,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-a7763c54",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2147,7 +2217,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-4ea4b98e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Dyspepsia: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2174,7 +2245,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-825dcd1b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Obesity: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2201,7 +2273,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-6ab94315",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gestational diabetes: screening",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2228,7 +2301,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-354eaed6",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Lower respiratory tract infections: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2255,7 +2329,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-511334ac",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polycystic ovary syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2282,7 +2357,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-887ff7ba",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2309,7 +2385,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-71462045",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2336,7 +2413,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-3d4d5991",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2366,7 +2444,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-5fad7965",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antidepressants: adverse effects",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2393,7 +2472,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-0f535a99",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Eating disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2420,7 +2500,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-2bb71b87",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2447,7 +2528,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-4909799c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2477,7 +2559,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-84745518",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2504,7 +2587,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-eca30c25",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2531,7 +2615,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-fd5f3c5b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2558,7 +2643,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-ea8481b9",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2585,7 +2671,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-28a45a57",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Disruptive behavior disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2615,7 +2702,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-e6b600e9",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2642,7 +2730,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-9c184659",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Obsessive-compulsive and related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2669,7 +2758,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-70c38f31",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2696,7 +2786,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-c8da3933",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2726,7 +2817,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-5cf276bc",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Substance use disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2753,7 +2845,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-98a713c2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Sleep disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2780,7 +2873,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-11097315",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Substance use disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2807,7 +2901,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-b2106a48",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: prognosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2834,7 +2929,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-e7b3206a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: diagnosis; Dementia: differential diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2861,7 +2957,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-2ca0388a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Viral skin infections: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2888,7 +2985,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-f512b0df",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2915,7 +3013,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-db1746a0",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2942,7 +3041,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-feae883b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Superficial fungal infections: etiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2969,7 +3069,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-70af47de",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Viral skin infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2996,7 +3097,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-f5b51a36",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Dental care in medically compromised patients: prevention",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3023,7 +3125,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-4973382d",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Viral skin infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3050,7 +3153,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-5e6627d8",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Eczema and dermatitis: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3077,7 +3181,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-38624ce1",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Eczema and dermatitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3104,7 +3209,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-ca92d88c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Dental pain: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3131,7 +3237,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-d76fb0f6",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Maxillofacial trauma: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3158,7 +3265,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-aa02c482",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Salivary gland disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3185,7 +3293,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-7c99c19a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Superficial fungal infections: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3212,7 +3321,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-597c6023",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Salivary gland disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3242,7 +3352,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-783352ab",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Psoriasis: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3269,7 +3380,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-0ea5e843",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Psoriasis: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3296,7 +3408,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-615cca0f",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Eczema and dermatitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3323,7 +3436,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-2456161f",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Urticaria and angioedema: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3350,7 +3464,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-732c113d",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Skin and soft tissue infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3377,7 +3492,8 @@
       "id": "2019-Psychiatry-EMQ-Ambulatory-b028e785",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: diagnosis; Descriptive psychopathology: definition",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -3416,7 +3532,8 @@
       "id": "2019-FAMCO-EMQ-Ambulatory-66697677",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Hypertension: management",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -3457,7 +3574,8 @@
       "id": "2019-FAMCO-EMQ-Ambulatory-dbd1354d",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Vaginal discharge and vaginitis: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -3501,7 +3619,8 @@
       "id": "2019-Derma-SAQ-Ambulatory-df818126",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Acne vulgaris: clinical features, differential diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3535,7 +3654,8 @@
       "id": "2019-Psychiatry-SAQ-Ambulatory-6c397fbc",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: pathophysiology, management, clinical features",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3569,7 +3689,8 @@
       "id": "2019-FAMCO-SAQ-Ambulatory-0e2f552c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gestational diabetes: diagnosis, management, complications",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3606,7 +3727,8 @@
       "id": "2019-Psychiatry-SAQ-Ambulatory-bea6e301",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: differential diagnosis, investigation, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3640,7 +3762,8 @@
       "id": "2019-FAMCO-SAQ-Ambulatory-d0154be1",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Thyroid disorders: differential diagnosis, investigation, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3674,7 +3797,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-adc9979e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3701,7 +3825,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-caaf42be",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Disruptive behavior disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3728,7 +3853,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-7a57004a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3755,7 +3881,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-273e0e71",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3782,7 +3909,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-d2356a8b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3809,7 +3937,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-b2d56039",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Substance use disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3836,7 +3965,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-1ae1c6bb",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Obsessive-compulsive and related disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3863,7 +3993,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-b62900d2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Thyroid disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3890,7 +4021,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-8f2ade48",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3917,7 +4049,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-ff7b13d2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3944,7 +4077,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-6fc5f0bb",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Hypertension: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3971,7 +4105,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-791630c3",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Dementia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3998,7 +4133,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-bbae36ec",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4025,7 +4161,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-a9ec586b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4052,7 +4189,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-6139a6de",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Trauma and stressor-related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4079,7 +4217,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-cc012b13",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Substance use disorders: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4106,7 +4245,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-e78cd765",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Odontogenic infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4133,7 +4273,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-4483af57",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Alopecia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4160,7 +4301,8 @@
       "id": "2019-Derma-MCQ-Ambulatory-c8b53507",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Eczema and dermatitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4187,7 +4329,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-77dc9873",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Croup and upper airway obstruction: diagnosis, management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4217,7 +4360,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-0491efcf",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Childhood exanthems: etiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4244,7 +4388,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-be899059",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Urinary tract infection: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4271,7 +4416,8 @@
       "id": "2019-OralHealth-MCQ-Ambulatory-c1896774",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Maxillofacial trauma: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4298,7 +4444,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-e7b630c7",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Osteoporosis: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4325,7 +4472,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-5c8f0312",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Low back pain and radiculopathy: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4352,7 +4500,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-7cc19324",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Urolithiasis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4379,7 +4528,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-bc2afb33",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gestational diabetes: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4406,7 +4556,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-eab022d9",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Prediabetes: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4433,7 +4584,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-6709d47e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4460,7 +4612,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-d23acc22",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Dyspepsia: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4487,7 +4640,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-63b068fd",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Bipolar disorder: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4514,7 +4668,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-67d12363",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4541,7 +4696,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-da9bbe3e",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4568,7 +4724,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-c635b18b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Somatic symptom and related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4595,7 +4752,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-350718ac",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Somatic symptom and related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4622,7 +4780,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-36e5c125",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Electrolyte disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4649,7 +4808,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-684b9279",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Electrolyte disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4676,7 +4836,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-844c9133",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4703,7 +4864,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-f00499c7",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4730,7 +4892,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-cb29a58b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Bleeding in pregnancy: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4757,7 +4920,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-e367d05c",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4784,7 +4948,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-d3422d34",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4811,7 +4976,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-fa69babe",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4838,7 +5004,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-cbf3b2d5",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Trauma and stressor-related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4865,7 +5032,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-084c781a",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Asthma: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4892,7 +5060,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-431970ca",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Shoulder disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4919,7 +5088,8 @@
       "id": "2019-FAMCO-MCQ-Ambulatory-0f58b842",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Knee injuries: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4946,7 +5116,8 @@
       "id": "2019-Psychiatry-MCQ-Ambulatory-98f26b19",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Psychotropic medications: contraindications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4973,7 +5144,8 @@
       "id": "2019-OralHealth-EMQ-Ambulatory-492784fc",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Oral ulcers and mucosal lesions: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5018,7 +5190,8 @@
       "id": "2019-FAMCO-EMQ-Ambulatory-26ea6bb6",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Bronchiolitis: diagnosis; Croup and upper airway obstruction: diagnosis; Pertussis: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5059,7 +5232,8 @@
       "id": "2019-Psychiatry-EMQ-Ambulatory-b25be032",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5100,7 +5274,8 @@
       "id": "2019-Psychiatry-EMQ-Ambulatory-94c4eacd",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5137,7 +5312,8 @@
       "id": "2019-FAMCO-EMQ-Ambulatory-305572c2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Sinusitis: management",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5170,7 +5346,8 @@
       "id": "2019-Psychiatry-EMQ-Ambulatory-01055ac8",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5203,7 +5380,8 @@
       "id": "2019-Derma-SAQ-Ambulatory-dc7d799f",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Alopecia: diagnosis, risk factors, prognosis",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5237,7 +5415,8 @@
       "id": "2019-OralHealth-SAQ-Ambulatory-c15ebd95",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Tonsillitis and pharyngitis: clinical features, etiology, complications",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5274,7 +5453,8 @@
       "id": "2019-FAMCO-SAQ-Ambulatory-dde76d5b",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetes mellitus: investigation, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5304,7 +5484,8 @@
       "id": "2019-Psychiatry-SAQ-Ambulatory-6dcef7c2",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: investigation, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5342,7 +5523,8 @@
       "id": "2019-Psychiatry-SAQ-Ambulatory-bf1fa716",
       "cohort": 2019,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5372,7 +5554,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-3ba2affb",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Immunization: indications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5399,7 +5582,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-28025401",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Fluid therapy: calculation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5426,7 +5610,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-85979799",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Trauma and stressor-related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5453,7 +5638,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-cfdfbcd9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Eating disorders: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5480,7 +5666,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-e0d234c8",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5507,7 +5694,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-e4e9fac2",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5534,7 +5722,8 @@
       "id": "2018-OralHealth-MCQ-Ambulatory-70601957",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Gingival disease: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5561,7 +5750,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-6b32c0ac",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Menopause: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5588,7 +5778,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-a0ea7c7f",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Vaginal discharge and vaginitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5615,7 +5806,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-48cb2340",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5642,7 +5834,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-4124b041",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5669,7 +5862,8 @@
       "id": "2018-OralHealth-MCQ-Ambulatory-70c202a8",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Gingival disease: etiology",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5696,7 +5890,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-185b3a11",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Behavioral therapy and learning theory: definition",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5723,7 +5918,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-135f574c",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gestational diabetes: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5750,7 +5946,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-f0b6aea3",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Immunization: contraindications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5777,7 +5974,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-9c9f7320",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Hypertension: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5804,7 +6002,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-b397c1ad",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Tonsillitis and pharyngitis: calculation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5831,7 +6030,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-dac899f9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Eating disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5858,7 +6058,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-2b4ad95a",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5885,7 +6086,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-d0a67b02",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Thyroid disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5912,7 +6114,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-cda70c68",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Anemia: etiology",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5939,7 +6142,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-b2a6c318",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Depressive disorders: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5966,7 +6170,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-1f4db5ab",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gout and crystal arthropathy: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5993,7 +6198,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-9829dd5b",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Croup and upper airway obstruction: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6020,7 +6226,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-b179356b",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Contraception: adverse effects",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6047,7 +6254,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-f65c7239",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Contraception: contraindications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6074,7 +6282,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-4bdc2302",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Contraception: contraindications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6101,7 +6310,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-09a4c8e8",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6128,7 +6338,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-a2c0a2fc",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetes mellitus: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6155,7 +6366,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-526dbaa9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6182,7 +6394,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-5cee03a8",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Hypertension: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6209,7 +6422,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-d025b5d6",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Urinary tract infection: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6236,7 +6450,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-1bf6b48b",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Obesity: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6263,7 +6478,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-77e3a6ab",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Mental state examination: interpretation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6290,7 +6506,8 @@
       "id": "2018-Psychiatry-MCQ-Ambulatory-9ef54a76",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Behavioral therapy and learning theory: definition",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6317,7 +6534,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-09d8cdef",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Asthma: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6344,7 +6562,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-4a163790",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polymyalgia rheumatica: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6371,7 +6590,8 @@
       "id": "2018-FAMCO-MCQ-Ambulatory-a4090d43",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6398,7 +6618,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-c9d035a9",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Lichen planus: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6425,7 +6646,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-8dd888f3",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Cutaneous lupus erythematosus: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6452,7 +6674,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-ad5e14f0",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Superficial fungal infections: etiology",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6479,7 +6702,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-98ca3abd",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Superficial fungal infections: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6506,7 +6730,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-ae2572ef",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Eczema and dermatitis: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6533,7 +6758,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-3cb608fd",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Superficial fungal infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6560,7 +6786,8 @@
       "id": "2018-Derma-MCQ-Ambulatory-061ec58a",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Systemic lupus erythematosus: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6587,7 +6814,8 @@
       "id": "2018-OralHealth-MCQ-Ambulatory-1e31ccb5",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Gingival disease: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6614,7 +6842,8 @@
       "id": "2018-OralHealth-MCQ-Ambulatory-a2438c0f",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Odontogenic infections: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6641,7 +6870,8 @@
       "id": "2018-Psychiatry-EMQ-Ambulatory-9250d9ec",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -6686,7 +6916,8 @@
       "id": "2018-Psychiatry-EMQ-Ambulatory-387c45ec",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Psychotropic medications: indications",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -6735,7 +6966,8 @@
       "id": "2018-FAMCO-EMQ-Ambulatory-26d27f03",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Low back pain and radiculopathy: diagnosis",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -6780,7 +7012,8 @@
       "id": "2018-FAMCO-EMQ-Ambulatory-c96d0dea",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Osteoarthritis: diagnosis; Rheumatoid arthritis: diagnosis; Gout and crystal arthropathy: diagnosis; Bone and joint infections: diagnosis",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -6825,7 +7058,8 @@
       "id": "2018-Psychiatry-SAQ-Ambulatory-7e229d26",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Bipolar disorder: differential diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -6859,7 +7093,8 @@
       "id": "2018-Psychiatry-SAQ-Ambulatory-20659b94",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Neurodevelopmental disorders: management; Antipsychotics: adverse effects, investigation",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -6893,7 +7128,8 @@
       "id": "2018-Derma-SAQ-Ambulatory-51ef13aa",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Acne vulgaris: clinical features, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -6927,7 +7163,8 @@
       "id": "2018-Derma-SAQ-Ambulatory-48dd363d",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Psoriasis: clinical features, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -6961,7 +7198,8 @@
       "id": "2018-FAMCO-SAQ-Ambulatory-0725b6ce",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Vaginal discharge and vaginitis: risk factors, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -6991,7 +7229,8 @@
       "id": "2018-FAMCO-SAQ-Ambulatory-f4fc0bda",
       "cohort": 2018,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetes mellitus: complications, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7021,7 +7260,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-e55c1b64",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Osteoporosis: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7056,7 +7296,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-d8e705ae",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polycystic ovary syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7089,7 +7330,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-7b0718f2",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Urinary tract infection: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7123,7 +7365,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-69652912",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Urinary tract infection: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7158,7 +7401,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-f8a1d151",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7192,7 +7436,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-d83ecf08",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Otitis media: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7226,7 +7471,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-bfa9bfbc",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Antenatal care: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7260,7 +7506,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-450a66b3",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Polymyalgia rheumatica: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7294,7 +7541,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-2299734b",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gastroenteritis: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7328,7 +7576,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-74a2409f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Croup and upper airway obstruction: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7362,7 +7611,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-bd4bf87b",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Bronchiolitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7395,7 +7645,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-68efbb07",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetic emergencies: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7429,7 +7680,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-efd820bc",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Consultation and communication skills: principles",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7458,7 +7710,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-76c6b40f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Pneumonia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7492,7 +7745,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-df4cee7b",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gestational diabetes: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7526,7 +7780,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-51780abb",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Sexually transmitted infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7560,7 +7815,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-06c3d8aa",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Anemia: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7589,7 +7845,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-2d3883bc",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Abnormal uterine bleeding: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7623,7 +7880,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-cfda7043",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Dyspepsia: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7656,7 +7914,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-00b4d0f3",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Headache: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7690,7 +7949,8 @@
       "id": "2017-FAMCO-MCQ-Ambulatory-2d646660",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Eating disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7723,7 +7983,8 @@
       "id": "2017-Derma-MCQ-Ambulatory-de9ded57",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Childhood exanthems: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7757,7 +8018,8 @@
       "id": "2017-Derma-MCQ-Ambulatory-313fd6f5",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Alopecia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7788,7 +8050,8 @@
       "id": "2017-Derma-MCQ-Ambulatory-86c51570",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Systemic lupus erythematosus: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7817,7 +8080,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-03515ff9",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7846,7 +8110,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-aef9e0d3",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7879,7 +8144,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-5af7002d",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Stimulants: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7912,7 +8178,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-04b5ec2d",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Substance use disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7945,7 +8212,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-fbd67be9",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Substance use disorders: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7974,7 +8242,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-6809f7cf",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Bipolar disorder: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8008,7 +8277,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-342ea25c",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8040,7 +8310,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-0a8bb6de",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Bipolar disorder: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8073,7 +8344,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-99e911d2",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8106,7 +8378,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-e585f5bd",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Delirium: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8139,7 +8412,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-6e8fce5c",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Personality disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8173,7 +8447,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-b7c45f6f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Mental state examination: interpretation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8208,7 +8483,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-13cc07cb",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Trauma and stressor-related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8241,7 +8517,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-b6c88dab",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Dementia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8275,7 +8552,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-e1b584a6",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Somatic symptom and related disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8308,7 +8586,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-fe8288cd",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: prognosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8340,7 +8619,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-c0fe2f99",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Catatonia: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8372,7 +8652,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-baf84187",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: prognosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8405,7 +8686,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-d5e60f32",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antidepressants: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8436,7 +8718,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-519f60bb",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Paraphilic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8470,7 +8753,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-4bbc885f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Psychotropic medications: contraindications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8503,7 +8787,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-734be3b4",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8536,7 +8821,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-a73926ef",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Anxiety disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8568,7 +8854,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-0f13bbd7",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Obsessive-compulsive and related disorders: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8597,7 +8884,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-348b38a0",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8631,7 +8919,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-2aec0ab7",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8660,7 +8949,8 @@
       "id": "2017-Psychiatry-MCQ-Ambulatory-f3534a5c",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Antipsychotics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8689,7 +8979,8 @@
       "id": "2017-OralHealth-MCQ-Ambulatory-f919e2bd",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Odontogenic infections: complications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8722,7 +9013,8 @@
       "id": "2017-OralHealth-MCQ-Ambulatory-158add36",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Maxillofacial trauma: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8751,7 +9043,8 @@
       "id": "2017-Psychiatry-EMQ-Ambulatory-a829faff",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Descriptive psychopathology: definition",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8797,7 +9090,8 @@
       "id": "2017-Psychiatry-EMQ-Ambulatory-77ce978a",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Schizophrenia and psychotic disorders: diagnosis; Bipolar disorder: diagnosis; Obsessive-compulsive and related disorders: diagnosis; Anxiety disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8843,7 +9137,8 @@
       "id": "2017-OralHealth-EMQ-Ambulatory-8f2f8fa3",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Oral Health",
+      "rotation": "Oral Health",
+      "topic": "Odontogenic infections: diagnosis; Sinusitis: diagnosis; Oral ulcers and mucosal lesions: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8889,7 +9184,8 @@
       "id": "2017-FAMCO-EMQ-Ambulatory-acd6304f",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Diabetes mellitus: diagnosis; Hypertension: diagnosis; Headache: diagnosis; Urinary tract infection: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8935,7 +9231,8 @@
       "id": "2017-FAMCO-EMQ-Ambulatory-2ad3493a",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Osteoporosis: diagnosis; Gestational diabetes: diagnosis; Diabetic emergencies: diagnosis; Otitis media: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8981,7 +9278,8 @@
       "id": "2017-Derma-SAQ-Ambulatory-310b1dc0",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Dermatology",
+      "rotation": "Dermatology",
+      "topic": "Urticaria and angioedema: clinical features, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9017,7 +9315,8 @@
       "id": "2017-FAMCO-SAQ-Ambulatory-8e770860",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Low back pain and radiculopathy: diagnosis, clinical features",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9052,7 +9351,8 @@
       "id": "2017-FAMCO-SAQ-Ambulatory-6cd0397b",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "FAMCO",
+      "rotation": "FAMCO",
+      "topic": "Gastroenteritis: assessment, management; Urinary tract infection: investigation",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9087,7 +9387,8 @@
       "id": "2017-Psychiatry-SAQ-Ambulatory-ac96d0fe",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Bipolar disorder: differential diagnosis, management, investigation",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9122,7 +9423,8 @@
       "id": "2017-Psychiatry-SAQ-Ambulatory-3049c047",
       "cohort": 2017,
       "block": "Ambulatory",
-      "topic": "Psychiatry",
+      "rotation": "Psychiatry",
+      "topic": "Delirium: differential diagnosis, management, complications",
       "type": "SAQ",
       "tags": [
         "2017",

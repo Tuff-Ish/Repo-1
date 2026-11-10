@@ -3,7 +3,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-0f7319b7",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: assessment",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -28,7 +29,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-66c69c58",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -54,7 +56,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-cebb0647",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -80,7 +83,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-fcb3bc3c",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -106,7 +110,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-904a878b",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -132,7 +137,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-14fe629f",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -158,7 +164,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-9a2d7d16",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood vasculitis: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -184,7 +191,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-c162514a",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -210,7 +218,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-3f7730a6",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -236,7 +245,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-88152ebe",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: calculation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -262,7 +272,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-4bc627f6",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal resuscitation: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -288,7 +299,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-117fd2fb",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -314,7 +326,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-2ed15394",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Diabetes mellitus: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -340,7 +353,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-6e6995dc",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Glomerulonephritis and hematuria: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -366,7 +380,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-25002735",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -392,7 +407,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-2e336c87",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -418,7 +434,8 @@
     "id": "2020-Pediatrics-MCQ-Medicine-58cedc2b",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Hypertension: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -444,7 +461,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-e61625f8",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -470,7 +488,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-060b406f",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Chronic kidney disease: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -496,7 +515,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-b5ba9ea4",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -522,7 +542,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-26be3c31",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Drug-induced movement disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -548,7 +569,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-dea05218",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -574,7 +596,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-09442fb2",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Aortic dissection: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -600,7 +623,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-8d8a6b6c",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Electrolyte disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -626,7 +650,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-1652f43c",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Meningitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -652,7 +677,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-7e7f8f8a",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Chronic kidney disease: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -678,7 +704,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-306d324c",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Autoimmune liver disease: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -704,7 +731,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-1d8c1352",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Portal hypertension: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -730,7 +758,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-434e649a",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -756,7 +785,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-b4aba27f",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Aphasia: classification",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -782,7 +812,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-766aea80",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Asthma: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -808,7 +839,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-11593bb6",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -834,7 +866,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-cc1b094b",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -860,7 +893,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-ae9dcf8a",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -886,7 +920,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-7611ba36",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -912,7 +947,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-64d4581e",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Gastrointestinal bleeding: etiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -938,7 +974,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-f1fe3f99",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Neuromuscular disorders: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -964,7 +1001,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-8381cc72",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Hepatocellular carcinoma: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -990,7 +1028,8 @@
     "id": "2020-InternalMedicine-MCQ-Medicine-1eff8a39",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Systemic lupus erythematosus: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1015,7 +1054,8 @@
     "id": "2020-Genetics-MCQ-Medicine-2a4f52e3",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Fragile X syndrome: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1041,7 +1081,8 @@
     "id": "2020-Genetics-MCQ-Medicine-e62e1f57",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Microdeletion and imprinting syndromes: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1067,7 +1108,8 @@
     "id": "2020-Genetics-MCQ-Medicine-e6075838",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Genetic counseling: principles",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1093,7 +1135,8 @@
     "id": "2020-Genetics-MCQ-Medicine-1e976f2b",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Chromosomal disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1119,7 +1162,8 @@
     "id": "2020-Genetics-MCQ-Medicine-0ebf83bc",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Genetic testing: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1145,7 +1189,8 @@
     "id": "2020-Genetics-MCQ-Medicine-ef979f35",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Fragile X syndrome: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1171,7 +1216,8 @@
     "id": "2020-Genetics-EMQ-Medicine-34a52f6a",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Inborn errors of metabolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1215,7 +1261,8 @@
     "id": "2020-Pediatrics-EMQ-Medicine-2859821e",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal jaundice: etiology",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1259,7 +1306,8 @@
     "id": "2020-Pediatrics-EMQ-Medicine-a27e60f8",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bone and joint infections: diagnosis; Juvenile idiopathic arthritis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1299,7 +1347,8 @@
     "id": "2020-Pediatrics-EMQ-Medicine-f7725333",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Tuberculosis: diagnosis; Brucellosis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1335,7 +1384,8 @@
     "id": "2020-InternalMedicine-EMQ-Medicine-2c0e71b6",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Liver function tests: interpretation",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1379,7 +1429,8 @@
     "id": "2020-Genetics-SAQ-Medicine-d26bc94c",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Marfan syndrome: diagnosis, investigation; Patterns of inheritance: interpretation",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1412,7 +1463,8 @@
     "id": "2020-InternalMedicine-SAQ-Medicine-5029e720",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Anaphylaxis: diagnosis, management",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1445,7 +1497,8 @@
     "id": "2020-InternalMedicine-SAQ-Medicine-7448077d",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy, pathophysiology, interpretation",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1478,7 +1531,8 @@
     "id": "2020-InternalMedicine-SAQ-Medicine-59977959",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Tuberculosis: diagnosis, investigation, interpretation",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1511,7 +1565,8 @@
     "id": "2020-Pediatrics-SAQ-Medicine-4f712051",
     "cohort": 2020,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Chronic diarrhea and malabsorption: differential diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1544,7 +1599,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-6a2a7ee4",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Aortic dissection: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1569,7 +1625,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-dd38b474",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Aphasia: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1594,7 +1651,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-2b52f278",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pericardial disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1620,7 +1678,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-3e89a0b0",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1646,7 +1705,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-3a7b4e04",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1671,7 +1731,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-1956bf1c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Urolithiasis: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1697,7 +1758,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-7307ae7e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Valvular heart disease: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1722,7 +1784,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-34751454",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Gastroesophageal reflux disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1747,7 +1810,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-9795d8fd",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Fatty liver disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1772,7 +1836,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-45f4bfe4",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1797,7 +1862,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-50c0bb9c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Gastroenteritis: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1822,7 +1888,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-1c25a75a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1847,7 +1914,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-ec86bc2d",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1872,7 +1940,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-3d1e81ba",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Brucellosis: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1897,7 +1966,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-9bea35eb",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral hepatitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1922,7 +1992,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-c25f6bd3",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Tropical and travel-related infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1947,7 +2018,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-14d5f29c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Diabetes insipidus: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1972,7 +2044,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-a5157e84",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute monoarthritis: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1997,7 +2070,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-d82bb8be",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2023,7 +2097,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-a3f0c766",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Fibromyalgia: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2048,7 +2123,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-33d90a59",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Syncope: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2073,7 +2149,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-d038a27e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2098,7 +2175,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-5a2095d6",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2124,7 +2202,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-85b306cd",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2150,7 +2229,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-18174dc6",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2176,7 +2256,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-8d0c7e2c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Systemic lupus erythematosus: complications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2202,7 +2283,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-d6c7f009",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Electrolyte disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2227,7 +2309,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-f87896f6",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pleural effusion: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2253,7 +2336,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-45570e68",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal jaundice: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2278,7 +2362,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-93693323",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Brucellosis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2303,7 +2388,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-96cd519f",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2328,7 +2414,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-0d4b4f09",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2353,7 +2440,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-23f9bef7",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2378,7 +2466,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-141b1f1a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2403,7 +2492,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-82635629",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood vasculitis: complications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2428,7 +2518,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-73ab42cf",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Glomerulonephritis and hematuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2453,7 +2544,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-deedb657",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Infant feeding: counseling",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2478,7 +2570,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-39d3e3e7",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Gastroenteritis: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2503,7 +2596,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-ed0f309c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2528,7 +2622,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-4a0736e8",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Juvenile idiopathic arthritis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2553,7 +2648,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-269a3402",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Injury prevention: counseling",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2578,7 +2674,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-d256cd88",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Urinary tract infection: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2603,7 +2700,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-3266000e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2628,7 +2726,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-bb0c759d",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Otitis media: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2653,7 +2752,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-e0f08f89",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Infant feeding: counseling",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2678,7 +2778,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-57c23e4d",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bronchiolitis: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2703,7 +2804,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-f6d9397d",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2729,7 +2831,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-187f3dec",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Gastroesophageal reflux disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2755,7 +2858,8 @@
     "id": "2019-Genetics-MCQ-Medicine-ebb3f239",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Skeletal dysplasia: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2780,7 +2884,8 @@
     "id": "2019-Genetics-MCQ-Medicine-4cf81ed6",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Inborn errors of metabolism: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2806,7 +2911,8 @@
     "id": "2019-Genetics-MCQ-Medicine-a6cccbf4",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Inborn errors of metabolism: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2832,7 +2938,8 @@
     "id": "2019-Genetics-MCQ-Medicine-48065247",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Inborn errors of metabolism: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2858,7 +2965,8 @@
     "id": "2019-Genetics-MCQ-Medicine-ebced6f8",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Treatment of genetic disorders: principles",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2884,7 +2992,8 @@
     "id": "2019-Genetics-MCQ-Medicine-4a25725c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Mutation types and mechanisms: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2909,7 +3018,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-fc219487",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Valvular heart disease: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2935,7 +3045,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-c578765e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Calcium and parathyroid disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2961,7 +3072,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-af565cae",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Vertigo: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2987,7 +3099,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-8a36fad5",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neurodevelopmental disorders: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3013,7 +3126,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-4826cb48",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "COPD: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3039,7 +3153,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-631ceed1",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3065,7 +3180,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-dfcfb79a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Poisoning and overdose: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3091,7 +3207,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-f7e9665d",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3117,7 +3234,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-796e077c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3143,7 +3261,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-f7a3131e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3169,7 +3288,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-7ab53fa5",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3195,7 +3315,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-21ab51de",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3221,7 +3342,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-16ae0b06",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Hemolytic uremic syndrome: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3247,7 +3369,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-90a7dcdc",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Hemolytic uremic syndrome: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3273,7 +3396,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-79c719f8",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Asthma: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3299,7 +3423,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-7ecd1f78",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Intussusception: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3325,7 +3450,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-593bf1a0",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3351,7 +3477,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-ab2461f0",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Esophageal disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3377,7 +3504,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-879dd263",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3403,7 +3531,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-98c49533",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Inflammatory bowel disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3429,7 +3558,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-e9a3e8a6",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Rheumatic fever: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3455,7 +3585,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-a3bd8594",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Tuberculosis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3481,7 +3612,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-2200d402",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Sickle cell disease: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3507,7 +3639,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-d1d83cfb",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3533,7 +3666,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-a0dcd52e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3559,7 +3693,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-9687a872",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Immunization: indications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3585,7 +3720,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-ee19516d",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3611,7 +3747,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-20afe8f0",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3637,7 +3774,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-bdb39ef7",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Spinal cord disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3663,7 +3801,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-344d5111",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Spinal cord disorders: anatomy",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3689,7 +3828,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-584a5d14",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Rickets: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3715,7 +3855,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-5f469371",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3741,7 +3882,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-43a82781",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3767,7 +3909,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-f9d30349",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3793,7 +3936,8 @@
     "id": "2019-Genetics-MCQ-Medicine-240c604a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Patterns of inheritance: calculation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3819,7 +3963,8 @@
     "id": "2019-Genetics-MCQ-Medicine-2775dce8",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Patterns of inheritance: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3845,7 +3990,8 @@
     "id": "2019-Genetics-MCQ-Medicine-830ecda3",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Neurocutaneous syndromes: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3871,7 +4017,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-e9962c3e",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3897,7 +4044,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-1090d1c8",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3923,7 +4071,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-a58948f5",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Seizures and epilepsy: risk factors",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3949,7 +4098,8 @@
     "id": "2019-Genetics-MCQ-Medicine-2ae391a9",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Chromosomal disorders: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3975,7 +4125,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-434e6c32",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pneumonia: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4001,7 +4152,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-1407f1f8",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4027,7 +4179,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-aff09733",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Calcium and parathyroid disorders: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4053,7 +4206,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-debffd04",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4079,7 +4233,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-ba816228",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4105,7 +4260,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-02737a32",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Infant of diabetic mother: complications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4131,7 +4287,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-d6acb01f",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4157,7 +4314,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-c7cc7e32",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4183,7 +4341,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-0e9d176c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4209,7 +4368,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-5a6b9842",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4235,7 +4395,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-e7eff58a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Fluid therapy: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4261,7 +4422,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-7c8ea0a0",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Thyroid disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4287,7 +4449,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-96e06f6a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4313,7 +4476,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-bea0052a",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4339,7 +4503,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-896b08a4",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Calcium and parathyroid disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4365,7 +4530,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-57b5da66",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Hemolytic anemia: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4391,7 +4557,8 @@
     "id": "2019-Genetics-MCQ-Medicine-c8c548ec",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Treatment of genetic disorders: principles",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4417,7 +4584,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-f69d1f6c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Diabetes mellitus: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4443,7 +4611,8 @@
     "id": "2019-InternalMedicine-MCQ-Medicine-f043b519",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Infective endocarditis: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4469,7 +4638,8 @@
     "id": "2019-Pediatrics-MCQ-Medicine-3e83f111",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Foreign body aspiration: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4495,7 +4665,8 @@
     "id": "2019-Pediatrics-EMQ-Medicine-bcb86ba4",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: calculation",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4536,7 +4707,8 @@
     "id": "2019-Pediatrics-EMQ-Medicine-64c80463",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Meningitis: etiology; Otitis media: etiology; Neonatal sepsis: etiology",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4576,7 +4748,8 @@
     "id": "2019-Pediatrics-EMQ-Medicine-8e56db78",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Skin rashes: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4616,7 +4789,8 @@
     "id": "2019-Pediatrics-EMQ-Medicine-7b00c8aa",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4652,7 +4826,8 @@
     "id": "2019-InternalMedicine-EMQ-Medicine-f8e921dd",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Inflammatory bowel disease: diagnosis; Chronic diarrhea and malabsorption: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4688,7 +4863,8 @@
     "id": "2019-Pediatrics-EMQ-Medicine-ee82cd88",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood vasculitis: diagnosis; Pyloric stenosis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4724,7 +4900,8 @@
     "id": "2019-InternalMedicine-EMQ-Medicine-786e30f5",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Tuberculosis: diagnosis; Pulmonary embolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4760,7 +4937,8 @@
     "id": "2019-Pediatrics-EMQ-Medicine-d79286fc",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4800,7 +4978,8 @@
     "id": "2019-Pediatrics-SAQ-Medicine-3dc9382c",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation; Chronic diarrhea and malabsorption: diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -4833,7 +5012,8 @@
     "id": "2019-Pediatrics-SAQ-Medicine-ad0f8565",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood vasculitis: diagnosis, management, complications",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -4856,8 +5036,8 @@
         "points": 1
       }
     ],
-    "has_img": true,
-    "img_src": "data:image/jpeg;base64,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",
+    "has_img": false,
+    "img_src": "",
     "is_modified_q": true,
     "is_modified_a": false,
     "source": "SAQ 2: Child present with 6 days history of fever, conjunctivitis, rash, lymphadenopathy…? a. What is the most likely diagnosis ? b. List the next steps of anagement? c. Mention one complication."
@@ -4866,7 +5046,8 @@
     "id": "2019-Pediatrics-SAQ-Medicine-e20ec1dd",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Skin and soft tissue infections: diagnosis, etiology, management",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -4899,7 +5080,8 @@
     "id": "2019-InternalMedicine-SAQ-Medicine-03de5151",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -4932,7 +5114,8 @@
     "id": "2019-InternalMedicine-SAQ-Medicine-4252bea6",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Infective endocarditis: clinical features, diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -4965,7 +5148,8 @@
     "id": "2019-InternalMedicine-SAQ-Medicine-20dd9cc2",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Meningitis: investigation; Tuberculosis: investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -4994,7 +5178,8 @@
     "id": "2019-Pediatrics-SAQ-Medicine-a76e9a94",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation; Chronic diarrhea and malabsorption: diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5027,7 +5212,8 @@
     "id": "2019-Pediatrics-SAQ-Medicine-749776ae",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Pneumonia: interpretation, diagnosis, etiology",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5060,7 +5246,8 @@
     "id": "2019-InternalMedicine-SAQ-Medicine-639036aa",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: interpretation, anatomy",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5089,7 +5276,8 @@
     "id": "2019-Pediatrics-SAQ-Medicine-3256a992",
     "cohort": 2019,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Rheumatic fever: diagnosis",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5118,7 +5306,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-75f83b1b",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5143,7 +5332,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-28ecfecd",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary embolism: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5168,7 +5358,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-7317242f",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5194,7 +5385,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-c22c8b92",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5219,7 +5411,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-b0e2202f",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5244,7 +5437,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-ec4fa44f",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5270,7 +5464,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-39367565",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Mesenteric ischemia: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5295,7 +5490,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-02603955",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: clinical features",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5321,7 +5517,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-79b94f64",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Asthma: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5346,7 +5543,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-0a71472c",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5372,7 +5570,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-48bce8ef",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5398,7 +5597,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-9667a190",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5424,7 +5624,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-fd2a03b3",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5449,7 +5650,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-f1aa3339",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Tropical and travel-related infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5474,7 +5676,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-02dcf967",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral hepatitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5499,7 +5702,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-08337f1e",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Gastrointestinal bleeding: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5524,7 +5728,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-66691be1",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Neuromuscular disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5549,7 +5754,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-e6163d45",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5574,7 +5780,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-bdc39869",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Motor neuron disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5599,7 +5806,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-f437b9ce",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Neuromuscular disorders: clinical features",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5624,7 +5832,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-a4f03eff",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Thyroid disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5649,7 +5858,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-11c90055",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Thyroid disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5674,7 +5884,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-2bcaf898",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Osteoarthritis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5699,7 +5910,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-9d40a608",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Systemic lupus erythematosus: differential diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5725,7 +5937,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-d0ec8ed9",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Poisoning and overdose: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5750,7 +5963,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-bebd08d5",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Gastrointestinal bleeding: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5775,7 +5989,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-e4d63aa2",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Wilson disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5801,7 +6016,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-9a4db19a",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Irritable bowel syndrome: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5827,7 +6043,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-e51860dc",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Inflammatory bowel disease: differential diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5853,7 +6070,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-d1b9bb04",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Chronic kidney disease: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5879,7 +6097,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-19a03f99",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Electrolyte disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5905,7 +6124,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-2ba8df9f",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Chronic kidney disease: complications",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5931,7 +6151,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-d64af625",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Shock: assessment",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5957,7 +6178,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-43feb372",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Low back pain and radiculopathy: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5983,7 +6205,8 @@
     "id": "2018-InternalMedicine-MCQ-Medicine-d86cbd75",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Diabetic emergencies: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6009,7 +6232,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-369e6f41",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Innocent murmur: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6034,7 +6258,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-e940ea91",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6059,7 +6284,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-2aa9e57f",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6084,7 +6310,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-72b5bb1d",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Glomerulonephritis and hematuria: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6110,7 +6337,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-e7a65002",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Glomerulonephritis and hematuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6135,7 +6363,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-1fc15e13",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6160,7 +6389,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-ac907407",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Vesicoureteral reflux: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6186,7 +6416,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-1c7354ea",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6203,7 +6434,7 @@
       "*E. Measles"
     ],
     "has_img": true,
-    "img_src": "data:image/jpeg;base64,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",
+    "img_src": "data:image/jpeg;base64,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",
     "is_modified_q": true,
     "is_modified_a": true,
     "source": "What is the diagnosis? a. Scarlet fever b. meningococcaemia c. TB d. Influenza"
@@ -6212,7 +6443,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-da7b7edf",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6229,7 +6461,7 @@
       "*E. Varicella-zoster"
     ],
     "has_img": true,
-    "img_src": "data:image/jpeg;base64,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",
+    "img_src": "data:image/jpeg;base64,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",
     "is_modified_q": true,
     "is_modified_a": true,
     "source": "A child presented to the clinic with this appearance, what is the likely causative organism? a. Parvovirus b. Strep pneumonia c. Strep pyogenes d. Adenovirus"
@@ -6238,7 +6470,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-5532eadc",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal sepsis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6263,7 +6496,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-2fc556b4",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6288,7 +6522,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-b4762a95",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood vasculitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6314,7 +6549,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-3ce5a365",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Intussusception: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6339,7 +6575,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-d2ae095e",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Peripheral nerve injury: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6364,7 +6601,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-0f26d19f",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Electrolyte disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6389,7 +6627,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-a0b39835",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6414,7 +6653,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-89c52a35",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Leukemia: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6439,7 +6679,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-02c9e32b",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: assessment",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6464,7 +6705,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-bdb66ee2",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Newborn assessment: calculation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6489,7 +6731,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-c91352b5",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neurodevelopmental disorders: screening",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6514,7 +6757,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-24a861f7",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental delay and learning disability: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6539,7 +6783,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-65504389",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Birthmarks and vascular lesions: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6565,7 +6810,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-0a0c7f4d",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Spondyloarthropathies: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6591,7 +6837,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-623b32c2",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6617,7 +6864,8 @@
     "id": "2018-Pediatrics-MCQ-Medicine-769fc3ee",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal jaundice: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6643,7 +6891,8 @@
     "id": "2018-Genetics-MCQ-Medicine-2289b679",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Primary immunodeficiency: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6668,7 +6917,8 @@
     "id": "2018-Genetics-MCQ-Medicine-e265a3b3",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Chromosomal disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6693,7 +6943,8 @@
     "id": "2018-Genetics-MCQ-Medicine-fb22968d",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Patterns of inheritance: calculation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6718,7 +6969,8 @@
     "id": "2018-Genetics-MCQ-Medicine-dda065e4",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Inborn errors of metabolism: classification",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6744,7 +6996,8 @@
     "id": "2018-InternalMedicine-EMQ-Medicine-655a6f63",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Aortic dissection: diagnosis; Acute coronary syndrome: diagnosis; Pneumothorax: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -6784,7 +7037,8 @@
     "id": "2018-InternalMedicine-EMQ-Medicine-f0cacda6",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "COPD: diagnosis; Pneumonia: diagnosis; Asthma: diagnosis; Pulmonary embolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -6828,7 +7082,8 @@
     "id": "2018-InternalMedicine-EMQ-Medicine-4ca3cdd8",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Seizures and epilepsy: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -6868,7 +7123,8 @@
     "id": "2018-Pediatrics-EMQ-Medicine-56ebcba2",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -6912,7 +7168,8 @@
     "id": "2018-Pediatrics-EMQ-Medicine-7cfe5718",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Intussusception: diagnosis; Gastroenteritis: diagnosis; Appendicitis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -6953,7 +7210,8 @@
     "id": "2018-Genetics-EMQ-Medicine-6399a165",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Mutation types and mechanisms: classification",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -6993,7 +7251,8 @@
     "id": "2018-InternalMedicine-SAQ-Medicine-71d87a24",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Sarcoidosis: interpretation, differential diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7026,7 +7285,8 @@
     "id": "2018-InternalMedicine-SAQ-Medicine-9d0d87f6",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: interpretation, diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7063,7 +7323,8 @@
     "id": "2018-Pediatrics-SAQ-Medicine-3fec5a45",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Thalassemia: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7096,7 +7357,8 @@
     "id": "2018-Pediatrics-SAQ-Medicine-e312d650",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Otitis media: diagnosis, etiology, management",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7129,7 +7391,8 @@
     "id": "2018-InternalMedicine-SAQ-Medicine-748e2bf7",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pituitary disorders: diagnosis, clinical features, investigation",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7162,7 +7425,8 @@
     "id": "2018-Genetics-SAQ-Medicine-4904a08d",
     "cohort": 2018,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Inborn errors of metabolism: pathophysiology; Patterns of inheritance: interpretation, calculation",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7195,7 +7459,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-39a481ab",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Primary immunodeficiency: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7221,7 +7486,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-14435814",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Birth injuries: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7247,7 +7513,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-66981776",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7273,7 +7540,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-d8f4dff2",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal jaundice: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7299,7 +7567,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-6d2953e7",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Calcium and parathyroid disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7325,7 +7594,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-8b4a93fa",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7351,7 +7621,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-a04bcae2",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7377,7 +7648,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-bfed1cca",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Child maltreatment: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7403,7 +7675,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-c2cbb75a",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Diabetes insipidus: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7429,7 +7702,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-9ea40d0c",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7455,7 +7729,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-693c84f5",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7481,7 +7756,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-ae097b79",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7507,7 +7783,8 @@
     "id": "2017-Genetics-MCQ-Medicine-46f80279",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Fragile X syndrome: clinical features",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7533,7 +7810,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-b0de1f24",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal hypoglycemia: definition",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7559,7 +7837,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-04f87b32",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Meningitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7585,7 +7864,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-a7963367",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Antidiabetic drugs: adverse effects",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7611,7 +7891,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-31a5a7f3",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neurodevelopmental disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7637,7 +7918,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-b3820597",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7663,7 +7945,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-6ae1d05e",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7689,7 +7972,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-fe2fcded",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7715,7 +7999,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-4749240c",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Neuromuscular disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7741,7 +8026,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-c662672b",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Adrenal disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7767,7 +8053,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-f06b43b5",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neurodevelopmental disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7793,7 +8080,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-dc985055",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Asthma: assessment",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7819,7 +8107,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-0a477dba",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Sickle cell disease: complications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7845,7 +8134,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-08aa1bdc",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Clostridioides difficile infection: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7871,7 +8161,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-913f94cf",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Hemolytic uremic syndrome: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7897,7 +8188,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-2662f095",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Sepsis: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7923,7 +8215,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-891329dc",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Urinalysis: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7949,7 +8242,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-32bc863d",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Glomerulonephritis and hematuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7975,7 +8269,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-5133e4ef",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Chronic kidney disease: complications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8001,7 +8296,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-d0b8f6ed",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Peptic ulcer disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8027,7 +8323,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-f00c4f8a",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8053,7 +8350,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-b6c8a676",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8079,7 +8377,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-138b79c2",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8105,7 +8404,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-ae2ca25b",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal resuscitation: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8131,7 +8431,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-1b883dc5",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8157,7 +8458,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-aeefac13",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8183,7 +8485,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-b97d4fb6",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8209,7 +8512,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-567c0fb9",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "COPD: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8235,7 +8539,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-c90fc947",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neurodevelopmental disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8261,7 +8566,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-610b24aa",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8287,7 +8593,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-0f1788be",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8313,7 +8620,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-7bc55455",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary embolism: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8339,7 +8647,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-38b448a1",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Bronchiolitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8365,7 +8674,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-09663259",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Skin and soft tissue infections: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8391,7 +8701,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-772cab19",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8417,7 +8728,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-6033a26a",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8443,7 +8755,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-a967970e",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Cystic fibrosis: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8469,7 +8782,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-49125a91",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pituitary disorders: clinical features",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8495,7 +8809,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-d6d62c05",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8521,7 +8836,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-465e96b5",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8547,7 +8863,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-9adf0a74",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8573,7 +8890,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-58de95c0",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Bleeding disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8599,7 +8917,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-83b3f19e",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Inflammatory bowel disease: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8625,7 +8944,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-9e2734bf",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8651,7 +8971,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-f0153bd5",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Infective endocarditis: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8677,7 +8998,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-7190fcbe",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Skin and soft tissue infections: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8703,7 +9025,8 @@
     "id": "2017-Genetics-MCQ-Medicine-6bb842ee",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Prenatal diagnosis: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8729,7 +9052,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-7bcb2e80",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral arthritis: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8755,7 +9079,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-2829d41a",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Skin and soft tissue infections: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8781,7 +9106,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-9d8ba67c",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Chronic kidney disease: complications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8807,7 +9133,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-ca32b121",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral hepatitis: prevention",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8833,7 +9160,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-f0d492fc",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Tropical and travel-related infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8859,7 +9187,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-322e22d8",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral skin infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8885,7 +9214,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-57f52656",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral hepatitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8911,7 +9241,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-09444e41",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Autoimmune liver disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8937,7 +9268,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-247c5637",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Viral hepatitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8963,7 +9295,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-7648fba2",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Alcoholic liver disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8989,7 +9322,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-cc102d53",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9015,7 +9349,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-0a757234",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Electrolyte disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9041,7 +9376,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-66f8af4d",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Secondary hypertension: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9067,7 +9403,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-7e1f5cf0",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9093,7 +9430,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-eff53dec",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9119,7 +9457,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-0af5d736",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9145,7 +9484,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-541392aa",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9171,7 +9511,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-228522cd",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9197,7 +9538,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-f7f3f61b",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Calcium and parathyroid disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9223,7 +9565,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-2cd3e40c",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Secondary hypertension: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9249,7 +9592,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-904366c5",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Spinal cord disorders: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9275,7 +9619,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-38f0ed34",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9301,7 +9646,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-04069181",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary hypertension and cor pulmonale: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9327,7 +9673,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-37ef6848",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Heart failure: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9353,7 +9700,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-18f2f5e6",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Anemia: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9379,7 +9727,8 @@
     "id": "2017-InternalMedicine-MCQ-Medicine-ac1543e2",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Hemolytic anemia: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9405,7 +9754,8 @@
     "id": "2017-Genetics-MCQ-Medicine-598ad084",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Treatment of genetic disorders: principles",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9431,7 +9781,8 @@
     "id": "2017-Genetics-MCQ-Medicine-f04df659",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Patterns of inheritance: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9457,7 +9808,8 @@
     "id": "2017-Genetics-MCQ-Medicine-6be54a0d",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Patterns of inheritance: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9483,7 +9835,8 @@
     "id": "2017-Genetics-MCQ-Medicine-6b2a5b6c",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Genetics",
+    "rotation": "Genetics",
+    "topic": "Patterns of inheritance: calculation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9509,7 +9862,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-43ea99e3",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9535,7 +9889,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-f470c32d",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9561,7 +9916,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-d31108a1",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9587,7 +9943,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-a2619cf2",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9613,7 +9970,8 @@
     "id": "2017-Pediatrics-MCQ-Medicine-7837ff04",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Seizures and epilepsy: risk factors",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9639,7 +9997,8 @@
     "id": "2017-InternalMedicine-EMQ-Medicine-2b278092",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute kidney injury: etiology",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9681,7 +10040,8 @@
     "id": "2017-Pediatrics-EMQ-Medicine-a0793db8",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Gastroenteritis: diagnosis; Chronic diarrhea and malabsorption: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9721,7 +10081,8 @@
     "id": "2017-InternalMedicine-EMQ-Medicine-1e828723",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pneumothorax: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9753,7 +10114,8 @@
     "id": "2017-InternalMedicine-EMQ-Medicine-ff608827",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary embolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9785,7 +10147,8 @@
     "id": "2017-Pediatrics-EMQ-Medicine-43a421ad",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Innocent murmur: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9817,7 +10180,8 @@
     "id": "2017-Pediatrics-EMQ-Medicine-b3dfb367",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Seizures and epilepsy: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9849,7 +10213,8 @@
     "id": "2017-Pediatrics-EMQ-Medicine-1e559763",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Childhood exanthems: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9889,7 +10254,8 @@
     "id": "2017-Pediatrics-EMQ-Medicine-ebcac143",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Neonatal respiratory distress: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9929,7 +10295,8 @@
     "id": "2017-InternalMedicine-EMQ-Medicine-50ad60b0",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Peptic ulcer disease: diagnosis; Inflammatory bowel disease: diagnosis; Mesenteric ischemia: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -9969,7 +10336,8 @@
     "id": "2017-InternalMedicine-EMQ-Medicine-9db33506",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pulmonary embolism: diagnosis; Pneumothorax: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10005,7 +10373,8 @@
     "id": "2017-InternalMedicine-EMQ-Medicine-93a630b3",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Secondary hypertension: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10041,7 +10410,8 @@
     "id": "2017-Pediatrics-SAQ-Medicine-512f8231",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Rheumatic fever: diagnosis",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10070,7 +10440,8 @@
     "id": "2017-InternalMedicine-SAQ-Medicine-300273cd",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute pancreatitis: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10103,7 +10474,8 @@
     "id": "2017-Pediatrics-SAQ-Medicine-fa3bcb33",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Developmental delay and learning disability: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10136,7 +10508,8 @@
     "id": "2017-InternalMedicine-SAQ-Medicine-849cb9ee",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pleural effusion: interpretation, investigation, differential diagnosis",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10169,7 +10542,8 @@
     "id": "2017-Pediatrics-SAQ-Medicine-fbbc71a6",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Foreign body aspiration: interpretation, diagnosis, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10202,7 +10576,8 @@
     "id": "2017-InternalMedicine-SAQ-Medicine-98ddac4c",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Neuromuscular disorders: clinical features, anatomy",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10235,7 +10610,8 @@
     "id": "2017-InternalMedicine-SAQ-Medicine-fd591fc6",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Pericardial disease: diagnosis, investigation, complications",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10268,7 +10644,8 @@
     "id": "2017-InternalMedicine-SAQ-Medicine-b260f297",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Acute coronary syndrome: diagnosis, management, investigation",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10301,7 +10678,8 @@
     "id": "2017-Pediatrics-SAQ-Medicine-10e2ebb4",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Thalassemia: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10334,7 +10712,8 @@
     "id": "2017-InternalMedicine-SAQ-Medicine-cb0d978b",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Internal Medicine",
+    "rotation": "Internal Medicine",
+    "topic": "Spinal cord disorders: anatomy, etiology, investigation",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10367,7 +10746,8 @@
     "id": "2017-Pediatrics-SAQ-Medicine-b50cdd97",
     "cohort": 2017,
     "block": "Medicine",
-    "topic": "Pediatrics",
+    "rotation": "Pediatrics",
+    "topic": "Meningitis: diagnosis, clinical features, complications",
     "type": "SAQ",
     "tags": [
       "2017",

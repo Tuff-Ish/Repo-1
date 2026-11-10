@@ -374,7 +374,7 @@
             </button>
           </div>
 
-          <!-- Stats: Total on top, Topics + Cohorts below -->
+          <!-- Stats: Total on top, Rotations + Cohorts below -->
           <div class="space-y-4">
             <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
               <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total JCS Questions</span>
@@ -382,8 +382,8 @@
             </div>
             <div class="grid grid-cols-2 gap-4">
               <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Topics</span>
-                <p class="text-3xl font-extrabold text-brand-600 dark:text-brand-400 mt-2">{{ uniqueTopics.length }}</p>
+                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Rotations</span>
+                <p class="text-3xl font-extrabold text-brand-600 dark:text-brand-400 mt-2">{{ uniqueRotations.length }}</p>
               </div>
               <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
                 <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Cohorts</span>
@@ -391,7 +391,7 @@
               </div>
             </div>
 
-            <!-- MED Quick Banner (Handles Unloaded, Loading, and Loaded states) -->
+            <!-- MED Quick Banner -->
             <div class="p-5 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-brand-500/10 to-indigo-500/10 border border-emerald-500/30 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div class="flex items-center space-x-3 text-center sm:text-left">
                 <div>
@@ -412,23 +412,23 @@
             </div>
           </div>
 
-          <!-- Breakdown by Topic (clickable -> filters Browse tab) -->
+          <!-- Breakdown by Rotation (clickable -> filters Browse tab) -->
           <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm space-y-4">
-            <h3 class="font-bold text-slate-900 dark:text-white text-base">Questions by Topic & Type</h3>
+            <h3 class="font-bold text-slate-900 dark:text-white text-base">Questions by Rotation & Type</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               <button 
-                v-for="topic in topicBreakdown" 
-                :key="topic.name" 
-                @click="goToTopicFilter(topic.name)"
+                v-for="rot in rotationBreakdown" 
+                :key="rot.name" 
+                @click="goToRotationFilter(rot.name)"
                 class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700 flex justify-between items-center text-left hover:border-brand-400 dark:hover:border-brand-500 hover:shadow-sm transition">
                 <div>
-                  <span class="font-bold text-sm text-slate-800 dark:text-slate-200">{{ topic.name }}</span>
+                  <span class="font-bold text-sm text-slate-800 dark:text-slate-200">{{ rot.name }}</span>
                   <div class="flex items-center space-x-2 text-xs text-slate-500 dark:text-slate-400 mt-0.5">
-                    <span v-for="(count, type) in topic.types" :key="type" class="uppercase">{{ type }}: {{ count }}</span>
+                    <span v-for="(count, type) in rot.types" :key="type" class="uppercase">{{ type }}: {{ count }}</span>
                   </div>
                 </div>
                 <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 dark:bg-brand-900/60 dark:text-brand-300">
-                  {{ topic.count }}
+                  {{ rot.count }}
                 </span>
               </button>
             </div>
@@ -453,7 +453,7 @@
               <input 
                 v-model="filters.search" 
                 type="text" 
-                placeholder="Search questions, options, scenarios, IDs, or topics..." 
+                placeholder="Search..." 
                 class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
               />
               <button v-if="filters.search" @click="filters.search=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
@@ -463,21 +463,21 @@
 
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
 
-              <!-- Multi-select: Topics -->
+              <!-- Multi-select: Rotations -->
               <div class="relative">
                 <button 
                   type="button"
-                  @click="toggleFilterDropdown('topic')"
+                  @click="toggleFilterDropdown('rotation')"
                   class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
-                  <span class="truncate">{{ filters.topics.length ? filters.topics.length + ' Topic' + (filters.topics.length > 1 ? 's' : '') : 'All Topics (' + uniqueTopics.length + ')' }}</span>
+                  <span class="truncate">{{ filters.rotations.length ? filters.rotations.length + ' Rotation' + (filters.rotations.length > 1 ? 's' : '') : 'All Rotations (' + uniqueRotations.length + ')' }}</span>
                   <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
                 </button>
-                <div v-if="openFilterDropdown === 'topic'" class="absolute z-30 mt-1 w-56 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="t in uniqueTopics" :key="t" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
-                    <input type="checkbox" :value="t" v-model="filters.topics" class="rounded text-brand-600 focus:ring-brand-500">
-                    <span class="truncate">{{ t }}</span>
+                <div v-if="openFilterDropdown === 'rotation'" class="absolute z-30 mt-1 w-56 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
+                  <label v-for="r in uniqueRotations" :key="r" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
+                    <input type="checkbox" :value="r" v-model="filters.rotations" class="rounded text-brand-600 focus:ring-brand-500">
+                    <span class="truncate">{{ r }}</span>
                   </label>
-                  <button v-if="filters.topics.length" @click="filters.topics = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1">Clear selection</button>
+                  <button v-if="filters.rotations.length" @click="filters.rotations = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1">Clear selection</button>
                 </div>
               </div>
 
@@ -526,11 +526,21 @@
             </div>
           </div>
 
+          <!-- Mode / Syntax Banner Indicators -->
+          <div v-if="isClaudeMode" class="flex items-center space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
+            <i class="fa-solid fa-robot"></i>
+            <span>Claude Prompt Mode Active: Filters bypassed. Clicking the search button on any card will launch Claude chat with that question directly.</span>
+          </div>
+          <div v-else-if="isTopicOnlySearch" class="flex items-center space-x-2 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 rounded-lg px-3 py-2">
+            <i class="fa-solid fa-tags"></i>
+            <span>Filtering exclusively by Topic field: "{{ topicQueryText }}"</span>
+          </div>
+
           <!-- Active filter chips -->
-          <div v-if="filters.topics.length || filters.types.length || filters.cohorts.length" class="flex flex-wrap gap-1.5 pt-1">
-            <span v-for="t in filters.topics" :key="'ft-'+t" class="inline-flex items-center px-2 py-0.5 rounded-full bg-brand-50 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-[11px] font-medium">
-              {{ t }}
-              <button @click="filters.topics.splice(filters.topics.indexOf(t),1)" class="ml-1.5 hover:text-rose-500"><i class="fa-solid fa-xmark"></i></button>
+          <div v-if="filters.rotations.length || filters.types.length || filters.cohorts.length" class="flex flex-wrap gap-1.5 pt-1">
+            <span v-for="r in filters.rotations" :key="'fr-'+r" class="inline-flex items-center px-2 py-0.5 rounded-full bg-brand-50 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-[11px] font-medium">
+              {{ r }}
+              <button @click="filters.rotations.splice(filters.rotations.indexOf(r),1)" class="ml-1.5 hover:text-rose-500"><i class="fa-solid fa-xmark"></i></button>
             </span>
             <span v-for="t in filters.types" :key="'fy-'+t" class="inline-flex items-center px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 text-[11px] font-medium uppercase">
               {{ t }}
@@ -567,6 +577,7 @@
         <!-- Showing X of Y label -->
         <div class="text-xs text-slate-500 dark:text-slate-400 px-1">
           Showing <strong>{{ paginatedQuestions.length }}</strong> of {{ filteredQuestions.length }} filtered items ({{ questions.length }} total)
+          <span v-if="isClaudeMode" class="ml-1 text-amber-600 dark:text-amber-400 font-bold">(/claude mode: unfiltered)</span>
         </div>
 
         <!-- Pagination Section (TOP) -->
@@ -607,8 +618,8 @@
                 <span :class="getTypeBadgeClass(q.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase tracking-wider">
                   {{ q.type }}
                 </span>
-                <span v-if="q.topic" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">
-                  {{ q.topic }}
+                <span v-if="q.rotation" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">
+                  {{ q.rotation }}
                 </span>
                 <span v-if="q.cohort" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs">
                   {{ q.cohort }}
@@ -629,12 +640,32 @@
                   <i class="fa-regular fa-copy text-base"></i>
                 </button>
                 <button 
-                  @click="googleSearchQuestion(q)" 
-                  title="Search this question on Google"
-                  class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
+                  @click="handleQuestionSearch(q)" 
+                  :title="isClaudeMode ? 'Ask Claude about this question directly (/claude)' : 'Search this question on Google'"
+                  :class="isClaudeMode ? 'text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300' : 'text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400'"
+                  class="p-1.5 rounded-lg transition relative">
                   <i class="fa-solid fa-magnifying-glass text-base"></i>
+                  <span v-if="isClaudeMode" class="absolute -top-1 -right-1 flex h-2 w-2">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                  </span>
                 </button>
               </div>
+            </div>
+
+            <!-- Question Topic Tags (if present) -->
+            <div v-if="q.topic" class="pt-0.5 pb-1 flex flex-wrap gap-1.5 items-center">
+              <span class="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center mr-1">
+                <i class="fa-solid fa-tag mr-1 text-brand-500"></i> Topic:
+              </span>
+              <span 
+                v-for="(tPart, tIdx) in getTopicTags(q.topic)" 
+                :key="tIdx"
+                @click="filterByTopicTag(tPart)"
+                class="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-slate-100 hover:bg-brand-50 hover:text-brand-700 dark:bg-slate-700/60 dark:hover:bg-brand-900/40 dark:hover:text-brand-300 text-slate-600 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700 transition cursor-pointer"
+                title="Search questions with this topic">
+                {{ tPart }}
+              </span>
             </div>
 
             <!-- MCQ Type -->
@@ -779,12 +810,12 @@
 
             <div>
               <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">
-                Select Topics (leave empty for all)
+                Select Rotations (leave empty for all)
               </label>
               <div class="flex flex-wrap gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 max-h-32 overflow-y-auto custom-scrollbar">
-                <label v-for="t in uniqueTopics" :key="t" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer">
-                  <input type="checkbox" :value="t" v-model="examConfig.selectedTopics" class="rounded text-brand-600 focus:ring-brand-500">
-                  <span>{{ t }}</span>
+                <label v-for="r in uniqueRotations" :key="r" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer">
+                  <input type="checkbox" :value="r" v-model="examConfig.selectedRotations" class="rounded text-brand-600 focus:ring-brand-500">
+                  <span>{{ r }}</span>
                 </label>
               </div>
             </div>
@@ -851,7 +882,7 @@
           <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 sm:p-8 shadow-sm space-y-6">
             
             <div class="flex items-center justify-between">
-              <div class="flex items-center space-x-2">
+              <div class="flex items-center space-x-2 flex-wrap gap-y-1">
                 <button 
                   @click="toggleStudied(currentExamQuestion.id)" 
                   :title="isStudied(currentExamQuestion.id) ? 'Mark as not checked' : 'Mark as checked'"
@@ -862,7 +893,10 @@
                 <span :class="getTypeBadgeClass(currentExamQuestion.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase">
                   {{ currentExamQuestion.type }}
                 </span>
-                <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">{{ currentExamQuestion.topic }}</span>
+                <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">{{ currentExamQuestion.rotation }}</span>
+                <span v-if="currentExamQuestion.topic" class="text-xs text-brand-600 dark:text-brand-400 font-medium">
+                  • {{ currentExamQuestion.topic }}
+                </span>
               </div>
             </div>
 
@@ -1016,7 +1050,7 @@
 
       </div>
 
-      <!-- TAB 4: MED DATASET TAB (Separate Asynchronous / On-Demand Loading) -->
+      <!-- TAB 4: MED DATASET TAB -->
       <div v-if="activeTab === 'med'" class="space-y-4">
         
         <!-- MED DATASET LOADING INDICATOR -->
@@ -1086,7 +1120,7 @@
                 <input 
                   v-model="medSearch" 
                   type="text" 
-                  placeholder="Search MED questions, options, or answers..." 
+                  placeholder="Search MED questions, options, or '/claude'..." 
                   class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
                 />
                 <button v-if="medSearch" @click="medSearch=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
@@ -1110,6 +1144,11 @@
                   Clear Answers
                 </button>
               </div>
+            </div>
+
+            <div v-if="isMedClaudeMode" class="flex items-center space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
+              <i class="fa-solid fa-robot"></i>
+              <span>Claude Prompt Mode Active: Filters bypassed. Search buttons on cards will launch Claude chat with the question directly.</span>
             </div>
 
             <!-- Hide checked -->
@@ -1154,7 +1193,7 @@
           <div class="space-y-4">
             <div 
               v-for="(q, idx) in paginatedMedQuestions" 
-              :key="q.id || idx"
+              :key="q.id || idx" 
               :class="isMedStudied(q.id) ? 'studied-fade' : ''"
               class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm space-y-4">
               
@@ -1184,10 +1223,15 @@
                     <i class="fa-regular fa-copy text-base"></i>
                   </button>
                   <button 
-                    @click="googleSearchMedQuestion(q)" 
-                    title="Search this question on Google"
-                    class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
+                    @click="handleMedQuestionSearch(q)" 
+                    :title="isMedClaudeMode ? 'Ask Claude about this question directly (/claude)' : 'Search this question on Google'"
+                    :class="isMedClaudeMode ? 'text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300' : 'text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400'"
+                    class="p-1.5 rounded-lg transition relative">
                     <i class="fa-solid fa-magnifying-glass text-base"></i>
+                    <span v-if="isMedClaudeMode" class="absolute -top-1 -right-1 flex h-2 w-2">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                    </span>
                   </button>
                 </div>
               </div>
@@ -1308,7 +1352,7 @@
         const pageSize = ref(10);
 
         // ==========================================
-        // MED DATASET REFS & LOGIC (SEPARATE STATE)
+        // MED DATASET REFS & LOGIC
         // ==========================================
         const medQuestions = ref([]);
         const medDisplayOrder = ref([]);
@@ -1325,7 +1369,7 @@
         const medStudied = ref([]);
         const medHideStudied = ref(false);
 
-        // Which multi-select filter dropdown is currently open ('topic' | 'type' | 'cohort' | null)
+        // Which multi-select filter dropdown is currently open ('rotation' | 'type' | 'cohort' | null)
         const openFilterDropdown = ref(null);
         const toggleFilterDropdown = (name) => {
           openFilterDropdown.value = openFilterDropdown.value === name ? null : name;
@@ -1350,20 +1394,42 @@
           return opt.replace(/^\s*\*\s*/, '');
         };
 
-        // Filters: topics/types/cohorts are arrays to support multi-select
+        // Parse formatted topic string ("Subject: aspect, aspect; Subject 2: aspect")
+        const getTopicTags = (topicStr) => {
+          if (!topicStr || typeof topicStr !== 'string') return [];
+          return topicStr.split(';').map(s => s.trim()).filter(Boolean);
+        };
+
+        const filterByTopicTag = (tPart) => {
+          const subject = tPart.split(':')[0].trim();
+          filters.value.search = `topic: ${subject}`;
+          currentPage.value = 1;
+        };
+
+        // Filters: rotations, types, cohorts are arrays to support multi-select
         const filters = ref({
           search: '',
-          topics: [],
+          rotations: [],
           types: [],
           cohorts: [],
           bookmarkedOnly: false,
           hideStudied: false
         });
 
+        // Computed modes for /claude and topic: search syntax
+        const isClaudeMode = computed(() => filters.value.search.trim().toLowerCase() === '/claude');
+        const isMedClaudeMode = computed(() => medSearch.value.trim().toLowerCase() === '/claude');
+
+        const isTopicOnlySearch = computed(() => filters.value.search.trim().toLowerCase().startsWith('topic:'));
+        const topicQueryText = computed(() => {
+          if (!isTopicOnlySearch.value) return '';
+          return filters.value.search.trim().slice(6).trim();
+        });
+
         // Practice test mode
         const examConfig = ref({
           numQuestions: '10',
-          selectedTopics: [],
+          selectedRotations: [],
           selectedTypes: [],
           excludeChecked: false
         });
@@ -1379,9 +1445,9 @@
         // ==========================================
         // PERSISTED APP STATE (survives page reloads)
         // ==========================================
-        let stateReady = false;     // don't save until initial restore finished
-        let pendingExam = null;     // saved exam awaiting dataset load
-        let pendingMedOrder = null; // saved MED shuffle order awaiting MED load
+        let stateReady = false;
+        let pendingExam = null;
+        let pendingMedOrder = null;
 
         const getMedOrderForSave = () => {
           if (medLoaded.value) {
@@ -1414,7 +1480,6 @@
           medHideStudied: medHideStudied.value
         });
 
-        // Restores everything except page numbers (returned so they can be applied after watchers run)
         const restoreState = () => {
           let s = null;
           try { s = JSON.parse(localStorage.getItem(STATE_KEY) || 'null'); } catch (e) {}
@@ -1424,7 +1489,7 @@
           if (s.filters && typeof s.filters === 'object') {
             filters.value = {
               search: s.filters.search || '',
-              topics: Array.isArray(s.filters.topics) ? s.filters.topics : [],
+              rotations: Array.isArray(s.filters.rotations) ? s.filters.rotations : (Array.isArray(s.filters.topics) ? s.filters.topics : []),
               types: Array.isArray(s.filters.types) ? s.filters.types : [],
               cohorts: Array.isArray(s.filters.cohorts) ? s.filters.cohorts : [],
               bookmarkedOnly: !!s.filters.bookmarkedOnly,
@@ -1435,7 +1500,7 @@
           if (s.examConfig && typeof s.examConfig === 'object') {
             examConfig.value = {
               numQuestions: String(s.examConfig.numQuestions || '10'),
-              selectedTopics: Array.isArray(s.examConfig.selectedTopics) ? s.examConfig.selectedTopics : [],
+              selectedRotations: Array.isArray(s.examConfig.selectedRotations) ? s.examConfig.selectedRotations : (Array.isArray(s.examConfig.selectedTopics) ? s.examConfig.selectedTopics : []),
               selectedTypes: Array.isArray(s.examConfig.selectedTypes) ? s.examConfig.selectedTypes : [],
               excludeChecked: !!s.examConfig.excludeChecked
             };
@@ -1606,25 +1671,20 @@
 
           document.addEventListener('click', handleGlobalClick);
 
-          // Restore last session state (tab, filters, quiz, MED, etc.)
           const savedPages = restoreState();
-
           initializeNavigation();
 
-          // Page-reset watchers run on the next flush; apply saved pages afterwards
           await nextTick();
           if (savedPages) {
             currentPage.value = savedPages.currentPage;
             medCurrentPage.value = savedPages.medCurrentPage;
           }
 
-          // Fast load: Loads only FAMCO, MEDICINE, SURGERY on initial boot
           await loadAllDatasets();
           rehydrateExam();
           stateReady = true;
         });
 
-        // Auto-save app state on any change
         watch(() => JSON.stringify(buildStateSnapshot()), (str) => {
           if (!stateReady) return;
           try { localStorage.setItem(STATE_KEY, str); } catch (e) {}
@@ -1648,7 +1708,6 @@
         watch(medPageSize, () => { medCurrentPage.value = 1; });
         watch(medHideStudied, () => { medCurrentPage.value = 1; });
 
-        // Trigger on-demand loading of MED dataset when user selects MED tab
         watch(activeTab, (newTab) => {
           if (newTab === 'med' && !medLoaded.value && !loadingMed.value) {
             loadMedDataset();
@@ -1672,7 +1731,7 @@
         };
 
         const buildSearchText = (q) => {
-          const parts = [q.question, q.case, q.theme, q.topic, q.cohort, q.id];
+          const parts = [q.question, q.case, q.theme, q.rotation, q.topic, q.cohort, q.id];
           if (Array.isArray(q.options)) parts.push(...q.options);
           if (Array.isArray(q.questions)) {
             q.questions.forEach(sq => {
@@ -1688,7 +1747,7 @@
           return parts.filter(Boolean).join(' \n ').toLowerCase();
         };
 
-        // DATASET LOADING (JCS Datasets: FAMCO, MEDICINE, SURGERY)
+        // DATASET LOADING: Handles rotation rename and new topic field
         const processDataset = (jsonContent, sourceName) => {
           try {
             let data = JSON.parse(jsonContent);
@@ -1698,11 +1757,15 @@
             }
 
             const cleanedData = data.map((q, idx) => {
+              const rotationVal = (q.rotation || (!q.topic || q.topic.includes(':') ? sourceName : q.topic) || 'General').toString().trim();
+              const topicVal = (q.rotation ? (q.topic || '') : (q.topic && q.topic.includes(':') ? q.topic : '') || '').toString().trim();
+
               const base = {
                 id: q.id || `${sourceName}-${idx}-${Math.random().toString(36).substr(2,4)}`,
                 cohort: q.cohort || 'Unknown',
                 block: q.block || 'General',
-                topic: (q.topic || 'General').toString().trim(),
+                rotation: rotationVal,
+                topic: topicVal,
                 type: (q.type || 'MCQ').toString().toUpperCase(),
                 question: q.question || '',
                 options: q.options || [],
@@ -1839,8 +1902,11 @@
         const isMedStudied = (id) => medStudied.value.includes(id);
 
         const filteredMedQuestions = computed(() => {
-          const query = medSearch.value.trim().toLowerCase();
+          const rawQuery = medSearch.value.trim();
+          const isClaude = rawQuery.toLowerCase() === '/claude';
+          const query = (!isClaude) ? rawQuery.toLowerCase() : '';
           const hide = medHideStudied.value;
+
           if (!query && !hide) return medDisplayOrder.value;
           return medDisplayOrder.value.filter(q => {
             if (hide && medStudied.value.includes(q.id)) return false;
@@ -1925,44 +1991,76 @@
           window.open(url, '_blank');
         };
 
+        const launchClaudeMedSearch = (q) => {
+          let text = `${q.question}\n\n`;
+          (q.choices || []).forEach((c, i) => {
+            text += `${String.fromCharCode(65 + i)}. ${formatOption(c)}\n`;
+          });
+          const url = `https://claude.ai/new?q=${encodeURIComponent(text)}`;
+          window.open(url, '_blank');
+        };
+
+        const handleMedQuestionSearch = (q) => {
+          if (isMedClaudeMode.value) {
+            launchClaudeMedSearch(q);
+          } else {
+            googleSearchMedQuestion(q);
+          }
+        };
+
         // ==========================================
         // MAIN JCS BANK COMPUTEDS & METHODS
         // ==========================================
-        const uniqueTopics = computed(() => [...new Set(questions.value.map(q => q.topic))].filter(Boolean).sort());
+        const uniqueRotations = computed(() => [...new Set(questions.value.map(q => q.rotation))].filter(Boolean).sort());
         const uniqueTypes = computed(() => [...new Set(questions.value.map(q => q.type))].filter(Boolean).sort());
         const uniqueCohorts = computed(() => [...new Set(questions.value.map(q => q.cohort))].filter(Boolean).sort());
 
-        const topicBreakdown = computed(() => {
+        const rotationBreakdown = computed(() => {
           const map = {};
           questions.value.forEach(q => {
-            if (!map[q.topic]) map[q.topic] = { name: q.topic, count: 0, types: {} };
-            map[q.topic].count++;
-            map[q.topic].types[q.type] = (map[q.topic].types[q.type] || 0) + 1;
+            if (!map[q.rotation]) map[q.rotation] = { name: q.rotation, count: 0, types: {} };
+            map[q.rotation].count++;
+            map[q.rotation].types[q.type] = (map[q.rotation].types[q.type] || 0) + 1;
           });
           return Object.values(map);
         });
 
-        const goToTopicFilter = (topicName) => {
+        const goToRotationFilter = (rotName) => {
           resetFilters();
-          filters.value.topics = [topicName];
+          filters.value.rotations = [rotName];
           activeTab.value = 'browse';
         };
 
         const filteredQuestions = computed(() => {
-          const query = filters.value.search.trim().toLowerCase();
-          const topics = filters.value.topics;
+          const rawSearch = filters.value.search.trim();
+          const isClaude = rawSearch.toLowerCase() === '/claude';
+          const isTopicSearch = rawSearch.toLowerCase().startsWith('topic:');
+          const topicQuery = isTopicSearch ? rawSearch.slice(6).trim().toLowerCase() : '';
+          const generalQuery = (!isClaude && !isTopicSearch) ? rawSearch.toLowerCase() : '';
+
+          const rotations = filters.value.rotations;
           const types = filters.value.types;
           const cohorts = filters.value.cohorts;
 
           return questions.value.filter(q => {
             if (filters.value.bookmarkedOnly && !bookmarks.value.includes(q.id)) return false;
             if (filters.value.hideStudied && studied.value.includes(q.id)) return false;
-            if (topics.length && !topics.includes(q.topic)) return false;
+            if (rotations.length && !rotations.includes(q.rotation)) return false;
             if (types.length && !types.includes(q.type)) return false;
             if (cohorts.length && !cohorts.includes(q.cohort)) return false;
 
-            if (query) {
-              return (q._searchText || '').includes(query);
+            // /claude mode: do not filter questions
+            if (isClaude) return true;
+
+            // topic: mode: search EXCLUSIVELY in the topic field
+            if (isTopicSearch) {
+              if (!topicQuery) return true;
+              return (q.topic || '').toLowerCase().includes(topicQuery);
+            }
+
+            // General search across question text, options, scenario, etc.
+            if (generalQuery) {
+              return (q._searchText || '').includes(generalQuery);
             }
             return true;
           });
@@ -1976,12 +2074,12 @@
         });
 
         const hasActiveFilters = computed(() => {
-          return filters.value.search || filters.value.topics.length || filters.value.types.length ||
+          return filters.value.search || filters.value.rotations.length || filters.value.types.length ||
                  filters.value.cohorts.length || filters.value.bookmarkedOnly || filters.value.hideStudied;
         });
 
         const resetFilters = () => {
-          filters.value = { search: '', topics: [], types: [], cohorts: [], bookmarkedOnly: false, hideStudied: false };
+          filters.value = { search: '', rotations: [], types: [], cohorts: [], bookmarkedOnly: false, hideStudied: false };
         };
 
         const toggleBookmark = (id) => {
@@ -2036,10 +2134,24 @@
           window.open(url, '_blank');
         };
 
+        const launchClaudeSearch = (q) => {
+          const prompt = questionToText(q);
+          const url = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`;
+          window.open(url, '_blank');
+        };
+
+        const handleQuestionSearch = (q) => {
+          if (isClaudeMode.value) {
+            launchClaudeSearch(q);
+          } else {
+            googleSearchQuestion(q);
+          }
+        };
+
         // EXAM ENGINE LOGIC
         const startExam = () => {
           let pool = questions.value;
-          if (examConfig.value.selectedTopics.length) pool = pool.filter(q => examConfig.value.selectedTopics.includes(q.topic));
+          if (examConfig.value.selectedRotations.length) pool = pool.filter(q => examConfig.value.selectedRotations.includes(q.rotation));
           if (examConfig.value.selectedTypes.length) pool = pool.filter(q => examConfig.value.selectedTypes.includes(q.type));
           if (examConfig.value.excludeChecked) pool = pool.filter(q => !studied.value.includes(q.id));
 
@@ -2113,7 +2225,8 @@
           let md = `# JCS Finals - Question Export\n\n_Exported ${list.length} question(s)_\n\n`;
           list.forEach((q, i) => {
             md += `---\n\n`;
-            md += `## #${i + 1} — [${q.type}] ${q.topic} • ${q.cohort}\n\n`;
+            md += `## #${i + 1} — [${q.type}] ${q.rotation} • ${q.cohort}\n\n`;
+            if (q.topic) md += `**Topic:** ${q.topic}\n\n`;
             if (q.type === 'MCQ') {
               md += `${q.question}\n\n`;
               if (q.has_img && q.img_src) {
@@ -2183,7 +2296,7 @@
         };
 
         const toCSV = (list) => {
-          const headers = ['id','type','topic','cohort','question_or_case','options_or_subitems'];
+          const headers = ['id','type','rotation','topic','cohort','question_or_case','options_or_subitems'];
           const rows = list.map(q => {
             const main = q.type === 'SAQ' ? q.case : q.question;
             let extra = '';
@@ -2191,7 +2304,7 @@
             else if (q.type === 'EMQ') extra = (q.questions || []).map(sq => sq.scenario || sq.question).join(' | ');
             else if (q.type === 'SAQ') extra = (q.subquestions || []).map(sq => sq.q).join(' | ');
             const esc = (s) => `"${(s || '').toString().replace(/"/g, '""')}"`;
-            return [esc(q.id), esc(q.type), esc(q.topic), esc(q.cohort), esc(main), esc(extra)].join(',');
+            return [esc(q.id), esc(q.type), esc(q.rotation), esc(q.topic), esc(q.cohort), esc(main), esc(extra)].join(',');
           });
           return [headers.join(','), ...rows].join('\n');
         };
@@ -2202,7 +2315,7 @@
           if (format === 'md') {
             triggerDownload(exportModal.value.markdown, 'jcs-questions.md', 'text/markdown');
           } else if (format === 'txt') {
-            const txt = list.map((q, i) => `#${i+1} [${q.type}] ${q.topic} • ${q.cohort}\n${questionToText(q)}\n`).join('\n---\n\n');
+            const txt = list.map((q, i) => `#${i+1} [${q.type}] ${q.rotation} • ${q.cohort}${q.topic ? ` (${q.topic})` : ''}\n${questionToText(q)}\n`).join('\n---\n\n');
             triggerDownload(txt, 'jcs-questions.txt', 'text/plain');
           } else if (format === 'json') {
             triggerDownload(JSON.stringify(list, null, 2), 'jcs-questions.json', 'application/json');
@@ -2219,8 +2332,11 @@
           currentPage, pageSize, totalPages, paginatedQuestions,
           openFilterDropdown, toggleFilterDropdown,
 
-          // Helper methods for options with '*'
-          isOptionAdded, formatOption,
+          // Helpers for choices & topics
+          isOptionAdded, formatOption, getTopicTags, filterByTopicTag,
+
+          // Modes
+          isClaudeMode, isMedClaudeMode, isTopicOnlySearch, topicQueryText,
 
           // MED Dataset refs & methods
           medQuestions, medDisplayOrder, medIsShuffled, medSearch, medCurrentPage, medPageSize,
@@ -2229,13 +2345,13 @@
           filteredMedQuestions, totalMedPages, paginatedMedQuestions,
           loadMedDataset, shuffleMedQuestions, resetMedOrder, selectMedChoice,
           isCorrectChoice, isMedChoiceAnsweredOrRevealed, isMedRevealed, toggleMedReveal,
-          getMedChoiceClasses, copyMedQuestion, googleSearchMedQuestion,
+          getMedChoiceClasses, copyMedQuestion, googleSearchMedQuestion, launchClaudeMedSearch, handleMedQuestionSearch,
 
           loadAllDatasets, toggleDarkMode, closeIntroModal, openSourceModal, showToast,
-          uniqueTopics, uniqueTypes, uniqueCohorts, topicBreakdown, goToTopicFilter,
+          uniqueRotations, uniqueTypes, uniqueCohorts, rotationBreakdown, goToRotationFilter,
           filteredQuestions, hasActiveFilters, resetFilters,
           toggleBookmark, isBookmarked, toggleStudied, isStudied,
-          copyQuestion, googleSearchQuestion,
+          copyQuestion, googleSearchQuestion, launchClaudeSearch, handleQuestionSearch,
           startExam, endExam, currentExamQuestion, selectMcqOption,
           getEmqAnswer, setEmqAnswer, getSaqAnswer, setSaqAnswer,
           toggleFlagCurrent, isCurrentFlagged, isFlagged, isAnswered, finishExam,
