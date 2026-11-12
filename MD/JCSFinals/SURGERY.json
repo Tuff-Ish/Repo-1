@@ -7,7 +7,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Liver cysts and abscesses: diagnosis",
+      "topic": "Infectious disease: liver cysts and abscesses: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -34,7 +34,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: management; Colorectal cancer: investigation",
+      "topic": "General surgery: anorectal disorders: management; Oncology: colorectal cancer: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -61,7 +61,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute abdomen: investigation",
+      "topic": "General surgery: acute abdomen: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -88,7 +88,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated viscus: clinical features",
+      "topic": "General surgery: perforated viscus: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -115,7 +115,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: diagnosis",
+      "topic": "General surgery: benign breast disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -142,7 +142,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Skin malignancies: diagnosis",
+      "topic": "Oncology: skin malignancies: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -169,7 +169,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Postoperative complications: management",
+      "topic": "General surgery: postoperative complications: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -196,7 +196,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Pelvic inflammatory disease: investigation",
+      "topic": "Obstetrics and gynecology: pelvic inflammatory disease: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -223,7 +223,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thoracic trauma: management",
+      "topic": "General surgery: thoracic trauma: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -250,7 +250,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Spinal cord disorders: diagnosis",
+      "topic": "Neurology: spinal cord disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -277,7 +277,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: clinical features",
+      "topic": "General surgery: benign breast disease: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -304,7 +304,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Abdominal wall swellings: diagnosis",
+      "topic": "General surgery: abdominal wall swellings: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -331,7 +331,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Inflammatory bowel disease: diagnosis",
+      "topic": "Gastroenterology: inflammatory bowel disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -358,7 +358,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Fluid therapy: management",
+      "topic": "Anesthesia: fluid therapy: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -385,7 +385,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: diagnosis",
+      "topic": "General surgery: anorectal disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -412,7 +412,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Spinal cord disorders: diagnosis",
+      "topic": "Neurology: spinal cord disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -439,7 +439,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Jaundice: etiology",
+      "topic": "Hepatology: jaundice: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -466,7 +466,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: management",
+      "topic": "Gastroenterology: gastrointestinal bleeding: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -493,7 +493,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urinary incontinence: classification",
+      "topic": "Urology: urinary incontinence: classification",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -520,7 +520,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: diagnosis",
+      "topic": "Urology: scrotal and testicular disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -547,7 +547,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Obstructive uropathy: investigation",
+      "topic": "Urology: obstructive uropathy: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -574,7 +574,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urolithiasis: investigation",
+      "topic": "Urology: urolithiasis: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -601,7 +601,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Neurogenic bladder: etiology",
+      "topic": "Urology: neurogenic bladder: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -628,7 +628,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: clinical features",
+      "topic": "Urology: scrotal and testicular disorders: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -655,7 +655,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Obstructive uropathy: investigation",
+      "topic": "Urology: obstructive uropathy: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -682,7 +682,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma medications: adverse effects",
+      "topic": "Ophthalmology: glaucoma medications: adverse effects",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -709,7 +709,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Keratoconus: clinical features",
+      "topic": "Ophthalmology: keratoconus: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -736,7 +736,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma: investigation",
+      "topic": "Ophthalmology: glaucoma: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -763,7 +763,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Retinal vascular occlusion: management",
+      "topic": "Ophthalmology: retinal vascular occlusion: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -790,7 +790,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular and orbital trauma: diagnosis",
+      "topic": "Ophthalmology: ocular and orbital trauma: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -817,7 +817,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular and orbital trauma: investigation",
+      "topic": "Ophthalmology: ocular and orbital trauma: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -844,7 +844,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: etiology",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: etiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -871,7 +871,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Orbital disorders: investigation",
+      "topic": "Ophthalmology: orbital disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -898,7 +898,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Osteoarthritis: management",
+      "topic": "Orthopedics: osteoarthritis: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -925,7 +925,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Shoulder disorders: management",
+      "topic": "Orthopedics: shoulder disorders: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -952,7 +952,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -979,7 +979,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rotational and angular limb deformities: diagnosis",
+      "topic": "Orthopedics: rotational and angular limb deformities: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1006,7 +1006,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Pediatric hip disorders: diagnosis",
+      "topic": "Orthopedics: pediatric hip disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1033,7 +1033,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis",
+      "topic": "Orthopedics: knee injuries: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1060,7 +1060,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Physeal injuries: classification",
+      "topic": "Orthopedics: physeal injuries: classification",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1087,7 +1087,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fracture healing: complications",
+      "topic": "Orthopedics: fracture healing: complications",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1114,7 +1114,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: management; Upper limb fractures: complications",
+      "topic": "Neurology: peripheral nerve injury: management; Orthopedics: upper limb fractures: complications",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1141,7 +1141,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: investigation",
+      "topic": "Orthopedics: lower limb fractures: investigation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1168,7 +1168,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Clubfoot and foot deformities: clinical features",
+      "topic": "Orthopedics: clubfoot and foot deformities: clinical features",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1195,7 +1195,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Physeal injuries: classification",
+      "topic": "Orthopedics: physeal injuries: classification",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1222,7 +1222,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Spinal anesthesia: complications, pathophysiology",
+      "topic": "Anesthesia: spinal anesthesia: complications, pathophysiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1249,7 +1249,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "ASA physical status: classification",
+      "topic": "Anesthesia: ASA physical status: classification",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1276,7 +1276,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway assessment: interpretation",
+      "topic": "Anesthesia: airway assessment: interpretation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1303,7 +1303,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Spinal anesthesia: complications, prevention",
+      "topic": "Anesthesia: spinal anesthesia: complications, prevention",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1330,7 +1330,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Burns and fire deaths: pathophysiology",
+      "topic": "Forensic medicine: burns and fire deaths: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1357,7 +1357,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Drowning: pathophysiology; Postmortem changes: pathophysiology",
+      "topic": "Forensic medicine: drowning: pathophysiology; postmortem changes: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1384,7 +1384,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: diagnosis",
+      "topic": "Forensic medicine: child maltreatment: diagnosis",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1411,7 +1411,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Consent and refusal of treatment: ethics; Child maltreatment: management",
+      "topic": "Forensic medicine: consent and refusal of treatment: ethics; child maltreatment: management",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1438,7 +1438,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: calculation",
+      "topic": "Evidence-based medicine: measures of effect and association: calculation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1465,7 +1465,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: interpretation",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: interpretation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1492,7 +1492,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Confidence intervals and statistical significance: interpretation",
+      "topic": "Evidence-based medicine: confidence intervals and statistical significance: interpretation",
       "type": "MCQ",
       "tags": [
         "2020",
@@ -1519,7 +1519,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis",
+      "topic": "General surgery: hernias: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1563,7 +1563,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: diagnosis",
+      "topic": "General surgery: anorectal disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1605,7 +1605,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Nasolacrimal duct obstruction: diagnosis; Glaucoma: diagnosis; Conjunctivitis: diagnosis",
+      "topic": "Ophthalmology: nasolacrimal duct obstruction: diagnosis; glaucoma: diagnosis; conjunctivitis: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1646,7 +1646,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: diagnosis; Upper limb fractures: diagnosis",
+      "topic": "Orthopedics: upper limb dislocations: diagnosis; upper limb fractures: diagnosis",
       "type": "EMQ",
       "tags": [
         "2020",
@@ -1688,7 +1688,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urinary incontinence: diagnosis, investigation, management",
+      "topic": "Urology: urinary incontinence: diagnosis, investigation, management",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1722,7 +1722,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone and joint infections: diagnosis, pathophysiology, management",
+      "topic": "Infectious disease: bone and joint infections: diagnosis, pathophysiology, management",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1756,7 +1756,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: diagnosis, management, complications",
+      "topic": "Orthopedics: lower limb fractures: diagnosis, management, complications",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1790,7 +1790,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute limb ischemia: diagnosis, investigation, management",
+      "topic": "Vascular surgery: acute limb ischemia: diagnosis, investigation, management",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1824,7 +1824,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: differential diagnosis, investigation, management",
+      "topic": "Gastroenterology: gastrointestinal bleeding: differential diagnosis, investigation, management",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1858,7 +1858,7 @@
       "cohort": 2020,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: clinical features, anatomy, etiology",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: clinical features, anatomy, etiology",
       "type": "SAQ",
       "tags": [
         "2020",
@@ -1892,7 +1892,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign prostatic hyperplasia: management",
+      "topic": "Urology: benign prostatic hyperplasia: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1919,7 +1919,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urolithiasis: management",
+      "topic": "Urology: urolithiasis: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1946,7 +1946,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Osteoarthritis: management",
+      "topic": "Orthopedics: osteoarthritis: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -1973,7 +1973,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Intestinal obstruction: investigation",
+      "topic": "General surgery: intestinal obstruction: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2000,7 +2000,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hepatocellular carcinoma: diagnosis",
+      "topic": "Oncology: hepatocellular carcinoma: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2027,7 +2027,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute pancreatitis: complications",
+      "topic": "Gastroenterology: acute pancreatitis: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2054,7 +2054,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Obstructive uropathy: investigation",
+      "topic": "Urology: obstructive uropathy: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2081,7 +2081,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Postoperative complications: diagnosis",
+      "topic": "General surgery: postoperative complications: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2108,7 +2108,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Peripheral arterial disease: assessment",
+      "topic": "Vascular surgery: peripheral arterial disease: assessment",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2135,7 +2135,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis",
+      "topic": "General surgery: hernias: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2162,7 +2162,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated peptic ulcer: diagnosis",
+      "topic": "General surgery: perforated peptic ulcer: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2189,7 +2189,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid nodules and cancer: investigation",
+      "topic": "Endocrinology: thyroid nodules and cancer: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2216,7 +2216,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: investigation",
+      "topic": "General surgery: benign breast disease: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2243,7 +2243,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: diagnosis",
+      "topic": "General surgery: benign breast disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2270,7 +2270,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Peptic ulcer disease: diagnosis",
+      "topic": "Gastroenterology: peptic ulcer disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2297,7 +2297,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: investigation",
+      "topic": "General surgery: anorectal disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2324,7 +2324,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Neck swellings: diagnosis",
+      "topic": "General surgery: neck swellings: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2351,7 +2351,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2378,7 +2378,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fat embolism syndrome: diagnosis",
+      "topic": "Orthopedics: fat embolism syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2405,7 +2405,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: management",
+      "topic": "Orthopedics: upper limb dislocations: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2432,7 +2432,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Skin and soft tissue infections: diagnosis",
+      "topic": "Infectious disease: skin and soft tissue infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2459,7 +2459,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fracture principles: classification",
+      "topic": "Orthopedics: fracture principles: classification",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2486,7 +2486,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Spinal cord disorders: diagnosis",
+      "topic": "Neurology: spinal cord disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2513,7 +2513,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Hand infections: management",
+      "topic": "Infectious disease: hand infections: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2540,7 +2540,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: complications",
+      "topic": "Orthopedics: upper limb fractures: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2567,7 +2567,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Low back pain and radiculopathy: assessment",
+      "topic": "Neurology: low back pain and radiculopathy: assessment",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2594,7 +2594,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: assessment",
+      "topic": "Orthopedics: upper limb dislocations: assessment",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2621,7 +2621,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Wrist and hand disorders: diagnosis",
+      "topic": "Orthopedics: wrist and hand disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2648,7 +2648,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: anatomy",
+      "topic": "Neurology: peripheral nerve injury: anatomy",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2675,7 +2675,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Leukocoria and retinoblastoma: diagnosis",
+      "topic": "Ophthalmology: leukocoria and retinoblastoma: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2702,7 +2702,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: clinical features",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2729,7 +2729,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Nasolacrimal duct obstruction: diagnosis",
+      "topic": "Ophthalmology: nasolacrimal duct obstruction: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2756,7 +2756,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Diabetic retinopathy: management",
+      "topic": "Ophthalmology: diabetic retinopathy: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2783,7 +2783,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Eyelid disorders: diagnosis",
+      "topic": "Ophthalmology: eyelid disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2810,7 +2810,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Uveitis: diagnosis",
+      "topic": "Ophthalmology: uveitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2837,7 +2837,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Visual field defects: interpretation",
+      "topic": "Ophthalmology: visual field defects: interpretation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2864,7 +2864,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma medications: adverse effects",
+      "topic": "Ophthalmology: glaucoma medications: adverse effects",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2891,7 +2891,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular and orbital trauma: management",
+      "topic": "Ophthalmology: ocular and orbital trauma: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2918,7 +2918,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway assessment: interpretation",
+      "topic": "Anesthesia: airway assessment: interpretation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2945,7 +2945,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "ASA physical status: classification",
+      "topic": "Anesthesia: ASA physical status: classification",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2972,7 +2972,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Preoperative assessment: management",
+      "topic": "Anesthesia: preoperative assessment: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -2999,7 +2999,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Postmortem changes: clinical features",
+      "topic": "Forensic medicine: postmortem changes: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3026,7 +3026,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Mechanical asphyxia: pathophysiology",
+      "topic": "Forensic medicine: mechanical asphyxia: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3053,7 +3053,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Sexual assault: investigation",
+      "topic": "Forensic medicine: sexual assault: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3080,7 +3080,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: differential diagnosis",
+      "topic": "Forensic medicine: child maltreatment: differential diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3107,7 +3107,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: calculation",
+      "topic": "Evidence-based medicine: measures of effect and association: calculation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3134,7 +3134,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Survival analysis: interpretation",
+      "topic": "Evidence-based medicine: survival analysis: interpretation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3161,7 +3161,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: principles",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: principles",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3188,7 +3188,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid nodules and cancer: diagnosis; Thyroid disorders: diagnosis",
+      "topic": "Endocrinology: thyroid nodules and cancer: diagnosis; thyroid disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -3231,7 +3231,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: management",
+      "topic": "Urology: scrotal and testicular disorders: management",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -3272,7 +3272,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fracture principles: classification",
+      "topic": "Orthopedics: fracture principles: classification",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -3313,7 +3313,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Intestinal obstruction: interpretation, diagnosis, management",
+      "topic": "General surgery: intestinal obstruction: interpretation, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3347,7 +3347,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis, management, complications",
+      "topic": "Orthopedics: knee injuries: diagnosis, management, complications",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3381,7 +3381,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rotational and angular limb deformities: etiology, management",
+      "topic": "Orthopedics: rotational and angular limb deformities: etiology, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3411,7 +3411,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Pneumothorax: diagnosis, investigation, management",
+      "topic": "Pulmonology: pneumothorax: diagnosis, investigation, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3445,7 +3445,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Sudden vision loss: diagnosis, differential diagnosis, management",
+      "topic": "Ophthalmology: sudden vision loss: diagnosis, differential diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -3479,7 +3479,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Episcleritis and scleritis: diagnosis",
+      "topic": "Ophthalmology: episcleritis and scleritis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3506,7 +3506,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated peptic ulcer: management",
+      "topic": "General surgery: perforated peptic ulcer: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3533,7 +3533,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: diagnosis",
+      "topic": "General surgery: benign breast disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3560,7 +3560,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Glasgow Coma Scale: calculation",
+      "topic": "Neurology: Glasgow Coma Scale: calculation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3587,7 +3587,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Fluid therapy: calculation",
+      "topic": "Anesthesia: fluid therapy: calculation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3614,7 +3614,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fat embolism syndrome: management",
+      "topic": "Orthopedics: fat embolism syndrome: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3641,7 +3641,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Colorectal cancer: clinical features",
+      "topic": "Oncology: colorectal cancer: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3668,7 +3668,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Radiation proctitis: diagnosis",
+      "topic": "Oncology: radiation proctitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3695,7 +3695,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Inflammatory bowel disease: diagnosis",
+      "topic": "Gastroenterology: inflammatory bowel disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3722,7 +3722,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Blood transfusion: physiology",
+      "topic": "Hematology: blood transfusion: physiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3749,7 +3749,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: calculation",
+      "topic": "Evidence-based medicine: measures of effect and association: calculation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3776,7 +3776,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: calculation",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: calculation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3803,7 +3803,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Meta-analysis and forest plots: interpretation",
+      "topic": "Evidence-based medicine: meta-analysis and forest plots: interpretation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3830,7 +3830,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Meta-analysis and forest plots: interpretation",
+      "topic": "Evidence-based medicine: meta-analysis and forest plots: interpretation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3857,7 +3857,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Study design: principles",
+      "topic": "Evidence-based medicine: study design: principles",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3884,7 +3884,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Study design: classification",
+      "topic": "Evidence-based medicine: study design: classification",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3911,7 +3911,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: definition",
+      "topic": "Evidence-based medicine: measures of effect and association: definition",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3938,7 +3938,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Opioid analgesics: adverse effects",
+      "topic": "Pharmacology: opioid analgesics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3965,7 +3965,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Spinal anesthesia: complications",
+      "topic": "Anesthesia: spinal anesthesia: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -3992,7 +3992,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Malignant hyperthermia: diagnosis",
+      "topic": "Anesthesia: malignant hyperthermia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4019,7 +4019,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway assessment: classification",
+      "topic": "Anesthesia: airway assessment: classification",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4046,7 +4046,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "ASA physical status: classification",
+      "topic": "Anesthesia: ASA physical status: classification",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4073,7 +4073,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Clubfoot and foot deformities: management",
+      "topic": "Orthopedics: clubfoot and foot deformities: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4100,7 +4100,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Open fractures: management",
+      "topic": "Orthopedics: open fractures: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4127,7 +4127,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: diagnosis; Upper limb fractures: complications",
+      "topic": "Neurology: peripheral nerve injury: diagnosis; Orthopedics: upper limb fractures: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4154,7 +4154,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Wrist and hand disorders: management",
+      "topic": "Orthopedics: wrist and hand disorders: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4181,7 +4181,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone and joint infections: diagnosis",
+      "topic": "Infectious disease: bone and joint infections: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4208,7 +4208,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Compartment syndrome: diagnosis",
+      "topic": "Orthopedics: compartment syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4235,7 +4235,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Compartment syndrome: management",
+      "topic": "Orthopedics: compartment syndrome: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4262,7 +4262,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis",
+      "topic": "Orthopedics: knee injuries: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4289,7 +4289,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Carpal tunnel syndrome: assessment",
+      "topic": "Neurology: carpal tunnel syndrome: assessment",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4316,7 +4316,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: differential diagnosis",
+      "topic": "Forensic medicine: child maltreatment: differential diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4343,7 +4343,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Mechanical asphyxia: pathophysiology",
+      "topic": "Forensic medicine: mechanical asphyxia: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4370,7 +4370,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Postmortem changes: clinical features",
+      "topic": "Forensic medicine: postmortem changes: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4397,7 +4397,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: clinical features",
+      "topic": "Forensic medicine: child maltreatment: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4424,7 +4424,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Developmental dysplasia of the hip: investigation",
+      "topic": "Orthopedics: developmental dysplasia of the hip: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4451,7 +4451,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fracture principles: investigation",
+      "topic": "Orthopedics: fracture principles: investigation",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4478,7 +4478,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Cauda equina syndrome: diagnosis",
+      "topic": "Neurology: cauda equina syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4505,7 +4505,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Diabetic retinopathy: management",
+      "topic": "Ophthalmology: diabetic retinopathy: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4532,7 +4532,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Eyelid disorders: diagnosis",
+      "topic": "Ophthalmology: eyelid disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4559,7 +4559,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: management",
+      "topic": "Hepatology: gallstone disease: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4586,7 +4586,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: management",
+      "topic": "Hepatology: gallstone disease: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4613,7 +4613,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Liver cysts and abscesses: diagnosis",
+      "topic": "Infectious disease: liver cysts and abscesses: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4640,7 +4640,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: etiology",
+      "topic": "Gastroenterology: gastrointestinal bleeding: etiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4667,7 +4667,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid nodules and cancer: clinical features",
+      "topic": "Endocrinology: thyroid nodules and cancer: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4694,7 +4694,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Breast cancer: clinical features",
+      "topic": "Oncology: breast cancer: clinical features",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4721,7 +4721,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: management",
+      "topic": "Orthopedics: lower limb fractures: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4748,7 +4748,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4775,7 +4775,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute pancreatitis: complications",
+      "topic": "Gastroenterology: acute pancreatitis: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4802,7 +4802,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Shoulder disorders: diagnosis",
+      "topic": "Orthopedics: shoulder disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4829,7 +4829,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Blood transfusion: complications",
+      "topic": "Hematology: blood transfusion: complications",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4856,7 +4856,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Inflammatory bowel disease: complications; Chronic diarrhea and malabsorption: etiology",
+      "topic": "Gastroenterology: inflammatory bowel disease: complications; chronic diarrhea and malabsorption: etiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4883,7 +4883,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: epidemiology",
+      "topic": "Orthopedics: lower limb fractures: epidemiology",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4910,7 +4910,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Meckel diverticulum: management",
+      "topic": "General surgery: Meckel diverticulum: management",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4937,7 +4937,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Neck swellings: diagnosis",
+      "topic": "General surgery: neck swellings: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4964,7 +4964,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: diagnosis",
+      "topic": "Neurology: peripheral nerve injury: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -4991,7 +4991,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: anatomy",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: anatomy",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -5018,7 +5018,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Giant cell arteritis: diagnosis",
+      "topic": "Rheumatology: giant cell arteritis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2019",
@@ -5045,7 +5045,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular and orbital trauma: diagnosis; Retinal detachment: diagnosis; Endophthalmitis: diagnosis",
+      "topic": "Ophthalmology: ocular and orbital trauma: diagnosis; retinal detachment: diagnosis; endophthalmitis: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5086,7 +5086,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma: management; Diabetic retinopathy: management; Uveitis: management",
+      "topic": "Ophthalmology: glaucoma: management; diabetic retinopathy: management; uveitis: management",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5127,7 +5127,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Obstructive jaundice: diagnosis",
+      "topic": "Hepatology: obstructive jaundice: diagnosis",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5164,7 +5164,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: management",
+      "topic": "General surgery: anorectal disorders: management",
       "type": "EMQ",
       "tags": [
         "2019",
@@ -5205,7 +5205,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Proptosis and thyroid eye disease: diagnosis, clinical features, complications",
+      "topic": "Ophthalmology: proptosis and thyroid eye disease: diagnosis, clinical features, complications",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5239,7 +5239,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis, risk factors, clinical features, management",
+      "topic": "General surgery: hernias: diagnosis, risk factors, clinical features, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5277,7 +5277,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Breast infections: diagnosis, clinical features, risk factors, management",
+      "topic": "Infectious disease: breast infections: diagnosis, clinical features, risk factors, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5315,7 +5315,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: diagnosis, complications, management",
+      "topic": "Orthopedics: upper limb dislocations: diagnosis, complications, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5349,7 +5349,7 @@
       "cohort": 2019,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: diagnosis, complications, management",
+      "topic": "Orthopedics: upper limb fractures: diagnosis, complications, management",
       "type": "SAQ",
       "tags": [
         "2019",
@@ -5383,7 +5383,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Intestinal obstruction: etiology",
+      "topic": "General surgery: intestinal obstruction: etiology",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5410,7 +5410,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Inflammatory bowel disease: diagnosis",
+      "topic": "Gastroenterology: inflammatory bowel disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5437,7 +5437,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urinary incontinence: diagnosis",
+      "topic": "Urology: urinary incontinence: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5464,7 +5464,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Breast infections: etiology",
+      "topic": "Infectious disease: breast infections: etiology",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5491,7 +5491,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Shock: diagnosis",
+      "topic": "Emergency medicine: shock: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5518,7 +5518,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Surgical wounds: classification",
+      "topic": "General surgery: surgical wounds: classification",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5545,7 +5545,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: diagnosis",
+      "topic": "Hepatology: gallstone disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5572,7 +5572,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Shock: assessment",
+      "topic": "Emergency medicine: shock: assessment",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5599,7 +5599,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated peptic ulcer: diagnosis",
+      "topic": "General surgery: perforated peptic ulcer: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5626,7 +5626,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Irritable bowel syndrome: diagnosis",
+      "topic": "Gastroenterology: irritable bowel syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5653,7 +5653,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Postoperative complications: diagnosis",
+      "topic": "General surgery: postoperative complications: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5680,7 +5680,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Esophageal disorders: investigation",
+      "topic": "Gastroenterology: esophageal disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5707,7 +5707,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Jaundice: clinical features",
+      "topic": "Hepatology: jaundice: clinical features",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5734,7 +5734,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Obstructive uropathy: investigation",
+      "topic": "Urology: obstructive uropathy: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5761,7 +5761,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated viscus: diagnosis; Inflammatory bowel disease: complications",
+      "topic": "General surgery: perforated viscus: diagnosis; Gastroenterology: inflammatory bowel disease: complications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5788,7 +5788,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: investigation",
+      "topic": "Oncology: bone tumors: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5815,7 +5815,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: diagnosis",
+      "topic": "General surgery: benign breast disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5842,7 +5842,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute limb ischemia: investigation",
+      "topic": "Vascular surgery: acute limb ischemia: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5869,7 +5869,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: complications; Peripheral nerve injury: diagnosis",
+      "topic": "General surgery: hernias: complications; Neurology: peripheral nerve injury: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5896,7 +5896,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Neck swellings: diagnosis",
+      "topic": "General surgery: neck swellings: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5923,7 +5923,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: management",
+      "topic": "General surgery: anorectal disorders: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5950,7 +5950,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Esophageal disorders: diagnosis",
+      "topic": "Gastroenterology: esophageal disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -5977,7 +5977,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid nodules and cancer: investigation",
+      "topic": "Endocrinology: thyroid nodules and cancer: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6004,7 +6004,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Postoperative complications: diagnosis",
+      "topic": "General surgery: postoperative complications: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6031,7 +6031,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Deep vein thrombosis: investigation",
+      "topic": "Cardiology: deep vein thrombosis: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6058,7 +6058,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urolithiasis: investigation",
+      "topic": "Urology: urolithiasis: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6085,7 +6085,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Developmental dysplasia of the hip: interpretation",
+      "topic": "Orthopedics: developmental dysplasia of the hip: interpretation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6112,7 +6112,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Clubfoot and foot deformities: clinical features",
+      "topic": "Orthopedics: clubfoot and foot deformities: clinical features",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6139,7 +6139,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: management",
+      "topic": "Orthopedics: lower limb fractures: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6166,7 +6166,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Acute monoarthritis: investigation",
+      "topic": "Rheumatology: acute monoarthritis: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6193,7 +6193,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: diagnosis",
+      "topic": "Neurology: peripheral nerve injury: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6220,7 +6220,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Low back pain and radiculopathy: clinical features",
+      "topic": "Neurology: low back pain and radiculopathy: clinical features",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6247,7 +6247,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Low back pain and radiculopathy: assessment",
+      "topic": "Neurology: low back pain and radiculopathy: assessment",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6274,7 +6274,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Carpal tunnel syndrome: diagnosis",
+      "topic": "Neurology: carpal tunnel syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6301,7 +6301,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Wrist and hand disorders: diagnosis",
+      "topic": "Orthopedics: wrist and hand disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6328,7 +6328,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Cauda equina syndrome: management",
+      "topic": "Neurology: cauda equina syndrome: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6355,7 +6355,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Gout and crystal arthropathy: investigation",
+      "topic": "Rheumatology: gout and crystal arthropathy: investigation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6382,7 +6382,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rickets: etiology; Patterns of inheritance: classification",
+      "topic": "Pediatrics: rickets: etiology; Genetics: patterns of inheritance: classification",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6409,7 +6409,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: management",
+      "topic": "Orthopedics: upper limb fractures: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6436,7 +6436,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fracture healing: classification",
+      "topic": "Orthopedics: fracture healing: classification",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6463,7 +6463,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: risk factors",
+      "topic": "Orthopedics: knee injuries: risk factors",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6490,7 +6490,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: assessment",
+      "topic": "Orthopedics: upper limb dislocations: assessment",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6517,7 +6517,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Hand infections: management",
+      "topic": "Infectious disease: hand infections: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6544,7 +6544,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Keratitis: diagnosis",
+      "topic": "Ophthalmology: keratitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6571,7 +6571,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Nasolacrimal duct obstruction: management",
+      "topic": "Ophthalmology: nasolacrimal duct obstruction: management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6598,7 +6598,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Pupillary disorders: diagnosis",
+      "topic": "Ophthalmology: pupillary disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6625,7 +6625,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Strabismus and amblyopia: diagnosis",
+      "topic": "Ophthalmology: strabismus and amblyopia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6652,7 +6652,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: anatomy",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: anatomy",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6679,7 +6679,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Strabismus and amblyopia: assessment",
+      "topic": "Ophthalmology: strabismus and amblyopia: assessment",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6706,7 +6706,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Diabetic retinopathy: complications",
+      "topic": "Ophthalmology: diabetic retinopathy: complications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6733,7 +6733,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Neuromuscular disorders: diagnosis",
+      "topic": "Neurology: neuromuscular disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6760,7 +6760,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Refractive errors: diagnosis",
+      "topic": "Ophthalmology: refractive errors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6787,7 +6787,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma: diagnosis",
+      "topic": "Ophthalmology: glaucoma: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6814,7 +6814,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: calculation",
+      "topic": "Evidence-based medicine: measures of effect and association: calculation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6841,7 +6841,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Meta-analysis and forest plots: interpretation",
+      "topic": "Evidence-based medicine: meta-analysis and forest plots: interpretation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6868,7 +6868,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: calculation",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: calculation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6895,7 +6895,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Study design: principles; Measures of effect and association: interpretation",
+      "topic": "Evidence-based medicine: study design: principles; measures of effect and association: interpretation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6922,7 +6922,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Study design: classification",
+      "topic": "Evidence-based medicine: study design: classification",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6949,7 +6949,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Spinal anesthesia: complications",
+      "topic": "Anesthesia: spinal anesthesia: complications",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -6976,7 +6976,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "ASA physical status: classification",
+      "topic": "Anesthesia: ASA physical status: classification",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7003,7 +7003,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Fluid therapy: calculation",
+      "topic": "Anesthesia: fluid therapy: calculation",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7030,7 +7030,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway assessment: classification",
+      "topic": "Anesthesia: airway assessment: classification",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7057,7 +7057,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Local anesthetic toxicity: diagnosis",
+      "topic": "Anesthesia: local anesthetic toxicity: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7084,7 +7084,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Opioid analgesics: adverse effects",
+      "topic": "Pharmacology: opioid analgesics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7111,7 +7111,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: clinical features",
+      "topic": "Forensic medicine: child maltreatment: clinical features",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7138,7 +7138,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: differential diagnosis, management",
+      "topic": "Forensic medicine: child maltreatment: differential diagnosis, management",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7165,7 +7165,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: clinical features",
+      "topic": "Forensic medicine: child maltreatment: clinical features",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7192,7 +7192,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: diagnosis",
+      "topic": "Forensic medicine: child maltreatment: diagnosis",
       "type": "MCQ",
       "tags": [
         "2018",
@@ -7219,7 +7219,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: diagnosis",
+      "topic": "Urology: scrotal and testicular disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -7265,7 +7265,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Eyelid disorders: diagnosis",
+      "topic": "Ophthalmology: eyelid disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -7309,7 +7309,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: management",
+      "topic": "Orthopedics: lower limb fractures: management",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -7347,7 +7347,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid disorders: diagnosis",
+      "topic": "Endocrinology: thyroid disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2018",
@@ -7389,7 +7389,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rotational and angular limb deformities: diagnosis, differential diagnosis",
+      "topic": "Orthopedics: rotational and angular limb deformities: diagnosis, differential diagnosis",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7419,7 +7419,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: diagnosis, complications, management",
+      "topic": "Orthopedics: upper limb dislocations: diagnosis, complications, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7453,7 +7453,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated viscus: interpretation, management",
+      "topic": "General surgery: perforated viscus: interpretation, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7487,7 +7487,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid disorders: diagnosis, clinical features; Proptosis and thyroid eye disease: complications",
+      "topic": "Endocrinology: thyroid disorders: diagnosis, clinical features; Ophthalmology: proptosis and thyroid eye disease: complications",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7521,7 +7521,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: complications, diagnosis, management",
+      "topic": "Hepatology: gallstone disease: complications, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7555,7 +7555,7 @@
       "cohort": 2018,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Trauma assessment and resuscitation: management, investigation",
+      "topic": "Emergency medicine: trauma assessment and resuscitation: management, investigation",
       "type": "SAQ",
       "tags": [
         "2018",
@@ -7585,7 +7585,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: management",
+      "topic": "General surgery: benign breast disease: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7612,7 +7612,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: diagnosis",
+      "topic": "General surgery: benign breast disease: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7639,7 +7639,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid nodules and cancer: investigation",
+      "topic": "Endocrinology: thyroid nodules and cancer: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7666,7 +7666,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Abdominal and pelvic trauma: management",
+      "topic": "General surgery: abdominal and pelvic trauma: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7693,7 +7693,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Trauma assessment and resuscitation: management",
+      "topic": "Emergency medicine: trauma assessment and resuscitation: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7720,7 +7720,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Colorectal cancer: management; Intestinal obstruction: management",
+      "topic": "Oncology: colorectal cancer: management; General surgery: intestinal obstruction: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7747,7 +7747,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Appendicitis: clinical features",
+      "topic": "General surgery: appendicitis: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7774,7 +7774,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute abdomen: investigation",
+      "topic": "General surgery: acute abdomen: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7801,7 +7801,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: management",
+      "topic": "General surgery: anorectal disorders: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7828,7 +7828,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Soft tissue tumors: investigation",
+      "topic": "Oncology: soft tissue tumors: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7855,7 +7855,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Shock: assessment",
+      "topic": "Emergency medicine: shock: assessment",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7882,7 +7882,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Appendicitis: management",
+      "topic": "General surgery: appendicitis: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7909,7 +7909,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Peripheral nerve injury: diagnosis",
+      "topic": "Neurology: peripheral nerve injury: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7936,7 +7936,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Unspecified ischemic heart disease question: principles",
+      "topic": "Cardiology: unspecified ischemic heart disease question: principles",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7963,7 +7963,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fat embolism syndrome: investigation",
+      "topic": "Orthopedics: fat embolism syndrome: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -7990,7 +7990,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Conjunctivitis: diagnosis",
+      "topic": "Ophthalmology: conjunctivitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8017,7 +8017,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Eyelid disorders: diagnosis",
+      "topic": "Ophthalmology: eyelid disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8044,7 +8044,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular and orbital trauma: management",
+      "topic": "Ophthalmology: ocular and orbital trauma: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8071,7 +8071,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Refractive errors: diagnosis",
+      "topic": "Ophthalmology: refractive errors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8098,7 +8098,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ophthalmic examination and imaging: indications",
+      "topic": "Ophthalmology: ophthalmic examination and imaging: indications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8125,7 +8125,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ophthalmic examination and imaging: principles",
+      "topic": "Ophthalmology: ophthalmic examination and imaging: principles",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8152,7 +8152,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: assessment",
+      "topic": "Neurology: peripheral nerve injury: assessment",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8179,7 +8179,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Wrist and hand disorders: anatomy",
+      "topic": "Orthopedics: wrist and hand disorders: anatomy",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8206,7 +8206,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Osteonecrosis: diagnosis",
+      "topic": "Orthopedics: osteonecrosis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8233,7 +8233,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis",
+      "topic": "Orthopedics: knee injuries: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8260,7 +8260,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rotational and angular limb deformities: diagnosis",
+      "topic": "Orthopedics: rotational and angular limb deformities: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8287,7 +8287,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Shoulder disorders: assessment",
+      "topic": "Orthopedics: shoulder disorders: assessment",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8314,7 +8314,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8341,7 +8341,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8368,7 +8368,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: diagnosis",
+      "topic": "Neurology: peripheral nerve injury: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8395,7 +8395,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Open fractures: classification",
+      "topic": "Orthopedics: open fractures: classification",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8422,7 +8422,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Developmental dysplasia of the hip: investigation",
+      "topic": "Orthopedics: developmental dysplasia of the hip: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8449,7 +8449,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rotational and angular limb deformities: management",
+      "topic": "Orthopedics: rotational and angular limb deformities: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8476,7 +8476,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Fluid therapy: calculation",
+      "topic": "Anesthesia: fluid therapy: calculation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8503,7 +8503,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "ASA physical status: classification",
+      "topic": "Anesthesia: ASA physical status: classification",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8530,7 +8530,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Opioid analgesics: adverse effects",
+      "topic": "Pharmacology: opioid analgesics: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8557,7 +8557,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Rapid sequence induction: indications",
+      "topic": "Anesthesia: rapid sequence induction: indications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8584,7 +8584,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: calculation",
+      "topic": "Evidence-based medicine: measures of effect and association: calculation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8611,7 +8611,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Meta-analysis and forest plots: interpretation",
+      "topic": "Evidence-based medicine: meta-analysis and forest plots: interpretation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8638,7 +8638,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: interpretation",
+      "topic": "Evidence-based medicine: measures of effect and association: interpretation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8665,7 +8665,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: investigation",
+      "topic": "Forensic medicine: child maltreatment: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8692,7 +8692,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: clinical features",
+      "topic": "Forensic medicine: child maltreatment: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8719,7 +8719,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: differential diagnosis, management",
+      "topic": "Forensic medicine: child maltreatment: differential diagnosis, management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -8746,7 +8746,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Pupillary disorders: diagnosis; Optic nerve disorders: diagnosis",
+      "topic": "Ophthalmology: pupillary disorders: diagnosis; optic nerve disorders: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8787,7 +8787,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Unspecified EBM topic: principles",
+      "topic": "Evidence-based medicine: unspecified EBM topic: principles",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8820,7 +8820,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: management; Acute pancreatitis: management",
+      "topic": "Hepatology: gallstone disease: management; Gastroenterology: acute pancreatitis: management",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8861,7 +8861,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Unspecified anorectal disorder: diagnosis",
+      "topic": "General surgery: unspecified anorectal disorder: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -8894,7 +8894,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated peptic ulcer: diagnosis, management",
+      "topic": "General surgery: perforated peptic ulcer: diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -8924,7 +8924,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: diagnosis, management",
+      "topic": "Orthopedics: upper limb fractures: diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -8954,7 +8954,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign prostatic hyperplasia: diagnosis, management",
+      "topic": "Urology: benign prostatic hyperplasia: diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -8984,7 +8984,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis, clinical features, management",
+      "topic": "General surgery: hernias: diagnosis, clinical features, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9018,7 +9018,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Refractive errors: management, complications",
+      "topic": "Ophthalmology: refractive errors: management, complications",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9048,7 +9048,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis, clinical features, risk factors, management",
+      "topic": "General surgery: hernias: diagnosis, clinical features, risk factors, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9086,7 +9086,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: interpretation, management, complications",
+      "topic": "Orthopedics: upper limb fractures: interpretation, management, complications",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9120,7 +9120,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Cataract: diagnosis, etiology, management",
+      "topic": "Ophthalmology: cataract: diagnosis, etiology, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9154,7 +9154,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Intestinal obstruction: diagnosis, etiology, management",
+      "topic": "General surgery: intestinal obstruction: diagnosis, etiology, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9188,7 +9188,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign prostatic hyperplasia: diagnosis, management, complications",
+      "topic": "Urology: benign prostatic hyperplasia: diagnosis, management, complications",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -9226,7 +9226,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis",
+      "topic": "Orthopedics: knee injuries: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -9267,7 +9267,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Peripheral arterial disease: diagnosis",
+      "topic": "Vascular surgery: peripheral arterial disease: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -9304,7 +9304,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Study design: principles",
+      "topic": "Evidence-based medicine: study design: principles",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -9345,7 +9345,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Conjunctivitis: management; Glaucoma: management; Uveitis: management",
+      "topic": "Ophthalmology: conjunctivitis: management; glaucoma: management; uveitis: management",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -9386,7 +9386,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: diagnosis",
+      "topic": "General surgery: benign breast disease: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -9427,7 +9427,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign breast disease: investigation",
+      "topic": "General surgery: benign breast disease: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9454,7 +9454,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Mesenteric ischemia: diagnosis",
+      "topic": "Gastroenterology: mesenteric ischemia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9481,7 +9481,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Abdominal and pelvic trauma: management",
+      "topic": "General surgery: abdominal and pelvic trauma: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9508,7 +9508,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Trauma assessment and resuscitation: principles",
+      "topic": "Emergency medicine: trauma assessment and resuscitation: principles",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9535,7 +9535,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Low back pain and radiculopathy: assessment",
+      "topic": "Neurology: low back pain and radiculopathy: assessment",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9562,7 +9562,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Varicose veins and chronic venous disease: contraindications",
+      "topic": "Vascular surgery: varicose veins and chronic venous disease: contraindications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9589,7 +9589,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hematuria and bladder cancer: investigation",
+      "topic": "Urology: hematuria and bladder cancer: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9616,7 +9616,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urolithiasis: management",
+      "topic": "Urology: urolithiasis: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9643,7 +9643,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: management",
+      "topic": "Hepatology: gallstone disease: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9670,7 +9670,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Local anesthetic toxicity: diagnosis",
+      "topic": "Anesthesia: local anesthetic toxicity: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9697,7 +9697,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis",
+      "topic": "Orthopedics: knee injuries: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9724,7 +9724,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Glasgow Coma Scale: calculation",
+      "topic": "Neurology: Glasgow Coma Scale: calculation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9751,7 +9751,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Rotational and angular limb deformities: management",
+      "topic": "Orthopedics: rotational and angular limb deformities: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9778,7 +9778,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fat embolism syndrome: investigation",
+      "topic": "Orthopedics: fat embolism syndrome: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9805,7 +9805,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Compartment syndrome: management",
+      "topic": "Orthopedics: compartment syndrome: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9832,7 +9832,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Appendicitis: anatomy",
+      "topic": "General surgery: appendicitis: anatomy",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9859,7 +9859,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Mechanical asphyxia: diagnosis",
+      "topic": "Forensic medicine: mechanical asphyxia: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9886,7 +9886,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: differential diagnosis, management",
+      "topic": "Forensic medicine: child maltreatment: differential diagnosis, management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9913,7 +9913,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: diagnosis",
+      "topic": "Forensic medicine: child maltreatment: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9940,7 +9940,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "ASA physical status: classification",
+      "topic": "Anesthesia: ASA physical status: classification",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9967,7 +9967,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: etiology",
+      "topic": "Gastroenterology: gastrointestinal bleeding: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -9994,7 +9994,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated peptic ulcer: diagnosis",
+      "topic": "General surgery: perforated peptic ulcer: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10021,7 +10021,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated peptic ulcer: investigation",
+      "topic": "General surgery: perforated peptic ulcer: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10048,7 +10048,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Leg ulcers: diagnosis",
+      "topic": "Vascular surgery: leg ulcers: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10075,7 +10075,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: etiology",
+      "topic": "Gastroenterology: gastrointestinal bleeding: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10102,7 +10102,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Appendicitis: management",
+      "topic": "General surgery: appendicitis: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10129,7 +10129,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: investigation",
+      "topic": "Urology: scrotal and testicular disorders: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10156,7 +10156,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Appendicitis: management",
+      "topic": "General surgery: appendicitis: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10183,7 +10183,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: management",
+      "topic": "Hepatology: gallstone disease: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10210,7 +10210,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway assessment: interpretation",
+      "topic": "Anesthesia: airway assessment: interpretation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10237,7 +10237,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis",
+      "topic": "General surgery: hernias: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10264,7 +10264,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis",
+      "topic": "General surgery: hernias: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10291,7 +10291,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Shoulder disorders: diagnosis",
+      "topic": "Orthopedics: shoulder disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10318,7 +10318,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Wrist and hand disorders: management",
+      "topic": "Orthopedics: wrist and hand disorders: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10345,7 +10345,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: diagnosis",
+      "topic": "Neurology: peripheral nerve injury: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10372,7 +10372,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Peripheral nerve injury: diagnosis; Upper limb fractures: complications",
+      "topic": "Neurology: peripheral nerve injury: diagnosis; Orthopedics: upper limb fractures: complications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10399,7 +10399,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Fluid therapy: calculation",
+      "topic": "Anesthesia: fluid therapy: calculation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10426,7 +10426,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: management",
+      "topic": "Urology: scrotal and testicular disorders: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10453,7 +10453,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute pancreatitis: complications",
+      "topic": "Gastroenterology: acute pancreatitis: complications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10480,7 +10480,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: calculation; Measures of effect and association: calculation",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: calculation; measures of effect and association: calculation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10507,7 +10507,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10534,7 +10534,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway obstruction during anesthesia: etiology",
+      "topic": "Anesthesia: airway obstruction during anesthesia: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10561,7 +10561,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Oxygen therapy: management",
+      "topic": "Anesthesia: oxygen therapy: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10588,7 +10588,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma: etiology",
+      "topic": "Ophthalmology: glaucoma: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10615,7 +10615,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Diabetic retinopathy: diagnosis",
+      "topic": "Ophthalmology: diabetic retinopathy: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10642,7 +10642,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Unspecified fundus finding: diagnosis",
+      "topic": "Ophthalmology: unspecified fundus finding: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10669,7 +10669,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ophthalmic examination and imaging: indications",
+      "topic": "Ophthalmology: ophthalmic examination and imaging: indications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10696,7 +10696,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular and orbital trauma: diagnosis",
+      "topic": "Ophthalmology: ocular and orbital trauma: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10723,7 +10723,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: diagnosis",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10750,7 +10750,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: management",
+      "topic": "Urology: scrotal and testicular disorders: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10777,7 +10777,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: investigation",
+      "topic": "Gastroenterology: gastrointestinal bleeding: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10804,7 +10804,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gastrointestinal bleeding: investigation; Meckel diverticulum: investigation",
+      "topic": "Gastroenterology: gastrointestinal bleeding: investigation; General surgery: Meckel diverticulum: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10831,7 +10831,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Benign prostatic hyperplasia: management",
+      "topic": "Urology: benign prostatic hyperplasia: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10858,7 +10858,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Pressure ulcers: management",
+      "topic": "General surgery: pressure ulcers: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10885,7 +10885,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Developmental dysplasia of the hip: investigation",
+      "topic": "Orthopedics: developmental dysplasia of the hip: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10912,7 +10912,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Sickle cell disease: management; Splenectomy: indications",
+      "topic": "Hematology: sickle cell disease: management; General surgery: splenectomy: indications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10939,7 +10939,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Postoperative complications: diagnosis",
+      "topic": "General surgery: postoperative complications: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10966,7 +10966,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Deep vein thrombosis: prevention",
+      "topic": "Cardiology: deep vein thrombosis: prevention",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -10993,7 +10993,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Colorectal cancer: diagnosis",
+      "topic": "Oncology: colorectal cancer: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11020,7 +11020,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Liver cysts and abscesses: etiology",
+      "topic": "Infectious disease: liver cysts and abscesses: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11047,7 +11047,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Thyroid disorders: diagnosis",
+      "topic": "Endocrinology: thyroid disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11074,7 +11074,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Anorectal disorders: anatomy",
+      "topic": "General surgery: anorectal disorders: anatomy",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11101,7 +11101,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Pilonidal sinus: pathophysiology",
+      "topic": "General surgery: pilonidal sinus: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11128,7 +11128,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Gallstone disease: clinical features",
+      "topic": "Hepatology: gallstone disease: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11155,7 +11155,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Obstructive jaundice: diagnosis",
+      "topic": "Hepatology: obstructive jaundice: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11182,7 +11182,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Neck swellings: clinical features",
+      "topic": "General surgery: neck swellings: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11209,7 +11209,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute pancreatitis: pathophysiology",
+      "topic": "Gastroenterology: acute pancreatitis: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11236,7 +11236,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute limb ischemia: etiology",
+      "topic": "Vascular surgery: acute limb ischemia: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11263,7 +11263,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: etiology",
+      "topic": "Urology: scrotal and testicular disorders: etiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11290,7 +11290,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urinary retention: management",
+      "topic": "Urology: urinary retention: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11317,7 +11317,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hematuria and bladder cancer: differential diagnosis",
+      "topic": "Urology: hematuria and bladder cancer: differential diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11344,7 +11344,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Acute kidney injury: investigation",
+      "topic": "Nephrology: acute kidney injury: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11371,7 +11371,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Urinary retention: complications",
+      "topic": "Urology: urinary retention: complications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11398,7 +11398,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: clinical features",
+      "topic": "Urology: scrotal and testicular disorders: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11425,7 +11425,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Abdominal and pelvic trauma: diagnosis",
+      "topic": "General surgery: abdominal and pelvic trauma: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11452,7 +11452,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Scrotal and testicular disorders: clinical features",
+      "topic": "Urology: scrotal and testicular disorders: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11479,7 +11479,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Conjunctivitis: diagnosis",
+      "topic": "Ophthalmology: conjunctivitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11506,7 +11506,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma: management",
+      "topic": "Ophthalmology: glaucoma: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11533,7 +11533,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Ocular motility and cranial nerve palsies: anatomy",
+      "topic": "Ophthalmology: ocular motility and cranial nerve palsies: anatomy",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11560,7 +11560,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Conjunctivitis: diagnosis",
+      "topic": "Ophthalmology: conjunctivitis: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11587,7 +11587,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Optic nerve disorders: diagnosis",
+      "topic": "Ophthalmology: optic nerve disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11614,7 +11614,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Glaucoma: clinical features",
+      "topic": "Ophthalmology: glaucoma: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11641,7 +11641,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Age-related macular degeneration: diagnosis",
+      "topic": "Ophthalmology: age-related macular degeneration: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11668,7 +11668,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Wrist and hand disorders: anatomy",
+      "topic": "Orthopedics: wrist and hand disorders: anatomy",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11695,7 +11695,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: management",
+      "topic": "Orthopedics: lower limb fractures: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11722,7 +11722,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: assessment",
+      "topic": "Orthopedics: upper limb fractures: assessment",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11749,7 +11749,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb fractures: diagnosis",
+      "topic": "Orthopedics: upper limb fractures: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11776,7 +11776,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Compartment syndrome: management",
+      "topic": "Orthopedics: compartment syndrome: management",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11803,7 +11803,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Shoulder disorders: diagnosis",
+      "topic": "Orthopedics: shoulder disorders: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11830,7 +11830,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Bone tumors: diagnosis",
+      "topic": "Oncology: bone tumors: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11857,7 +11857,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Fat embolism syndrome: diagnosis",
+      "topic": "Orthopedics: fat embolism syndrome: diagnosis",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11884,7 +11884,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Lower limb fractures: complications",
+      "topic": "Orthopedics: lower limb fractures: complications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11911,7 +11911,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Child maltreatment: clinical features",
+      "topic": "Forensic medicine: child maltreatment: clinical features",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11938,7 +11938,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Mechanical asphyxia: pathophysiology",
+      "topic": "Forensic medicine: mechanical asphyxia: pathophysiology",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11965,7 +11965,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Forensic",
-      "topic": "Drowning: investigation",
+      "topic": "Forensic medicine: drowning: investigation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -11992,7 +11992,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: calculation",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: calculation",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -12019,7 +12019,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Measures of effect and association: definition",
+      "topic": "Evidence-based medicine: measures of effect and association: definition",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -12046,7 +12046,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "EBM",
-      "topic": "Diagnostic test accuracy: definition",
+      "topic": "Evidence-based medicine: diagnostic test accuracy: definition",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -12073,7 +12073,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Intravenous anesthetic agents: adverse effects",
+      "topic": "Anesthesia: intravenous anesthetic agents: adverse effects",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -12100,7 +12100,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Spinal anesthesia: indications",
+      "topic": "Anesthesia: spinal anesthesia: indications",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -12127,7 +12127,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Anesthesia",
-      "topic": "Airway assessment: principles",
+      "topic": "Anesthesia: airway assessment: principles",
       "type": "MCQ",
       "tags": [
         "2017",
@@ -12154,7 +12154,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Hernias: diagnosis",
+      "topic": "General surgery: hernias: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -12196,7 +12196,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Keratitis: management; Diabetic retinopathy: management; Glaucoma: management",
+      "topic": "Ophthalmology: keratitis: management; diabetic retinopathy: management; glaucoma: management",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -12237,7 +12237,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Knee injuries: diagnosis",
+      "topic": "Orthopedics: knee injuries: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -12279,7 +12279,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Abdominal masses: diagnosis",
+      "topic": "General surgery: abdominal masses: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -12316,7 +12316,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Unspecified breast pathology: diagnosis",
+      "topic": "General surgery: unspecified breast pathology: diagnosis",
       "type": "EMQ",
       "tags": [
         "2017",
@@ -12349,7 +12349,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Perforated viscus: interpretation, diagnosis, management",
+      "topic": "General surgery: perforated viscus: interpretation, diagnosis, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -12383,7 +12383,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Proptosis and thyroid eye disease: clinical features, etiology, complications",
+      "topic": "Ophthalmology: proptosis and thyroid eye disease: clinical features, etiology, complications",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -12417,7 +12417,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Ophthalmology",
-      "topic": "Cataract: diagnosis, risk factors, management",
+      "topic": "Ophthalmology: cataract: diagnosis, risk factors, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -12451,7 +12451,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "Orthopedic",
-      "topic": "Upper limb dislocations: diagnosis, complications, management",
+      "topic": "Orthopedics: upper limb dislocations: diagnosis, complications, management",
       "type": "SAQ",
       "tags": [
         "2017",
@@ -12485,7 +12485,7 @@
       "cohort": 2017,
       "block": "Surgery",
       "rotation": "General Surgery",
-      "topic": "Neck swellings: diagnosis, clinical features, complications",
+      "topic": "General surgery: neck swellings: diagnosis, clinical features, complications",
       "type": "SAQ",
       "tags": [
         "2017",

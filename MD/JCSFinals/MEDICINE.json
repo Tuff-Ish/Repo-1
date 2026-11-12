@@ -4,7 +4,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: assessment",
+    "topic": "Pediatrics: growth: assessment",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -30,7 +30,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: etiology",
+    "topic": "Infectious disease: childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -57,7 +57,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: diagnosis",
+    "topic": "Infectious disease: childhood exanthems: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -84,7 +84,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Respiratory distress: pathophysiology",
+    "topic": "Pediatrics: respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -111,7 +111,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -138,7 +138,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: investigation",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -165,7 +165,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood vasculitis: management",
+    "topic": "Rheumatology: childhood vasculitis: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -192,7 +192,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: pathophysiology",
+    "topic": "Pediatrics: neonatal respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -219,7 +219,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: diagnosis",
+    "topic": "Pediatrics: neonatal respiratory distress: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -246,7 +246,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: calculation",
+    "topic": "Pediatrics: developmental milestones: calculation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -273,7 +273,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal resuscitation: management",
+    "topic": "Pediatrics: neonatal resuscitation: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -300,7 +300,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Seizures and epilepsy: management",
+    "topic": "Neurology: seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -327,7 +327,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Diabetes mellitus: diagnosis",
+    "topic": "Endocrinology: diabetes mellitus: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -354,7 +354,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Glomerulonephritis and hematuria: investigation",
+    "topic": "Nephrology: glomerulonephritis and hematuria: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -381,7 +381,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation",
+    "topic": "Pediatrics: growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -408,7 +408,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation",
+    "topic": "Pediatrics: growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -435,7 +435,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Hypertension: management",
+    "topic": "Cardiology: hypertension: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -462,7 +462,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: management",
+    "topic": "Cardiology: heart failure: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -489,7 +489,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Chronic kidney disease: management",
+    "topic": "Nephrology: chronic kidney disease: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -516,7 +516,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: diagnosis",
+    "topic": "Nephrology: acute kidney injury: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -543,7 +543,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Drug-induced movement disorders: diagnosis",
+    "topic": "Neurology: drug-induced movement disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -570,7 +570,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: diagnosis",
+    "topic": "Cardiology: arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -597,7 +597,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Aortic dissection: investigation",
+    "topic": "Cardiology: aortic dissection: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -624,7 +624,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Electrolyte disorders: diagnosis",
+    "topic": "Physiology: electrolyte disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -651,7 +651,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Meningitis: interpretation",
+    "topic": "Infectious disease: meningitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -678,7 +678,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Chronic kidney disease: pathophysiology",
+    "topic": "Nephrology: chronic kidney disease: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -705,7 +705,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Autoimmune liver disease: investigation",
+    "topic": "Hepatology: autoimmune liver disease: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -732,7 +732,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Portal hypertension: clinical features",
+    "topic": "Hepatology: portal hypertension: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -759,7 +759,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -786,7 +786,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Aphasia: classification",
+    "topic": "Neurology: aphasia: classification",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -813,7 +813,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Asthma: management",
+    "topic": "Pulmonology: asthma: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -840,7 +840,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: management",
+    "topic": "Cardiology: heart failure: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -867,7 +867,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: management",
+    "topic": "Cardiology: heart failure: management",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -894,7 +894,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: investigation",
+    "topic": "Cardiology: heart failure: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -921,7 +921,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: clinical features",
+    "topic": "Cardiology: arrhythmias: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -948,7 +948,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Gastrointestinal bleeding: etiology",
+    "topic": "Gastroenterology: gastrointestinal bleeding: etiology",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -975,7 +975,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Neuromuscular disorders: clinical features",
+    "topic": "Neurology: neuromuscular disorders: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1002,7 +1002,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Hepatocellular carcinoma: investigation",
+    "topic": "Oncology: hepatocellular carcinoma: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1029,7 +1029,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Systemic lupus erythematosus: clinical features",
+    "topic": "Rheumatology: systemic lupus erythematosus: clinical features",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1055,7 +1055,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Fragile X syndrome: investigation",
+    "topic": "Genetics: fragile X syndrome: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1082,7 +1082,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Microdeletion and imprinting syndromes: diagnosis",
+    "topic": "Genetics: microdeletion and imprinting syndromes: diagnosis",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1109,7 +1109,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Genetic counseling: principles",
+    "topic": "Genetics: genetic counseling: principles",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1136,7 +1136,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Chromosomal disorders: investigation",
+    "topic": "Genetics: chromosomal disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1163,7 +1163,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Genetic testing: interpretation",
+    "topic": "Genetics: genetic testing: interpretation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1190,7 +1190,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Fragile X syndrome: investigation",
+    "topic": "Genetics: fragile X syndrome: investigation",
     "type": "MCQ",
     "tags": [
       "2020",
@@ -1217,7 +1217,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Inborn errors of metabolism: diagnosis",
+    "topic": "Genetics: inborn errors of metabolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1262,7 +1262,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal jaundice: etiology",
+    "topic": "Pediatrics: neonatal jaundice: etiology",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1307,7 +1307,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bone and joint infections: diagnosis; Juvenile idiopathic arthritis: diagnosis",
+    "topic": "Infectious disease: bone and joint infections: diagnosis; Rheumatology: juvenile idiopathic arthritis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1348,7 +1348,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Tuberculosis: diagnosis; Brucellosis: diagnosis",
+    "topic": "Infectious disease: tuberculosis: diagnosis; brucellosis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1385,7 +1385,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Liver function tests: interpretation",
+    "topic": "Hepatology: liver function tests: interpretation",
     "type": "EMQ",
     "tags": [
       "2020",
@@ -1430,7 +1430,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Marfan syndrome: diagnosis, investigation; Patterns of inheritance: interpretation",
+    "topic": "Genetics: Marfan syndrome: diagnosis, investigation; patterns of inheritance: interpretation",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1464,7 +1464,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Anaphylaxis: diagnosis, management",
+    "topic": "Immunology: anaphylaxis: diagnosis, management",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1498,7 +1498,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy, pathophysiology, interpretation",
+    "topic": "Neurology: stroke: anatomy, pathophysiology, interpretation",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1532,7 +1532,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Tuberculosis: diagnosis, investigation, interpretation",
+    "topic": "Infectious disease: tuberculosis: diagnosis, investigation, interpretation",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1566,7 +1566,7 @@
     "cohort": 2020,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Chronic diarrhea and malabsorption: differential diagnosis, investigation, management",
+    "topic": "Gastroenterology: chronic diarrhea and malabsorption: differential diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2020",
@@ -1600,7 +1600,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Aortic dissection: diagnosis",
+    "topic": "Cardiology: aortic dissection: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1626,7 +1626,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Aphasia: classification",
+    "topic": "Neurology: aphasia: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1652,7 +1652,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pericardial disease: diagnosis",
+    "topic": "Cardiology: pericardial disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1679,7 +1679,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: diagnosis",
+    "topic": "Cardiology: arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1706,7 +1706,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1732,7 +1732,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Urolithiasis: classification",
+    "topic": "Urology: urolithiasis: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1759,7 +1759,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Valvular heart disease: etiology",
+    "topic": "Cardiology: valvular heart disease: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1785,7 +1785,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Gastroesophageal reflux disease: diagnosis",
+    "topic": "Gastroenterology: gastroesophageal reflux disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1811,7 +1811,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Fatty liver disease: diagnosis",
+    "topic": "Hepatology: fatty liver disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1837,7 +1837,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: investigation",
+    "topic": "Nephrology: acute kidney injury: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1863,7 +1863,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Gastroenteritis: etiology",
+    "topic": "Infectious disease: gastroenteritis: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1889,7 +1889,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: etiology",
+    "topic": "Nephrology: acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1915,7 +1915,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1941,7 +1941,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Brucellosis: investigation",
+    "topic": "Infectious disease: brucellosis: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1967,7 +1967,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral hepatitis: diagnosis",
+    "topic": "Infectious disease: viral hepatitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -1993,7 +1993,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Tropical and travel-related infections: diagnosis",
+    "topic": "Infectious disease: tropical and travel-related infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2019,7 +2019,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Diabetes insipidus: diagnosis",
+    "topic": "Endocrinology: diabetes insipidus: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2045,7 +2045,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute monoarthritis: investigation",
+    "topic": "Rheumatology: acute monoarthritis: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2071,7 +2071,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2098,7 +2098,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Fibromyalgia: diagnosis",
+    "topic": "Rheumatology: fibromyalgia: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2124,7 +2124,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Syncope: diagnosis",
+    "topic": "Cardiology: syncope: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2150,7 +2150,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pituitary disorders: diagnosis",
+    "topic": "Endocrinology: pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2176,7 +2176,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary function tests: interpretation",
+    "topic": "Pulmonology: pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2203,7 +2203,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2230,7 +2230,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: etiology",
+    "topic": "Nephrology: acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2257,7 +2257,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Systemic lupus erythematosus: complications",
+    "topic": "Rheumatology: systemic lupus erythematosus: complications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2284,7 +2284,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Electrolyte disorders: etiology",
+    "topic": "Physiology: electrolyte disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2310,7 +2310,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pleural effusion: interpretation",
+    "topic": "Pulmonology: pleural effusion: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2337,7 +2337,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal jaundice: etiology",
+    "topic": "Pediatrics: neonatal jaundice: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2363,7 +2363,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Brucellosis: diagnosis",
+    "topic": "Infectious disease: brucellosis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2389,7 +2389,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Immunization: contraindications",
+    "topic": "Preventive medicine: immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2415,7 +2415,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: assessment",
+    "topic": "Pediatrics: growth: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2441,7 +2441,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Seizures and epilepsy: management",
+    "topic": "Neurology: seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2467,7 +2467,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2493,7 +2493,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood vasculitis: complications",
+    "topic": "Rheumatology: childhood vasculitis: complications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2519,7 +2519,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Glomerulonephritis and hematuria: diagnosis",
+    "topic": "Nephrology: glomerulonephritis and hematuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2545,7 +2545,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Infant feeding: counseling",
+    "topic": "Pediatrics: infant feeding: counseling",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2571,7 +2571,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Gastroenteritis: etiology",
+    "topic": "Infectious disease: gastroenteritis: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2597,7 +2597,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: investigation",
+    "topic": "Cardiology: congenital heart disease: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2623,7 +2623,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Juvenile idiopathic arthritis: diagnosis",
+    "topic": "Rheumatology: juvenile idiopathic arthritis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2649,7 +2649,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Injury prevention: counseling",
+    "topic": "Pediatrics: injury prevention: counseling",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2675,7 +2675,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Urinary tract infection: interpretation",
+    "topic": "Nephrology: urinary tract infection: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2701,7 +2701,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: etiology",
+    "topic": "Hematology: bleeding disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2727,7 +2727,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Otitis media: etiology",
+    "topic": "Otolaryngology: otitis media: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2753,7 +2753,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Infant feeding: counseling",
+    "topic": "Pediatrics: infant feeding: counseling",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2779,7 +2779,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bronchiolitis: management",
+    "topic": "Pulmonology: bronchiolitis: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2805,7 +2805,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2832,7 +2832,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Gastroesophageal reflux disease: diagnosis",
+    "topic": "Gastroenterology: gastroesophageal reflux disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2859,7 +2859,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Skeletal dysplasia: investigation",
+    "topic": "Genetics: skeletal dysplasia: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2885,7 +2885,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Inborn errors of metabolism: classification",
+    "topic": "Genetics: inborn errors of metabolism: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2912,7 +2912,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Inborn errors of metabolism: clinical features",
+    "topic": "Genetics: inborn errors of metabolism: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2939,7 +2939,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Inborn errors of metabolism: pathophysiology",
+    "topic": "Genetics: inborn errors of metabolism: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2966,7 +2966,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Treatment of genetic disorders: principles",
+    "topic": "Genetics: treatment of genetic disorders: principles",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -2993,7 +2993,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Mutation types and mechanisms: classification",
+    "topic": "Genetics: mutation types and mechanisms: classification",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3019,7 +3019,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Valvular heart disease: clinical features",
+    "topic": "Cardiology: valvular heart disease: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3046,7 +3046,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Calcium and parathyroid disorders: diagnosis",
+    "topic": "Endocrinology: calcium and parathyroid disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3073,7 +3073,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Vertigo: diagnosis",
+    "topic": "Neurology: vertigo: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3100,7 +3100,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neurodevelopmental disorders: assessment",
+    "topic": "Pediatrics: neurodevelopmental disorders: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3127,7 +3127,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "COPD: diagnosis",
+    "topic": "Pulmonology: COPD: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3154,7 +3154,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: diagnosis",
+    "topic": "Cardiology: acute coronary syndrome: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3181,7 +3181,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Poisoning and overdose: diagnosis",
+    "topic": "Toxicology: poisoning and overdose: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3208,7 +3208,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3235,7 +3235,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: diagnosis",
+    "topic": "Infectious disease: childhood exanthems: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3262,7 +3262,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3289,7 +3289,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: etiology",
+    "topic": "Infectious disease: childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3316,7 +3316,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3343,7 +3343,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Hemolytic uremic syndrome: clinical features",
+    "topic": "Hematology: hemolytic uremic syndrome: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3370,7 +3370,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Hemolytic uremic syndrome: diagnosis",
+    "topic": "Hematology: hemolytic uremic syndrome: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3397,7 +3397,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Asthma: investigation",
+    "topic": "Pulmonology: asthma: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3424,7 +3424,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Intussusception: diagnosis",
+    "topic": "Pediatrics: intussusception: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3451,7 +3451,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: diagnosis",
+    "topic": "Cardiology: heart failure: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3478,7 +3478,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Esophageal disorders: diagnosis",
+    "topic": "Gastroenterology: esophageal disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3505,7 +3505,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3532,7 +3532,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Inflammatory bowel disease: diagnosis",
+    "topic": "Gastroenterology: inflammatory bowel disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3559,7 +3559,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Rheumatic fever: clinical features",
+    "topic": "Cardiology: rheumatic fever: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3586,7 +3586,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Tuberculosis: diagnosis",
+    "topic": "Infectious disease: tuberculosis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3613,7 +3613,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Sickle cell disease: investigation",
+    "topic": "Hematology: sickle cell disease: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3640,7 +3640,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: etiology",
+    "topic": "Nephrology: acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3667,7 +3667,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pituitary disorders: diagnosis",
+    "topic": "Endocrinology: pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3694,7 +3694,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Immunization: indications",
+    "topic": "Preventive medicine: immunization: indications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3721,7 +3721,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3748,7 +3748,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3775,7 +3775,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Spinal cord disorders: diagnosis",
+    "topic": "Neurology: spinal cord disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3802,7 +3802,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Spinal cord disorders: anatomy",
+    "topic": "Neurology: spinal cord disorders: anatomy",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3829,7 +3829,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Rickets: pathophysiology",
+    "topic": "Pediatrics: rickets: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3856,7 +3856,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3883,7 +3883,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3910,7 +3910,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3937,7 +3937,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Patterns of inheritance: calculation",
+    "topic": "Genetics: patterns of inheritance: calculation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3964,7 +3964,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Patterns of inheritance: interpretation",
+    "topic": "Genetics: patterns of inheritance: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -3991,7 +3991,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Neurocutaneous syndromes: diagnosis",
+    "topic": "Genetics: neurocutaneous syndromes: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4018,7 +4018,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: assessment",
+    "topic": "Cardiology: arrhythmias: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4045,7 +4045,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: investigation",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: investigation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4072,7 +4072,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Seizures and epilepsy: risk factors",
+    "topic": "Neurology: seizures and epilepsy: risk factors",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4099,7 +4099,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Chromosomal disorders: pathophysiology",
+    "topic": "Genetics: chromosomal disorders: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4126,7 +4126,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pneumonia: clinical features",
+    "topic": "Pulmonology: pneumonia: clinical features",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4153,7 +4153,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: pathophysiology",
+    "topic": "Pediatrics: neonatal respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4180,7 +4180,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Calcium and parathyroid disorders: management",
+    "topic": "Endocrinology: calcium and parathyroid disorders: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4207,7 +4207,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: management",
+    "topic": "Cardiology: heart failure: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4234,7 +4234,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: etiology",
+    "topic": "Nephrology: acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4261,7 +4261,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Infant of diabetic mother: complications",
+    "topic": "Pediatrics: infant of diabetic mother: complications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4288,7 +4288,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Immunization: contraindications",
+    "topic": "Preventive medicine: immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4315,7 +4315,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4342,7 +4342,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4369,7 +4369,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4396,7 +4396,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Fluid therapy: management",
+    "topic": "Pediatrics: fluid therapy: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4423,7 +4423,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Thyroid disorders: diagnosis",
+    "topic": "Endocrinology: thyroid disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4450,7 +4450,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Seizures and epilepsy: management",
+    "topic": "Neurology: seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4477,7 +4477,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4504,7 +4504,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Calcium and parathyroid disorders: diagnosis",
+    "topic": "Endocrinology: calcium and parathyroid disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4531,7 +4531,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Hemolytic anemia: pathophysiology",
+    "topic": "Hematology: hemolytic anemia: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4558,7 +4558,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Treatment of genetic disorders: principles",
+    "topic": "Genetics: treatment of genetic disorders: principles",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4585,7 +4585,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Diabetes mellitus: management",
+    "topic": "Endocrinology: diabetes mellitus: management",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4612,7 +4612,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Infective endocarditis: etiology",
+    "topic": "Infectious disease: infective endocarditis: etiology",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4639,7 +4639,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Foreign body aspiration: diagnosis",
+    "topic": "Pulmonology: foreign body aspiration: diagnosis",
     "type": "MCQ",
     "tags": [
       "2019",
@@ -4666,7 +4666,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: calculation",
+    "topic": "Pediatrics: developmental milestones: calculation",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4708,7 +4708,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Meningitis: etiology; Otitis media: etiology; Neonatal sepsis: etiology",
+    "topic": "Infectious disease: meningitis: etiology; Otolaryngology: otitis media: etiology; Infectious disease: neonatal sepsis: etiology",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4749,7 +4749,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Skin rashes: diagnosis",
+    "topic": "Dermatology: skin rashes: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4790,7 +4790,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4827,7 +4827,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Inflammatory bowel disease: diagnosis; Chronic diarrhea and malabsorption: diagnosis",
+    "topic": "Gastroenterology: inflammatory bowel disease: diagnosis; chronic diarrhea and malabsorption: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4864,7 +4864,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood vasculitis: diagnosis; Pyloric stenosis: diagnosis",
+    "topic": "Rheumatology: childhood vasculitis: diagnosis; Pediatrics: pyloric stenosis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4901,7 +4901,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Tuberculosis: diagnosis; Pulmonary embolism: diagnosis",
+    "topic": "Infectious disease: tuberculosis: diagnosis; Pulmonology: pulmonary embolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4938,7 +4938,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: diagnosis",
+    "topic": "Pediatrics: neonatal respiratory distress: diagnosis",
     "type": "EMQ",
     "tags": [
       "2019",
@@ -4979,7 +4979,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation; Chronic diarrhea and malabsorption: diagnosis, investigation",
+    "topic": "Pediatrics: growth: interpretation; Gastroenterology: chronic diarrhea and malabsorption: diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5013,7 +5013,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood vasculitis: diagnosis, management, complications",
+    "topic": "Rheumatology: childhood vasculitis: diagnosis, management, complications",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5047,7 +5047,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Skin and soft tissue infections: diagnosis, etiology, management",
+    "topic": "Infectious disease: skin and soft tissue infections: diagnosis, etiology, management",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5081,7 +5081,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: diagnosis, investigation, management",
+    "topic": "Cardiology: arrhythmias: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5115,7 +5115,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Infective endocarditis: clinical features, diagnosis, investigation",
+    "topic": "Infectious disease: infective endocarditis: clinical features, diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5149,7 +5149,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Meningitis: investigation; Tuberculosis: investigation",
+    "topic": "Infectious disease: meningitis: investigation; tuberculosis: investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5179,7 +5179,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation; Chronic diarrhea and malabsorption: diagnosis, investigation",
+    "topic": "Pediatrics: growth: interpretation; Gastroenterology: chronic diarrhea and malabsorption: diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5213,7 +5213,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Pneumonia: interpretation, diagnosis, etiology",
+    "topic": "Pulmonology: pneumonia: interpretation, diagnosis, etiology",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5247,7 +5247,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: interpretation, anatomy",
+    "topic": "Cardiology: acute coronary syndrome: interpretation, anatomy",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5277,7 +5277,7 @@
     "cohort": 2019,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Rheumatic fever: diagnosis",
+    "topic": "Cardiology: rheumatic fever: diagnosis",
     "type": "SAQ",
     "tags": [
       "2019",
@@ -5307,7 +5307,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: management",
+    "topic": "Cardiology: acute coronary syndrome: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5333,7 +5333,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary embolism: investigation",
+    "topic": "Pulmonology: pulmonary embolism: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5359,7 +5359,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: diagnosis",
+    "topic": "Cardiology: arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5386,7 +5386,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: diagnosis",
+    "topic": "Cardiology: heart failure: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5412,7 +5412,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: management",
+    "topic": "Cardiology: acute coronary syndrome: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5438,7 +5438,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: management",
+    "topic": "Cardiology: acute coronary syndrome: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5465,7 +5465,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Mesenteric ischemia: investigation",
+    "topic": "Gastroenterology: mesenteric ischemia: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5491,7 +5491,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: clinical features",
+    "topic": "Cardiology: heart failure: clinical features",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5518,7 +5518,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Asthma: investigation",
+    "topic": "Pulmonology: asthma: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5544,7 +5544,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary function tests: interpretation",
+    "topic": "Pulmonology: pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5571,7 +5571,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary function tests: interpretation",
+    "topic": "Pulmonology: pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5598,7 +5598,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5625,7 +5625,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Immunization: contraindications",
+    "topic": "Preventive medicine: immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5651,7 +5651,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Tropical and travel-related infections: diagnosis",
+    "topic": "Infectious disease: tropical and travel-related infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5677,7 +5677,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral hepatitis: interpretation",
+    "topic": "Infectious disease: viral hepatitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5703,7 +5703,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Gastrointestinal bleeding: management",
+    "topic": "Gastroenterology: gastrointestinal bleeding: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5729,7 +5729,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Neuromuscular disorders: diagnosis",
+    "topic": "Neurology: neuromuscular disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5755,7 +5755,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5781,7 +5781,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Motor neuron disease: diagnosis",
+    "topic": "Neurology: motor neuron disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5807,7 +5807,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Neuromuscular disorders: clinical features",
+    "topic": "Neurology: neuromuscular disorders: clinical features",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5833,7 +5833,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Thyroid disorders: investigation",
+    "topic": "Endocrinology: thyroid disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5859,7 +5859,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Thyroid disorders: investigation",
+    "topic": "Endocrinology: thyroid disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5885,7 +5885,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Osteoarthritis: diagnosis",
+    "topic": "Orthopedics: osteoarthritis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5911,7 +5911,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Systemic lupus erythematosus: differential diagnosis",
+    "topic": "Rheumatology: systemic lupus erythematosus: differential diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5938,7 +5938,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Poisoning and overdose: diagnosis",
+    "topic": "Toxicology: poisoning and overdose: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5964,7 +5964,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Gastrointestinal bleeding: etiology",
+    "topic": "Gastroenterology: gastrointestinal bleeding: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -5990,7 +5990,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Wilson disease: diagnosis",
+    "topic": "Hepatology: Wilson disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6017,7 +6017,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Irritable bowel syndrome: diagnosis",
+    "topic": "Gastroenterology: irritable bowel syndrome: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6044,7 +6044,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Inflammatory bowel disease: differential diagnosis",
+    "topic": "Gastroenterology: inflammatory bowel disease: differential diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6071,7 +6071,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Chronic kidney disease: pathophysiology",
+    "topic": "Nephrology: chronic kidney disease: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6098,7 +6098,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Electrolyte disorders: etiology",
+    "topic": "Physiology: electrolyte disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6125,7 +6125,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Chronic kidney disease: complications",
+    "topic": "Nephrology: chronic kidney disease: complications",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6152,7 +6152,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Shock: assessment",
+    "topic": "Emergency medicine: shock: assessment",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6179,7 +6179,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Low back pain and radiculopathy: diagnosis",
+    "topic": "Neurology: low back pain and radiculopathy: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6206,7 +6206,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Diabetic emergencies: diagnosis",
+    "topic": "Endocrinology: diabetic emergencies: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6233,7 +6233,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Innocent murmur: diagnosis",
+    "topic": "Cardiology: innocent murmur: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6259,7 +6259,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6285,7 +6285,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: management",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6311,7 +6311,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Glomerulonephritis and hematuria: investigation",
+    "topic": "Nephrology: glomerulonephritis and hematuria: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6338,7 +6338,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Glomerulonephritis and hematuria: diagnosis",
+    "topic": "Nephrology: glomerulonephritis and hematuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6364,7 +6364,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: investigation",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6390,7 +6390,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Vesicoureteral reflux: investigation",
+    "topic": "Nephrology: vesicoureteral reflux: investigation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6417,7 +6417,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: diagnosis",
+    "topic": "Infectious disease: childhood exanthems: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6444,7 +6444,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: etiology",
+    "topic": "Infectious disease: childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6471,7 +6471,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal sepsis: diagnosis",
+    "topic": "Infectious disease: neonatal sepsis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6497,7 +6497,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: etiology",
+    "topic": "Infectious disease: childhood exanthems: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6523,7 +6523,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood vasculitis: diagnosis",
+    "topic": "Rheumatology: childhood vasculitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6550,7 +6550,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Intussusception: etiology",
+    "topic": "Pediatrics: intussusception: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6576,7 +6576,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Peripheral nerve injury: diagnosis",
+    "topic": "Neurology: peripheral nerve injury: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6602,7 +6602,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Electrolyte disorders: etiology",
+    "topic": "Physiology: electrolyte disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6628,7 +6628,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: etiology",
+    "topic": "Hematology: bleeding disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6654,7 +6654,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Leukemia: diagnosis",
+    "topic": "Oncology: leukemia: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6680,7 +6680,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: assessment",
+    "topic": "Pediatrics: growth: assessment",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6706,7 +6706,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Newborn assessment: calculation",
+    "topic": "Pediatrics: newborn assessment: calculation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6732,7 +6732,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neurodevelopmental disorders: screening",
+    "topic": "Pediatrics: neurodevelopmental disorders: screening",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6758,7 +6758,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental delay and learning disability: management",
+    "topic": "Pediatrics: developmental delay and learning disability: management",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6784,7 +6784,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Birthmarks and vascular lesions: diagnosis",
+    "topic": "Pediatrics: birthmarks and vascular lesions: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6811,7 +6811,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Spondyloarthropathies: diagnosis",
+    "topic": "Rheumatology: spondyloarthropathies: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6838,7 +6838,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6865,7 +6865,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal jaundice: etiology",
+    "topic": "Pediatrics: neonatal jaundice: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6892,7 +6892,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Primary immunodeficiency: diagnosis",
+    "topic": "Immunology: primary immunodeficiency: diagnosis",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6918,7 +6918,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Chromosomal disorders: etiology",
+    "topic": "Genetics: chromosomal disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6944,7 +6944,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Patterns of inheritance: calculation",
+    "topic": "Genetics: patterns of inheritance: calculation",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6970,7 +6970,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Inborn errors of metabolism: classification",
+    "topic": "Genetics: inborn errors of metabolism: classification",
     "type": "MCQ",
     "tags": [
       "2018",
@@ -6997,7 +6997,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Aortic dissection: diagnosis; Acute coronary syndrome: diagnosis; Pneumothorax: diagnosis",
+    "topic": "Cardiology: aortic dissection: diagnosis; acute coronary syndrome: diagnosis; Pulmonology: pneumothorax: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -7038,7 +7038,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "COPD: diagnosis; Pneumonia: diagnosis; Asthma: diagnosis; Pulmonary embolism: diagnosis",
+    "topic": "Pulmonology: COPD: diagnosis; pneumonia: diagnosis; asthma: diagnosis; pulmonary embolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -7083,7 +7083,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Seizures and epilepsy: diagnosis",
+    "topic": "Neurology: seizures and epilepsy: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -7124,7 +7124,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -7169,7 +7169,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Intussusception: diagnosis; Gastroenteritis: diagnosis; Appendicitis: diagnosis",
+    "topic": "Pediatrics: intussusception: diagnosis; Infectious disease: gastroenteritis: diagnosis; Pediatrics: appendicitis: diagnosis",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -7211,7 +7211,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Mutation types and mechanisms: classification",
+    "topic": "Genetics: mutation types and mechanisms: classification",
     "type": "EMQ",
     "tags": [
       "2018",
@@ -7252,7 +7252,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Sarcoidosis: interpretation, differential diagnosis, investigation",
+    "topic": "Rheumatology: sarcoidosis: interpretation, differential diagnosis, investigation",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7286,7 +7286,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: interpretation, diagnosis, investigation, management",
+    "topic": "Nephrology: acute kidney injury: interpretation, diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7324,7 +7324,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Thalassemia: diagnosis, investigation, management",
+    "topic": "Hematology: thalassemia: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7358,7 +7358,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Otitis media: diagnosis, etiology, management",
+    "topic": "Otolaryngology: otitis media: diagnosis, etiology, management",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7392,7 +7392,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pituitary disorders: diagnosis, clinical features, investigation",
+    "topic": "Endocrinology: pituitary disorders: diagnosis, clinical features, investigation",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7426,7 +7426,7 @@
     "cohort": 2018,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Inborn errors of metabolism: pathophysiology; Patterns of inheritance: interpretation, calculation",
+    "topic": "Genetics: inborn errors of metabolism: pathophysiology; patterns of inheritance: interpretation, calculation",
     "type": "SAQ",
     "tags": [
       "2018",
@@ -7460,7 +7460,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Primary immunodeficiency: diagnosis",
+    "topic": "Immunology: primary immunodeficiency: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7487,7 +7487,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Birth injuries: diagnosis",
+    "topic": "Pediatrics: birth injuries: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7514,7 +7514,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7541,7 +7541,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal jaundice: etiology",
+    "topic": "Pediatrics: neonatal jaundice: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7568,7 +7568,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Calcium and parathyroid disorders: investigation",
+    "topic": "Endocrinology: calcium and parathyroid disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7595,7 +7595,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7622,7 +7622,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: diagnosis",
+    "topic": "Pediatrics: neonatal respiratory distress: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7649,7 +7649,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Child maltreatment: management",
+    "topic": "Pediatrics: child maltreatment: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7676,7 +7676,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Diabetes insipidus: diagnosis",
+    "topic": "Endocrinology: diabetes insipidus: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7703,7 +7703,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation",
+    "topic": "Pediatrics: growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7730,7 +7730,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation",
+    "topic": "Pediatrics: growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7757,7 +7757,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Respiratory distress: pathophysiology",
+    "topic": "Pediatrics: respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7784,7 +7784,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Fragile X syndrome: clinical features",
+    "topic": "Genetics: fragile X syndrome: clinical features",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7811,7 +7811,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal hypoglycemia: definition",
+    "topic": "Pediatrics: neonatal hypoglycemia: definition",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7838,7 +7838,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Meningitis: interpretation",
+    "topic": "Infectious disease: meningitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7865,7 +7865,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Antidiabetic drugs: adverse effects",
+    "topic": "Endocrinology: antidiabetic drugs: adverse effects",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7892,7 +7892,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neurodevelopmental disorders: diagnosis",
+    "topic": "Pediatrics: neurodevelopmental disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7919,7 +7919,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7946,7 +7946,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -7973,7 +7973,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pituitary disorders: diagnosis",
+    "topic": "Endocrinology: pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8000,7 +8000,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Neuromuscular disorders: investigation",
+    "topic": "Neurology: neuromuscular disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8027,7 +8027,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Adrenal disorders: investigation",
+    "topic": "Endocrinology: adrenal disorders: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8054,7 +8054,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neurodevelopmental disorders: diagnosis",
+    "topic": "Pediatrics: neurodevelopmental disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8081,7 +8081,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Asthma: assessment",
+    "topic": "Pulmonology: asthma: assessment",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8108,7 +8108,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Sickle cell disease: complications",
+    "topic": "Hematology: sickle cell disease: complications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8135,7 +8135,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Clostridioides difficile infection: diagnosis",
+    "topic": "Infectious disease: Clostridioides difficile infection: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8162,7 +8162,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Hemolytic uremic syndrome: etiology",
+    "topic": "Hematology: hemolytic uremic syndrome: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8189,7 +8189,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Sepsis: investigation",
+    "topic": "Infectious disease: sepsis: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8216,7 +8216,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Urinalysis: interpretation",
+    "topic": "Nephrology: urinalysis: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8243,7 +8243,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Glomerulonephritis and hematuria: diagnosis",
+    "topic": "Nephrology: glomerulonephritis and hematuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8270,7 +8270,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Chronic kidney disease: complications",
+    "topic": "Nephrology: chronic kidney disease: complications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8297,7 +8297,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Peptic ulcer disease: diagnosis",
+    "topic": "Gastroenterology: peptic ulcer disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8324,7 +8324,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8351,7 +8351,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental milestones: assessment",
+    "topic": "Pediatrics: developmental milestones: assessment",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8378,7 +8378,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: pathophysiology",
+    "topic": "Pediatrics: neonatal respiratory distress: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8405,7 +8405,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal resuscitation: management",
+    "topic": "Pediatrics: neonatal resuscitation: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8432,7 +8432,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8459,7 +8459,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Nephrotic syndrome and proteinuria: diagnosis",
+    "topic": "Nephrology: nephrotic syndrome and proteinuria: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8486,7 +8486,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation",
+    "topic": "Pediatrics: growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8513,7 +8513,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "COPD: investigation",
+    "topic": "Pulmonology: COPD: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8540,7 +8540,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neurodevelopmental disorders: diagnosis",
+    "topic": "Pediatrics: neurodevelopmental disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8567,7 +8567,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Growth: interpretation",
+    "topic": "Pediatrics: growth: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8594,7 +8594,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Arrhythmias: diagnosis",
+    "topic": "Cardiology: arrhythmias: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8621,7 +8621,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary embolism: investigation",
+    "topic": "Pulmonology: pulmonary embolism: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8648,7 +8648,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Bronchiolitis: diagnosis",
+    "topic": "Pulmonology: bronchiolitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8675,7 +8675,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Skin and soft tissue infections: etiology",
+    "topic": "Infectious disease: skin and soft tissue infections: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8702,7 +8702,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary function tests: interpretation",
+    "topic": "Pulmonology: pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8729,7 +8729,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: management",
+    "topic": "Cardiology: congenital heart disease: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8756,7 +8756,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Cystic fibrosis: investigation",
+    "topic": "Pulmonology: cystic fibrosis: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8783,7 +8783,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pituitary disorders: clinical features",
+    "topic": "Endocrinology: pituitary disorders: clinical features",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8810,7 +8810,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Seizures and epilepsy: management",
+    "topic": "Neurology: seizures and epilepsy: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8837,7 +8837,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8864,7 +8864,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Bleeding disorders: diagnosis",
+    "topic": "Hematology: bleeding disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8891,7 +8891,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Bleeding disorders: etiology",
+    "topic": "Hematology: bleeding disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8918,7 +8918,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Inflammatory bowel disease: investigation",
+    "topic": "Gastroenterology: inflammatory bowel disease: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8945,7 +8945,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: investigation",
+    "topic": "Cardiology: acute coronary syndrome: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8972,7 +8972,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Infective endocarditis: etiology",
+    "topic": "Infectious disease: infective endocarditis: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -8999,7 +8999,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Skin and soft tissue infections: etiology",
+    "topic": "Infectious disease: skin and soft tissue infections: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9026,7 +9026,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Prenatal diagnosis: investigation",
+    "topic": "Genetics: prenatal diagnosis: investigation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9053,7 +9053,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral arthritis: management",
+    "topic": "Infectious disease: viral arthritis: management",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9080,7 +9080,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Skin and soft tissue infections: etiology",
+    "topic": "Infectious disease: skin and soft tissue infections: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9107,7 +9107,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Chronic kidney disease: complications",
+    "topic": "Nephrology: chronic kidney disease: complications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9134,7 +9134,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral hepatitis: prevention",
+    "topic": "Infectious disease: viral hepatitis: prevention",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9161,7 +9161,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Tropical and travel-related infections: diagnosis",
+    "topic": "Infectious disease: tropical and travel-related infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9188,7 +9188,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral skin infections: diagnosis",
+    "topic": "Infectious disease: viral skin infections: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9215,7 +9215,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral hepatitis: interpretation",
+    "topic": "Infectious disease: viral hepatitis: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9242,7 +9242,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Autoimmune liver disease: diagnosis",
+    "topic": "Hepatology: autoimmune liver disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9269,7 +9269,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Viral hepatitis: diagnosis",
+    "topic": "Infectious disease: viral hepatitis: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9296,7 +9296,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Alcoholic liver disease: diagnosis",
+    "topic": "Hepatology: alcoholic liver disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9323,7 +9323,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: etiology",
+    "topic": "Nephrology: acute kidney injury: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9350,7 +9350,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Electrolyte disorders: diagnosis",
+    "topic": "Physiology: electrolyte disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9377,7 +9377,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Secondary hypertension: diagnosis",
+    "topic": "Cardiology: secondary hypertension: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9404,7 +9404,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary function tests: interpretation",
+    "topic": "Pulmonology: pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9431,7 +9431,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary function tests: interpretation",
+    "topic": "Pulmonology: pulmonary function tests: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9458,7 +9458,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9485,7 +9485,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acid-base disorders: interpretation",
+    "topic": "Physiology: acid-base disorders: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9512,7 +9512,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pituitary disorders: diagnosis",
+    "topic": "Endocrinology: pituitary disorders: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9539,7 +9539,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Calcium and parathyroid disorders: etiology",
+    "topic": "Endocrinology: calcium and parathyroid disorders: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9566,7 +9566,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Secondary hypertension: diagnosis",
+    "topic": "Cardiology: secondary hypertension: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9593,7 +9593,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Spinal cord disorders: anatomy",
+    "topic": "Neurology: spinal cord disorders: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9620,7 +9620,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Stroke: anatomy",
+    "topic": "Neurology: stroke: anatomy",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9647,7 +9647,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary hypertension and cor pulmonale: diagnosis",
+    "topic": "Cardiology: pulmonary hypertension and cor pulmonale: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9674,7 +9674,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Heart failure: diagnosis",
+    "topic": "Cardiology: heart failure: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9701,7 +9701,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Anemia: etiology",
+    "topic": "Hematology: anemia: etiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9728,7 +9728,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Hemolytic anemia: pathophysiology",
+    "topic": "Hematology: hemolytic anemia: pathophysiology",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9755,7 +9755,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Treatment of genetic disorders: principles",
+    "topic": "Genetics: treatment of genetic disorders: principles",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9782,7 +9782,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Patterns of inheritance: interpretation",
+    "topic": "Genetics: patterns of inheritance: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9809,7 +9809,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Patterns of inheritance: interpretation",
+    "topic": "Genetics: patterns of inheritance: interpretation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9836,7 +9836,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Genetics",
-    "topic": "Patterns of inheritance: calculation",
+    "topic": "Genetics: patterns of inheritance: calculation",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9863,7 +9863,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Immunization: contraindications",
+    "topic": "Preventive medicine: immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9890,7 +9890,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Immunization: contraindications",
+    "topic": "Preventive medicine: immunization: contraindications",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9917,7 +9917,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9944,7 +9944,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Congenital heart disease: diagnosis",
+    "topic": "Cardiology: congenital heart disease: diagnosis",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9971,7 +9971,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Seizures and epilepsy: risk factors",
+    "topic": "Neurology: seizures and epilepsy: risk factors",
     "type": "MCQ",
     "tags": [
       "2017",
@@ -9998,7 +9998,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute kidney injury: etiology",
+    "topic": "Nephrology: acute kidney injury: etiology",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10041,7 +10041,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Gastroenteritis: diagnosis; Chronic diarrhea and malabsorption: diagnosis",
+    "topic": "Infectious disease: gastroenteritis: diagnosis; Gastroenterology: chronic diarrhea and malabsorption: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10082,7 +10082,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pneumothorax: diagnosis",
+    "topic": "Pulmonology: pneumothorax: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10115,7 +10115,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary embolism: diagnosis",
+    "topic": "Pulmonology: pulmonary embolism: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10148,7 +10148,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Innocent murmur: diagnosis",
+    "topic": "Cardiology: innocent murmur: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10181,7 +10181,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Seizures and epilepsy: diagnosis",
+    "topic": "Neurology: seizures and epilepsy: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10214,7 +10214,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Childhood exanthems: diagnosis",
+    "topic": "Infectious disease: childhood exanthems: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10255,7 +10255,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Neonatal respiratory distress: diagnosis",
+    "topic": "Pediatrics: neonatal respiratory distress: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10296,7 +10296,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Peptic ulcer disease: diagnosis; Inflammatory bowel disease: diagnosis; Mesenteric ischemia: diagnosis",
+    "topic": "Gastroenterology: peptic ulcer disease: diagnosis; inflammatory bowel disease: diagnosis; mesenteric ischemia: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10337,7 +10337,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pulmonary embolism: diagnosis; Pneumothorax: diagnosis",
+    "topic": "Pulmonology: pulmonary embolism: diagnosis; pneumothorax: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10374,7 +10374,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Secondary hypertension: diagnosis",
+    "topic": "Cardiology: secondary hypertension: diagnosis",
     "type": "EMQ",
     "tags": [
       "2017",
@@ -10411,7 +10411,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Rheumatic fever: diagnosis",
+    "topic": "Cardiology: rheumatic fever: diagnosis",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10441,7 +10441,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute pancreatitis: diagnosis, investigation, management",
+    "topic": "Gastroenterology: acute pancreatitis: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10475,7 +10475,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Developmental delay and learning disability: diagnosis, investigation, management",
+    "topic": "Pediatrics: developmental delay and learning disability: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10509,7 +10509,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pleural effusion: interpretation, investigation, differential diagnosis",
+    "topic": "Pulmonology: pleural effusion: interpretation, investigation, differential diagnosis",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10543,7 +10543,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Foreign body aspiration: interpretation, diagnosis, management",
+    "topic": "Pulmonology: foreign body aspiration: interpretation, diagnosis, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10577,7 +10577,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Neuromuscular disorders: clinical features, anatomy",
+    "topic": "Neurology: neuromuscular disorders: clinical features, anatomy",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10611,7 +10611,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Pericardial disease: diagnosis, investigation, complications",
+    "topic": "Cardiology: pericardial disease: diagnosis, investigation, complications",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10645,7 +10645,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Acute coronary syndrome: diagnosis, management, investigation",
+    "topic": "Cardiology: acute coronary syndrome: diagnosis, management, investigation",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10679,7 +10679,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Thalassemia: diagnosis, investigation, management",
+    "topic": "Hematology: thalassemia: diagnosis, investigation, management",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10713,7 +10713,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Internal Medicine",
-    "topic": "Spinal cord disorders: anatomy, etiology, investigation",
+    "topic": "Neurology: spinal cord disorders: anatomy, etiology, investigation",
     "type": "SAQ",
     "tags": [
       "2017",
@@ -10747,7 +10747,7 @@
     "cohort": 2017,
     "block": "Medicine",
     "rotation": "Pediatrics",
-    "topic": "Meningitis: diagnosis, clinical features, complications",
+    "topic": "Infectious disease: meningitis: diagnosis, clinical features, complications",
     "type": "SAQ",
     "tags": [
       "2017",
