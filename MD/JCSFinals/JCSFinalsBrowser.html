@@ -4,24 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JCS Finals Collection</title>
-  
-  <!-- Primary Description -->
-  <meta name="description" content="Searchable question bank for Junior Clerkship written final exams (2017–2020)" />
 
-  <!-- Open Graph (WhatsApp, Telegram, Discord, Facebook, Slack) -->
+  <!-- Description + link previews (Open Graph for WhatsApp/Telegram/Discord/Slack, Twitter/X card) -->
+  <meta name="description" content="Searchable question bank for Junior Clerkship written final exams (2017–2020)" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="JCS Finals Collection" />
   <meta property="og:title" content="JCS Finals Collection" />
   <meta property="og:description" content="Searchable question bank for Junior Clerkship written final exams (2017–2020)" />
-
-  <!-- Twitter / X Card (Compact text layout) -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="JCS Finals Collection" />
   <meta name="twitter:description" content="Searchable question bank for Junior Clerkship written final exams (2017–2020)" />
-
-  <!-- Embed sidebar color (for Discord/Slack previews) -->
   <meta name="theme-color" content="#0ea5e9" />
-  
+
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
@@ -29,118 +23,73 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
 
   <script>
-  tailwind.config = {
-    darkMode: 'class',
-    theme: {
-      extend: {
-        colors: {
-          brand: {
-            50: '#f0f9ff',  100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc',
-            400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1',
-            800: '#075985', 900: '#0c4a6e', 950: '#082f49',
-          },
-          darkbg: {
-            base: '#0B0F17',     /* Deep contrast page background */
-            card: '#131A26',     /* Crisp elevated card surface */
-            hover: '#1E293B',    /* Interactive state background */
-            border: '#28354A',   /* High-visibility container border */
-            input: '#0F1623'     /* Inset input/code field background */
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc', 400: '#38bdf8', 500: '#0ea5e9',
+              600: '#0284c7', 700: '#0369a1', 800: '#075985', 900: '#0c4a6e', 950: '#082f49'
+            }
           }
         }
       }
-    }
-  }
-</script>
+    };
+  </script>
   <style>
-  [v-cloak] { display: none !important; }
+    [v-cloak] { display: none !important; }
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 3px; }
+    .dark .custom-scrollbar::-webkit-scrollbar-track { background: rgba(255,255,255,0.04); }
+    .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
+    .studied-fade { opacity: 0.45; }
 
-  .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
-  .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.05); }
-  .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 3px; }
-  .dark .custom-scrollbar::-webkit-scrollbar-track { background: rgba(255,255,255,0.04); }
-  .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
+    html, body { overscroll-behavior-y: contain; overscroll-behavior-x: none; touch-action: pan-x pan-y; }
 
-  .studied-fade { opacity: 0.45; }
+    /* Dark Mode Overrides */
+    .dark body { background-color: #0B0F17 !important; color: #F1F5F9 !important; }
+    .dark .bg-white { background-color: #131A26 !important; }
+    .dark .border-slate-200, .dark .border-slate-700, .dark .border-slate-700\/60,
+    .dark .border-slate-700\/80, .dark .border-slate-700\/50, .dark .border-slate-200\/80 { border-color: #28354A !important; }
 
-  /* Prevent mobile pull-to-refresh */
-  html, body {
-    overscroll-behavior-y: contain;
-    overscroll-behavior-x: none;
-    touch-action: pan-x pan-y;
-  }
+    .dark .text-slate-400 { color: #A0AEC0 !important; }
+    .dark .text-slate-500 { color: #CBD5E1 !important; }
+    .dark .text-slate-600 { color: #E2E8F0 !important; }
+    .dark .text-slate-700 { color: #F1F5F9 !important; }
 
-  /* --- GROUND-UP DARK MODE ENHANCEMENTS --- */
-  .dark body {
-    background-color: #0B0F17 !important;
-    color: #F1F5F9 !important;
-  }
+    .dark .bg-slate-50, .dark .bg-slate-900\/50, .dark .bg-slate-900\/40, .dark .bg-slate-900 { background-color: #0F1623 !important; }
 
-  /* High-contrast dark cards & borders */
-  .dark .bg-white {
-    background-color: #131A26 !important;
-  }
-  .dark .border-slate-200, 
-  .dark .border-slate-700, 
-  .dark .border-slate-700\/60, 
-  .dark .border-slate-700\/80,
-  .dark .border-slate-700\/50 {
-    border-color: #28354A !important;
-  }
+    .dark .bg-sky-900\/60 { background-color: rgba(14, 165, 233, 0.25) !important; color: #7DD3FC !important; border: 1px solid rgba(125, 211, 252, 0.3); }
+    .dark .bg-indigo-900\/60 { background-color: rgba(99, 102, 241, 0.25) !important; color: #A5B4FC !important; border: 1px solid rgba(165, 180, 252, 0.3); }
+    .dark .bg-purple-900\/60 { background-color: rgba(168, 85, 247, 0.25) !important; color: #E9D5FF !important; border: 1px solid rgba(233, 213, 255, 0.3); }
+    .dark .bg-brand-900\/40, .dark .bg-brand-900\/60 { background-color: rgba(2, 132, 199, 0.25) !important; color: #7DD3FC !important; }
 
-  /* Lift secondary and muted text readability in dark mode */
-  .dark .text-slate-400 { color: #A0AEC0 !important; }
-  .dark .text-slate-500 { color: #CBD5E1 !important; }
-  .dark .text-slate-600 { color: #E2E8F0 !important; }
-  .dark .text-slate-700 { color: #F1F5F9 !important; }
+    .dark select, .dark option, .dark input, .dark textarea { color-scheme: dark; background-color: #0F1623 !important; color: #F8FAFC !important; }
 
-  /* Nested panels, input boxes, dropdowns in dark mode */
-  .dark .bg-slate-50,
-  .dark .bg-slate-900\/50,
-  .dark .bg-slate-900\/40,
-  .dark .bg-slate-900 {
-    background-color: #0F1623 !important;
-  }
-
-  /* MCQ / Option selection cards in dark mode */
-  .dark .border-slate-200\/80 {
-    border-color: #28354A !important;
-  }
-
-  /* Type Badges - Vivid Dark Mode Contrast */
-  .dark .bg-sky-900\/60 { background-color: rgba(14, 165, 233, 0.25) !important; color: #7DD3FC !important; border: 1px solid rgba(125, 211, 252, 0.3); }
-  .dark .bg-indigo-900\/60 { background-color: rgba(99, 102, 241, 0.25) !important; color: #A5B4FC !important; border: 1px solid rgba(165, 180, 252, 0.3); }
-  .dark .bg-purple-900\/60 { background-color: rgba(168, 85, 247, 0.25) !important; color: #E9D5FF !important; border: 1px solid rgba(233, 213, 255, 0.3); }
-  .dark .bg-brand-900\/40, .dark .bg-brand-900\/60 { background-color: rgba(2, 132, 199, 0.25) !important; color: #7DD3FC !important; }
-
-  /* Native inputs & select legibility */
-  .dark select, .dark option, .dark input, .dark textarea {
-    color-scheme: dark;
-    background-color: #0F1623 !important;
-    color: #F8FAFC !important;
-  }
-
-  /* Export Preview Markdown Styles */
-  #exportPreviewContent h1 { font-size: 1.5rem; font-weight: 800; margin: 1rem 0 0.5rem; }
-  #exportPreviewContent h2 { font-size: 1.25rem; font-weight: 700; margin: 1.5rem 0 0.5rem; border-bottom: 1px solid #28354A; padding-bottom: 0.25rem; }
-  #exportPreviewContent h3 { font-size: 1.05rem; font-weight: 700; margin: 1rem 0 0.5rem; }
-  #exportPreviewContent p { margin: 0.5rem 0; line-height: 1.6; }
-  #exportPreviewContent ul, #exportPreviewContent ol { margin: 0.5rem 0 0.5rem 1.25rem; }
-  #exportPreviewContent ul { list-style: disc; }
-  #exportPreviewContent ol { list-style: decimal; }
-  #exportPreviewContent li { margin: 0.15rem 0; }
-  #exportPreviewContent hr { border: none; border-top: 1px solid #28354A; margin: 1.25rem 0; }
-  #exportPreviewContent img { max-width: 100%; border-radius: 0.5rem; margin: 0.5rem 0; }
-  #exportPreviewContent strong { font-weight: 700; }
-  #exportPreviewContent code { background: rgba(148,163,184,0.15); padding: 0.1rem 0.35rem; border-radius: 0.25rem; font-size: 0.85em; }
-  .dark #exportPreviewContent code { background: #1E293B; color: #38BDF8; }
-</style>
+    /* Export Preview Markdown */
+    #exportPreviewContent h1 { font-size: 1.5rem; font-weight: 800; margin: 1rem 0 0.5rem; }
+    #exportPreviewContent h2 { font-size: 1.25rem; font-weight: 700; margin: 1.5rem 0 0.5rem; border-bottom: 1px solid #28354A; padding-bottom: 0.25rem; }
+    #exportPreviewContent h3 { font-size: 1.05rem; font-weight: 700; margin: 1rem 0 0.5rem; }
+    #exportPreviewContent p { margin: 0.5rem 0; line-height: 1.6; }
+    #exportPreviewContent ul, #exportPreviewContent ol { margin: 0.5rem 0 0.5rem 1.25rem; }
+    #exportPreviewContent ul { list-style: disc; }
+    #exportPreviewContent ol { list-style: decimal; }
+    #exportPreviewContent li { margin: 0.15rem 0; }
+    #exportPreviewContent hr { border: none; border-top: 1px solid #28354A; margin: 1.25rem 0; }
+    #exportPreviewContent img { max-width: 100%; border-radius: 0.5rem; margin: 0.5rem 0; }
+    #exportPreviewContent strong { font-weight: 700; }
+    #exportPreviewContent code { background: rgba(148,163,184,0.15); padding: 0.1rem 0.35rem; border-radius: 0.25rem; font-size: 0.85em; }
+    .dark #exportPreviewContent code { background: #1E293B; color: #38BDF8; }
+  </style>
 </head>
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 min-h-screen font-sans flex flex-col antialiased overscroll-y-contain">
 
   <div id="app" v-cloak class="flex-1 flex flex-col">
 
-    <!-- INTRO / DISCLAIMER MODAL -->
-    <div v-if="showIntroModal" class="fixed inset-0 z-[60] bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <!-- INTRO MODAL -->
+    <app-modal v-if="showIntroModal">
       <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-xl space-y-4 max-h-[90vh] overflow-y-auto custom-scrollbar">
         <div class="flex items-center space-x-3">
           <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-600 flex items-center justify-center text-white shadow-md">
@@ -163,15 +112,13 @@
             <input type="checkbox" v-model="dontShowIntroAgain" class="rounded text-brand-600 focus:ring-brand-500">
             <span>Don't show this again</span>
           </label>
-          <button @click="closeIntroModal" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md transition">
-            Got it
-          </button>
+          <button @click="closeIntroModal" class="px-5 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-sm shadow-md transition">Got it</button>
         </div>
       </div>
-    </div>
+    </app-modal>
 
     <!-- SHOW SOURCE MODAL -->
-    <div v-if="sourceModal.show" class="fixed inset-0 z-[60] bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <app-modal v-if="sourceModal.show">
       <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-lg w-full p-6 shadow-xl space-y-4 max-h-[85vh] overflow-y-auto custom-scrollbar">
         <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-700 pb-3">
           <h3 class="font-bold text-base text-slate-900 dark:text-white">Original Source Question</h3>
@@ -182,14 +129,12 @@
           <span v-if="sourceModal.content">The version below is the original extracted text, preserved as-is for reference.</span>
           <span v-else>The wording of this question has not been modified and is written as-is from the source. However, new choices may have been added to complete a full set of 5 options.</span>
         </div>
-        <div v-if="sourceModal.content" class="text-sm text-slate-700 dark:text-slate-300 whitespace-pre-wrap font-mono bg-slate-50 dark:bg-slate-900/50 rounded-xl p-4 border border-slate-200 dark:border-slate-700">
-          {{ sourceModal.content }}
-        </div>
+        <div v-if="sourceModal.content" class="text-sm text-slate-700 dark:text-slate-300 whitespace-pre-wrap font-mono bg-slate-50 dark:bg-slate-900/50 rounded-xl p-4 border border-slate-200 dark:border-slate-700">{{ sourceModal.content }}</div>
       </div>
-    </div>
+    </app-modal>
 
     <!-- EXPORT PREVIEW MODAL -->
-    <div v-if="exportModal.show" class="fixed inset-0 z-[60] bg-slate-900/70 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4">
+    <app-modal v-if="exportModal.show" cls="z-[60] bg-slate-900/70 p-2 sm:p-4">
       <div class="bg-white dark:bg-slate-800 rounded-2xl w-full max-w-3xl shadow-xl flex flex-col max-h-[95vh] sm:max-h-[90vh]">
         <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-slate-100 dark:border-slate-700 p-4">
           <h3 class="font-bold text-sm sm:text-base text-slate-900 dark:text-white flex items-center shrink-0">
@@ -200,92 +145,47 @@
             <button @click="printPreview" class="flex-1 sm:flex-none px-3 py-2 rounded-lg bg-brand-600 hover:bg-brand-700 text-white text-xs font-bold flex items-center justify-center space-x-1.5">
               <i class="fa-solid fa-print"></i><span>Print</span>
             </button>
-            <select 
-              v-model="exportFormat" 
-              class="px-2.5 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-brand-500">
-              <option value="md">.md</option>
-              <option value="txt">.txt</option>
-              <option value="json">.json</option>
-              <option value="csv">.csv</option>
+            <select v-model="exportFormat" class="px-2.5 py-2 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-brand-500">
+              <option v-for="fmt in EXPORT_FORMATS" :key="fmt" :value="fmt">.{{ fmt }}</option>
             </select>
-            <button 
-              @click="downloadFile(exportFormat)" 
-              class="flex-1 sm:flex-none px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center justify-center space-x-1.5">
+            <button @click="downloadFile(exportFormat)" class="flex-1 sm:flex-none px-3 py-2 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center justify-center space-x-1.5">
               <i class="fa-solid fa-download"></i><span>Download</span>
             </button>
-            <button @click="exportModal.show = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 shrink-0">
-              <i class="fa-solid fa-xmark"></i>
-            </button>
+            <button @click="exportModal.show = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 shrink-0"><i class="fa-solid fa-xmark"></i></button>
           </div>
         </div>
         <div id="exportPreviewContent" class="p-4 sm:p-6 overflow-y-auto custom-scrollbar prose prose-sm dark:prose-invert max-w-none break-words text-slate-800 dark:text-slate-200" v-html="exportModal.renderedHtml"></div>
       </div>
-    </div>
+    </app-modal>
 
     <!-- TOP NAVIGATION BAR -->
     <header class="sticky top-0 z-40 bg-white/90 dark:bg-slate-800/90 backdrop-blur border-b border-slate-200 dark:border-slate-700 shadow-sm">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        
         <div class="flex items-center space-x-3 cursor-pointer" @click="activeTab = 'library'">
-          <div>
-            <h1 class="font-bold text-lg leading-tight tracking-tight text-slate-900 dark:text-white">JCS Finals Collection</h1>
-          </div>
+          <h1 class="font-bold text-lg leading-tight tracking-tight text-slate-900 dark:text-white">JCS Finals Collection</h1>
         </div>
 
         <nav class="hidden md:flex space-x-1">
-          <button 
-            @click="activeTab = 'library'"
-            :class="activeTab === 'library' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'"
-            class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
-            <i class="fa-solid fa-folder-open"></i>
-            <span>Library</span>
-            <span v-if="questions.length" class="ml-1.5 px-2 py-0.5 text-xs rounded-full bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300">
-              {{ questions.length }}
-            </span>
-          </button>
-
-          <button 
-            @click="activeTab = 'browse'"
-            :disabled="!questions.length"
+          <button
+            v-for="tab in navTabs" :key="tab.id"
+            @click="activeTab = tab.id" :disabled="tab.disabled"
             :class="[
-              activeTab === 'browse' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white',
-              !questions.length ? 'opacity-50 cursor-not-allowed' : ''
+              activeTab === tab.id ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white',
+              tab.disabled ? 'opacity-50 cursor-not-allowed' : ''
             ]"
             class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
-            <i class="fa-solid fa-list-check"></i>
-            <span>Browse Bank</span>
-          </button>
-
-          <button 
-            @click="activeTab = 'practice'"
-            :disabled="!questions.length"
-            :class="[
-              activeTab === 'practice' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white',
-              !questions.length ? 'opacity-50 cursor-not-allowed' : ''
-            ]"
-            class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>Practice</span>
-          </button>
-
-          <!-- SEPARATE MED TAB BUTTON -->
-          <button 
-            @click="activeTab = 'med'"
-            :class="activeTab === 'med' ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-300 font-semibold' : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'"
-            class="px-4 py-2 rounded-lg text-sm transition-all flex items-center space-x-2">
-            <i class="fa-solid fa-notes-medical"></i>
-            <span>MED</span>
-            <span v-if="loadingMed" class="ml-1.5 text-xs text-amber-500">
-              <i class="fa-solid fa-spinner fa-spin"></i>
-            </span>
-            <span v-else-if="medQuestions.length" class="ml-1.5 px-2 py-0.5 text-xs rounded-full bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 font-semibold">
-              {{ medQuestions.length }}
-            </span>
+            <i :class="tab.icon" class="fa-solid"></i>
+            <span>{{ tab.label }}</span>
+            <span v-if="tab.id === 'library' && questions.length" class="ml-1.5 px-2 py-0.5 text-xs rounded-full bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300">{{ questions.length }}</span>
+            <!-- MED DISABLED:
+            <span v-if="tab.id === 'med' && loadingMed" class="ml-1.5 text-xs text-amber-500"><i class="fa-solid fa-spinner fa-spin"></i></span>
+            <span v-else-if="tab.id === 'med' && medQuestions.length" class="ml-1.5 px-2 py-0.5 text-xs rounded-full bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 font-semibold">{{ medQuestions.length }}</span>
+            -->
           </button>
         </nav>
 
         <div class="flex items-center space-x-2">
-          <button 
+          <button
             v-if="questions.length"
             @click="activeTab = 'browse'; filters.bookmarkedOnly = !filters.bookmarkedOnly"
             :class="filters.bookmarkedOnly ? 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300' : 'bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300'"
@@ -293,50 +193,27 @@
             <i class="fa-solid fa-bookmark text-amber-500"></i>
             <span>{{ bookmarks.length }} Saved</span>
           </button>
-
-          <button 
-            @click="toggleDarkMode"
-            title="Toggle Dark Mode"
-            class="p-2 text-slate-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg transition">
+          <button @click="toggleDarkMode" title="Toggle Dark Mode" class="p-2 text-slate-400 hover:text-brand-600 dark:hover:text-brand-300 rounded-lg transition">
             <i :class="darkMode ? 'fa-solid fa-sun' : 'fa-solid fa-moon'"></i>
           </button>
         </div>
       </div>
     </header>
 
-    <!-- MOBILE NAVIGATION BOTTOM BAR -->
+    <!-- MOBILE BOTTOM BAR -->
     <div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 flex justify-around py-2 shadow-lg">
-      <button 
-        @click="activeTab = 'library'" 
-        :class="activeTab==='library' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
-        class="flex flex-col items-center text-xs transition-colors">
-        <i class="fa-solid fa-folder-open text-base mb-0.5"></i> Library
-      </button>
-      <button 
-        @click="activeTab = 'browse'" 
-        :disabled="!questions.length" 
-        :class="activeTab==='browse' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
+      <button
+        v-for="tab in navTabs" :key="'mob-'+tab.id"
+        @click="activeTab = tab.id" :disabled="tab.disabled"
+        :class="activeTab === tab.id ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'"
         class="flex flex-col items-center text-xs transition-colors disabled:opacity-40">
-        <i class="fa-solid fa-list-check text-base mb-0.5"></i> Browse
-      </button>
-      <button 
-        @click="activeTab = 'practice'" 
-        :disabled="!questions.length" 
-        :class="activeTab==='practice' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
-        class="flex flex-col items-center text-xs transition-colors disabled:opacity-40">
-        <i class="fa-solid fa-graduation-cap text-base mb-0.5"></i> Practice
-      </button>
-      <button 
-        @click="activeTab = 'med'" 
-        :class="activeTab==='med' ? 'text-brand-600 dark:text-brand-400 font-bold' : 'text-slate-600 dark:text-slate-400'" 
-        class="flex flex-col items-center text-xs transition-colors">
         <span class="relative mb-0.5">
-          <i class="fa-solid fa-notes-medical text-base"></i>
-          <span v-if="loadingMed" class="absolute -top-1 -right-2 text-[10px] text-amber-500">
-            <i class="fa-solid fa-spinner fa-spin"></i>
-          </span>
+          <i :class="tab.icon" class="fa-solid text-base"></i>
+          <!-- MED DISABLED:
+          <span v-if="tab.id === 'med' && loadingMed" class="absolute -top-1 -right-2 text-[10px] text-amber-500"><i class="fa-solid fa-spinner fa-spin"></i></span>
+          -->
         </span>
-        MED
+        {{ tab.mobileLabel }}
       </button>
     </div>
 
@@ -349,49 +226,33 @@
             <i :class="toast.isError ? 'fa-circle-exclamation text-rose-500' : 'fa-circle-check text-emerald-500'" class="fa-solid text-lg"></i>
             <span class="text-sm font-medium">{{ toast.message }}</span>
           </div>
-          <button @click="toast.show = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
+          <button @click="toast.show = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"><i class="fa-solid fa-xmark"></i></button>
         </div>
       </transition>
 
-      <!-- TAB 1: LIBRARY / DATASET DASHBOARD -->
+      <!-- TAB 1: LIBRARY -->
       <div v-if="activeTab === 'library'" class="space-y-8">
-
-        <div v-if="loadingDatasets" class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-10 text-center shadow-sm">
+        <card v-if="loadingDatasets" class="p-10 text-center shadow-sm">
           <i class="fa-solid fa-spinner fa-spin text-3xl text-brand-600 mb-3"></i>
           <p class="text-sm text-slate-500 dark:text-slate-400">Loading main question databases (FAMCO, Medicine, Surgery)...</p>
-        </div>
+        </card>
 
         <div v-if="questions.length" class="space-y-6">
           <div class="flex items-center justify-between">
             <h2 class="text-xl font-bold text-slate-900 dark:text-white flex items-center">
-              <i class="fa-solid fa-chart-pie text-brand-600 mr-2.5"></i>
-              Dataset Statistics
+              <i class="fa-solid fa-chart-pie text-brand-600 mr-2.5"></i> Dataset Statistics
             </h2>
-            <button @click="activeTab = 'browse'" class="text-sm text-brand-600 dark:text-brand-400 hover:underline font-medium">
-              Explore All Questions &rarr;
-            </button>
+            <button @click="activeTab = 'browse'" class="text-sm text-brand-600 dark:text-brand-400 hover:underline font-medium">Explore All Questions &rarr;</button>
           </div>
 
-          <!-- Stats: Total on top, Rotations + Cohorts below -->
           <div class="space-y-4">
-            <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-              <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total JCS Questions</span>
-              <p class="text-3xl font-extrabold text-slate-900 dark:text-white mt-2">{{ questions.length }}</p>
-            </div>
+            <stat-card label="Total JCS Questions" :value="questions.length" tone="text-slate-900 dark:text-white"></stat-card>
             <div class="grid grid-cols-2 gap-4">
-              <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Rotations</span>
-                <p class="text-3xl font-extrabold text-brand-600 dark:text-brand-400 mt-2">{{ uniqueRotations.length }}</p>
-              </div>
-              <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex flex-col items-center text-center">
-                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Cohorts</span>
-                <p class="text-3xl font-extrabold text-emerald-600 dark:text-emerald-400 mt-2">{{ uniqueCohorts.length }}</p>
-              </div>
+              <stat-card label="Rotations" :value="uniqueRotations.length" tone="text-brand-600 dark:text-brand-400"></stat-card>
+              <stat-card label="Cohorts" :value="uniqueCohorts.length" tone="text-emerald-600 dark:text-emerald-400"></stat-card>
             </div>
 
-            <!-- MED Quick Banner -->
+            <!-- MED DISABLED:
             <div class="p-5 rounded-2xl bg-gradient-to-r from-emerald-500/10 via-brand-500/10 to-indigo-500/10 border border-emerald-500/30 flex flex-col sm:flex-row items-center justify-between gap-4">
               <div class="flex items-center space-x-3 text-center sm:text-left">
                 <div>
@@ -403,23 +264,19 @@
                   </p>
                 </div>
               </div>
-              <button 
-                @click="activeTab = 'med'" 
-                class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm whitespace-nowrap flex items-center space-x-1.5">
+              <button @click="activeTab = 'med'" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition shadow-sm whitespace-nowrap flex items-center space-x-1.5">
                 <i v-if="loadingMed" class="fa-solid fa-spinner fa-spin"></i>
                 <span>{{ loadingMed ? 'Loading...' : (medQuestions.length ? 'Open MED Tab &rarr;' : 'Load & Browse MED &rarr;') }}</span>
               </button>
             </div>
+            -->
           </div>
 
-          <!-- Breakdown by Rotation (clickable -> filters Browse tab) -->
-          <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 shadow-sm space-y-4">
+          <card class="p-6 shadow-sm space-y-4">
             <h3 class="font-bold text-slate-900 dark:text-white text-base">Questions by Rotation & Type</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <button 
-                v-for="rot in rotationBreakdown" 
-                :key="rot.name" 
-                @click="goToRotationFilter(rot.name)"
+              <button
+                v-for="rot in rotationBreakdown" :key="rot.name" @click="goToRotationFilter(rot.name)"
                 class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200/80 dark:border-slate-700 flex justify-between items-center text-left hover:border-brand-400 dark:hover:border-brand-500 hover:shadow-sm transition">
                 <div>
                   <span class="font-bold text-sm text-slate-800 dark:text-slate-200">{{ rot.name }}</span>
@@ -427,291 +284,124 @@
                     <span v-for="(count, type) in rot.types" :key="type" class="uppercase">{{ type }}: {{ count }}</span>
                   </div>
                 </div>
-                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 dark:bg-brand-900/60 dark:text-brand-300">
-                  {{ rot.count }}
-                </span>
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 dark:bg-brand-900/60 dark:text-brand-300">{{ rot.count }}</span>
               </button>
             </div>
-          </div>
+          </card>
         </div>
 
         <div v-else-if="!loadingDatasets" class="text-center py-8 text-slate-500 dark:text-slate-400 max-w-lg mx-auto">
           <i class="fa-solid fa-circle-exclamation text-4xl mb-3 text-slate-300 dark:text-slate-600"></i>
           <p class="text-sm">No questions could be loaded. <button @click="loadAllDatasets" class="text-brand-600 dark:text-brand-400 underline">Try again</button></p>
         </div>
-
       </div>
 
-      <!-- TAB 2: QUESTION BANK EXPLORER / BROWSE -->
+      <!-- TAB 2: BROWSE -->
       <div v-if="activeTab === 'browse'" class="space-y-4">
-        
-        <!-- Filter Controls -->
-        <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+        <card class="p-5 shadow-sm space-y-4">
           <div class="flex flex-col lg:flex-row gap-3">
-            <div class="flex-1 relative">
-              <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 dark:text-slate-500"></i>
-              <input 
-                v-model="filters.search" 
-                type="text" 
-                placeholder="Search..." 
-                class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
-              />
-              <button v-if="filters.search" @click="filters.search=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
-                <i class="fa-solid fa-xmark"></i>
-              </button>
-            </div>
+            <search-input v-model="filters.search"></search-input>
 
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
-
-              <!-- Multi-select: Rotations -->
-              <div class="relative">
-                <button 
-                  type="button"
-                  @click="toggleFilterDropdown('rotation')"
-                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
-                  <span class="truncate">{{ filters.rotations.length ? filters.rotations.length + ' Rotation' + (filters.rotations.length > 1 ? 's' : '') : 'All Rotations (' + uniqueRotations.length + ')' }}</span>
+              <div v-for="fm in filterMenus" :key="fm.key" class="relative">
+                <button type="button" @click="toggleFilterDropdown(fm.key)" :class="fm.upper ? 'uppercase' : ''" class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
+                  <span class="truncate normal-case">{{ filters[fm.field].length ? filters[fm.field].length + ' ' + (filters[fm.field].length > 1 ? fm.plural : fm.label) : 'All ' + fm.plural + ' (' + fm.options.length + ')' }}</span>
                   <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
                 </button>
-                <div v-if="openFilterDropdown === 'rotation'" class="absolute z-30 mt-1 w-56 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="r in uniqueRotations" :key="r" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
-                    <input type="checkbox" :value="r" v-model="filters.rotations" class="rounded text-brand-600 focus:ring-brand-500">
-                    <span class="truncate">{{ r }}</span>
+                <div v-if="openFilterDropdown === fm.key" :class="fm.width" class="absolute z-30 mt-1 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
+                  <label v-for="opt in fm.options" :key="opt" :class="fm.upper ? 'uppercase' : ''" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
+                    <input type="checkbox" :value="opt" v-model="filters[fm.field]" class="rounded text-brand-600 focus:ring-brand-500">
+                    <span class="truncate">{{ opt }}</span>
                   </label>
-                  <button v-if="filters.rotations.length" @click="filters.rotations = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1">Clear selection</button>
+                  <button v-if="filters[fm.field].length" @click="filters[fm.field] = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1 normal-case">Clear selection</button>
                 </div>
               </div>
 
-              <!-- Multi-select: Types -->
-              <div class="relative">
-                <button 
-                  type="button"
-                  @click="toggleFilterDropdown('type')"
-                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between uppercase focus:outline-none focus:ring-2 focus:ring-brand-500">
-                  <span class="truncate normal-case">{{ filters.types.length ? filters.types.length + ' Type' + (filters.types.length > 1 ? 's' : '') : 'All Types (' + uniqueTypes.length + ')' }}</span>
-                  <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
-                </button>
-                <div v-if="openFilterDropdown === 'type'" class="absolute z-30 mt-1 w-48 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="t in uniqueTypes" :key="t" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer uppercase">
-                    <input type="checkbox" :value="t" v-model="filters.types" class="rounded text-brand-600 focus:ring-brand-500">
-                    <span>{{ t }}</span>
-                  </label>
-                  <button v-if="filters.types.length" @click="filters.types = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1 normal-case">Clear selection</button>
-                </div>
-              </div>
-
-              <!-- Multi-select: Cohorts -->
-              <div class="relative">
-                <button 
-                  type="button"
-                  @click="toggleFilterDropdown('cohort')"
-                  class="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium text-left flex items-center justify-between focus:outline-none focus:ring-2 focus:ring-brand-500">
-                  <span class="truncate">{{ filters.cohorts.length ? filters.cohorts.length + ' Cohort' + (filters.cohorts.length > 1 ? 's' : '') : 'All Cohorts (' + uniqueCohorts.length + ')' }}</span>
-                  <i class="fa-solid fa-chevron-down text-[10px] ml-1 shrink-0"></i>
-                </button>
-                <div v-if="openFilterDropdown === 'cohort'" class="absolute z-30 mt-1 w-48 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2 space-y-1">
-                  <label v-for="c in uniqueCohorts" :key="c" class="flex items-center space-x-2 text-xs px-2 py-1.5 rounded-lg text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 cursor-pointer">
-                    <input type="checkbox" :value="c" v-model="filters.cohorts" class="rounded text-brand-600 focus:ring-brand-500">
-                    <span>{{ c }}</span>
-                  </label>
-                  <button v-if="filters.cohorts.length" @click="filters.cohorts = []" class="w-full text-center text-[11px] text-rose-600 dark:text-rose-400 hover:underline pt-1">Clear selection</button>
-                </div>
-              </div>
-
-              <select v-model.number="pageSize" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-brand-500">
-                <option :value="10">10 / page</option>
-                <option :value="25">25 / page</option>
-                <option :value="50">50 / page</option>
-                <option :value="100">100 / page</option>
-              </select>
+              <page-size v-model="pageSize"></page-size>
             </div>
           </div>
 
-          <!-- Mode / Syntax Banner Indicators -->
-          <div v-if="isClaudeMode" class="flex items-center justify-between space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
-            <div class="flex items-center space-x-2">
-              <i class="fa-solid fa-robot"></i>
-              <span>Claude Prompt Mode Active: Clicking the search button on any card will launch Claude chat with that question directly.</span>
-            </div>
-            <button @click="isClaudeMode = false" title="Disable Claude Mode" class="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 shrink-0">
-              <i class="fa-solid fa-xmark"></i>
-            </button>
-          </div>
-          <div v-else-if="isTopicOnlySearch" class="flex items-center space-x-2 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 rounded-lg px-3 py-2">
-            <i class="fa-solid fa-tags"></i>
-            <span>Filtering exclusively by Topic field: "{{ topicQueryText }}"</span>
-          </div>
+          <mode-banner
+            :claude="isClaudeMode" :topic-only="browseSearchMeta.isTopic" :topic-text="browseSearchMeta.topicQuery"
+            claude-text="Claude Prompt Mode Active: Clicking the search button on any card will launch Claude chat with that question directly."
+            @clear-claude="isClaudeMode = false">
+          </mode-banner>
 
-          <!-- Active filter chips -->
           <div v-if="filters.rotations.length || filters.types.length || filters.cohorts.length" class="flex flex-wrap gap-1.5 pt-1">
-            <span v-for="r in filters.rotations" :key="'fr-'+r" class="inline-flex items-center px-2 py-0.5 rounded-full bg-brand-50 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-[11px] font-medium">
-              {{ r }}
-              <button @click="filters.rotations.splice(filters.rotations.indexOf(r),1)" class="ml-1.5 hover:text-rose-500"><i class="fa-solid fa-xmark"></i></button>
-            </span>
-            <span v-for="t in filters.types" :key="'fy-'+t" class="inline-flex items-center px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 text-[11px] font-medium uppercase">
-              {{ t }}
-              <button @click="filters.types.splice(filters.types.indexOf(t),1)" class="ml-1.5 hover:text-rose-500"><i class="fa-solid fa-xmark"></i></button>
-            </span>
-            <span v-for="c in filters.cohorts" :key="'fc-'+c" class="inline-flex items-center px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 text-[11px] font-medium">
-              {{ c }}
-              <button @click="filters.cohorts.splice(filters.cohorts.indexOf(c),1)" class="ml-1.5 hover:text-rose-500"><i class="fa-solid fa-xmark"></i></button>
-            </span>
+            <template v-for="cd in chipDefs" :key="cd.field">
+              <span v-for="val in filters[cd.field]" :key="cd.field+'-'+val" :class="cd.cls" class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-medium">
+                {{ val }}
+                <button @click="toggleIn(filters[cd.field], val)" class="ml-1.5 hover:text-rose-500"><i class="fa-solid fa-xmark"></i></button>
+              </span>
+            </template>
           </div>
 
           <div class="flex flex-wrap items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-700/60 text-xs text-slate-500 dark:text-slate-400 gap-3">
             <div class="flex items-center space-x-4 flex-wrap gap-y-1">
-              <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
-                <input type="checkbox" v-model="filters.bookmarkedOnly" class="rounded text-brand-600 focus:ring-brand-500">
-                <span>Bookmarked only</span>
-              </label>
-              <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
-                <input type="checkbox" v-model="filters.hideStudied" class="rounded text-brand-600 focus:ring-brand-500">
-                <span>Hide checked</span>
-              </label>
+              <check-label v-model="filters.bookmarkedOnly" label="Bookmarked only"></check-label>
+              <check-label v-model="filters.hideStudied" label="Hide checked"></check-label>
             </div>
             <div class="flex items-center space-x-3">
               <button @click="openExportPreview" :disabled="!filteredQuestions.length" class="text-brand-600 dark:text-brand-400 hover:underline font-bold disabled:opacity-40 disabled:cursor-not-allowed">
                 <i class="fa-solid fa-file-export mr-1"></i> Export
               </button>
-              <button v-if="hasActiveFilters" @click="resetFilters" class="text-rose-600 dark:text-rose-400 hover:underline font-medium">
-                Reset Filters
-              </button>
+              <button v-if="hasActiveFilters" @click="resetFilters" class="text-rose-600 dark:text-rose-400 hover:underline font-medium">Reset Filters</button>
             </div>
           </div>
-        </div>
+        </card>
 
-        <!-- Showing X of Y label -->
         <div class="text-xs text-slate-500 dark:text-slate-400 px-1">
           Showing <strong>{{ paginatedQuestions.length }}</strong> of {{ filteredQuestions.length }} filtered items ({{ questions.length }} total)
           <span v-if="isClaudeMode" class="ml-1 text-amber-600 dark:text-amber-400 font-bold">(/claude mode)</span>
         </div>
 
-        <!-- Pagination Section (TOP) -->
-        <div v-if="filteredQuestions.length" class="flex items-center justify-between bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
-          <button 
-            @click="currentPage = Math.max(1, currentPage - 1)" 
-            :disabled="currentPage === 1"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-            &larr; Prev
-          </button>
-          <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ currentPage }} of {{ totalPages }}</span>
-          <button 
-            @click="currentPage = Math.min(totalPages, currentPage + 1)" 
-            :disabled="currentPage === totalPages"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-            Next &rarr;
-          </button>
-        </div>
+        <pager v-if="filteredQuestions.length" v-model:page="currentPage" :total="totalPages"></pager>
 
-        <!-- Question Cards List -->
         <div class="space-y-4">
-          <div 
-            v-for="(q, idx) in paginatedQuestions" 
-            :key="q.id || idx" 
-            :class="isStudied(q.id) ? 'studied-fade' : ''"
-            class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm transition hover:shadow-md space-y-3">
-            
-            <!-- Card Header Badges -->
+          <card
+            v-for="(q, idx) in paginatedQuestions" :key="q.id || idx"
+            :class="{ 'studied-fade': studied.includes(q.id) }"
+            class="p-5 shadow-sm transition hover:shadow-md space-y-3">
+
             <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 dark:border-slate-700/60 pb-3">
               <div class="flex items-center space-x-2 flex-wrap gap-y-1">
-                <button 
-                  @click="toggleStudied(q.id)" 
-                  :title="isStudied(q.id) ? 'Mark as not checked' : 'Mark as checked'"
-                  :class="isStudied(q.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
-                  class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
-                  <i class="fa-solid fa-check text-[10px]"></i>
-                </button>
-                <span :class="getTypeBadgeClass(q.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase tracking-wider">
-                  {{ q.type }}
-                </span>
-                <span v-if="q.rotation" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">
-                  {{ q.rotation }}
-                </span>
-                <span v-if="q.cohort" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs">
-                  {{ q.cohort }}
-                </span>
+                <studied-btn :list="studied" :id="q.id"></studied-btn>
+                <span :class="getTypeBadgeClass(q.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase tracking-wider">{{ q.type }}</span>
+                <span v-if="q.rotation" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">{{ q.rotation }}</span>
+                <span v-if="q.cohort" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs">{{ q.cohort }}</span>
               </div>
-
               <div class="flex items-center space-x-1">
-                <button 
-                  @click="toggleBookmark(q.id)" 
-                  :title="isBookmarked(q.id) ? 'Remove Bookmark' : 'Bookmark Question'"
-                  class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-amber-500 transition">
-                  <i :class="isBookmarked(q.id) ? 'fa-solid text-amber-500' : 'fa-regular'" class="fa-bookmark text-base"></i>
+                <button @click="toggleIn(bookmarks, q.id)" :title="bookmarks.includes(q.id) ? 'Remove Bookmark' : 'Bookmark Question'" class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-amber-500 transition">
+                  <i :class="bookmarks.includes(q.id) ? 'fa-solid text-amber-500' : 'fa-regular'" class="fa-bookmark text-base"></i>
                 </button>
-                <button 
-                  @click="copyQuestion(q)" 
-                  title="Copy question text"
-                  class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
-                  <i class="fa-regular fa-copy text-base"></i>
-                </button>
-                <button 
-                  @click="handleQuestionSearch(q)" 
-                  :title="isClaudeMode ? 'Ask Claude about this question directly (/claude)' : 'Search this question on Google'"
-                  :class="isClaudeMode ? 'text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300' : 'text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400'"
-                  class="p-1.5 rounded-lg transition relative">
-                  <i class="fa-solid fa-magnifying-glass text-base"></i>
-                  <span v-if="isClaudeMode" class="absolute -top-1 -right-1 flex h-2 w-2">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-                  </span>
-                </button>
+                <copy-btn @click="copyText(questionToText(q))"></copy-btn>
+                <search-btn :claude="isClaudeMode" @click="handleQuestionSearch(q)"></search-btn>
               </div>
             </div>
 
-            <!-- Question Topic Tags (if present) -->
-            <div v-if="q.topic" class="pt-0.5 pb-1 flex flex-wrap gap-1.5 items-center">
-              <span class="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center mr-1">
-                <i class="fa-solid fa-tag mr-1 text-brand-500"></i> Topic:
-              </span>
-              <span 
-                v-for="(tPart, tIdx) in getTopicTags(q.topic)" 
-                :key="tIdx"
-                @click="filterByTopicTag(tPart)"
-                class="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-slate-100 hover:bg-brand-50 hover:text-brand-700 dark:bg-slate-700/60 dark:hover:bg-brand-900/40 dark:hover:text-brand-300 text-slate-600 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700 transition cursor-pointer"
-                title="Search questions with this topic">
-                {{ tPart }}
-              </span>
-            </div>
+            <topic-tags :topic="q.topic" @select="applyTopicTag($event, 'browse')"></topic-tags>
 
-            <!-- MCQ Type -->
             <div v-if="q.type === 'MCQ'" class="space-y-3">
               <h3 class="text-base font-semibold text-slate-900 dark:text-white leading-relaxed">
-                <span class="text-slate-400 dark:text-slate-500 mr-1.5">#{{ q.number || idx + 1 }}.</span>
-                {{ q.question }}
+                <span class="text-slate-400 dark:text-slate-500 mr-1.5">#{{ q.number || idx + 1 }}.</span>{{ q.question }}
               </h3>
-
-              <div v-if="q.has_img && q.img_src" class="pt-1 space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(q.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-64 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
-
+              <q-images :q="q" max-h="max-h-64"></q-images>
               <div class="grid grid-cols-1 gap-2 pt-1">
-                <div 
-                  v-for="(opt, optIdx) in q.options" 
-                  :key="optIdx" 
-                  :class="isOptionAdded(opt) ? 'opacity-75' : ''"
-                  class="p-3 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-slate-50/50 dark:bg-slate-900/40 text-sm text-slate-700 dark:text-slate-300">
+                <div v-for="(opt, optIdx) in q.options" :key="optIdx" :class="isOptionAdded(opt) ? 'opacity-75' : ''" class="p-3 rounded-xl border border-slate-200 dark:border-slate-700/80 bg-slate-50/50 dark:bg-slate-900/40 text-sm text-slate-700 dark:text-slate-300">
                   {{ formatOption(opt) }}
                 </div>
               </div>
             </div>
 
-            <!-- EMQ Type -->
             <div v-else-if="q.type === 'EMQ'" class="space-y-4">
-              <div v-if="q.theme" class="text-xs uppercase tracking-wider font-bold text-brand-600 dark:text-brand-400">
-                Theme: {{ q.theme }}
-              </div>
-              
+              <div v-if="q.theme" class="text-xs uppercase tracking-wider font-bold text-brand-600 dark:text-brand-400">Theme: {{ q.theme }}</div>
               <div v-if="q.options && q.options.length" class="p-3 bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 text-xs space-y-1">
                 <span class="font-bold text-slate-700 dark:text-slate-300 block mb-1">Matching Options:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1.5">
                   <span v-for="opt in q.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-75' : ''" class="text-slate-600 dark:text-slate-400">{{ formatOption(opt) }}</span>
                 </div>
               </div>
-
-              <div v-if="q.has_img && q.img_src" class="pt-1 space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(q.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-64 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
-
+              <q-images :q="q" max-h="max-h-64"></q-images>
               <div class="space-y-3">
                 <div v-for="(subQ, subIdx) in q.questions" :key="subIdx" class="p-3.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 space-y-1">
                   <div class="text-xs text-slate-400 dark:text-slate-500 font-medium">Item {{ subIdx + 1 }}</div>
@@ -720,78 +410,38 @@
               </div>
             </div>
 
-            <!-- SAQ Type -->
             <div v-else-if="q.type === 'SAQ'" class="space-y-4">
               <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 font-medium text-slate-900 dark:text-white text-sm">
-                <i class="fa-solid fa-file-lines text-brand-600 dark:text-brand-400 mr-2"></i>
-                {{ q.case }}
+                <i class="fa-solid fa-file-lines text-brand-600 dark:text-brand-400 mr-2"></i>{{ q.case }}
               </div>
-
-              <div v-if="q.has_img && q.img_src" class="pt-1 space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(q.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-64 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
-
+              <q-images :q="q" max-h="max-h-64"></q-images>
               <div class="space-y-2.5 pl-2">
                 <div v-for="(sub, subIdx) in q.subquestions" :key="subIdx" class="flex items-start justify-between text-sm p-2.5 rounded-lg border border-slate-100 dark:border-slate-700/50">
-                  <span class="text-slate-800 dark:text-slate-200">
-                    <strong class="text-slate-400 dark:text-slate-500 mr-1.5">{{ subIdx + 1 }}.</strong> {{ sub.q }}
-                  </span>
-                  <span v-if="sub.points" class="ml-2 px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs whitespace-nowrap">
-                    {{ sub.points }} pts
-                  </span>
+                  <span class="text-slate-800 dark:text-slate-200"><strong class="text-slate-400 dark:text-slate-500 mr-1.5">{{ subIdx + 1 }}.</strong> {{ sub.q }}</span>
+                  <span v-if="sub.points" class="ml-2 px-2 py-0.5 rounded bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs whitespace-nowrap">{{ sub.points }} pts</span>
                 </div>
               </div>
             </div>
 
-            <!-- Fallback Generic rendering -->
             <div v-else class="text-sm text-slate-800 dark:text-slate-200">
               <p class="font-medium">{{ q.question || q.case || 'Question details' }}</p>
-              <div v-if="q.has_img && q.img_src" class="pt-2 space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(q.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-64 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
+              <q-images :q="q" max-h="max-h-64"></q-images>
             </div>
 
-            <!-- Card Footer: Show Source chip -->
             <div class="pt-2 border-t border-slate-100 dark:border-slate-700/50 flex items-center">
-              <button 
-                @click="openSourceModal(q)" 
-                class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition">
-                <i class="fa-solid fa-clock-rotate-left mr-1"></i> Show Source
-              </button>
+              <source-btn @click="openSourceModal(q)"></source-btn>
             </div>
+          </card>
 
-          </div>
-
-          <div v-if="!paginatedQuestions.length" class="text-center py-12 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
-            <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
-            <p class="text-slate-500 dark:text-slate-400 font-medium text-sm">No questions match your current filter selection.</p>
-            <button @click="resetFilters" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">Clear filters</button>
-          </div>
+          <empty-state v-if="!paginatedQuestions.length" message="No questions match your current filter selection." action="Clear filters" @action="resetFilters"></empty-state>
         </div>
 
-        <!-- Pagination Section (BOTTOM) -->
-        <div v-if="filteredQuestions.length" class="flex items-center justify-between bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
-          <button 
-            @click="currentPage = Math.max(1, currentPage - 1)" 
-            :disabled="currentPage === 1"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-            &larr; Prev
-          </button>
-          <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ currentPage }} of {{ totalPages }}</span>
-          <button 
-            @click="currentPage = Math.min(totalPages, currentPage + 1)" 
-            :disabled="currentPage === totalPages"
-            class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-            Next &rarr;
-          </button>
-        </div>
-
+        <pager v-if="filteredQuestions.length" v-model:page="currentPage" :total="totalPages"></pager>
       </div>
 
-      <!-- TAB 3: PRACTICE / EXAM ENGINE SETUP & TAKING -->
+      <!-- TAB 3: PRACTICE -->
       <div v-if="activeTab === 'practice'" class="space-y-6">
-        
-        <div v-if="!examState.active" class="max-w-2xl mx-auto bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-6">
+        <card v-if="!examState.active" class="max-w-2xl mx-auto p-6 sm:p-8 shadow-sm space-y-6">
           <div class="text-center space-y-2">
             <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Practice Setup</h2>
             <p class="text-sm text-slate-500 dark:text-slate-400">Configure your custom practice session</p>
@@ -800,274 +450,149 @@
 
           <div class="space-y-4 pt-2">
             <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">
-                Question Count
-              </label>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">Question Count</label>
               <select v-model="examConfig.numQuestions" class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 text-sm">
-                <option value="5">5</option>
-                <option value="10">10</option>
-                <option value="25">25</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-                <option value="unlimited">Unlimited</option>
+                <option v-for="c in ['5','10','25','50','100','unlimited']" :key="c" :value="c">{{ c === 'unlimited' ? 'Unlimited' : c }}</option>
               </select>
             </div>
 
-            <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">
-                Select Rotations (leave empty for all)
-              </label>
-              <div class="flex flex-wrap gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 max-h-32 overflow-y-auto custom-scrollbar">
-                <label v-for="r in uniqueRotations" :key="r" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer">
-                  <input type="checkbox" :value="r" v-model="examConfig.selectedRotations" class="rounded text-brand-600 focus:ring-brand-500">
-                  <span>{{ r }}</span>
-                </label>
-              </div>
-            </div>
+            <check-group title="Select Rotations (leave empty for all)" :options="uniqueRotations" v-model="examConfig.selectedRotations" scroll></check-group>
+            <check-group title="Select Question Formats (leave empty for all)" :options="uniqueTypes" v-model="examConfig.selectedTypes" upper></check-group>
 
-            <div>
-              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">
-                Select Question Formats (leave empty for all)
-              </label>
-              <div class="flex flex-wrap gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900">
-                <label v-for="t in uniqueTypes" :key="t" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer uppercase">
-                  <input type="checkbox" :value="t" v-model="examConfig.selectedTypes" class="rounded text-brand-600 focus:ring-brand-500">
-                  <span>{{ t }}</span>
-                </label>
-              </div>
-            </div>
-
-            <div>
-              <label class="flex items-center space-x-2 text-sm text-slate-700 dark:text-slate-200 font-medium cursor-pointer">
-                <input type="checkbox" v-model="examConfig.excludeChecked" class="rounded text-brand-600 focus:ring-brand-500">
-                <span>Exclude checked questions ({{ studied.length }} checked)</span>
-              </label>
-            </div>
+            <label class="flex items-center space-x-2 text-sm text-slate-700 dark:text-slate-200 font-medium cursor-pointer">
+              <input type="checkbox" v-model="examConfig.excludeChecked" class="rounded text-brand-600 focus:ring-brand-500">
+              <span>Exclude checked questions ({{ studied.length }} checked)</span>
+            </label>
 
             <div class="pt-4">
-              <button 
-                @click="startExam" 
-                class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-base shadow-lg shadow-brand-500/25 transition">
-                Start Practice Session &rarr;
-              </button>
+              <button @click="startExam" class="w-full py-3.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-bold text-base shadow-lg shadow-brand-500/25 transition">Start Practice Session &rarr;</button>
             </div>
           </div>
-        </div>
+        </card>
 
         <div v-else class="space-y-4">
-          
-          <div class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-between">
+          <card class="p-4 shadow-sm flex items-center justify-between">
             <div class="flex items-center space-x-3">
-              <button @click="endExam" class="text-xs text-rose-600 dark:text-rose-400 hover:underline font-bold">
-                <i class="fa-solid fa-arrow-left mr-1"></i> Exit Session
-              </button>
+              <button @click="endExam" class="text-xs text-rose-600 dark:text-rose-400 hover:underline font-bold"><i class="fa-solid fa-arrow-left mr-1"></i> Exit Session</button>
               <span class="text-slate-300 dark:text-slate-600">|</span>
-              <span class="text-sm font-bold text-slate-800 dark:text-slate-200">
-                Question {{ examState.currentIndex + 1 }} of {{ examState.questions.length }}
-              </span>
+              <span class="text-sm font-bold text-slate-800 dark:text-slate-200">Question {{ examState.currentIndex + 1 }} of {{ examState.questions.length }}</span>
             </div>
-
-            <button 
-              @click="showPaletteModal = !showPaletteModal" 
-              class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold">
-              Grid Navigation
-            </button>
-          </div>
+            <button @click="showPaletteModal = !showPaletteModal" class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 text-xs font-bold">Grid Navigation</button>
+          </card>
 
           <div class="flex justify-end">
-            <button 
-              @click="toggleFlagCurrent" 
-              :class="isCurrentFlagged ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300'" 
-              class="px-3 py-1.5 rounded-lg text-xs font-bold flex items-center space-x-1 transition">
-              <i class="fa-solid fa-flag"></i>
-              <span>Flag</span>
+            <button @click="toggleIn(examState.flagged, current.id)" :class="examState.flagged.includes(current.id) ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-600 dark:bg-slate-700 dark:text-slate-300'" class="px-3 py-1.5 rounded-lg text-xs font-bold flex items-center space-x-1 transition">
+              <i class="fa-solid fa-flag"></i><span>Flag</span>
             </button>
           </div>
 
-          <div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-6 sm:p-8 shadow-sm space-y-6">
-            
-            <div class="flex items-center justify-between">
-              <div class="flex items-center space-x-2 flex-wrap gap-y-1">
-                <button 
-                  @click="toggleStudied(currentExamQuestion.id)" 
-                  :title="isStudied(currentExamQuestion.id) ? 'Mark as not checked' : 'Mark as checked'"
-                  :class="isStudied(currentExamQuestion.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
-                  class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
-                  <i class="fa-solid fa-check text-[10px]"></i>
-                </button>
-                <span :class="getTypeBadgeClass(currentExamQuestion.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase">
-                  {{ currentExamQuestion.type }}
-                </span>
-                <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">{{ currentExamQuestion.rotation }}</span>
-                <span v-if="currentExamQuestion.topic" class="text-xs text-brand-600 dark:text-brand-400 font-medium">
-                  • {{ currentExamQuestion.topic }}
-                </span>
-              </div>
+          <card class="p-6 sm:p-8 shadow-sm space-y-6">
+            <div class="flex items-center space-x-2 flex-wrap gap-y-1">
+              <studied-btn :list="studied" :id="current.id"></studied-btn>
+              <span :class="getTypeBadgeClass(current.type)" class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase">{{ current.type }}</span>
+              <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">{{ current.rotation }}</span>
+              <span v-if="current.topic" class="text-xs text-brand-600 dark:text-brand-400 font-medium">• {{ current.topic }}</span>
             </div>
 
-            <div v-if="currentExamQuestion.type === 'MCQ'" class="space-y-6">
-              <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-relaxed">
-                {{ currentExamQuestion.question }}
-              </h3>
-
-              <div v-if="currentExamQuestion.has_img && currentExamQuestion.img_src" class="space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(currentExamQuestion.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-72 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
-
+            <div v-if="current.type === 'MCQ'" class="space-y-6">
+              <h3 class="text-lg font-bold text-slate-900 dark:text-white leading-relaxed">{{ current.question }}</h3>
+              <q-images :q="current" max-h="max-h-72"></q-images>
               <div class="space-y-3">
-                <div 
-                  v-for="(opt, oIdx) in currentExamQuestion.options" 
-                  :key="oIdx"
-                  @click="selectMcqOption(oIdx)"
+                <div
+                  v-for="(opt, oIdx) in current.options" :key="oIdx"
+                  @click="examState.userAnswers[current.id] = oIdx"
                   :class="[
-                    examState.userAnswers[currentExamQuestion.id] === oIdx ? 'border-brand-600 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium' : 'border-slate-200 dark:border-slate-700 hover:border-brand-300 dark:hover:border-brand-500 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200',
+                    examState.userAnswers[current.id] === oIdx ? 'border-brand-600 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium' : 'border-slate-200 dark:border-slate-700 hover:border-brand-300 dark:hover:border-brand-500 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200',
                     isOptionAdded(opt) ? 'opacity-60' : ''
                   ]"
                   class="p-4 rounded-xl border-2 cursor-pointer transition flex items-center justify-between text-sm">
                   <span>{{ formatOption(opt) }}</span>
-                  <div 
-                    :class="examState.userAnswers[currentExamQuestion.id] === oIdx ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-600'" 
-                    class="w-5 h-5 rounded-full border-2 flex items-center justify-center text-xs">
-                    <i v-if="examState.userAnswers[currentExamQuestion.id] === oIdx" class="fa-solid fa-check"></i>
+                  <div :class="examState.userAnswers[current.id] === oIdx ? 'border-brand-600 bg-brand-600 text-white' : 'border-slate-300 dark:border-slate-600'" class="w-5 h-5 rounded-full border-2 flex items-center justify-center text-xs">
+                    <i v-if="examState.userAnswers[current.id] === oIdx" class="fa-solid fa-check"></i>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div v-else-if="currentExamQuestion.type === 'EMQ'" class="space-y-6">
-              <div v-if="currentExamQuestion.theme" class="text-sm font-bold text-brand-600 dark:text-brand-400 uppercase tracking-wider">
-                Theme: {{ currentExamQuestion.theme }}
-              </div>
-
+            <div v-else-if="current.type === 'EMQ'" class="space-y-6">
+              <div v-if="current.theme" class="text-sm font-bold text-brand-600 dark:text-brand-400 uppercase tracking-wider">Theme: {{ current.theme }}</div>
               <div class="p-4 bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-700 text-xs space-y-2">
                 <span class="font-bold text-slate-700 dark:text-slate-300 uppercase tracking-wider">Available Options:</span>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  <div v-for="opt in currentExamQuestion.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''" class="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">
-                    {{ formatOption(opt) }}
-                  </div>
+                  <div v-for="opt in current.options" :key="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''" class="p-2 bg-white dark:bg-slate-800 rounded border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300">{{ formatOption(opt) }}</div>
                 </div>
               </div>
-
-              <div v-if="currentExamQuestion.has_img && currentExamQuestion.img_src" class="space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(currentExamQuestion.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-72 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
-
+              <q-images :q="current" max-h="max-h-72"></q-images>
               <div class="space-y-4">
-                <div v-for="(sub, subIdx) in currentExamQuestion.questions" :key="subIdx" class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 space-y-3">
+                <div v-for="(sub, subIdx) in current.questions" :key="subIdx" class="p-4 rounded-xl border border-slate-200 dark:border-slate-700 space-y-3">
                   <p class="text-sm font-semibold text-slate-800 dark:text-slate-200">{{ subIdx + 1 }}. {{ sub.scenario || sub.question }}</p>
-                  
-                  <select 
-                    :value="getEmqAnswer(currentExamQuestion.id, subIdx)"
-                    @change="setEmqAnswer(currentExamQuestion.id, subIdx, $event.target.value)"
-                    class="w-full p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 text-xs font-medium">
+                  <select :value="examState.userAnswers[`${current.id}_${subIdx}`] || ''" @change="examState.userAnswers[`${current.id}_${subIdx}`] = $event.target.value" class="w-full p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 text-xs font-medium">
                     <option value="">Select Option Match...</option>
-                    <option v-for="opt in currentExamQuestion.options" :key="opt" :value="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''">{{ formatOption(opt) }}</option>
+                    <option v-for="opt in current.options" :key="opt" :value="opt" :class="isOptionAdded(opt) ? 'opacity-60' : ''">{{ formatOption(opt) }}</option>
                   </select>
                 </div>
               </div>
             </div>
 
-            <div v-else-if="currentExamQuestion.type === 'SAQ'" class="space-y-6">
-              <div class="p-5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white font-medium text-sm leading-relaxed">
-                {{ currentExamQuestion.case }}
-              </div>
-
-              <div v-if="currentExamQuestion.has_img && currentExamQuestion.img_src" class="space-y-2">
-                <img v-for="(src, imgIdx) in getImgSources(currentExamQuestion.img_src)" :key="imgIdx" :src="src" alt="Question diagram" class="max-h-72 rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
-              </div>
-
+            <div v-else-if="current.type === 'SAQ'" class="space-y-6">
+              <div class="p-5 rounded-xl bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white font-medium text-sm leading-relaxed">{{ current.case }}</div>
+              <q-images :q="current" max-h="max-h-72"></q-images>
               <div class="space-y-5">
-                <div v-for="(sub, subIdx) in currentExamQuestion.subquestions" :key="subIdx" class="space-y-2">
-                  <label class="block text-sm font-semibold text-slate-800 dark:text-slate-200">
-                    {{ subIdx + 1 }}. {{ sub.q }} <span v-if="sub.points" class="text-slate-400 dark:text-slate-500 font-normal">({{ sub.points }} pts)</span>
-                  </label>
-                  <textarea 
-                    :value="getSaqAnswer(currentExamQuestion.id, subIdx)"
-                    @input="setSaqAnswer(currentExamQuestion.id, subIdx, $event.target.value)"
-                    rows="2" 
-                    placeholder="Type your notes/answer here..." 
-                    class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+                <div v-for="(sub, subIdx) in current.subquestions" :key="subIdx" class="space-y-2">
+                  <label class="block text-sm font-semibold text-slate-800 dark:text-slate-200">{{ subIdx + 1 }}. {{ sub.q }} <span v-if="sub.points" class="text-slate-400 dark:text-slate-500 font-normal">({{ sub.points }} pts)</span></label>
+                  <textarea :value="examState.userAnswers[`${current.id}_saq_${subIdx}`] || ''" @input="examState.userAnswers[`${current.id}_saq_${subIdx}`] = $event.target.value" rows="2" placeholder="Type your notes/answer here..." class="w-full p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
                 </div>
               </div>
             </div>
 
             <div class="pt-2">
-              <button @click="openSourceModal(currentExamQuestion)" class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition">
-                <i class="fa-solid fa-clock-rotate-left mr-1"></i> Show Source
-              </button>
+              <source-btn @click="openSourceModal(current)"></source-btn>
             </div>
 
             <div class="flex items-center justify-between pt-6 border-t border-slate-100 dark:border-slate-700/60">
-              <button 
-                @click="examState.currentIndex--" 
-                :disabled="examState.currentIndex === 0"
-                class="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-sm disabled:opacity-40">
-                &larr; Previous
-              </button>
-
-              <button 
-                v-if="examState.currentIndex < examState.questions.length - 1"
-                @click="examState.currentIndex++" 
-                class="px-6 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm shadow-md transition">
-                Next &rarr;
-              </button>
-
-              <button 
-                v-else
-                @click="finishExam" 
-                class="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-lg shadow-emerald-600/20 transition">
-                Complete Practice
-              </button>
+              <button @click="examState.currentIndex--" :disabled="examState.currentIndex === 0" class="px-5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-semibold text-sm disabled:opacity-40">&larr; Previous</button>
+              <button v-if="examState.currentIndex < examState.questions.length - 1" @click="examState.currentIndex++" class="px-6 py-2.5 rounded-xl bg-brand-600 hover:bg-brand-700 text-white font-semibold text-sm shadow-md transition">Next &rarr;</button>
+              <button v-else @click="finishExam" class="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-lg shadow-emerald-600/20 transition">Complete Practice</button>
             </div>
-
-          </div>
+          </card>
         </div>
 
-        <div v-if="showPaletteModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <app-modal v-if="showPaletteModal" cls="z-50 bg-slate-900/60 p-4">
           <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-6 shadow-xl space-y-4">
             <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-700 pb-3">
               <h3 class="font-bold text-base text-slate-900 dark:text-white">Question Grid Nav</h3>
               <button @click="showPaletteModal = false" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"><i class="fa-solid fa-xmark"></i></button>
             </div>
-
             <div class="grid grid-cols-5 gap-2 max-h-64 overflow-y-auto custom-scrollbar p-1">
-              <button 
-                v-for="(q, idx) in examState.questions" 
-                :key="idx"
+              <button
+                v-for="(q, idx) in examState.questions" :key="idx"
                 @click="examState.currentIndex = idx; showPaletteModal = false"
                 :class="[
                   examState.currentIndex === idx ? 'ring-2 ring-brand-500 font-bold' : '',
-                  isFlagged(q.id) ? 'bg-amber-500 text-white' : isAnswered(q.id) ? 'bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
+                  examState.flagged.includes(q.id) ? 'bg-amber-500 text-white' : isAnswered(q.id) ? 'bg-emerald-100 dark:bg-emerald-900/50 text-emerald-800 dark:text-emerald-300' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300'
                 ]"
                 class="h-10 rounded-lg text-xs font-semibold flex items-center justify-center relative">
                 <span>{{ idx + 1 }}</span>
-                <i v-if="isFlagged(q.id)" class="fa-solid fa-flag text-[8px] absolute top-1 right-1"></i>
+                <i v-if="examState.flagged.includes(q.id)" class="fa-solid fa-flag text-[8px] absolute top-1 right-1"></i>
               </button>
             </div>
-            
             <div class="text-xs text-slate-400 dark:text-slate-500 flex items-center justify-around pt-2">
               <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-emerald-200 dark:bg-emerald-800 mr-1"></span> Answered</span>
               <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-amber-500 mr-1"></span> Flagged</span>
               <span class="flex items-center"><span class="w-2.5 h-2.5 rounded bg-slate-200 dark:bg-slate-700 mr-1"></span> Unanswered</span>
             </div>
           </div>
-        </div>
-
+        </app-modal>
       </div>
 
-      <!-- TAB 4: MED DATASET TAB -->
+      <!-- MED DISABLED: TAB 4: MED
       <div v-if="activeTab === 'med'" class="space-y-4">
-        
-        <!-- MED DATASET LOADING INDICATOR -->
-        <div v-if="loadingMed" class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-12 text-center shadow-sm space-y-4">
+        <card v-if="loadingMed" class="p-12 text-center shadow-sm space-y-4">
           <i class="fa-solid fa-spinner fa-spin text-4xl text-emerald-600 mb-2"></i>
           <h3 class="text-base font-bold text-slate-800 dark:text-white">Loading MED Question Bank...</h3>
-          <p class="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto leading-relaxed">
-            This database is large and takes a bit longer to download and parse. Thank you for your patience!
-          </p>
-        </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto leading-relaxed">This database is large and takes a bit longer to download and parse. Thank you for your patience!</p>
+        </card>
 
-        <!-- MED DATASET ERROR STATE -->
         <div v-else-if="medError" class="bg-white dark:bg-slate-800 rounded-2xl border border-rose-200 dark:border-rose-900/50 p-8 text-center shadow-sm space-y-3">
           <i class="fa-solid fa-triangle-exclamation text-3xl text-rose-500 mb-1"></i>
           <h3 class="text-base font-bold text-rose-800 dark:text-rose-300">Failed to Load MED Database</h3>
@@ -1077,216 +602,89 @@
           </button>
         </div>
 
-        <!-- MED LOADED CONTENT -->
         <div v-else class="space-y-4">
-          <!-- Controls Toolbar -->
-          <div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm space-y-4">
+          <card class="p-5 shadow-sm space-y-4">
             <div class="flex flex-col sm:flex-row items-center justify-between gap-3 border-b border-slate-100 dark:border-slate-700/60 pb-3">
               <div>
                 <h2 class="text-lg font-bold text-slate-900 dark:text-white flex items-center">
-                  <i class="fa-solid fa-notes-medical text-emerald-600 mr-2"></i>
-                  MED Question Bank
+                  <i class="fa-solid fa-notes-medical text-emerald-600 mr-2"></i> MED Question Bank
                 </h2>
                 <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Comprehensive foundational question bank, combining MedGard and Gameboy collections.</p>
               </div>
-
-              <!-- Mode Badges / Shuffler Action Buttons -->
               <div class="flex items-center gap-2 flex-wrap">
-                <button 
-                  @click="shuffleMedQuestions"
-                  :class="medIsShuffled ? 'bg-amber-600 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'"
-                  class="px-3 py-2 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition">
-                  <i class="fa-solid fa-shuffle"></i>
-                  <span>{{ medIsShuffled ? 'Re-shuffle' : 'Shuffle Order' }}</span>
+                <button @click="shuffleMedQuestions" :class="medIsShuffled ? 'bg-amber-600 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'" class="px-3 py-2 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition">
+                  <i class="fa-solid fa-shuffle"></i><span>{{ medIsShuffled ? 'Re-shuffle' : 'Shuffle Order' }}</span>
                 </button>
-
-                <button 
-                  v-if="medIsShuffled"
-                  @click="resetMedOrder"
-                  class="px-3 py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center space-x-1.5 transition">
-                  <i class="fa-solid fa-arrow-rotate-left"></i>
-                  <span>Original Order</span>
+                <button v-if="medIsShuffled" @click="resetMedOrder" class="px-3 py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 text-xs font-bold flex items-center space-x-1.5 transition">
+                  <i class="fa-solid fa-arrow-rotate-left"></i><span>Original Order</span>
                 </button>
-
-                <button 
-                  @click="medShowAllAnswers = !medShowAllAnswers"
-                  :class="medShowAllAnswers ? 'bg-brand-600 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'"
-                  class="px-3 py-2 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition">
-                  <i :class="medShowAllAnswers ? 'fa-solid fa-eye-slash' : 'fa-solid fa-eye'"></i>
-                  <span>{{ medShowAllAnswers ? 'Hide Answers' : 'Reveal All Answers' }}</span>
+                <button @click="medShowAllAnswers = !medShowAllAnswers" :class="medShowAllAnswers ? 'bg-brand-600 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-600'" class="px-3 py-2 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition">
+                  <i :class="medShowAllAnswers ? 'fa-solid fa-eye-slash' : 'fa-solid fa-eye'"></i><span>{{ medShowAllAnswers ? 'Hide Answers' : 'Reveal All Answers' }}</span>
                 </button>
               </div>
             </div>
 
-            <!-- Search & Page Size Bar -->
             <div class="flex flex-col sm:flex-row gap-3">
-              <div class="flex-1 relative">
-                <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 dark:text-slate-500"></i>
-                <input 
-                  v-model="medSearch" 
-                  type="text" 
-                  placeholder="Search..." 
-                  class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
-                />
-                <button v-if="medSearch" @click="medSearch=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
-                  <i class="fa-solid fa-xmark"></i>
-                </button>
-              </div>
-
+              <search-input v-model="medSearch"></search-input>
               <div class="flex items-center space-x-2">
-                <select v-model.number="medPageSize" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-brand-500">
-                  <option :value="10">10 / page</option>
-                  <option :value="25">25 / page</option>
-                  <option :value="50">50 / page</option>
-                  <option :value="100">100 / page</option>
-                </select>
-
-                <button 
-                  v-if="Object.keys(medUserAnswers).length"
-                  @click="medUserAnswers = {}; showToast('Answer selections cleared')"
-                  class="px-3 py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:text-rose-600 text-slate-500 dark:text-slate-400 text-xs font-medium transition"
-                  title="Clear selected choices">
-                  Clear Answers
-                </button>
+                <page-size v-model="medPageSize"></page-size>
+                <button v-if="medAnsweredCount" @click="medUserAnswers = {}; showToast('Answer selections cleared')" class="px-3 py-2 rounded-xl bg-slate-100 dark:bg-slate-700 hover:text-rose-600 text-slate-500 dark:text-slate-400 text-xs font-medium transition" title="Clear selected choices">Clear Answers</button>
               </div>
             </div>
 
-            <div v-if="isMedClaudeMode" class="flex items-center justify-between space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
-              <div class="flex items-center space-x-2">
-                <i class="fa-solid fa-robot"></i>
-                <span>Claude Prompt Mode Active: Search buttons on cards will launch Claude chat with the question directly.</span>
-              </div>
-              <button @click="isMedClaudeMode = false" title="Disable Claude Mode" class="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 shrink-0">
-                <i class="fa-solid fa-xmark"></i>
-              </button>
-            </div>
-            <div v-else-if="isMedTopicOnlySearch" class="flex items-center space-x-2 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 rounded-lg px-3 py-2">
-              <i class="fa-solid fa-tags"></i>
-              <span>Filtering exclusively by Topic field: "{{ medTopicQueryText }}"</span>
-            </div>
+            <mode-banner
+              :claude="isMedClaudeMode" :topic-only="medSearchMeta.isTopic" :topic-text="medSearchMeta.topicQuery"
+              claude-text="Claude Prompt Mode Active: Search buttons on cards will launch Claude chat with the question directly."
+              @clear-claude="isMedClaudeMode = false">
+            </mode-banner>
 
-            <!-- Hide checked -->
             <div class="flex items-center justify-between pt-2 border-t border-slate-100 dark:border-slate-700/60 text-xs text-slate-500 dark:text-slate-400">
-              <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
-                <input type="checkbox" v-model="medHideStudied" class="rounded text-brand-600 focus:ring-brand-500">
-                <span>Hide checked</span>
-              </label>
+              <check-label v-model="medHideStudied" label="Hide checked"></check-label>
               <span>{{ medStudied.length }} checked</span>
             </div>
-          </div>
+          </card>
 
-          <!-- Showing info -->
           <div class="text-xs text-slate-500 dark:text-slate-400 px-1 flex items-center justify-between">
             <div>
               Showing <strong>{{ paginatedMedQuestions.length }}</strong> of {{ filteredMedQuestions.length }} questions
               <span v-if="medIsShuffled" class="ml-1 text-amber-600 dark:text-amber-400 font-semibold">(Shuffled)</span>
             </div>
-            <div v-if="Object.keys(medUserAnswers).length" class="text-emerald-600 dark:text-emerald-400 font-medium">
-              {{ Object.keys(medUserAnswers).length }} answered
-            </div>
+            <div v-if="medAnsweredCount" class="text-emerald-600 dark:text-emerald-400 font-medium">{{ medAnsweredCount }} answered</div>
           </div>
 
-          <!-- Top Pagination -->
-          <div v-if="filteredMedQuestions.length" class="flex items-center justify-between bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
-            <button 
-              @click="medCurrentPage = Math.max(1, medCurrentPage - 1)" 
-              :disabled="medCurrentPage === 1"
-              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-              &larr; Prev
-            </button>
-            <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ medCurrentPage }} of {{ totalMedPages }}</span>
-            <button 
-              @click="medCurrentPage = Math.min(totalMedPages, medCurrentPage + 1)" 
-              :disabled="medCurrentPage === totalMedPages"
-              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-              Next &rarr;
-            </button>
-          </div>
+          <pager v-if="filteredMedQuestions.length" v-model:page="medCurrentPage" :total="totalMedPages"></pager>
 
-          <!-- MED Question Cards -->
           <div class="space-y-4">
-            <div 
-              v-for="(q, idx) in paginatedMedQuestions" 
-              :key="q.id || idx" 
-              :class="isMedStudied(q.id) ? 'studied-fade' : ''"
-              class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-5 shadow-sm space-y-4">
-              
-              <!-- Question Header -->
+            <card
+              v-for="(q, idx) in paginatedMedQuestions" :key="q.id || idx"
+              :class="{ 'studied-fade': medStudied.includes(q.id) }"
+              class="p-5 shadow-sm space-y-4">
+
               <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-700/60 pb-3">
                 <div class="flex items-center space-x-2">
-                  <button 
-                    @click="toggleMedStudied(q.id)" 
-                    :title="isMedStudied(q.id) ? 'Mark as not checked' : 'Mark as checked'"
-                    :class="isMedStudied(q.id) ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
-                    class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
-                    <i class="fa-solid fa-check text-[10px]"></i>
-                  </button>
-                  <span class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">
-                    MED MCQ
-                  </span>
-                  <span class="text-xs font-bold text-slate-400 dark:text-slate-500">
-                    #{{ q.originalIndex + 1 }}
-                  </span>
+                  <studied-btn :list="medStudied" :id="q.id"></studied-btn>
+                  <span class="px-2.5 py-0.5 rounded-md text-xs font-bold uppercase bg-emerald-100 text-emerald-800 dark:bg-emerald-900/60 dark:text-emerald-200">MED MCQ</span>
+                  <span class="text-xs font-bold text-slate-400 dark:text-slate-500">#{{ q.originalIndex + 1 }}</span>
                 </div>
-
                 <div class="flex items-center space-x-1">
-                  <button 
-                    @click="copyMedQuestion(q)" 
-                    title="Copy question text"
-                    class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
-                    <i class="fa-regular fa-copy text-base"></i>
-                  </button>
-                  <button 
-                    @click="handleMedQuestionSearch(q)" 
-                    :title="isMedClaudeMode ? 'Ask Claude about this question directly (/claude)' : 'Search this question on Google'"
-                    :class="isMedClaudeMode ? 'text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300' : 'text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400'"
-                    class="p-1.5 rounded-lg transition relative">
-                    <i class="fa-solid fa-magnifying-glass text-base"></i>
-                    <span v-if="isMedClaudeMode" class="absolute -top-1 -right-1 flex h-2 w-2">
-                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                      <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-                    </span>
-                  </button>
+                  <copy-btn @click="copyText(medQuestionToText(q, true))"></copy-btn>
+                  <search-btn :claude="isMedClaudeMode" @click="handleMedQuestionSearch(q)"></search-btn>
                 </div>
               </div>
 
-              <!-- Question Topic Tags (if present) -->
-              <div v-if="q.topic" class="pt-0.5 pb-1 flex flex-wrap gap-1.5 items-center">
-                <span class="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center mr-1">
-                  <i class="fa-solid fa-tag mr-1 text-brand-500"></i> Topic:
-                </span>
-                <span 
-                  v-for="(tPart, tIdx) in getTopicTags(q.topic)" 
-                  :key="tIdx"
-                  @click="filterMedByTopicTag(tPart)"
-                  class="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-slate-100 hover:bg-brand-50 hover:text-brand-700 dark:bg-slate-700/60 dark:hover:bg-brand-900/40 dark:hover:text-brand-300 text-slate-600 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700 transition cursor-pointer"
-                  title="Search questions with this topic">
-                  {{ tPart }}
-                </span>
-              </div>
+              <topic-tags :topic="q.topic" @select="applyTopicTag($event, 'med')"></topic-tags>
+              <h3 class="text-base font-semibold text-slate-900 dark:text-white leading-relaxed">{{ q.question }}</h3>
 
-              <!-- Stem -->
-              <h3 class="text-base font-semibold text-slate-900 dark:text-white leading-relaxed">
-                {{ q.question }}
-              </h3>
-
-              <!-- Choices Grid -->
               <div class="grid grid-cols-1 gap-2.5 pt-1">
-                <div 
-                  v-for="(choice, cIdx) in (q.choices || [])" 
-                  :key="cIdx"
-                  @click="selectMedChoice(q.id, cIdx)"
+                <div
+                  v-for="(choice, cIdx) in (q.choices || [])" :key="cIdx"
+                  @click="medUserAnswers[q.id] = cIdx"
                   :class="[getMedChoiceClasses(q, cIdx, choice), isOptionAdded(choice) ? 'opacity-60' : '']"
                   class="p-3.5 rounded-xl border transition cursor-pointer flex items-center justify-between text-sm">
-                  
                   <div class="flex items-start space-x-3">
-                    <span class="w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800">
-                      {{ String.fromCharCode(65 + cIdx) }}
-                    </span>
+                    <span class="w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 border border-slate-200 dark:border-slate-700 bg-white/70 dark:bg-slate-800">{{ letter(cIdx) }}</span>
                     <span class="leading-snug">{{ formatOption(choice) }}</span>
                   </div>
-
-                  <!-- Status Icon -->
                   <div v-if="isMedChoiceAnsweredOrRevealed(q.id)">
                     <i v-if="isCorrectChoice(choice, q.answer, cIdx)" class="fa-solid fa-check text-emerald-600 dark:text-emerald-400 text-base"></i>
                     <i v-else-if="medUserAnswers[q.id] === cIdx" class="fa-solid fa-xmark text-rose-500 text-base"></i>
@@ -1294,48 +692,22 @@
                 </div>
               </div>
 
-              <!-- Answer Box / Toggle Reveal -->
               <div class="pt-2 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between flex-wrap gap-2 text-xs">
-                <button 
-                  @click="toggleMedReveal(q.id)" 
-                  class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition flex items-center space-x-1.5">
+                <button @click="medRevealed[q.id] = !medRevealed[q.id]" class="px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition flex items-center space-x-1.5">
                   <i :class="isMedRevealed(q.id) ? 'fa-solid fa-eye-slash' : 'fa-solid fa-eye'"></i>
                   <span>{{ isMedRevealed(q.id) ? 'Hide Answer' : 'Show Answer' }}</span>
                 </button>
-
-                <div v-if="isMedRevealed(q.id)" class="text-emerald-700 dark:text-emerald-300 font-bold bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 px-3 py-1 rounded-lg">
-                  Answer: {{ q.answer }}
-                </div>
+                <div v-if="isMedRevealed(q.id)" class="text-emerald-700 dark:text-emerald-300 font-bold bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 px-3 py-1 rounded-lg">Answer: {{ q.answer }}</div>
               </div>
+            </card>
 
-            </div>
-
-            <div v-if="!paginatedMedQuestions.length" class="text-center py-12 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
-              <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
-              <p class="text-slate-500 dark:text-slate-400 font-medium text-sm">No MED questions match your search.</p>
-              <button @click="medSearch = ''; medHideStudied = false" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">Clear search</button>
-            </div>
+            <empty-state v-if="!paginatedMedQuestions.length" message="No MED questions match your search." action="Clear search" @action="medSearch = ''; medHideStudied = false"></empty-state>
           </div>
 
-          <!-- Bottom Pagination -->
-          <div v-if="filteredMedQuestions.length" class="flex items-center justify-between bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 p-4 shadow-sm">
-            <button 
-              @click="medCurrentPage = Math.max(1, medCurrentPage - 1)" 
-              :disabled="medCurrentPage === 1"
-              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-              &larr; Prev
-            </button>
-            <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ medCurrentPage }} of {{ totalMedPages }}</span>
-            <button 
-              @click="medCurrentPage = Math.min(totalMedPages, medCurrentPage + 1)" 
-              :disabled="medCurrentPage === totalMedPages"
-              class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">
-              Next &rarr;
-            </button>
-          </div>
+          <pager v-if="filteredMedQuestions.length" v-model:page="medCurrentPage" :total="totalMedPages"></pager>
         </div>
-
       </div>
+      -->
 
     </main>
 
@@ -1344,45 +716,88 @@
         <p>JCS Finals &bull; Junior Clerkship Written Exam Question Showcase</p>
       </div>
     </footer>
-
   </div>
 
   <script>
     const { createApp, ref, computed, onMounted, onUnmounted, nextTick, watch } = Vue;
 
-    const DATASETS = [
-      { name: 'FAMCO', url: 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/FAMCO.json' },
-      { name: 'MEDICINE', url: 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/MEDICINE.json' },
-      { name: 'SURGERY', url: 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/SURGERY.json' }
+    const DATA_URL = 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/';
+    const DATASETS = ['FAMCO', 'MEDICINE', 'SURGERY'].map(name => ({ name, url: `${DATA_URL}${name}.json` }));
+    /* MED DISABLED:
+    const MED_DATASET_URL = `${DATA_URL}gameboy_medgard.json`;
+    */
+    const STATE_KEY = 'jcs_app_state';
+    const PAGE_SIZES = [10, 25, 50, 100];
+    const EXPORT_FORMATS = ['md', 'txt', 'json', 'csv'];
+    const TABS = [
+      { id: 'library', icon: 'fa-folder-open', label: 'Library', mobileLabel: 'Library' },
+      { id: 'browse', icon: 'fa-list-check', label: 'Browse Bank', mobileLabel: 'Browse', needsData: true },
+      { id: 'practice', icon: 'fa-graduation-cap', label: 'Practice', mobileLabel: 'Practice', needsData: true }
+      /* MED DISABLED:
+      ,{ id: 'med', icon: 'fa-notes-medical', label: 'MED', mobileLabel: 'MED' }
+      */
     ];
 
-    const MED_DATASET_URL = 'https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/JCSFinals/gameboy_medgard.json';
+    const loadJSON = (key, fallback) => {
+      try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; } catch { return fallback; }
+    };
+    const toggleIn = (arr, id) => {
+      const i = arr.indexOf(id);
+      i > -1 ? arr.splice(i, 1) : arr.push(id);
+    };
+    const asArray = (v, fallback = []) => Array.isArray(v) ? v : fallback;
+    const isObject = (v) => v && typeof v === 'object';
+    const letter = (i) => String.fromCharCode(65 + i);
+    const isOptionAdded = (opt) => typeof opt === 'string' && opt.trim().startsWith('*');
+    const formatOption = (opt) => typeof opt === 'string' ? opt.replace(/^\s*\*\s*/, '') : opt;
+    const getImgSources = (src) => src ? src.split('|').map(s => s.trim()).filter(Boolean) : [];
+    const parseSearch = (raw) => {
+      const s = (raw || '').trim();
+      const isTopic = s.toLowerCase().startsWith('topic:');
+      return { isTopic, topicQuery: isTopic ? s.slice(6).trim() : '', query: isTopic ? '' : s };
+    };
+    // "topic: x" searches only the topic field; anything else searches the pre-built full text
+    const searchMatcher = ({ isTopic, topicQuery, query }) => {
+      const tq = topicQuery.toLowerCase(), gq = query.toLowerCase();
+      return (q) => isTopic ? !tq || (q.topic || '').toLowerCase().includes(tq) : !gq || q._searchText.includes(gq);
+    };
+    const parseQuestionList = (text, errorMessage) => {
+      const data = JSON.parse(text);
+      if (Array.isArray(data)) return data;
+      if (Array.isArray(data.questions)) return data.questions;
+      throw new Error(errorMessage);
+    };
+    const defaultFilters = () => ({ search: '', rotations: [], types: [], cohorts: [], bookmarkedOnly: false, hideStudied: false });
+    const emptyExam = () => ({ active: false, questions: [], currentIndex: 0, userAnswers: {}, flagged: [] });
+    const pageCount = (list, size) => Math.max(1, Math.ceil(list.length / size));
+    const pageSlice = (list, page, size) => list.slice((page - 1) * size, page * size);
+    const persistedList = (key) => {
+      const list = ref(loadJSON(key, []));
+      watch(list, (v) => localStorage.setItem(key, JSON.stringify(v)), { deep: true });
+      return list;
+    };
 
-    const STATE_KEY = 'jcs_app_state';
-
-    createApp({
+    const app = createApp({
       setup() {
         const activeTab = ref('library');
         const questions = ref([]);
-        const bookmarks = ref([]);
-        const studied = ref([]);
+        const bookmarks = persistedList('jcs_bookmarks');
+        const studied = persistedList('jcs_studied');
+        /* MED DISABLED:
+        const medStudied = persistedList('jcs_med_studied');
+        */
         const showPaletteModal = ref(false);
         const loadingDatasets = ref(false);
-        const darkMode = ref(false);
-
-        const showIntroModal = ref(false);
+        const darkMode = ref(localStorage.getItem('jcs_dark_mode') === 'true');
+        const showIntroModal = ref(localStorage.getItem('jcs_intro_dismissed') !== 'true');
         const dontShowIntroAgain = ref(false);
-
         const sourceModal = ref({ show: false, content: '' });
         const exportModal = ref({ show: false, renderedHtml: '', markdown: '', dataset: [], count: 0 });
         const exportFormat = ref('md');
-
         const currentPage = ref(1);
         const pageSize = ref(10);
 
-        // ==========================================
-        // MED DATASET REFS & LOGIC
-        // ==========================================
+        /* MED DISABLED: MED state
         const medQuestions = ref([]);
         const medDisplayOrder = ref([]);
         const medIsShuffled = ref(false);
@@ -1395,122 +810,60 @@
         const loadingMed = ref(false);
         const medLoaded = ref(false);
         const medError = ref(null);
-        const medStudied = ref([]);
         const medHideStudied = ref(false);
+        */
 
-        // Which multi-select filter dropdown is currently open ('rotation' | 'type' | 'cohort' | null)
         const openFilterDropdown = ref(null);
-        const toggleFilterDropdown = (name) => {
-          openFilterDropdown.value = openFilterDropdown.value === name ? null : name;
-        };
-        const handleGlobalClick = (e) => {
-          if (openFilterDropdown.value && !e.target.closest('.relative')) {
-            openFilterDropdown.value = null;
-          }
-        };
+        const toggleFilterDropdown = (name) => { openFilterDropdown.value = openFilterDropdown.value === name ? null : name; };
+        const handleGlobalClick = (e) => { if (openFilterDropdown.value && !e.target.closest('.relative')) openFilterDropdown.value = null; };
 
         const toast = ref({ show: false, message: '', isError: false });
-
         const showToast = (message, isError = false) => {
           toast.value = { show: true, message, isError };
           setTimeout(() => { toast.value.show = false; }, 4000);
         };
 
-        // Helper for options starting with '*'
-        const isOptionAdded = (opt) => typeof opt === 'string' && opt.trim().startsWith('*');
-        const formatOption = (opt) => {
-          if (typeof opt !== 'string') return opt;
-          return opt.replace(/^\s*\*\s*/, '');
-        };
-
-        // Parse formatted topic string ("Subject: aspect, aspect; Subject 2: aspect")
-        const getTopicTags = (topicStr) => {
-          if (!topicStr || typeof topicStr !== 'string') return [];
-          return topicStr.split(';').map(s => s.trim()).filter(Boolean);
-        };
-
-        const filterByTopicTag = (tPart) => {
-          const subject = tPart.split(':')[0].trim();
-          filters.value.search = `topic: ${subject}`;
-          currentPage.value = 1;
-        };
-
-        const filterMedByTopicTag = (tPart) => {
-          const subject = tPart.split(':')[0].trim();
-          medSearch.value = `topic: ${subject}`;
-          medCurrentPage.value = 1;
-        };
-
-        // Filters: rotations, types, cohorts are arrays to support multi-select
-        const filters = ref({
-          search: '',
-          rotations: [],
-          types: [],
-          cohorts: [],
-          bookmarkedOnly: false,
-          hideStudied: false
-        });
-
-        // Modes for /claude and topic: search syntax
+        const filters = ref(defaultFilters());
         const isClaudeMode = ref(false);
+        /* MED DISABLED:
         const isMedClaudeMode = ref(false);
+        */
 
-        watch(() => filters.value.search, (val) => {
+        // Typing "/claude" in a search box switches the card search buttons to Claude and strips the keyword
+        const watchClaudeFlag = (getter, setter, flag) => watch(getter, (val) => {
           if (val && /\/claude/i.test(val)) {
-            isClaudeMode.value = true;
-            filters.value.search = val.replace(/\s*\/claude\s*/gi, ' ').trim();
+            flag.value = true;
+            setter(val.replace(/\s*\/claude\s*/gi, ' ').trim());
           }
         });
+        watchClaudeFlag(() => filters.value.search, (v) => { filters.value.search = v; }, isClaudeMode);
+        /* MED DISABLED:
+        watchClaudeFlag(medSearch, (v) => { medSearch.value = v; }, isMedClaudeMode);
+        */
 
-        watch(medSearch, (val) => {
-          if (val && /\/claude/i.test(val)) {
-            isMedClaudeMode.value = true;
-            medSearch.value = val.replace(/\s*\/claude\s*/gi, ' ').trim();
-          }
-        });
+        const browseSearchMeta = computed(() => parseSearch(filters.value.search));
+        /* MED DISABLED:
+        const medSearchMeta = computed(() => parseSearch(medSearch.value));
+        */
 
-        const isTopicOnlySearch = computed(() => filters.value.search.trim().toLowerCase().startsWith('topic:'));
-        const topicQueryText = computed(() => {
-          if (!isTopicOnlySearch.value) return '';
-          return filters.value.search.trim().slice(6).trim();
-        });
-
-        const isMedTopicOnlySearch = computed(() => medSearch.value.trim().toLowerCase().startsWith('topic:'));
-        const medTopicQueryText = computed(() => {
-          if (!isMedTopicOnlySearch.value) return '';
-          return medSearch.value.trim().slice(6).trim();
-        });
-
-        // Practice test mode
-        const examConfig = ref({
-          numQuestions: '10',
-          selectedRotations: [],
-          selectedTypes: [],
-          excludeChecked: false
-        });
-
-        const examState = ref({
-          active: false,
-          questions: [],
-          currentIndex: 0,
-          userAnswers: {},
-          flagged: []
-        });
-
-        // ==========================================
-        // PERSISTED APP STATE (survives page reloads)
-        // ==========================================
-        let stateReady = false;
-        let pendingExam = null;
-        let pendingMedOrder = null;
-
-        const getMedOrderForSave = () => {
-          if (medLoaded.value) {
-            return medIsShuffled.value ? medDisplayOrder.value.map(q => q.originalIndex) : null;
-          }
-          return pendingMedOrder;
+        const applyTopicTag = (tPart, target) => {
+          const subject = tPart.split(':')[0].trim();
+          if (target === 'browse') { filters.value.search = `topic: ${subject}`; currentPage.value = 1; }
+          /* MED DISABLED:
+          else { medSearch.value = `topic: ${subject}`; medCurrentPage.value = 1; }
+          */
         };
 
+        const examConfig = ref({ numQuestions: '10', selectedRotations: [], selectedTypes: [], excludeChecked: false });
+        const examState = ref(emptyExam());
+
+        const navTabs = computed(() => TABS.map(t => ({ ...t, disabled: Boolean(t.needsData) && !questions.value.length })));
+
+        // Persisted app state
+        let stateReady = false, pendingExam = null;
+        /* MED DISABLED:
+        let pendingMedOrder = null;
+        */
         const buildStateSnapshot = () => ({
           activeTab: activeTab.value,
           filters: filters.value,
@@ -1523,58 +876,64 @@
             userAnswers: examState.value.userAnswers,
             flagged: examState.value.flagged
           } : null,
-          exportFormat: exportFormat.value,
-          medSearch: medSearch.value,
+          exportFormat: exportFormat.value
+          /* MED DISABLED:
+          ,medSearch: medSearch.value,
           medPageSize: medPageSize.value,
           medCurrentPage: medCurrentPage.value,
           medIsShuffled: medIsShuffled.value,
-          medOrder: getMedOrderForSave(),
+          medOrder: medLoaded.value ? (medIsShuffled.value ? medDisplayOrder.value.map(q => q.originalIndex) : null) : pendingMedOrder,
           medUserAnswers: medUserAnswers.value,
           medRevealed: medRevealed.value,
           medShowAllAnswers: medShowAllAnswers.value,
           medHideStudied: medHideStudied.value
+          */
         });
 
         const restoreState = () => {
-          let s = null;
-          try { s = JSON.parse(localStorage.getItem(STATE_KEY) || 'null'); } catch (e) {}
+          const s = loadJSON(STATE_KEY, null);
           if (!s || typeof s !== 'object') return null;
-
-          if (['library', 'browse', 'practice', 'med'].includes(s.activeTab)) activeTab.value = s.activeTab;
-          if (s.filters && typeof s.filters === 'object') {
+          if (TABS.some(t => t.id === s.activeTab)) activeTab.value = s.activeTab;
+          if (isObject(s.filters)) {
+            const f = s.filters;
             filters.value = {
-              search: s.filters.search || '',
-              rotations: Array.isArray(s.filters.rotations) ? s.filters.rotations : (Array.isArray(s.filters.topics) ? s.filters.topics : []),
-              types: Array.isArray(s.filters.types) ? s.filters.types : [],
-              cohorts: Array.isArray(s.filters.cohorts) ? s.filters.cohorts : [],
-              bookmarkedOnly: !!s.filters.bookmarkedOnly,
-              hideStudied: !!s.filters.hideStudied
+              search: f.search || '',
+              rotations: asArray(f.rotations, asArray(f.topics)),
+              types: asArray(f.types),
+              cohorts: asArray(f.cohorts),
+              bookmarkedOnly: !!f.bookmarkedOnly,
+              hideStudied: !!f.hideStudied
             };
           }
-          if ([10, 25, 50, 100].includes(s.pageSize)) pageSize.value = s.pageSize;
-          if (s.examConfig && typeof s.examConfig === 'object') {
+          if (PAGE_SIZES.includes(s.pageSize)) pageSize.value = s.pageSize;
+          if (isObject(s.examConfig)) {
+            const c = s.examConfig;
             examConfig.value = {
-              numQuestions: String(s.examConfig.numQuestions || '10'),
-              selectedRotations: Array.isArray(s.examConfig.selectedRotations) ? s.examConfig.selectedRotations : (Array.isArray(s.examConfig.selectedTopics) ? s.examConfig.selectedTopics : []),
-              selectedTypes: Array.isArray(s.examConfig.selectedTypes) ? s.examConfig.selectedTypes : [],
-              excludeChecked: !!s.examConfig.excludeChecked
+              numQuestions: String(c.numQuestions || '10'),
+              selectedRotations: asArray(c.selectedRotations, asArray(c.selectedTopics)),
+              selectedTypes: asArray(c.selectedTypes),
+              excludeChecked: !!c.excludeChecked
             };
           }
-          if (['md', 'txt', 'json', 'csv'].includes(s.exportFormat)) exportFormat.value = s.exportFormat;
+          if (EXPORT_FORMATS.includes(s.exportFormat)) exportFormat.value = s.exportFormat;
           if (s.exam && Array.isArray(s.exam.ids)) pendingExam = s.exam;
 
+          /* MED DISABLED:
           medSearch.value = s.medSearch || '';
-          if ([10, 25, 50, 100].includes(s.medPageSize)) medPageSize.value = s.medPageSize;
+          if (PAGE_SIZES.includes(s.medPageSize)) medPageSize.value = s.medPageSize;
           medIsShuffled.value = !!s.medIsShuffled;
           if (Array.isArray(s.medOrder)) pendingMedOrder = s.medOrder;
-          if (s.medUserAnswers && typeof s.medUserAnswers === 'object') medUserAnswers.value = s.medUserAnswers;
-          if (s.medRevealed && typeof s.medRevealed === 'object') medRevealed.value = s.medRevealed;
+          if (isObject(s.medUserAnswers)) medUserAnswers.value = s.medUserAnswers;
+          if (isObject(s.medRevealed)) medRevealed.value = s.medRevealed;
           medShowAllAnswers.value = !!s.medShowAllAnswers;
           medHideStudied.value = !!s.medHideStudied;
+          */
 
           return {
-            currentPage: Math.max(1, parseInt(s.currentPage, 10) || 1),
-            medCurrentPage: Math.max(1, parseInt(s.medCurrentPage, 10) || 1)
+            currentPage: Math.max(1, parseInt(s.currentPage, 10) || 1)
+            /* MED DISABLED:
+            ,medCurrentPage: Math.max(1, parseInt(s.medCurrentPage, 10) || 1)
+            */
           };
         };
 
@@ -1584,16 +943,16 @@
           const qs = pendingExam.ids.map(id => map.get(id)).filter(Boolean);
           if (qs.length) {
             examState.value = {
-              active: true,
-              questions: qs,
+              active: true, questions: qs,
               currentIndex: Math.min(Math.max(0, pendingExam.currentIndex || 0), qs.length - 1),
               userAnswers: pendingExam.userAnswers || {},
-              flagged: Array.isArray(pendingExam.flagged) ? pendingExam.flagged : []
+              flagged: asArray(pendingExam.flagged)
             };
           }
           pendingExam = null;
         };
 
+        /* MED DISABLED:
         const applyPendingMedOrder = () => {
           if (!pendingMedOrder) return;
           if (pendingMedOrder.length === medQuestions.value.length) {
@@ -1608,37 +967,26 @@
           }
           pendingMedOrder = null;
         };
+        */
 
-        // Navigation history management
+        // History / Back button navigation stack: every open tab, filter state, session or overlay adds one history entry
         const navigationScope = `${Date.now()}-${Math.random()}`;
-        let navigationReady = false;
-        let movingHistory = false;
-        let handlingBack = false;
-        let historyDepth = 0;
-        let highestHistoryDepth = 0;
-        let stopNavigationWatch;
-        const hasOpenOverlay = () => showIntroModal.value || sourceModal.value.show
-          || exportModal.value.show || showPaletteModal.value || !!openFilterDropdown.value;
+        let navigationReady = false, movingHistory = false, handlingBack = false;
+        let historyDepth = 0, highestHistoryDepth = 0, stopNavigationWatch;
+        const openOverlayCount = () => [sourceModal.value.show, exportModal.value.show, showIntroModal.value, showPaletteModal.value, !!openFilterDropdown.value].filter(Boolean).length;
         const getNavigationDepth = () => {
           const tabDepth = activeTab.value === 'library' ? 0 : 1;
-          const detailDepth = (activeTab.value === 'browse' && !!hasActiveFilters.value)
-            || (activeTab.value === 'practice' && examState.value.active) ? 1 : 0;
-          const overlayDepth = [sourceModal.value.show, exportModal.value.show,
-            showIntroModal.value, showPaletteModal.value, !!openFilterDropdown.value]
-            .filter(Boolean).length;
-          return tabDepth + detailDepth + overlayDepth;
+          const detailDepth = (activeTab.value === 'browse' && hasActiveFilters.value) || (activeTab.value === 'practice' && examState.value.active) ? 1 : 0;
+          return tabDepth + detailDepth + openOverlayCount();
         };
         const syncNavigation = () => {
           if (!navigationReady || movingHistory || handlingBack) return;
           const depth = getNavigationDepth();
-          if (depth < historyDepth) {
-            movingHistory = true;
-            history.go(depth - historyDepth);
-          } else {
+          if (depth < historyDepth) { movingHistory = true; history.go(depth - historyDepth); }
+          else {
             while (historyDepth < depth) {
               historyDepth += 1;
-              history.pushState({ ...history.state, jcsNavigation: navigationScope,
-                jcsDepth: historyDepth }, '');
+              history.pushState({ ...history.state, jcsNavigation: navigationScope, jcsDepth: historyDepth }, '');
               highestHistoryDepth = historyDepth;
             }
           }
@@ -1649,49 +997,52 @@
           else if (showIntroModal.value) closeIntroModal();
           else if (showPaletteModal.value) showPaletteModal.value = false;
           else if (openFilterDropdown.value) openFilterDropdown.value = null;
-          else if (activeTab.value === 'practice' && examState.value.active) {
-            examState.value = { active: false, questions: [], currentIndex: 0, userAnswers: {}, flagged: [] };
-          } else if (activeTab.value === 'browse' && hasActiveFilters.value) {
-            resetFilters();
-            currentPage.value = 1;
-          } else if (activeTab.value !== 'library') {
-            activeTab.value = 'library';
-            window.scrollTo({ top: 0, behavior: 'instant' });
-          }
+          else if (activeTab.value === 'practice' && examState.value.active) examState.value = emptyExam();
+          else if (activeTab.value === 'browse' && hasActiveFilters.value) { resetFilters(); currentPage.value = 1; }
+          else if (activeTab.value !== 'library') { activeTab.value = 'library'; window.scrollTo({ top: 0, behavior: 'instant' }); }
         };
-        const handlePopState = (event) => {
-          if (event.state?.jcsNavigation !== navigationScope) return;
-          historyDepth = event.state.jcsDepth;
+        const handlePopState = (e) => {
+          if (e.state?.jcsNavigation !== navigationScope) return;
+          historyDepth = e.state.jcsDepth;
           if (movingHistory) {
             const target = Math.min(getNavigationDepth(), highestHistoryDepth);
-            if (target !== historyDepth) {
-              history.go(target - historyDepth);
-              return;
-            }
-            movingHistory = false;
-            return;
+            if (target !== historyDepth) { history.go(target - historyDepth); return; }
+            movingHistory = false; return;
           }
           handlingBack = true;
-          try {
-            while (getNavigationDepth() > historyDepth) handleAppBack();
-          } finally {
-            handlingBack = false;
-          }
+          try { while (getNavigationDepth() > historyDepth) handleAppBack(); } finally { handlingBack = false; }
         };
-        const handleNavigationKey = (event) => {
-          if (event.key === 'Escape' && hasOpenOverlay() && !movingHistory && !handlingBack) {
-            event.preventDefault();
-            history.back();
-          }
+        const handleNavigationKey = (e) => {
+          if (e.key === 'Escape' && openOverlayCount() && !movingHistory && !handlingBack) { e.preventDefault(); history.back(); }
         };
-        const initializeNavigation = () => {
+
+        const applyDarkMode = () => document.documentElement.classList.toggle('dark', darkMode.value);
+        const toggleDarkMode = () => { darkMode.value = !darkMode.value; localStorage.setItem('jcs_dark_mode', darkMode.value); applyDarkMode(); };
+        const closeIntroModal = () => { showIntroModal.value = false; if (dontShowIntroAgain.value) localStorage.setItem('jcs_intro_dismissed', 'true'); };
+
+        onMounted(async () => {
+          applyDarkMode();
+          document.addEventListener('click', handleGlobalClick);
+          const savedPages = restoreState();
           history.replaceState({ ...history.state, jcsNavigation: navigationScope, jcsDepth: 0 }, '');
           navigationReady = true;
           window.addEventListener('popstate', handlePopState);
           document.addEventListener('keydown', handleNavigationKey);
           stopNavigationWatch = watch(getNavigationDepth, syncNavigation, { flush: 'sync' });
           syncNavigation();
-        };
+
+          await nextTick();
+          if (savedPages) {
+            currentPage.value = savedPages.currentPage;
+            /* MED DISABLED:
+            medCurrentPage.value = savedPages.medCurrentPage;
+            */
+          }
+          await loadAllDatasets();
+          rehydrateExam();
+          stateReady = true;
+        });
+
         onUnmounted(() => {
           if (stopNavigationWatch) stopNavigationWatch();
           window.removeEventListener('popstate', handlePopState);
@@ -1699,154 +1050,44 @@
           document.removeEventListener('click', handleGlobalClick);
         });
 
-        const getImgSources = (imgSrc) => {
-          if (!imgSrc) return [];
-          return imgSrc
-            .split('|')
-            .map(s => s.trim())
-            .filter(Boolean);
-        };
-
-        onMounted(async () => {
-          const savedBookmarks = localStorage.getItem('jcs_bookmarks');
-          if (savedBookmarks) { try { bookmarks.value = JSON.parse(savedBookmarks); } catch(e){} }
-
-          const savedStudied = localStorage.getItem('jcs_studied');
-          if (savedStudied) { try { studied.value = JSON.parse(savedStudied); } catch(e){} }
-
-          const savedMedStudied = localStorage.getItem('jcs_med_studied');
-          if (savedMedStudied) { try { medStudied.value = JSON.parse(savedMedStudied); } catch(e){} }
-
-          const savedDark = localStorage.getItem('jcs_dark_mode');
-          darkMode.value = savedDark === 'true';
-          applyDarkMode();
-
-          const introDismissed = localStorage.getItem('jcs_intro_dismissed');
-          showIntroModal.value = introDismissed !== 'true';
-
-          document.addEventListener('click', handleGlobalClick);
-
-          const savedPages = restoreState();
-          initializeNavigation();
-
-          await nextTick();
-          if (savedPages) {
-            currentPage.value = savedPages.currentPage;
-            medCurrentPage.value = savedPages.medCurrentPage;
-          }
-
-          await loadAllDatasets();
-          rehydrateExam();
-          stateReady = true;
-        });
-
-        watch(() => JSON.stringify(buildStateSnapshot()), (str) => {
-          if (!stateReady) return;
-          try { localStorage.setItem(STATE_KEY, str); } catch (e) {}
-        });
-
-        watch(bookmarks, (newVal) => {
-          localStorage.setItem('jcs_bookmarks', JSON.stringify(newVal));
-        }, { deep: true });
-
-        watch(studied, (newVal) => {
-          localStorage.setItem('jcs_studied', JSON.stringify(newVal));
-        }, { deep: true });
-
-        watch(medStudied, (newVal) => {
-          localStorage.setItem('jcs_med_studied', JSON.stringify(newVal));
-        }, { deep: true });
-
+        watch(() => JSON.stringify(buildStateSnapshot()), (str) => { if (stateReady) try { localStorage.setItem(STATE_KEY, str); } catch {} });
         watch(filters, () => { currentPage.value = 1; }, { deep: true });
         watch(pageSize, () => { currentPage.value = 1; });
-        watch(medSearch, () => { medCurrentPage.value = 1; });
-        watch(medPageSize, () => { medCurrentPage.value = 1; });
-        watch(medHideStudied, () => { medCurrentPage.value = 1; });
+        /* MED DISABLED:
+        watch([medSearch, medPageSize, medHideStudied], () => { medCurrentPage.value = 1; });
+        watch(activeTab, (tab) => { if (tab === 'med' && !medLoaded.value && !loadingMed.value) loadMedDataset(); });
+        */
 
-        watch(activeTab, (newTab) => {
-          if (newTab === 'med' && !medLoaded.value && !loadingMed.value) {
-            loadMedDataset();
-          }
-        });
-
-        const applyDarkMode = () => {
-          if (darkMode.value) document.documentElement.classList.add('dark');
-          else document.documentElement.classList.remove('dark');
-        };
-
-        const toggleDarkMode = () => {
-          darkMode.value = !darkMode.value;
-          localStorage.setItem('jcs_dark_mode', darkMode.value);
-          applyDarkMode();
-        };
-
-        const closeIntroModal = () => {
-          showIntroModal.value = false;
-          if (dontShowIntroAgain.value) localStorage.setItem('jcs_intro_dismissed', 'true');
-        };
-
+        // Dataset Loading
         const buildSearchText = (q) => {
           const parts = [q.question, q.case, q.theme, q.rotation, q.topic, q.cohort, q.id];
           if (Array.isArray(q.options)) parts.push(...q.options);
-          if (Array.isArray(q.questions)) {
-            q.questions.forEach(sq => {
-              parts.push(sq && sq.scenario);
-              parts.push(sq && sq.question);
-            });
-          }
-          if (Array.isArray(q.subquestions)) {
-            q.subquestions.forEach(sq => {
-              parts.push(sq && sq.q);
-            });
-          }
+          if (Array.isArray(q.questions)) q.questions.forEach(sq => parts.push(sq?.scenario, sq?.question));
+          if (Array.isArray(q.subquestions)) q.subquestions.forEach(sq => parts.push(sq?.q));
           return parts.filter(Boolean).join(' \n ').toLowerCase();
         };
 
-        // DATASET LOADING: Handles rotation rename and new topic field
         const processDataset = (jsonContent, sourceName) => {
           try {
-            let data = JSON.parse(jsonContent);
-            if (!Array.isArray(data)) {
-              if (data.questions && Array.isArray(data.questions)) data = data.questions;
-              else throw new Error("Invalid format: JSON must be an array of questions.");
-            }
-
-            const cleanedData = data.map((q, idx) => {
-              const rotationVal = (q.rotation || (!q.topic || q.topic.includes(':') ? sourceName : q.topic) || 'General').toString().trim();
-              const topicVal = (q.rotation ? (q.topic || '') : (q.topic && q.topic.includes(':') ? q.topic : '') || '').toString().trim();
-
-              const base = {
-                id: q.id || `${sourceName}-${idx}-${Math.random().toString(36).substr(2,4)}`,
-                cohort: q.cohort || 'Unknown',
-                block: q.block || 'General',
-                rotation: rotationVal,
-                topic: topicVal,
-                type: (q.type || 'MCQ').toString().toUpperCase(),
-                question: q.question || '',
-                options: q.options || [],
-                has_img: Boolean(q.has_img),
-                img_src: q.img_src || '',
-                source: q.source || q.original || '',
-                number: q.number || idx + 1,
-                theme: q.theme || '',
-                questions: q.questions || [],
-                case: q.case || '',
-                subquestions: q.subquestions || []
-              };
-              base._searchText = buildSearchText(base);
-              return base;
-            });
-
+            const data = parseQuestionList(jsonContent, 'Invalid format: JSON must be an array of questions.');
             const existingIds = new Set(questions.value.map(q => q.id));
-            let addedCount = 0;
-            cleanedData.forEach(q => {
-              if (!existingIds.has(q.id)) {
-                questions.value.push(q);
-                existingIds.add(q.id);
-                addedCount++;
-              }
+            let added = 0;
+            data.forEach((q, idx) => {
+              const rotation = (q.rotation || (!q.topic || q.topic.includes(':') ? sourceName : q.topic) || 'General').toString().trim();
+              const topic = (q.rotation ? (q.topic || '') : (q.topic && q.topic.includes(':') ? q.topic : '') || '').toString().trim();
+              const item = {
+                id: q.id || `${sourceName}-${idx}-${Math.random().toString(36).substr(2,4)}`,
+                cohort: q.cohort || 'Unknown', block: q.block || 'General', rotation, topic,
+                type: (q.type || 'MCQ').toString().toUpperCase(),
+                question: q.question || '', options: q.options || [],
+                has_img: Boolean(q.has_img), img_src: q.img_src || '',
+                source: q.source || q.original || '', number: q.number || idx + 1,
+                theme: q.theme || '', questions: q.questions || [], case: q.case || '', subquestions: q.subquestions || []
+              };
+              item._searchText = buildSearchText(item);
+              if (!existingIds.has(item.id)) { questions.value.push(item); existingIds.add(item.id); added++; }
             });
-            return addedCount;
+            return added;
           } catch (err) {
             showToast(`Error parsing ${sourceName}: ${err.message}`, true);
             return 0;
@@ -1861,8 +1102,7 @@
             try {
               const res = await fetch(ds.url);
               if (!res.ok) throw new Error(`HTTP ${res.status}`);
-              const text = await res.text();
-              total += processDataset(text, ds.name);
+              total += processDataset(await res.text(), ds.name);
             } catch (err) {
               showToast(`Failed to load ${ds.name}: ${err.message}`, true);
             }
@@ -1871,59 +1111,28 @@
           if (total > 0) showToast(`Loaded ${total} questions across FAMCO, Medicine, and Surgery.`);
         };
 
-        // ==========================================
-        // DEDICATED SEPARATE MED DATASET LOADER
-        // ==========================================
-        const processMedDataset = (jsonContent) => {
-          try {
-            let data = JSON.parse(jsonContent);
-            if (!Array.isArray(data)) {
-              if (data.questions && Array.isArray(data.questions)) data = data.questions;
-              else throw new Error("Expected array of questions");
-            }
-
-            const cleaned = data.map((item, idx) => {
-              const choices = Array.isArray(item.choices) ? item.choices : [];
-              const topicVal = (item.topic || '').toString().trim();
-              const rawSearch = `${item.question || ''} ${choices.join(' ')} ${item.answer || ''} ${topicVal}`.toLowerCase();
-              return {
-                id: `med-${idx}`,
-                originalIndex: idx,
-                topic: topicVal,
-                question: item.question || '',
-                choices: choices,
-                answer: item.answer !== undefined ? item.answer : '',
-                _searchText: rawSearch
-              };
-            });
-
-            medQuestions.value = cleaned;
-            medDisplayOrder.value = [...cleaned];
-            return cleaned.length;
-          } catch (err) {
-            medError.value = err.message;
-            showToast(`Error parsing MED database: ${err.message}`, true);
-            return 0;
-          }
-        };
-
+        /* MED DISABLED: MED Dataset
         const loadMedDataset = async () => {
           if (loadingMed.value || medLoaded.value) return;
-          loadingMed.value = true;
-          medError.value = null;
-
+          loadingMed.value = true; medError.value = null;
           try {
-            const medRes = await fetch(MED_DATASET_URL);
-            if (!medRes.ok) throw new Error(`HTTP ${medRes.status} ${medRes.statusText}`);
-            const medText = await medRes.text();
-            const count = processMedDataset(medText);
-            if (count > 0) {
-              medLoaded.value = true;
-              applyPendingMedOrder();
-              showToast(`Loaded ${count} MED questions.`);
-            } else if (!medError.value) {
-              throw new Error("No questions found in MED file.");
-            }
+            const res = await fetch(MED_DATASET_URL);
+            if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+            const cleaned = parseQuestionList(await res.text(), 'Expected array of questions').map((item, idx) => {
+              const choices = asArray(item.choices);
+              const topic = (item.topic || '').toString().trim();
+              const answer = item.answer !== undefined ? item.answer : '';
+              return {
+                id: `med-${idx}`, originalIndex: idx, topic, question: item.question || '', choices, answer,
+                _searchText: `${item.question || ''} ${choices.join(' ')} ${answer} ${topic}`.toLowerCase()
+              };
+            });
+            if (!cleaned.length) throw new Error("No questions found in MED file.");
+            medQuestions.value = cleaned;
+            medDisplayOrder.value = [...cleaned];
+            medLoaded.value = true;
+            applyPendingMedOrder();
+            showToast(`Loaded ${cleaned.length} MED questions.`);
           } catch (err) {
             medError.value = err.message;
             showToast(`Failed to load MED database: ${err.message}`, true);
@@ -1938,144 +1147,65 @@
             const j = Math.floor(Math.random() * (i + 1));
             [arr[i], arr[j]] = [arr[j], arr[i]];
           }
-          medDisplayOrder.value = arr;
-          medIsShuffled.value = true;
-          medCurrentPage.value = 1;
+          medDisplayOrder.value = arr; medIsShuffled.value = true; medCurrentPage.value = 1;
           showToast('Shuffled MED questions randomly');
         };
-
         const resetMedOrder = () => {
-          medDisplayOrder.value = [...medQuestions.value];
-          medIsShuffled.value = false;
-          medCurrentPage.value = 1;
+          medDisplayOrder.value = [...medQuestions.value]; medIsShuffled.value = false; medCurrentPage.value = 1;
           showToast('Restored sequential order');
         };
 
-        const toggleMedStudied = (id) => {
-          const idx = medStudied.value.indexOf(id);
-          if (idx > -1) medStudied.value.splice(idx, 1);
-          else medStudied.value.push(id);
-        };
-        const isMedStudied = (id) => medStudied.value.includes(id);
-
         const filteredMedQuestions = computed(() => {
-          const rawSearch = medSearch.value.trim();
-          const isTopicSearch = rawSearch.toLowerCase().startsWith('topic:');
-          const topicQuery = isTopicSearch ? rawSearch.slice(6).trim().toLowerCase() : '';
-          const generalQuery = !isTopicSearch ? rawSearch.toLowerCase() : '';
-          const hide = medHideStudied.value;
-
-          if (!rawSearch && !hide) return medDisplayOrder.value;
-          return medDisplayOrder.value.filter(q => {
-            if (hide && medStudied.value.includes(q.id)) return false;
-            if (isTopicSearch) {
-              if (!topicQuery) return true;
-              return (q.topic || '').toLowerCase().includes(topicQuery);
-            }
-            if (generalQuery && !(q._searchText || '').includes(generalQuery)) return false;
-            return true;
-          });
+          const matches = searchMatcher(medSearchMeta.value);
+          return medDisplayOrder.value.filter(q => !(medHideStudied.value && medStudied.value.includes(q.id)) && matches(q));
         });
-
-        const totalMedPages = computed(() => Math.max(1, Math.ceil(filteredMedQuestions.value.length / medPageSize.value)));
-
-        const paginatedMedQuestions = computed(() => {
-          const start = (medCurrentPage.value - 1) * medPageSize.value;
-          return filteredMedQuestions.value.slice(start, start + medPageSize.value);
-        });
+        const totalMedPages = computed(() => pageCount(filteredMedQuestions.value, medPageSize.value));
+        const paginatedMedQuestions = computed(() => pageSlice(filteredMedQuestions.value, medCurrentPage.value, medPageSize.value));
+        const medAnsweredCount = computed(() => Object.keys(medUserAnswers.value).length);
 
         const isCorrectChoice = (choice, answer, index) => {
           if (answer === undefined || answer === null || answer === '') return false;
-          const cleanChoice = String(choice).trim().toLowerCase();
-          const cleanAns = String(answer).trim().toLowerCase();
-          if (cleanChoice === cleanAns) return true;
-          
-          const letter = String.fromCharCode(65 + index).toLowerCase();
-          if (cleanAns === letter || cleanAns === `${letter}.` || cleanAns === `${letter})`) return true;
-          if (cleanAns === String(index) || cleanAns === String(index + 1)) return true;
-
-          return false;
+          const cc = String(choice).trim().toLowerCase(), ca = String(answer).trim().toLowerCase();
+          if (cc === ca) return true;
+          const l = letter(index).toLowerCase();
+          return ca === l || ca === `${l}.` || ca === `${l})` || ca === String(index) || ca === String(index + 1);
         };
-
-        const selectMedChoice = (qId, cIdx) => {
-          medUserAnswers.value[qId] = cIdx;
-        };
-
-        const isMedChoiceAnsweredOrRevealed = (qId) => {
-          return medUserAnswers.value[qId] !== undefined || medRevealed.value[qId] || medShowAllAnswers.value;
-        };
-
-        const isMedRevealed = (qId) => {
-          return Boolean(medRevealed.value[qId] || medShowAllAnswers.value);
-        };
-
-        const toggleMedReveal = (qId) => {
-          medRevealed.value[qId] = !medRevealed.value[qId];
-        };
-
+        const isMedRevealed = (qId) => Boolean(medRevealed.value[qId] || medShowAllAnswers.value);
+        const isMedChoiceAnsweredOrRevealed = (qId) => medUserAnswers.value[qId] !== undefined || isMedRevealed(qId);
         const getMedChoiceClasses = (q, cIdx, choice) => {
           const isSelected = medUserAnswers.value[q.id] === cIdx;
-          const revealed = isMedChoiceAnsweredOrRevealed(q.id);
-          const isCorrect = isCorrectChoice(choice, q.answer, cIdx);
-
-          if (revealed) {
-            if (isCorrect) {
-              return 'border-emerald-500 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 font-semibold';
-            }
-            if (isSelected && !isCorrect) {
-              return 'border-rose-500 bg-rose-50/80 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-semibold';
-            }
+          if (isMedChoiceAnsweredOrRevealed(q.id)) {
+            if (isCorrectChoice(choice, q.answer, cIdx)) return 'border-emerald-500 bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-900 dark:text-emerald-200 font-semibold';
+            if (isSelected) return 'border-rose-500 bg-rose-50/80 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-semibold';
           }
-
-          if (isSelected) {
-            return 'border-brand-500 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium';
-          }
-
+          if (isSelected) return 'border-brand-500 bg-brand-50/70 dark:bg-brand-900/40 text-brand-900 dark:text-brand-200 font-medium';
           return 'border-slate-200 dark:border-slate-700 hover:border-brand-300 dark:hover:border-brand-500 bg-slate-50/50 dark:bg-slate-900/40 text-slate-800 dark:text-slate-200';
         };
 
-        const copyMedQuestion = async (q) => {
-          let text = `${q.question}\n`;
-          (q.choices || []).forEach((c, i) => {
-            text += `${String.fromCharCode(65 + i)}. ${formatOption(c)}\n`;
-          });
-          if (q.answer) text += `Answer: ${q.answer}`;
-          try {
-            await navigator.clipboard.writeText(text);
-            showToast('Question copied to clipboard.');
-          } catch(e) {
-            showToast('Could not copy to clipboard.', true);
-          }
+        const medQuestionToText = (q, includeAnswer) => {
+          let text = `${q.question}${includeAnswer ? '\n' : '\n\n'}`;
+          (q.choices || []).forEach((c, i) => { text += `${letter(i)}. ${formatOption(c)}\n`; });
+          if (includeAnswer && q.answer) text += `Answer: ${q.answer}`;
+          return text;
         };
+        */
 
-        const googleSearchMedQuestion = (q) => {
-          const url = `https://www.google.com/search?q=${encodeURIComponent(q.question)}`;
-          window.open(url, '_blank');
-        };
+        // Main Bank Computeds & Filtering
+        const uniqueValues = (key) => computed(() => [...new Set(questions.value.map(q => q[key]))].filter(Boolean).sort());
+        const uniqueRotations = uniqueValues('rotation');
+        const uniqueTypes = uniqueValues('type');
+        const uniqueCohorts = uniqueValues('cohort');
 
-        const launchClaudeMedSearch = (q) => {
-          let text = `${q.question}\n\n`;
-          (q.choices || []).forEach((c, i) => {
-            text += `${String.fromCharCode(65 + i)}. ${formatOption(c)}\n`;
-          });
-          const url = `https://claude.ai/new?q=${encodeURIComponent(text)}`;
-          window.open(url, '_blank');
-        };
-
-        const handleMedQuestionSearch = (q) => {
-          if (isMedClaudeMode.value) {
-            launchClaudeMedSearch(q);
-          } else {
-            googleSearchMedQuestion(q);
-          }
-        };
-
-        // ==========================================
-        // MAIN JCS BANK COMPUTEDS & METHODS
-        // ==========================================
-        const uniqueRotations = computed(() => [...new Set(questions.value.map(q => q.rotation))].filter(Boolean).sort());
-        const uniqueTypes = computed(() => [...new Set(questions.value.map(q => q.type))].filter(Boolean).sort());
-        const uniqueCohorts = computed(() => [...new Set(questions.value.map(q => q.cohort))].filter(Boolean).sort());
+        const filterMenus = computed(() => [
+          { key: 'rotation', field: 'rotations', label: 'Rotation', plural: 'Rotations', width: 'w-56', upper: false, options: uniqueRotations.value },
+          { key: 'type', field: 'types', label: 'Type', plural: 'Types', width: 'w-48', upper: true, options: uniqueTypes.value },
+          { key: 'cohort', field: 'cohorts', label: 'Cohort', plural: 'Cohorts', width: 'w-48', upper: false, options: uniqueCohorts.value }
+        ]);
+        const chipDefs = [
+          { field: 'rotations', cls: 'bg-brand-50 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300' },
+          { field: 'types', cls: 'bg-indigo-50 dark:bg-indigo-900/40 text-indigo-700 dark:text-indigo-300 uppercase' },
+          { field: 'cohorts', cls: 'bg-emerald-50 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300' }
+        ];
 
         const rotationBreakdown = computed(() => {
           const map = {};
@@ -2087,224 +1217,115 @@
           return Object.values(map);
         });
 
-        const goToRotationFilter = (rotName) => {
-          resetFilters();
-          filters.value.rotations = [rotName];
-          activeTab.value = 'browse';
-        };
+        const resetFilters = () => { filters.value = defaultFilters(); };
+        const goToRotationFilter = (rotName) => { resetFilters(); filters.value.rotations = [rotName]; activeTab.value = 'browse'; };
 
         const filteredQuestions = computed(() => {
-          const rawSearch = filters.value.search.trim();
-          const isTopicSearch = rawSearch.toLowerCase().startsWith('topic:');
-          const topicQuery = isTopicSearch ? rawSearch.slice(6).trim().toLowerCase() : '';
-          const generalQuery = (!isTopicSearch) ? rawSearch.toLowerCase() : '';
-
-          const rotations = filters.value.rotations;
-          const types = filters.value.types;
-          const cohorts = filters.value.cohorts;
-
-          return questions.value.filter(q => {
-            if (filters.value.bookmarkedOnly && !bookmarks.value.includes(q.id)) return false;
-            if (filters.value.hideStudied && studied.value.includes(q.id)) return false;
-            if (rotations.length && !rotations.includes(q.rotation)) return false;
-            if (types.length && !types.includes(q.type)) return false;
-            if (cohorts.length && !cohorts.includes(q.cohort)) return false;
-
-            // topic: mode: search EXCLUSIVELY in the topic field
-            if (isTopicSearch) {
-              if (!topicQuery) return true;
-              return (q.topic || '').toLowerCase().includes(topicQuery);
-            }
-
-            // General search across question text, options, scenario, etc.
-            if (generalQuery) {
-              return (q._searchText || '').includes(generalQuery);
-            }
-            return true;
-          });
+          const matches = searchMatcher(browseSearchMeta.value);
+          const { rotations, types, cohorts, bookmarkedOnly, hideStudied } = filters.value;
+          return questions.value.filter(q =>
+            !(bookmarkedOnly && !bookmarks.value.includes(q.id)) &&
+            !(hideStudied && studied.value.includes(q.id)) &&
+            (!rotations.length || rotations.includes(q.rotation)) &&
+            (!types.length || types.includes(q.type)) &&
+            (!cohorts.length || cohorts.includes(q.cohort)) &&
+            matches(q)
+          );
         });
+        const totalPages = computed(() => pageCount(filteredQuestions.value, pageSize.value));
+        const paginatedQuestions = computed(() => pageSlice(filteredQuestions.value, currentPage.value, pageSize.value));
+        const hasActiveFilters = computed(() => Boolean(
+          filters.value.search || filters.value.rotations.length || filters.value.types.length ||
+          filters.value.cohorts.length || filters.value.bookmarkedOnly || filters.value.hideStudied
+        ));
 
-        const totalPages = computed(() => Math.max(1, Math.ceil(filteredQuestions.value.length / pageSize.value)));
-
-        const paginatedQuestions = computed(() => {
-          const start = (currentPage.value - 1) * pageSize.value;
-          return filteredQuestions.value.slice(start, start + pageSize.value);
-        });
-
-        const hasActiveFilters = computed(() => {
-          return filters.value.search || filters.value.rotations.length || filters.value.types.length ||
-                 filters.value.cohorts.length || filters.value.bookmarkedOnly || filters.value.hideStudied;
-        });
-
-        const resetFilters = () => {
-          filters.value = { search: '', rotations: [], types: [], cohorts: [], bookmarkedOnly: false, hideStudied: false };
-        };
-
-        const toggleBookmark = (id) => {
-          const idx = bookmarks.value.indexOf(id);
-          if (idx > -1) bookmarks.value.splice(idx, 1);
-          else bookmarks.value.push(id);
-        };
-        const isBookmarked = (id) => bookmarks.value.includes(id);
-
-        const toggleStudied = (id) => {
-          const idx = studied.value.indexOf(id);
-          if (idx > -1) studied.value.splice(idx, 1);
-          else studied.value.push(id);
-        };
-        const isStudied = (id) => studied.value.includes(id);
-        
-        const openSourceModal = (q) => {
-          sourceModal.value = { show: true, content: typeof q.source === 'string' ? q.source.trim() : '' };
-        };
+        const openSourceModal = (q) => { sourceModal.value = { show: true, content: typeof q.source === 'string' ? q.source.trim() : '' }; };
 
         const questionToText = (q) => {
-          let lines = [];
+          const lines = [];
           if (q.type === 'MCQ') {
             lines.push(q.question || '');
-            (q.options || []).forEach((o, i) => lines.push(`${String.fromCharCode(65+i)}. ${formatOption(o)}`));
+            (q.options || []).forEach((o, i) => lines.push(`${letter(i)}. ${formatOption(o)}`));
           } else if (q.type === 'EMQ') {
             if (q.theme) lines.push(`Theme: ${q.theme}`);
-            if (q.options && q.options.length) lines.push(`Options: ${q.options.map(formatOption).join(', ')}`);
-            (q.questions || []).forEach((sq, i) => lines.push(`${i+1}. ${sq.scenario || sq.question}`));
+            if (q.options?.length) lines.push(`Options: ${q.options.map(formatOption).join(', ')}`);
+            (q.questions || []).forEach((sq, i) => lines.push(`${i + 1}. ${sq.scenario || sq.question}`));
           } else if (q.type === 'SAQ') {
             lines.push(q.case || '');
-            (q.subquestions || []).forEach((sq, i) => lines.push(`${i+1}. ${sq.q}`));
+            (q.subquestions || []).forEach((sq, i) => lines.push(`${i + 1}. ${sq.q}`));
           } else {
             lines.push(q.question || q.case || '');
           }
           return lines.join('\n');
         };
 
-        const copyQuestion = async (q) => {
-          const text = questionToText(q);
-          try {
-            await navigator.clipboard.writeText(text);
-            showToast('Question copied to clipboard.');
-          } catch (err) {
-            showToast('Could not copy to clipboard.', true);
-          }
+        const copyText = async (text) => {
+          try { await navigator.clipboard.writeText(text); showToast('Question copied to clipboard.'); }
+          catch { showToast('Could not copy to clipboard.', true); }
         };
 
-        const googleSearchQuestion = (q) => {
-          const text = questionToText(q).split('\n')[0] || questionToText(q);
-          const url = `https://www.google.com/search?q=${encodeURIComponent(text)}`;
+        const openSearch = (useClaude, claudePrompt, googleQuery) => {
+          const url = useClaude
+            ? `https://claude.ai/new?q=${encodeURIComponent(claudePrompt)}`
+            : `https://www.google.com/search?q=${encodeURIComponent(googleQuery)}`;
           window.open(url, '_blank');
         };
-
-        const launchClaudeSearch = (q) => {
-          const prompt = questionToText(q);
-          const url = `https://claude.ai/new?q=${encodeURIComponent(prompt)}`;
-          window.open(url, '_blank');
-        };
-
         const handleQuestionSearch = (q) => {
-          if (isClaudeMode.value) {
-            launchClaudeSearch(q);
-          } else {
-            googleSearchQuestion(q);
-          }
+          const full = questionToText(q);
+          openSearch(isClaudeMode.value, full, full.split('\n')[0] || full);
         };
+        /* MED DISABLED:
+        const handleMedQuestionSearch = (q) => openSearch(isMedClaudeMode.value, medQuestionToText(q, false), q.question);
+        */
 
-        // EXAM ENGINE LOGIC
+        // Practice Engine
         const startExam = () => {
-          let pool = questions.value;
-          if (examConfig.value.selectedRotations.length) pool = pool.filter(q => examConfig.value.selectedRotations.includes(q.rotation));
-          if (examConfig.value.selectedTypes.length) pool = pool.filter(q => examConfig.value.selectedTypes.includes(q.type));
-          if (examConfig.value.excludeChecked) pool = pool.filter(q => !studied.value.includes(q.id));
-
-          if (!pool.length) {
-            showToast("No questions match your criteria for practice.", true);
-            return;
-          }
+          const { selectedRotations, selectedTypes, excludeChecked, numQuestions } = examConfig.value;
+          const pool = questions.value.filter(q =>
+            (!selectedRotations.length || selectedRotations.includes(q.rotation)) &&
+            (!selectedTypes.length || selectedTypes.includes(q.type)) &&
+            !(excludeChecked && studied.value.includes(q.id))
+          );
+          if (!pool.length) { showToast("No questions match your criteria for practice.", true); return; }
 
           const shuffled = [...pool].sort(() => 0.5 - Math.random());
-          const limit = examConfig.value.numQuestions === 'unlimited' ? pool.length : parseInt(examConfig.value.numQuestions, 10);
-          const selected = shuffled.slice(0, Math.min(limit, pool.length));
-
-          examState.value = { active: true, questions: selected, currentIndex: 0, userAnswers: {}, flagged: [] };
+          const limit = numQuestions === 'unlimited' ? pool.length : parseInt(numQuestions, 10);
+          examState.value = { ...emptyExam(), active: true, questions: shuffled.slice(0, Math.min(limit, pool.length)) };
         };
-
-        const endExam = () => {
-          if (confirm("Exit practice session? Your current practice progress will be reset.")) {
-            examState.value.active = false;
-          }
-        };
-
-        const currentExamQuestion = computed(() => examState.value.questions[examState.value.currentIndex] || {});
-
-        const selectMcqOption = (optIdx) => {
-          examState.value.userAnswers[currentExamQuestion.value.id] = optIdx;
-        };
-
-        const getEmqAnswer = (qId, subIdx) => examState.value.userAnswers[`${qId}_${subIdx}`] || '';
-        const setEmqAnswer = (qId, subIdx, val) => {
-          examState.value.userAnswers[`${qId}_${subIdx}`] = val;
-        };
-
-        const getSaqAnswer = (qId, subIdx) => examState.value.userAnswers[`${qId}_saq_${subIdx}`] || '';
-        const setSaqAnswer = (qId, subIdx, val) => {
-          examState.value.userAnswers[`${qId}_saq_${subIdx}`] = val;
-        };
-
-        const toggleFlagCurrent = () => {
-          const id = currentExamQuestion.value.id;
-          const idx = examState.value.flagged.indexOf(id);
-          if (idx > -1) examState.value.flagged.splice(idx, 1);
-          else examState.value.flagged.push(id);
-        };
-
-        const isCurrentFlagged = computed(() => isFlagged(currentExamQuestion.value.id));
-        const isFlagged = (id) => examState.value.flagged.includes(id);
-
-        const isAnswered = (id) => {
-          const ans = examState.value.userAnswers;
-          if (ans[id] !== undefined) return true;
-          return Object.keys(ans).some(k => k.startsWith(id));
-        };
-
+        const endExam = () => { if (confirm("Exit practice session? Your current practice progress will be reset.")) examState.value.active = false; };
+        const current = computed(() => examState.value.questions[examState.value.currentIndex] || {});
+        const isAnswered = (id) => examState.value.userAnswers[id] !== undefined || Object.keys(examState.value.userAnswers).some(k => k.startsWith(id));
         const finishExam = () => {
           if (window.confetti) confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
           showToast("Practice session completed!");
           examState.value.active = false;
         };
 
-        const getTypeBadgeClass = (type) => {
-          switch (type) {
-            case 'MCQ': return 'bg-sky-100 text-sky-800 dark:bg-sky-900/60 dark:text-sky-200';
-            case 'EMQ': return 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/60 dark:text-indigo-200';
-            case 'SAQ': return 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-200';
-            default: return 'bg-slate-100 text-slate-800 dark:bg-slate-700 dark:text-slate-200';
-          }
-        };
+        const getTypeBadgeClass = (type) => ({
+          MCQ: 'bg-sky-100 text-sky-800 dark:bg-sky-900/60 dark:text-sky-200',
+          EMQ: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/60 dark:text-indigo-200',
+          SAQ: 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-200'
+        }[type] || 'bg-slate-100 text-slate-800 dark:bg-slate-700 dark:text-slate-200');
 
-        // EXPORT LOGIC
+        // Export
         const buildMarkdown = (list) => {
           let md = `# JCS Finals - Question Export\n\n_Exported ${list.length} question(s)_\n\n`;
           list.forEach((q, i) => {
-            md += `---\n\n`;
-            md += `## #${i + 1} — [${q.type}] ${q.rotation} • ${q.cohort}\n\n`;
+            md += `---\n\n## #${i + 1} — [${q.type}] ${q.rotation} • ${q.cohort}\n\n`;
             if (q.topic) md += `**Topic:** ${q.topic}\n\n`;
+            const imgs = q.has_img && q.img_src ? getImgSources(q.img_src).map(src => `![diagram](${src})\n\n`).join('') : '';
             if (q.type === 'MCQ') {
-              md += `${q.question}\n\n`;
-              if (q.has_img && q.img_src) {
-                getImgSources(q.img_src).forEach(src => { md += `![diagram](${src})\n\n`; });
-              }
+              md += `${q.question}\n\n${imgs}`;
               (q.options || []).forEach(o => md += `- ${formatOption(o)}\n`);
               md += `\n`;
             } else if (q.type === 'EMQ') {
               if (q.theme) md += `**Theme:** ${q.theme}\n\n`;
-              if (q.options && q.options.length) md += `**Matching Options:** ${q.options.map(formatOption).join(', ')}\n\n`;
-              if (q.has_img && q.img_src) {
-                getImgSources(q.img_src).forEach(src => { md += `![diagram](${src})\n\n`; });
-              }
+              if (q.options?.length) md += `**Matching Options:** ${q.options.map(formatOption).join(', ')}\n\n`;
+              md += imgs;
               (q.questions || []).forEach((sq, j) => md += `${j + 1}. ${sq.scenario || sq.question}\n`);
               md += `\n`;
             } else if (q.type === 'SAQ') {
-              md += `**Case:** ${q.case}\n\n`;
-              if (q.has_img && q.img_src) {
-                getImgSources(q.img_src).forEach(src => { md += `![diagram](${src})\n\n`; });
-              }
+              md += `**Case:** ${q.case}\n\n${imgs}`;
               (q.subquestions || []).forEach((sq, j) => md += `${j + 1}. ${sq.q}${sq.points ? ` (${sq.points} pts)` : ''}\n`);
               md += `\n`;
             } else {
@@ -2318,106 +1339,245 @@
           const list = filteredQuestions.value;
           if (!list.length) return;
           const md = buildMarkdown(list);
-          const html = (window.marked ? marked.parse(md) : md.replace(/\n/g, '<br>'));
-          exportModal.value = { show: true, renderedHtml: html, markdown: md, dataset: list, count: list.length };
+          exportModal.value = {
+            show: true,
+            renderedHtml: window.marked ? marked.parse(md) : md.replace(/\n/g, '<br>'),
+            markdown: md, dataset: list, count: list.length
+          };
         };
 
         const printPreview = () => {
           const w = window.open('', '_blank');
-          w.document.write(`
-            <html><head><title>JCS Export</title>
-            <style>
-              body { font-family: Arial, Helvetica, sans-serif; color:#0f172a; padding:24px; max-width:800px; margin:0 auto; }
-              img { max-width:100%; border-radius:8px; margin:8px 0; }
-              h2 { margin-top:28px; border-bottom:1px solid #e2e8f0; padding-bottom:4px; }
-              hr { border:none; border-top:1px solid #e2e8f0; margin:20px 0; }
-              ul, ol { margin: 0.5rem 0 0.5rem 1.25rem; }
-              @media print { body { padding: 0; } }
-            </style>
-            </head><body>${exportModal.value.renderedHtml}</body></html>
-          `);
-          w.document.close();
-          w.focus();
+          w.document.write(`<html><head><title>JCS Export</title><style>body{font-family:Arial,Helvetica,sans-serif;color:#0f172a;padding:24px;max-width:800px;margin:0 auto;}img{max-width:100%;border-radius:8px;margin:8px 0;}h2{margin-top:28px;border-bottom:1px solid #e2e8f0;padding-bottom:4px;}hr{border:none;border-top:1px solid #e2e8f0;margin:20px 0;}ul,ol{margin:0.5rem 0 0.5rem 1.25rem;}@media print{body{padding:0;}}</style></head><body>${exportModal.value.renderedHtml}</body></html>`);
+          w.document.close(); w.focus();
           setTimeout(() => w.print(), 400);
         };
 
-        const triggerDownload = (content, filename, mime) => {
-          const blob = new Blob([content], { type: mime });
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = filename;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-          URL.revokeObjectURL(url);
-        };
-
-        const toCSV = (list) => {
-          const headers = ['id','type','rotation','topic','cohort','question_or_case','options_or_subitems'];
+        const toCsv = (list) => {
+          const esc = (s) => `"${(s || '').toString().replace(/"/g, '""')}"`;
           const rows = list.map(q => {
             const main = q.type === 'SAQ' ? q.case : q.question;
-            let extra = '';
-            if (q.type === 'MCQ') extra = (q.options || []).map(formatOption).join(' | ');
-            else if (q.type === 'EMQ') extra = (q.questions || []).map(sq => sq.scenario || sq.question).join(' | ');
-            else if (q.type === 'SAQ') extra = (q.subquestions || []).map(sq => sq.q).join(' | ');
-            const esc = (s) => `"${(s || '').toString().replace(/"/g, '""')}"`;
-            return [esc(q.id), esc(q.type), esc(q.rotation), esc(q.topic), esc(q.cohort), esc(main), esc(extra)].join(',');
+            const extra = q.type === 'MCQ' ? (q.options || []).map(formatOption).join(' | ')
+              : q.type === 'EMQ' ? (q.questions || []).map(sq => sq.scenario || sq.question).join(' | ')
+              : q.type === 'SAQ' ? (q.subquestions || []).map(sq => sq.q).join(' | ') : '';
+            return [q.id, q.type, q.rotation, q.topic, q.cohort, main, extra].map(esc).join(',');
           });
-          return [headers.join(','), ...rows].join('\n');
+          return ['id,type,rotation,topic,cohort,question_or_case,options_or_subitems', ...rows].join('\n');
         };
+        const toTxt = (list) => list
+          .map((q, i) => `#${i + 1} [${q.type}] ${q.rotation} • ${q.cohort}${q.topic ? ` (${q.topic})` : ''}\n${questionToText(q)}\n`)
+          .join('\n---\n\n');
 
         const downloadFile = (format) => {
           const list = exportModal.value.dataset;
           if (!list.length) return;
-          if (format === 'md') {
-            triggerDownload(exportModal.value.markdown, 'jcs-questions.md', 'text/markdown');
-          } else if (format === 'txt') {
-            const txt = list.map((q, i) => `#${i+1} [${q.type}] ${q.rotation} • ${q.cohort}${q.topic ? ` (${q.topic})` : ''}\n${questionToText(q)}\n`).join('\n---\n\n');
-            triggerDownload(txt, 'jcs-questions.txt', 'text/plain');
-          } else if (format === 'json') {
-            triggerDownload(JSON.stringify(list, null, 2), 'jcs-questions.json', 'application/json');
-          } else if (format === 'csv') {
-            triggerDownload(toCSV(list), 'jcs-questions.csv', 'text/csv');
-          }
+          const exporters = {
+            md: () => [exportModal.value.markdown, 'text/markdown'],
+            txt: () => [toTxt(list), 'text/plain'],
+            json: () => [JSON.stringify(list, null, 2), 'application/json'],
+            csv: () => [toCsv(list), 'text/csv']
+          };
+          const [content, mime] = exporters[format]();
+          const url = URL.createObjectURL(new Blob([content], { type: mime }));
+          const a = Object.assign(document.createElement('a'), { href: url, download: `jcs-questions.${format}` });
+          document.body.appendChild(a); a.click(); document.body.removeChild(a);
+          URL.revokeObjectURL(url);
           showToast(`Exported as .${format}`);
         };
 
         return {
-          activeTab, questions, bookmarks, studied, toast, filters, examConfig, examState,
-          showPaletteModal, loadingDatasets, darkMode,
-          showIntroModal, dontShowIntroAgain, sourceModal, exportModal, exportFormat,
-          currentPage, pageSize, totalPages, paginatedQuestions,
-          openFilterDropdown, toggleFilterDropdown,
-
-          // Helpers for choices & topics
-          isOptionAdded, formatOption, getTopicTags, filterByTopicTag, filterMedByTopicTag,
-
-          // Modes
-          isClaudeMode, isMedClaudeMode, isTopicOnlySearch, topicQueryText, isMedTopicOnlySearch, medTopicQueryText,
-
-          // MED Dataset refs & methods
-          medQuestions, medDisplayOrder, medIsShuffled, medSearch, medCurrentPage, medPageSize,
-          medUserAnswers, medRevealed, medShowAllAnswers, loadingMed, medLoaded, medError,
-          medStudied, medHideStudied, toggleMedStudied, isMedStudied,
+          activeTab, navTabs, questions, bookmarks, studied, /* medStudied, */ toast, filters, examConfig, examState,
+          showPaletteModal, loadingDatasets, darkMode, showIntroModal, dontShowIntroAgain, sourceModal, exportModal, exportFormat,
+          currentPage, pageSize, totalPages, paginatedQuestions, openFilterDropdown, toggleFilterDropdown, filterMenus, chipDefs,
+          EXPORT_FORMATS, isOptionAdded, formatOption, letter, applyTopicTag, toggleIn,
+          isClaudeMode, /* isMedClaudeMode, */ browseSearchMeta, /* medSearchMeta, */
+          /* MED DISABLED:
+          medQuestions, medIsShuffled, medSearch, medCurrentPage, medPageSize, medUserAnswers, medRevealed, medShowAllAnswers,
+          loadingMed, medError, medHideStudied, medAnsweredCount,
           filteredMedQuestions, totalMedPages, paginatedMedQuestions,
-          loadMedDataset, shuffleMedQuestions, resetMedOrder, selectMedChoice,
-          isCorrectChoice, isMedChoiceAnsweredOrRevealed, isMedRevealed, toggleMedReveal,
-          getMedChoiceClasses, copyMedQuestion, googleSearchMedQuestion, launchClaudeMedSearch, handleMedQuestionSearch,
-
+          loadMedDataset, shuffleMedQuestions, resetMedOrder, isCorrectChoice, isMedChoiceAnsweredOrRevealed, isMedRevealed,
+          getMedChoiceClasses, medQuestionToText, handleMedQuestionSearch,
+          */
           loadAllDatasets, toggleDarkMode, closeIntroModal, openSourceModal, showToast,
           uniqueRotations, uniqueTypes, uniqueCohorts, rotationBreakdown, goToRotationFilter,
           filteredQuestions, hasActiveFilters, resetFilters,
-          toggleBookmark, isBookmarked, toggleStudied, isStudied,
-          copyQuestion, googleSearchQuestion, launchClaudeSearch, handleQuestionSearch,
-          startExam, endExam, currentExamQuestion, selectMcqOption,
-          getEmqAnswer, setEmqAnswer, getSaqAnswer, setSaqAnswer,
-          toggleFlagCurrent, isCurrentFlagged, isFlagged, isAnswered, finishExam,
-          getTypeBadgeClass, getImgSources,
+          copyText, questionToText, handleQuestionSearch,
+          startExam, endExam, current, isAnswered, finishExam, getTypeBadgeClass,
           openExportPreview, printPreview, downloadFile
         };
       }
-    }).mount('#app');
+    });
+
+    // Reusable UI pieces
+    app.component('card', {
+      template: `<div class="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700"><slot></slot></div>`
+    });
+
+    app.component('app-modal', {
+      props: { cls: { default: 'z-[60] bg-slate-900/70 p-4' } },
+      template: `<div :class="cls" class="fixed inset-0 backdrop-blur-sm flex items-center justify-center"><slot></slot></div>`
+    });
+
+    app.component('stat-card', {
+      props: ['label', 'value', 'tone'],
+      template: `
+        <card class="p-5 shadow-sm flex flex-col items-center text-center">
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">{{ label }}</span>
+          <p :class="tone" class="text-3xl font-extrabold mt-2">{{ value }}</p>
+        </card>`
+    });
+
+    // Components below mimic native v-model so a computed get/set keeps IME and array-checkbox behaviour
+    const vModelProxy = { props: ['modelValue'], emits: ['update:modelValue'], computed: {
+      value: { get() { return this.modelValue; }, set(v) { this.$emit('update:modelValue', v); } }
+    } };
+
+    app.component('search-input', {
+      mixins: [vModelProxy],
+      template: `
+        <div class="flex-1 relative">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3 text-slate-400 dark:text-slate-500"></i>
+          <input v-model="value" type="text" placeholder="Search..." class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm" />
+          <button v-if="modelValue" @click="value = ''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"><i class="fa-solid fa-xmark"></i></button>
+        </div>`
+    });
+
+    app.component('page-size', {
+      mixins: [vModelProxy],
+      data: () => ({ sizes: PAGE_SIZES }),
+      template: `
+        <select v-model.number="value" class="px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-700 dark:text-slate-200 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-brand-500">
+          <option v-for="n in sizes" :key="n" :value="n">{{ n }} / page</option>
+        </select>`
+    });
+
+    app.component('check-label', {
+      mixins: [vModelProxy],
+      props: ['label'],
+      template: `
+        <label class="flex items-center space-x-1.5 cursor-pointer text-slate-700 dark:text-slate-300 font-medium">
+          <input type="checkbox" v-model="value" class="rounded text-brand-600 focus:ring-brand-500">
+          <span>{{ label }}</span>
+        </label>`
+    });
+
+    app.component('check-group', {
+      mixins: [vModelProxy],
+      props: { title: String, options: Array, upper: Boolean, scroll: Boolean },
+      template: `
+        <div>
+          <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 mb-2">{{ title }}</label>
+          <div :class="{ 'max-h-32 overflow-y-auto custom-scrollbar': scroll }" class="flex flex-wrap gap-2 p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900">
+            <label v-for="o in options" :key="o" :class="{ uppercase: upper }" class="flex items-center space-x-1.5 text-xs px-2 py-1 rounded-lg bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 cursor-pointer">
+              <input type="checkbox" :value="o" v-model="value" class="rounded text-brand-600 focus:ring-brand-500">
+              <span>{{ o }}</span>
+            </label>
+          </div>
+        </div>`
+    });
+
+    app.component('pager', {
+      props: ['page', 'total'],
+      emits: ['update:page'],
+      template: `
+        <card class="flex items-center justify-between p-4 shadow-sm">
+          <button @click="$emit('update:page', Math.max(1, page - 1))" :disabled="page === 1" class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">&larr; Prev</button>
+          <span class="text-xs font-medium text-slate-500 dark:text-slate-400">Page {{ page }} of {{ total }}</span>
+          <button @click="$emit('update:page', Math.min(total, page + 1))" :disabled="page === total" class="px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 text-sm font-semibold disabled:opacity-40">Next &rarr;</button>
+        </card>`
+    });
+
+    app.component('studied-btn', {
+      props: ['list', 'id'],
+      computed: { checked() { return this.list.includes(this.id); } },
+      template: `
+        <button @click="toggleIn(list, id)" :title="checked ? 'Mark as not checked' : 'Mark as checked'"
+          :class="checked ? 'bg-emerald-500 border-emerald-500 text-white' : 'bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-600 text-slate-300 dark:text-slate-600'"
+          class="w-6 h-6 rounded-full border-2 flex items-center justify-center transition shrink-0">
+          <i class="fa-solid fa-check text-[10px]"></i>
+        </button>`,
+      methods: { toggleIn }
+    });
+
+    app.component('copy-btn', {
+      template: `
+        <button title="Copy question text" class="p-1.5 rounded-lg text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400 transition">
+          <i class="fa-regular fa-copy text-base"></i>
+        </button>`
+    });
+
+    app.component('search-btn', {
+      props: ['claude'],
+      template: `
+        <button :title="claude ? 'Ask Claude about this question directly (/claude)' : 'Search this question on Google'" :class="claude ? 'text-amber-500 hover:text-amber-600 dark:text-amber-400 dark:hover:text-amber-300' : 'text-slate-400 dark:text-slate-500 hover:text-brand-600 dark:hover:text-brand-400'" class="p-1.5 rounded-lg transition relative">
+          <i class="fa-solid fa-magnifying-glass text-base"></i>
+          <span v-if="claude" class="absolute -top-1 -right-1 flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+          </span>
+        </button>`
+    });
+
+    app.component('source-btn', {
+      template: `
+        <button class="px-2.5 py-0.5 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400 text-xs font-medium hover:bg-slate-200 dark:hover:bg-slate-600 transition">
+          <i class="fa-solid fa-clock-rotate-left mr-1"></i> Show Source
+        </button>`
+    });
+
+    app.component('empty-state', {
+      props: ['message', 'action'],
+      emits: ['action'],
+      template: `
+        <card class="text-center py-12">
+          <i class="fa-solid fa-filter-circle-xmark text-3xl text-slate-300 dark:text-slate-600 mb-2"></i>
+          <p class="text-slate-500 dark:text-slate-400 font-medium text-sm">{{ message }}</p>
+          <button @click="$emit('action')" class="mt-3 text-xs text-brand-600 dark:text-brand-400 hover:underline font-bold">{{ action }}</button>
+        </card>`
+    });
+
+    app.component('topic-tags', {
+      props: ['topic'],
+      emits: ['select'],
+      computed: {
+        tags() { return this.topic && typeof this.topic === 'string' ? this.topic.split(';').map(s => s.trim()).filter(Boolean) : []; }
+      },
+      template: `
+        <div v-if="topic" class="pt-0.5 pb-1 flex flex-wrap gap-1.5 items-center">
+          <span class="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center mr-1">
+            <i class="fa-solid fa-tag mr-1 text-brand-500"></i> Topic:
+          </span>
+          <span v-for="(tPart, idx) in tags" :key="idx" @click="$emit('select', tPart)"
+            class="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-slate-100 hover:bg-brand-50 hover:text-brand-700 dark:bg-slate-700/60 dark:hover:bg-brand-900/40 dark:hover:text-brand-300 text-slate-600 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700 transition cursor-pointer"
+            title="Search questions with this topic">{{ tPart }}</span>
+        </div>`
+    });
+
+    app.component('q-images', {
+      props: ['q', 'maxH'],
+      computed: {
+        sources() { return this.q?.has_img && this.q?.img_src ? getImgSources(this.q.img_src) : []; }
+      },
+      template: `
+        <div v-if="sources.length" class="pt-1 space-y-2">
+          <img v-for="(src, i) in sources" :key="i" :src="src" alt="Question diagram" :class="maxH" class="rounded-xl border border-slate-200 dark:border-slate-700 object-contain"/>
+        </div>`
+    });
+
+    app.component('mode-banner', {
+      props: ['claude', 'topicOnly', 'topicText', 'claudeText'],
+      emits: ['clear-claude'],
+      template: `
+        <div v-if="claude" class="flex items-center justify-between space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
+          <div class="flex items-center space-x-2"><i class="fa-solid fa-robot"></i><span>{{ claudeText }}</span></div>
+          <button @click="$emit('clear-claude')" title="Disable Claude Mode" class="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 shrink-0"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div v-else-if="topicOnly" class="flex items-center space-x-2 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 rounded-lg px-3 py-2">
+          <i class="fa-solid fa-tags"></i><span>Filtering exclusively by Topic field: "{{ topicText }}"</span>
+        </div>`
+    });
+
+    app.mount('#app');
   </script>
 </body>
 </html>
