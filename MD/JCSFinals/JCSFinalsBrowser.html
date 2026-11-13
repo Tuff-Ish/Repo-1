@@ -154,7 +154,7 @@
             <a href="https://drive.google.com/drive/u/0/mobile/folders/1PjcYEVFbObsF7TZY9oOowpWxzkfJmAmj/140DFwbmHyD1uN1WMy2zI9ZNcnSkM5g36/1eOjO-6S_HCwuDuVCbUzRO04h8l5XeHgO?sort=13&direction=a" target="_blank" class="text-brand-600 dark:text-brand-400 underline font-medium">Google Drive folder</a>,
             if you'd like to cross-check anything against the source.
           </p>
-          <p>A number of questions were incomplete, poorly formatted, or missing options in the original documents. These were reconstructed to read as complete questions while keeping the original intent, use <strong>"Show Source"</strong> to compare questions with the original extracted text where available.</p>
+          <p>A number of questions, in the original source documents, were incomplete, poorly formatted, or missing options in the original documents. These were reconstructed to read as complete questions while keeping the original intent, use <strong>"Show Source"</strong> to compare questions with the original extracted text where available.</p>
           <p> In MCQs with incomplete choices, new options may have been added to complete a full set of 5 options. You can see the original options by showing the source.</p>
           <p>Answers and notes from the original sources were intentionally left out.</p>
         </div>
@@ -1125,7 +1125,7 @@
                 <input 
                   v-model="medSearch" 
                   type="text" 
-                  placeholder="Search MED questions, options, or '/claude'..." 
+                  placeholder="Search..." 
                   class="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500 focus:bg-white dark:focus:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-brand-500 text-sm"
                 />
                 <button v-if="medSearch" @click="medSearch=''" class="absolute right-3 top-2.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
@@ -1159,6 +1159,10 @@
               <button @click="isMedClaudeMode = false" title="Disable Claude Mode" class="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 shrink-0">
                 <i class="fa-solid fa-xmark"></i>
               </button>
+            </div>
+            <div v-else-if="isMedTopicOnlySearch" class="flex items-center space-x-2 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 rounded-lg px-3 py-2">
+              <i class="fa-solid fa-tags"></i>
+              <span>Filtering exclusively by Topic field: "{{ medTopicQueryText }}"</span>
             </div>
 
             <!-- Hide checked -->
@@ -1244,6 +1248,21 @@
                     </span>
                   </button>
                 </div>
+              </div>
+
+              <!-- Question Topic Tags (if present) -->
+              <div v-if="q.topic" class="pt-0.5 pb-1 flex flex-wrap gap-1.5 items-center">
+                <span class="text-[11px] font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-wider flex items-center mr-1">
+                  <i class="fa-solid fa-tag mr-1 text-brand-500"></i> Topic:
+                </span>
+                <span 
+                  v-for="(tPart, tIdx) in getTopicTags(q.topic)" 
+                  :key="tIdx"
+                  @click="filterMedByTopicTag(tPart)"
+                  class="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-slate-100 hover:bg-brand-50 hover:text-brand-700 dark:bg-slate-700/60 dark:hover:bg-brand-900/40 dark:hover:text-brand-300 text-slate-600 dark:text-slate-300 border border-slate-200/60 dark:border-slate-700 transition cursor-pointer"
+                  title="Search questions with this topic">
+                  {{ tPart }}
+                </span>
               </div>
 
               <!-- Stem -->
@@ -1416,6 +1435,12 @@
           currentPage.value = 1;
         };
 
+        const filterMedByTopicTag = (tPart) => {
+          const subject = tPart.split(':')[0].trim();
+          medSearch.value = `topic: ${subject}`;
+          medCurrentPage.value = 1;
+        };
+
         // Filters: rotations, types, cohorts are arrays to support multi-select
         const filters = ref({
           search: '',
@@ -1448,6 +1473,12 @@
         const topicQueryText = computed(() => {
           if (!isTopicOnlySearch.value) return '';
           return filters.value.search.trim().slice(6).trim();
+        });
+
+        const isMedTopicOnlySearch = computed(() => medSearch.value.trim().toLowerCase().startsWith('topic:'));
+        const medTopicQueryText = computed(() => {
+          if (!isMedTopicOnlySearch.value) return '';
+          return medSearch.value.trim().slice(6).trim();
         });
 
         // Practice test mode
@@ -1853,10 +1884,12 @@
 
             const cleaned = data.map((item, idx) => {
               const choices = Array.isArray(item.choices) ? item.choices : [];
-              const rawSearch = `${item.question || ''} ${choices.join(' ')} ${item.answer || ''}`.toLowerCase();
+              const topicVal = (item.topic || '').toString().trim();
+              const rawSearch = `${item.question || ''} ${choices.join(' ')} ${item.answer || ''} ${topicVal}`.toLowerCase();
               return {
                 id: `med-${idx}`,
                 originalIndex: idx,
+                topic: topicVal,
                 question: item.question || '',
                 choices: choices,
                 answer: item.answer !== undefined ? item.answer : '',
@@ -1926,13 +1959,20 @@
         const isMedStudied = (id) => medStudied.value.includes(id);
 
         const filteredMedQuestions = computed(() => {
-          const query = medSearch.value.trim().toLowerCase();
+          const rawSearch = medSearch.value.trim();
+          const isTopicSearch = rawSearch.toLowerCase().startsWith('topic:');
+          const topicQuery = isTopicSearch ? rawSearch.slice(6).trim().toLowerCase() : '';
+          const generalQuery = !isTopicSearch ? rawSearch.toLowerCase() : '';
           const hide = medHideStudied.value;
 
-          if (!query && !hide) return medDisplayOrder.value;
+          if (!rawSearch && !hide) return medDisplayOrder.value;
           return medDisplayOrder.value.filter(q => {
             if (hide && medStudied.value.includes(q.id)) return false;
-            if (query && !(q._searchText || '').includes(query)) return false;
+            if (isTopicSearch) {
+              if (!topicQuery) return true;
+              return (q.topic || '').toLowerCase().includes(topicQuery);
+            }
+            if (generalQuery && !(q._searchText || '').includes(generalQuery)) return false;
             return true;
           });
         });
@@ -2351,10 +2391,10 @@
           openFilterDropdown, toggleFilterDropdown,
 
           // Helpers for choices & topics
-          isOptionAdded, formatOption, getTopicTags, filterByTopicTag,
+          isOptionAdded, formatOption, getTopicTags, filterByTopicTag, filterMedByTopicTag,
 
           // Modes
-          isClaudeMode, isMedClaudeMode, isTopicOnlySearch, topicQueryText,
+          isClaudeMode, isMedClaudeMode, isTopicOnlySearch, topicQueryText, isMedTopicOnlySearch, medTopicQueryText,
 
           // MED Dataset refs & methods
           medQuestions, medDisplayOrder, medIsShuffled, medSearch, medCurrentPage, medPageSize,
