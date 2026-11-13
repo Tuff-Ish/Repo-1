@@ -527,9 +527,14 @@
           </div>
 
           <!-- Mode / Syntax Banner Indicators -->
-          <div v-if="isClaudeMode" class="flex items-center space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
-            <i class="fa-solid fa-robot"></i>
-            <span>Claude Prompt Mode Active: Filters bypassed. Clicking the search button on any card will launch Claude chat with that question directly.</span>
+          <div v-if="isClaudeMode" class="flex items-center justify-between space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
+            <div class="flex items-center space-x-2">
+              <i class="fa-solid fa-robot"></i>
+              <span>Claude Prompt Mode Active: Clicking the search button on any card will launch Claude chat with that question directly.</span>
+            </div>
+            <button @click="isClaudeMode = false" title="Disable Claude Mode" class="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 shrink-0">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
           </div>
           <div v-else-if="isTopicOnlySearch" class="flex items-center space-x-2 text-xs font-semibold text-brand-600 dark:text-brand-400 bg-brand-50 dark:bg-brand-950/40 border border-brand-200 dark:border-brand-800 rounded-lg px-3 py-2">
             <i class="fa-solid fa-tags"></i>
@@ -577,7 +582,7 @@
         <!-- Showing X of Y label -->
         <div class="text-xs text-slate-500 dark:text-slate-400 px-1">
           Showing <strong>{{ paginatedQuestions.length }}</strong> of {{ filteredQuestions.length }} filtered items ({{ questions.length }} total)
-          <span v-if="isClaudeMode" class="ml-1 text-amber-600 dark:text-amber-400 font-bold">(/claude mode: unfiltered)</span>
+          <span v-if="isClaudeMode" class="ml-1 text-amber-600 dark:text-amber-400 font-bold">(/claude mode)</span>
         </div>
 
         <!-- Pagination Section (TOP) -->
@@ -1146,9 +1151,14 @@
               </div>
             </div>
 
-            <div v-if="isMedClaudeMode" class="flex items-center space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
-              <i class="fa-solid fa-robot"></i>
-              <span>Claude Prompt Mode Active: Filters bypassed. Search buttons on cards will launch Claude chat with the question directly.</span>
+            <div v-if="isMedClaudeMode" class="flex items-center justify-between space-x-2 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 rounded-lg px-3 py-2">
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-robot"></i>
+                <span>Claude Prompt Mode Active: Search buttons on cards will launch Claude chat with the question directly.</span>
+              </div>
+              <button @click="isMedClaudeMode = false" title="Disable Claude Mode" class="text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 shrink-0">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
             </div>
 
             <!-- Hide checked -->
@@ -1416,9 +1426,23 @@
           hideStudied: false
         });
 
-        // Computed modes for /claude and topic: search syntax
-        const isClaudeMode = computed(() => filters.value.search.trim().toLowerCase() === '/claude');
-        const isMedClaudeMode = computed(() => medSearch.value.trim().toLowerCase() === '/claude');
+        // Modes for /claude and topic: search syntax
+        const isClaudeMode = ref(false);
+        const isMedClaudeMode = ref(false);
+
+        watch(() => filters.value.search, (val) => {
+          if (val && /\/claude/i.test(val)) {
+            isClaudeMode.value = true;
+            filters.value.search = val.replace(/\s*\/claude\s*/gi, ' ').trim();
+          }
+        });
+
+        watch(medSearch, (val) => {
+          if (val && /\/claude/i.test(val)) {
+            isMedClaudeMode.value = true;
+            medSearch.value = val.replace(/\s*\/claude\s*/gi, ' ').trim();
+          }
+        });
 
         const isTopicOnlySearch = computed(() => filters.value.search.trim().toLowerCase().startsWith('topic:'));
         const topicQueryText = computed(() => {
@@ -1902,9 +1926,7 @@
         const isMedStudied = (id) => medStudied.value.includes(id);
 
         const filteredMedQuestions = computed(() => {
-          const rawQuery = medSearch.value.trim();
-          const isClaude = rawQuery.toLowerCase() === '/claude';
-          const query = (!isClaude) ? rawQuery.toLowerCase() : '';
+          const query = medSearch.value.trim().toLowerCase();
           const hide = medHideStudied.value;
 
           if (!query && !hide) return medDisplayOrder.value;
@@ -2033,10 +2055,9 @@
 
         const filteredQuestions = computed(() => {
           const rawSearch = filters.value.search.trim();
-          const isClaude = rawSearch.toLowerCase() === '/claude';
           const isTopicSearch = rawSearch.toLowerCase().startsWith('topic:');
           const topicQuery = isTopicSearch ? rawSearch.slice(6).trim().toLowerCase() : '';
-          const generalQuery = (!isClaude && !isTopicSearch) ? rawSearch.toLowerCase() : '';
+          const generalQuery = (!isTopicSearch) ? rawSearch.toLowerCase() : '';
 
           const rotations = filters.value.rotations;
           const types = filters.value.types;
@@ -2048,9 +2069,6 @@
             if (rotations.length && !rotations.includes(q.rotation)) return false;
             if (types.length && !types.includes(q.type)) return false;
             if (cohorts.length && !cohorts.includes(q.cohort)) return false;
-
-            // /claude mode: do not filter questions
-            if (isClaude) return true;
 
             // topic: mode: search EXCLUSIVELY in the topic field
             if (isTopicSearch) {
