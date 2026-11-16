@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam Review</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4f1ea;
+      font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 240px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px 24px;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-align: center;
+      color: #1c1b18;
+      background-color: #fffdf7;
+      border: 2px solid #1c1b18;
+      box-shadow: 4px 4px 0 #1c1b18;
+      text-decoration: none;
+      transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+    }
+
+    .btn:hover {
+      background-color: #e9e4d8;
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0 #1c1b18;
+    }
+
+    .btn:active {
+      transform: translate(4px, 4px);
+      box-shadow: 0 0 0 #1c1b18;
+    }
+  </style>
+</head>
+<body>
+  <main class="button-group">
+    <a href="https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/ExamReview/medicine_exam_review.html" class="btn">Medicine</a>
+    <a href="https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/ExamReview/surgery_exam_review.html" class="btn">Surgery</a>
+    <a href="https://raw.githubusercontent.com/Tuff-Ish/Repo-1/refs/heads/main/MD/ExamReview/famco_exam_review.html" class="btn">FAMCO</a>
+  </main>
+
+  <script>
+    let isLoading = false;
+
+    document.querySelectorAll('.btn').forEach((link) => {
+      link.addEventListener('click', async (event) => {
+        event.preventDefault();
+        if (isLoading) return;
+
+        isLoading = true;
+        const originalText = link.textContent;
+        link.textContent = 'Loading...';
+
+        try {
+          const response = await fetch(link.href);
+          if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+          }
+          const html = await response.text();
+          document.open();
+          document.write(html);
+          document.close();
+        } catch (error) {
+          alert(`Failed to load ${originalText}: ${error.message}`);
+          link.textContent = originalText;
+          isLoading = false;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
