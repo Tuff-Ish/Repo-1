@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>JCS Finals Collection</title>
 
-  <!-- Description + link previews (Open Graph for WhatsApp/Telegram/Discord/Slack, and Twitter/X card) -->
+  <!-- Description + link previews (Open Graph for WhatsApp/Telegram/Discord/Slack, Twitter/X card) -->
   <meta name="description" content="Searchable question bank for Junior Clerkship written final exams (2017–2020)" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="JCS Finals Collection" />
@@ -300,7 +300,23 @@
       <div v-if="activeTab === 'browse'" class="space-y-4">
         <card class="p-5 shadow-sm space-y-4">
           <div class="flex flex-col lg:flex-row gap-3">
-            <search-input v-model="filters.search"></search-input>
+            <div class="flex-1 relative">
+              <search-input v-model="filters.search"></search-input>
+              <div v-if="showTopicSuggestions" class="absolute left-0 right-0 z-30 mt-1.5 max-h-56 overflow-y-auto custom-scrollbar bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl shadow-lg p-2.5 space-y-2">
+                <div class="text-[11px] font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500 flex items-center px-1">
+                  <i class="fa-solid fa-tag mr-1.5 text-brand-500"></i> Broad Topics ({{ uniqueBroadTopics.length }})
+                </div>
+                <div class="flex flex-wrap gap-1.5">
+                  <button
+                    v-for="bt in uniqueBroadTopics" :key="bt"
+                    type="button"
+                    @click="selectBroadTopic(bt)"
+                    class="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-100 hover:bg-brand-50 hover:text-brand-700 dark:bg-slate-700/60 dark:hover:bg-brand-900/40 dark:hover:text-brand-300 text-slate-700 dark:text-slate-200 border border-slate-200/60 dark:border-slate-700 transition cursor-pointer">
+                    {{ bt }}
+                  </button>
+                </div>
+              </div>
+            </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
               <div v-for="fm in filterMenus" :key="fm.key" class="relative">
@@ -853,6 +869,28 @@
           else { medSearch.value = `topic: ${subject}`; medCurrentPage.value = 1; }
           */
         };
+        
+        const uniqueBroadTopics = computed(() => {
+          const set = new Set();
+          questions.value.forEach(q => {
+            if (!q.topic || typeof q.topic !== 'string') return;
+            q.topic.split(';').forEach(part => {
+              const broad = part.split(':')[0].trim();
+              if (broad) set.add(broad);
+            });
+          });
+          return [...set].sort((a, b) => a.localeCompare(b));
+        });
+
+        const showTopicSuggestions = computed(() => {
+          const s = (filters.value.search || '').trim().toLowerCase();
+          return (s === 'topic' || s === 'topic:') && uniqueBroadTopics.value.length > 0;
+        });
+
+        const selectBroadTopic = (topic) => {
+          filters.value.search = `topic: ${topic}`;
+          currentPage.value = 1;
+        };
 
         const examConfig = ref({ numQuestions: '10', selectedRotations: [], selectedTypes: [], excludeChecked: false });
         const examState = ref(emptyExam());
@@ -1403,7 +1441,8 @@
           filteredQuestions, hasActiveFilters, resetFilters,
           copyText, questionToText, handleQuestionSearch,
           startExam, endExam, current, isAnswered, finishExam, getTypeBadgeClass,
-          openExportPreview, printPreview, downloadFile
+          openExportPreview, printPreview, downloadFile,
+          uniqueBroadTopics, showTopicSuggestions, selectBroadTopic
         };
       }
     });
